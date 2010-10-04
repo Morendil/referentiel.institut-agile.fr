@@ -1,0 +1,22 @@
+require 'rake/clean'
+
+task :default => [:expand,  :webize, :clean]
+
+YML_SRC = FileList['src/*.yml']
+YML_OUT = YML_SRC.ext('.ham')
+
+HAM_SRC = FileList['site/*.ham','src/*.ham']
+HAM_OUT = HAM_SRC.ext('.html')
+CLEAN.include('site/*.ham')
+
+desc "Expand YML descriptors into Haml markup"
+task :expand => YML_OUT
+task :webize => HAM_OUT
+
+rule '.ham' => ['.yml'] do |t|
+  sh "mustache #{t.source} src/practice.tmpl > site/#{t.name.pathmap('%f')}"
+end
+
+rule '.html' => ['.ham'] do |t|
+  sh "haml -r src/helpers.rb #{t.source} > site/#{t.name.pathmap('%f')}"
+end

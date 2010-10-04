@@ -8,7 +8,7 @@ body {
 body {
 	background-color: #f3f3f3;
 	background-image: url(images/page-base.png?1);
-	background: #A9BAC3 url(images/bg.gif) repeat-x;
+	background: #A9BAC3 url(bg.gif) repeat-x;
 }
 /* Content */
 #content {
@@ -26,7 +26,7 @@ body {
 #header {
 	position: relative;
 	height: 85px;	
-	background: #000 url(images/headerbg.gif) repeat-x 0% 100%;	
+	background: #000 url(headerbg.gif) repeat-x 0% 100%;	
 	margin-left: 14em;
 }
 #header-wrap {
