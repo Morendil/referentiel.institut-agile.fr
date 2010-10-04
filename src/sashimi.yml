@@ -1,0 +1,44 @@
+---
+title: Définition de 'fini'
+type: Pratique
+sections:
+  -
+    type: desc
+    text: |
+      L'équipe affiche de façon visible une liste de critères génériques qui conditionnent le fait de pouvoir considérer un incrément comme "fini". Faute de remplir ces critères en fin de Sprint ou d'itération le travail réalisé n'est pas comptabilisé dans la vélocité.
+  -
+    type: syno
+    text: |
+      En anglais "done" signifie "terminé, fini". L'anecdote veut que quand on demande à un développeur si quelque chose est "fini" cela n'a qu'un sens technique: il a fini de coder. Si le sens de la question est de savoir s'il a fini de coder, de tester, de mettre à jour les tests et la documentation, il faut le regarder droit dans les yeux en insistant: "est-ce que c'est fini-fini?"
+      On parle de "Definition of Done" ou "Done List", en français on pourra entendre "Définition de fini" ou "Définition de terminé".
+      Le terme "Sashimi" plus imagé gagne du terrain pour désigner une "tranche" fonctionnelle à laquelle rien ne saurait manquer.
+  -
+    type: abus
+    text: |
+      * Accorder trop d'importance à la liste peut être contre-productif: elle doit définir le *minimum* à faire pour qu'on puisse considérer un incrément comme terminé
+      * Si la liste n'est qu'implicite, au lieu d'être affichée au mur, elle perd beaucoup de son intérêt, ce qui fait sa valeur étant précisément que chacun est au courant de tous les critères
+      * Constater qu'un incrément n'est pas réellement fini mais se dire "on reviendra dessus plus tard" réduit considérablement l'intérêt de cette pratique.
+  -
+    type: signes
+    text: |
+      * l'équipe est capable de montrer, sur demande, sa définition de "fini"
+      * ces critères sont évoqués en fin de Sprint ou d'itération et justifient la décision de comptabiliser un incrément dans la vélocité, ou non
+  -
+    type: benefices
+    text: |
+      * en amont, fonctionne comme une "checklist" guidant la réflexion des développeurs pendant l'estimation et la réalisation
+      * en aval, moins de temps perdu en travaux de "réfection" une fois qu'une fonctionnalité a été acceptée
+      * réduit les risques de brouille entre l'équipe et ses commanditaires en instaurant un contrat clair
+  -
+    type: histo
+    text: |
+      * Proposée par [Dan Rawsthorne](http://advancedtopicsinscrum.com/musings/donedonedonedone/) en 2002-2004
+      * Répandue sous ce terme à partir de 2007 environ
+      * Considérée comme un élément majeur de Scrum
+  -
+    type: pubs
+    text: |
+      Aucun travail de recherche théorique ou empirique connu ne concerne cette pratique. On peut cependant considérer comme pertinents les travaux de Flores et Winograd, Macomber:
+      * Understanding Computers and Cognition, Flores F., Winograd T., 1987, présentant le modèle "[Conversation for Action](http://www.contingences.com/spip.php?article45)"
+      * [Securing Reliable Promises on Projects](http://www.reformingprojectmanagement.com/docs/securing-reliable-promises-on-projects.pdf), Macomber H., 2001
+---

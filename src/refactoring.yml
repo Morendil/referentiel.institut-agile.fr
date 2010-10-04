@@ -1,0 +1,89 @@
+---
+title: Refactoring
+type: Compétence
+sections:
+  -
+    type: desc
+    text: |
+      Refactorer consiste à modifier un code source de façon à en améliorer la structure, sans que cela modifie son comportement fonctionnel.
+  -
+    type: syno
+    text: |
+      L'anglicisme est le plus souvent employé: l'activité est le refactoring, on utiliser également le verbe refactorer. Par le substantif, un refactoring, on désigne une modification générique qu'il est possible d'appliquer à un code pour le transformer.
+      On peut également traduire par remanier, remaniement. Le terme de refactorisation est également rencontré, mais nettement moins courant.
+  -
+    type: abus
+    text: |
+      Attention, refactorer n'est pas:
+
+      * réécrire du code
+      * corriger des bugs
+      * améliorer un aspect extérieurement visible du logiciel, comme l'IHM
+  -
+    type: histo
+    text: |
+      * Connue sous le nom de "factoring" chez les programmeurs Forth depuis 1984
+      * Formellement décrite par Bill Opdyke en 1992
+      * Intégrée par Kent Beck dans Extreme Programming en 1997
+      * Popularisée par Martin Fowler en 1999
+  -
+    type: progression
+    text: |
+      Niveaux de performance individuels:
+
+      * Débutant
+        * je connais la définition
+        * j'utilise quelques refactorings de mon environnement de développement
+        * j'utilise quelques refactorings que je sais appliquer manuellement
+        * je connais les risques de régression associés au refactorings manuels et automatiques
+        * je reconnais la duplication et sais l'éliminer par refactoring
+      * Intermédiaire
+        * je reconnais et j'élimine une gamme plus étendue de "mauvaises odeurs" dans le code
+        * je peux enchaîner plusieurs refactorings pour mener à bien une intention de conception, en maîtrisant leurs dépendances (méthode dite "Mikado")
+        * j'applique le refactoring en continu, en ayant rarement besoin d'une longue session de refactoring
+      * Avancé
+        * j'ai un sens aigu de la duplication et des différentes formes de couplage
+        * je maîtrise des refactorings concernant d'autres éléments que le code: schémas de bases de données, de documents...
+        * je suis en mesure de faire évoluer mon code vers des structures de mon choix issues de différentes origines: paradigme objet, paradigme fonctionnel, "patterns" connus
+  -
+    type: signes
+    text: |
+      * les historiques de la gestion de versions (logs CVS ou git par exemple) contiennent des entrées libellées "Refactoring"
+      * les modifications correspondantes sont réellement isofonctionnelles (pas d'effet sur les tests unitaires, pas de code ajouté)
+  -
+    type: benefices
+    text: |
+      * les aspects objectifs de la qualité du code (longueur, duplication, couplage, cohésion, complexité cyclomatique) s'améliorent au fil du temps
+      * en lien avec la [propriété collective], la connaissance des décisions de conception est mieux partagée dans l'équipe
+      * des schémas de conception, ou des modules génériques, émergent et peuvent être réutilisés par la suite
+  -
+    type: resources
+    text: |
+      * [Refactoring](http://www.amazon.fr/Refactoring-Improving-Design-Existing-Code/dp/0201485672), de Martin Fowler
+      * [Refactoring (SourceMaking)](http://sourcemaking.com/refactoring)
+      * [Le Refactoring](http://www.regismedina.com/articles/fr/refactoring), Régis Medina
+      * [Refactoring (SourceMaking)](http://sourcemaking.com/refactoring)
+      * [La méthode Mikado](http://pragprog.com/magazines/2010-06/the-mikado-method)
+  -
+    type: training
+    text: |
+      * Formations ciblant spécifiquement cette compétence: 
+        * (...)
+      * Formations qui couvrent tout ou partie des niveaux de performance ci-dessus: 
+        * (...)
+  -
+    type: experts
+    text: |
+      * International
+        * [Martin Fowler](http://martinfowler.com/)
+      * France
+        * [Régis Medina](http://www.regismedina.com/)
+  -
+    type: pubs
+    text: |
+      * Théoriques
+        * [Refactoring Object-Oriented Frameworks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.688), thèse de doctorat de Bill Opdyke
+      * Empiriques
+        * [An Empirical Evaluation of Refactoring](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.107.2442), étude préliminaire, bilan: pas d'effets constatés
+        * [Refactoring--Does It Improve Software Quality?](http://portal.acm.org/citation.cfm?id=1270369&dl=), étude préliminaire, bilan: effets néfastes selon certaines métriques sur des projets open source
+---

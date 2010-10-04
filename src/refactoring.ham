@@ -1,0 +1,142 @@
+!!! Strict
+%html
+  %head
+    %title Référentiel des pratiques Agiles
+    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"referentiel.css"}
+  %body
+    #header
+      %h1#logo
+        Institut
+        %span.green Agile
+    #header-wrap
+      %img.header-photo{:src=>"images/headerphoto.jpg", :width=>"820", :height=>"120"}
+    #content
+      %h1.firstHeading#firstHeading Refactoring
+      #bodyContent
+        #contentSub Compétence
+        %div#desc
+          %h2= desc
+          :markdown
+            Refactorer consiste à modifier un code source de façon à en améliorer la structure, sans que cela modifie son comportement fonctionnel.
+
+        %div#syno
+          %h2= syno
+          :markdown
+            L'anglicisme est le plus souvent employé: l'activité est le refactoring, on utiliser également le verbe refactorer. Par le substantif, un refactoring, on désigne une modification générique qu'il est possible d'appliquer à un code pour le transformer.
+
+            On peut également traduire par remanier, remaniement. Le terme de refactorisation est également rencontré, mais nettement moins courant.
+
+        %div#abus
+          %h2= abus
+          :markdown
+            Attention, refactorer n'est pas:
+
+            
+
+            * réécrire du code
+
+            * corriger des bugs
+
+            * améliorer un aspect extérieurement visible du logiciel, comme l'IHM
+
+        %div#histo
+          %h2= histo
+          :markdown
+            * Connue sous le nom de &quot;factoring&quot; chez les programmeurs Forth depuis 1984
+
+            * Formellement décrite par Bill Opdyke en 1992
+
+            * Intégrée par Kent Beck dans Extreme Programming en 1997
+
+            * Popularisée par Martin Fowler en 1999
+
+        %div#progression
+          %h2= progression
+          :markdown
+            Niveaux de performance individuels:
+
+            
+
+            * Débutant
+
+              * je connais la définition
+
+              * j'utilise quelques refactorings de mon environnement de développement
+
+              * j'utilise quelques refactorings que je sais appliquer manuellement
+
+              * je connais les risques de régression associés au refactorings manuels et automatiques
+
+              * je reconnais la duplication et sais l'éliminer par refactoring
+
+            * Intermédiaire
+
+              * je reconnais et j'élimine une gamme plus étendue de &quot;mauvaises odeurs&quot; dans le code
+
+              * je peux enchaîner plusieurs refactorings pour mener à bien une intention de conception
+
+              * j'applique le refactoring en continu, en ayant rarement besoin d'une longue session de refactoring
+
+            * Avancé
+
+              * j'ai un sens aigu de la duplication et des différentes formes de couplage
+
+              * je suis en mesure de faire évoluer mon code vers des structures de mon choix issues de différentes origines: paradigme objet, paradigme fonctionnel, &quot;patterns&quot; connus
+
+        %div#signes
+          %h2= signes
+          :markdown
+            * les historiques de la gestion de versions (logs CVS ou git par exemple) contiennent des entrées libellées &quot;Refactoring&quot;
+
+            * les modifications correspondantes sont réellement isofonctionnelles (pas d'effet sur les tests unitaires, pas de code ajouté)
+
+        %div#benefices
+          %h2= benefices
+          :markdown
+            * les aspects objectifs de la qualité du code (longueur, duplication, couplage, cohésion, complexité cyclomatique) s'améliorent au fil du temps
+
+            * en lien avec la [propriété collective], la connaissance des décisions de conception est mieux partagée dans l'équipe
+
+            * des schémas de conception, ou des modules génériques, émergent et peuvent être réutilisés par la suite
+
+        %div#resources
+          %h2= resources
+          :markdown
+            * [Refactoring](http://www.amazon.fr/Refactoring-Improving-Design-Existing-Code/dp/0201485672), de Martin Fowler
+
+            * [Le Refactoring](http://www.regismedina.com/articles/fr/refactoring), Régis Medina
+
+        %div#training
+          %h2= training
+          :markdown
+            * Formations ciblant spécifiquement cette compétence: 
+
+              * (...)
+
+            * Formations qui couvrent tout ou partie des niveaux de performance ci-dessus: 
+
+              * (...)
+
+        %div#experts
+          %h2= experts
+          :markdown
+            * International
+
+              * [Martin Fowler](http://martinfowler.com/)
+
+            * France
+
+              * [Régis Medina](http://www.regismedina.com/)
+
+        %div#pubs
+          %h2= pubs
+          :markdown
+            * Théoriques
+
+              * [Refactoring Object-Oriented Frameworks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.688), thèse de doctorat de Bill Opdyke
+
+            * Empiriques
+
+              * [An Empirical Evaluation of Refactoring](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.107.2442), étude préliminaire, bilan: pas d'effets constatés
+
+              * [Refactoring--Does It Improve Software Quality?](http://portal.acm.org/citation.cfm?id=1270369&amp;dl=), étude préliminaire, bilan: effets néfastes selon certaines métriques sur des projets open source

@@ -1,0 +1,22 @@
+!!! Strict
+%html
+  %head
+    %title Référentiel des pratiques Agiles
+    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"images/referentiel.css"}
+  %body
+    #header
+      %h1#logo
+        Institut
+        %span.green Agile
+    #header-wrap
+      %img.header-photo{:src=>"images/headerphoto.jpg", :width=>"820", :height=>"120"}
+    #content
+      %h1.firstHeading#firstHeading Référentiel des principes, concepts, pratiques et compétences agiles
+      Bienvenue dans la version préliminaire du Référentiel.
+      #bodyContent
+        %h2 Table des matières
+        :markdown
+          Actuellement vous trouverez un descriptif des entrées suivantes:
+
+          * [Refactoring](refactoring.html)
+          * [Définition de "fini"](sashimi.html)
