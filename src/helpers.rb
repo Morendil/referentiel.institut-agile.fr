@@ -32,6 +32,10 @@ def benefices
   'Quels bénéfice en attendre?'
 end
 
+def cost
+  'Quels coûts ou investissements faut-il consentir?'
+end
+
 def resources
   'Où se renseigner pour en savoir plus? (livres, articles)'
 end
