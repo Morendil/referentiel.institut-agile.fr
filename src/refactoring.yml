@@ -72,13 +72,6 @@ sections:
       * Formations qui couvrent tout ou partie des niveaux de performance ci-dessus: 
         * (...)
   -
-    type: experts
-    text: |
-      * International
-        * [Martin Fowler](http://martinfowler.com/)
-      * France
-        * [Régis Medina](http://www.regismedina.com/)
-  -
     type: pubs
     text: |
       * Théoriques
