@@ -1,0 +1,76 @@
+---
+title: Programmation en binômes
+type: Compétence
+sections:
+  -
+    type: desc
+    text: |
+      Deux programmeurs partagent un seul poste de travail (écran, clavier, souris), se répartissant les rôles entre un "conducteur" (aux commandes) et un "copilote" (surveillant l'écran et intervenant en cas de besoin), intervertissant les rôles fréquemment.
+  -
+    type: syno
+    text: |
+      De l'anglais "pair programming", ou programmation (ou développement) par paires, on parle aussi de binômage.
+      Donne les verbes: binômer, "pairer" (fréquent au Québec).
+  -
+    type: abus
+    text: |
+      * les deux programmeurs doivent être actifs et impliqués tout au long de la session, sinon, aucun bénéfice ne peut en être attendu
+      * un calcul simpliste assimile le binômage à un doublement des coûts; les études mettent en évidence qu'il n'en est rien, lorsqu'il est pratiqué correctement, mais dans le cas limite où un seul programmeur travaille réellement, c'est bien le risque encouru
+      * on doit entendre parler le conducteur; binômer c'est aussi "programmer à haute voix", s'il est silencieux le copilote doit intervenir
+      * imposer le binômage ne peut en aucun cas s'avérer fructueux dans une situation où les aspects relationnels, y compris les plus concrets (hygiène personnelle, etc.) présentent un obstacle
+  -
+    type: histo
+    text: |
+      * longue tradition en milieux universitaires, militaires...
+      * suggérée par Larry Constantine (Constantine on Peopleware) sous le nom "Dynamic Duo" (1995)
+      * simultanément décrite dans les "Organizational Patterns" de Jim Coplien (1995)
+      * pratique Extreme Programming dès ses débuts (1996)
+      * la variante "ping pong" (cf. ci-dessous) est décrite en 2003
+  -
+    type: progression
+    text: |
+      L'un des principaux écueils à la pratique du binômage est la passivité. Lorsqu'on l'utilise conjointement avec le [développement par les tests](tdd.html), une variante appelée "ping pong programming" favorise l'échange de rôles: l'un des deux programmeurs écrit un test unitaire qui échoue, puis passe le clavier à son collègue qui cherche alors à faire passer ce test, et peut alors à son tour écrire un test. Cette variante peut être utilisée soit pour des raisons pédagogiques, soit dans un esprit plus ludique par des programmeurs déjà confirmés.
+
+      * Débutant
+        * je suis capable de participer en tant que copilote et intervenir à bon escient
+        * je suis capable de participer en tant que conducteur, en particulier d'expliquer à tout moment le code que j'écris
+      * Intermédiaire
+        * je reconnais le bon moment pour abandonner le clavier et changer de rôle
+        * je reconnais le bon moment pour "voler" le clavier et changer de rôle
+        * je suis capable de m'insérer dans le rôle de copilote en cours de développement d'une tâche commencée par un autre
+      * Avancé
+        * j'utilise une session en binôme pour apprendre un sujet nouveau pour moi d'un développeur plus junior
+        * j'utilise une session en binôme pour démontrer une technique ou enseigner un sujet à un développeur plus junior
+  -
+    type: signes
+    text: |
+      * l'agencement du mobilier dans la pièce et des postes de travail sont adaptés au binômage (on peut reconnaître une équipe novice à tout aménagement qui rend le binômage inconfortable, par exemple trop peu de place pour deux sièges)
+      * l'ambiance sonore est maîtrisée: les conversations de N binômes simultanées crééent un murmure perceptible mais qui ne perturbe pas le travail
+      * si vous pouvez voir des programmeurs portant un casque audio en entrant dans la pièce, c'est un signe *négatif* suggérant non seulement l'absence de binômage mais également de conditions défavorables à son adoption
+  -
+    type: benefices
+    text: |
+      * une plus grande qualité des développements; "programmer à haute voix" conduit à mieux appréhender les complexités et les détails pernicieux, limitant ainsi le risque d'erreurs ou de se fourvoyer
+      * une meilleure diffusion des connaissances dans l'équipe, notamment lorsqu'un développeur peu familier d'un module travaille avec un autre qui le connait mieux
+      * une amélioration plus rapide des compétences des développeurs juniors, au contact de leurs aînés
+      * une rédution de l'effort de coordination, puisqu'au lieu de N développeurs on est amené à coordonner N/2 binômes
+      * une meilleure capacité à rester concentrer et résister aux interruptions: lorsqu'un des deux membres du binôme doit s'interrompre, l'autre peut rester focalisé sur la tâche et aider son collègue à se reconcentrer ensuite
+  -
+    type: cost
+    text: |
+      Sans que ce soit confirmé de façon probante par des études empiriques, on estime que dans le cas idéal, la programmation en binômes se traduit par un surcoût de 15% par rapport à la situation où chaque développeur travaille séparément, surcoût qui serait facilement compensé par l'amélioration de la qualité, puisqu'une mauvaise qualité se traduit par une pénalité de maintenance tout au long du projet.
+  -
+    type: resources
+    text: |
+      * [Pair Programming Illuminated](http://www.amazon.fr/Pair-Programming-Illuminated-Laurie-Williams/dp/0201745763/), de [Laurie Williams](http://collaboration.csc.ncsu.edu/laurie/)
+  -
+    type: pubs
+    text: |
+      * Théoriques
+        * Les travaux théoriques les plus intéressants sont ceux qui poursuivent l'approche ethnographique initiée entre autres par Sallyann Freudenberg (née Bryant), en examinant "à la loupe" des interactions entre programmeurs dans leur milieu habituel
+        * [How Pair Programming Really Works](http://www.scribd.com/doc/25304465/null) cite certains de ces travaux assez représentatifs de la tendance récente à remettre en question le modèle "conducteur/copilote"
+      * Empiriques
+        * [The Collaborative Software Process](http://collaboration.csc.ncsu.edu/laurie/Papers/dissertation.pdf), thèse doctorale de Laurie Williams, la plus connue des études à ce sujet, rapportant les conclusions initiales suivantes: amélioration de la qualité, pas de surcoût constaté de façon statistiquement significative
+        * [The effectiveness of pair programming: A meta-analysis](http://www.idi.ntnu.no/grupper/su/publ/ebse/R11-pairprog-hannay-ist09.pdf), une méta-analyse recensant et regroupant les 18 principales études empiriques connues à ce jour, conclusions: le binômage améliore la qualité et permet de réduire les délais de développement, mais conduit à une augmentation du coût (i.e. en termes de charge); la réduction du délai concerne surtout les tâches les plus simples confiées à des juniors et peut s'accompagner d'une réduction de la qualité.
+        * La plupart des études empiriques (14 sur les 18 analysées dans la référence ci-dessus) souffrent d'un défaut qui entâche leurs conclusions; elles sont menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice.
+---
