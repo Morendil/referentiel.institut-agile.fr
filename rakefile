@@ -11,6 +11,8 @@ CLEAN.include('site/*.ham')
 
 desc "Expand YML descriptors into Haml markup"
 task :expand => YML_OUT
+
+desc "Expand Haml markup into HTML"
 task :webize => HAM_OUT
 
 rule '.ham' => ['.yml'] do |t|
