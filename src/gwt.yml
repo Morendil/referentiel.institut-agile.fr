@@ -1,0 +1,21 @@
+---
+title: Given - When - Then
+type: Concept
+sections:
+  -
+    type: desc
+    text: |
+      La matrice Given-When-Then est un format recommandé pour le test fonctionnel d'une User Story:
+
+      *  (Given) (Etant donné) un contexte,
+      *  (When) (Lorsque) l'utilisateur effectue certaines actions,
+      *  (Then) (Alors) on doit pouvoir constater telles conséquences
+
+      Par exemple:
+
+      *  Etant donné un solde positif de mon compte, et aucun retrait cette semaine,
+      *  Lorsque je retire un montant inférieur à la limite de retrait,
+      *  Alors mon retrait doit se dérouler sans erreur ou avertissement
+
+      Des outils tels que JBehave, RSpec ou Cucumber encouragent l'utilisation de cette formule.
+---

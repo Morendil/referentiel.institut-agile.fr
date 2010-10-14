@@ -1,0 +1,12 @@
+---
+title: Développement Itératif
+type: Concept
+sections:
+  -
+    type: desc
+    text: |
+      Le développement itératif implique de découper un projet en un certain nombre de cycles, ou itérations, au cours desquelles on prévoit de répéter les *mêmes* activités.
+      Ainsi, on considère comme itératif un cycle dans lequel on prévoirait, à l'issue d'une phase de spécifications et d'analyse, de répéter 3 fois une itération au cours de laquelle on réaliserait successivement la conception, le développement et le test.
+      Un tel cycle serait itératif mais ne serait pas "Agile" au sens strict: l'approche Agile privilégie des itérations nombreuses et très courtes, et considère que chaque itération doit regrouper l'ensemble des activités du développement, de la spécification jusqu'au test.
+      A distinguer du développement [incrémental](incremental.html) qui consiste à planifier par éléments fonctionnels ayant de l'intérêt séparément.
+---

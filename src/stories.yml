@@ -1,0 +1,97 @@
+---
+title: User Stories
+type: Compétence
+sections:
+  -
+    type: desc
+    text: |
+      L'intégralité du travail à réaliser est découpée en incréments fonctionnels et les activités de développement s'organisent autour de ces incréments appelés "User Stories".
+      Adopter la pratique des User Stories implique de tenir pour généralement vraies un certain nombre d'hypothèses sur ces incréments: on peut les réaliser dans un ordre arbitraire, et chacun indépendamment des autres peut avoir une valeur pour l'utilisateur.
+      Pour rendre ces hypothèses très concrètes, on privilégie une *représentation* (on peut même parler de réification) de ces User Stories sous une forme bien précise: la fiche cartonnée ou le Post-It, qui en renforcent le caractère atomique et manipulable par tous les intervenants du projet.
+  -
+    type: syno
+    text: |
+      Littéralement "histoire utilisateur", le terme "scénario client" est également utilisé. Dans les deux cas il s'agit de mettre en avant l'aspect narratif ("voici ce qui se passe") et d'autre part le point de vue adopté, celui, non technique, de l'utilisateur ou du donneur d'ordres ("client").
+      Au singulier: "une user story".
+  -
+    type: abus
+    text: |
+      * une "erreur" classique consiste à partir d'un cahier des charges rédigé en amont et le découper en User Stories en s'appuyant sur sa structure textuelle; cela peut être une bonne approche pour une équipe débutante mais ne constitue pas une pratique recommandée
+      * une User Story n'est pas un document; le terme désigne l'intégralité des activités qui sont nécessaires pour transformer une version V du produit en une version V' qui a plus de valeur; en ce sens une User Story est un *objectif*
+      * le niveau de détail correspondant à une User Story n'est pas constant, mais évolue au fil du temps, en fonction de l'horizon de planification: une User Story dont la réalisation est prévue dans plusieurs semaines ne sera décrite que d'une brève phrase, alors qu'une User Story dont la réalisation est imminente doit être cadrée par des tests de recette, des exemples, etc.
+      * une User Story n'est pas un Use Case; bien que la comparaison entre les deux notions soit souvent utile, il n'est pas possible d'établir un lien simple et direct
+      * une User Story ne correspond en règle générale pas à un quelconque découpage technique: un écran, une boîte de dialogue, un bouton ne sont pas des User Stories
+  -
+    type: histo
+    text: |
+      Les User Stories sont issues d'Extreme Programming. Elles ne sont initialement pas décrites comme une pratique à part entière; elles n'apparaissent dans la première édition du livre de Kent Beck, Extreme Programming Explained, que comme une des "pièces" utilisées dans le "jeu du planning".
+      Au fil des années, une pression croissante pousse la communauté Agile et sa composante Extreme Programming en particulier à répondre de façon plus précise à la question "comment sont traitées les exigences", il émergera de cette pression une définition considérablement plus sophistiquée de ces User Story:
+
+      * la matrice [rôle-fonctionnalité](rolefeature.html) est proposée par Rachel Davies et Tim McKinnon en 2001
+      * le modèle des "[3C](3c.html)", ou "Carton, Conversation, Confirmation" est proposé par Ron Jeffries en 2001 (["Card, Conversation, Confirmation"](http://xprogramming.com/articles/expcardconversationconfirmation/))
+      * la grille [INVEST](invest.html) est décrite par Bill Wake en 2003 ("[INVEST in Good Stories and SMART tasks](http://xp123.com/xplor/xp0308/index.shtml)")
+      * la matrice [given-when-then](gwt.html) pour décrire les tests de recette est décrite par Dan North en 2006 ("[Introducing BDD](http://blog.dannorth.net/introducing-bdd/)")
+  -
+    type: progression
+    text: |
+      A titre individuel, les personnes concernées par l'acquisition de *compétences* en matière de User Stories sont en premier lieu celles occupant le rôle et les responsabilités d'analystes. Il est très souhaitable, comme pour la plupart des compétences Agiles, que celles-ci soit largement partagées dans l'équipe.
+
+      A titre individuel:
+
+      * Débutant
+        * je suis capable de partir d'une autre formalisation (cahier des charges, use cases, etc.) et la transposer en User Stories
+        * je connais au moins une matrice d'expression des User Stories
+        * je suis capable d'illustrer une User Story par un exemple (raconter ce que fait l'utilisateur et le résultat)
+      * Intermédiaire
+        * je suis capable de "morceler" l'ensemble des objectifs fonctionnels d'un projet en User Stories, en m'assurant qu'il n'y a pas d'oubli
+        * je connais différentes matrices d'expression des User Stories et suis capable d'utiliser la plus appropriée
+        * je suis capable de formaliser les critères de satisfaction d'une User Story sous une forme susceptible d'être transformée en test de recette
+        * je connais ou puis identifier les différentes populations d'utilisateurs et m'y référer dans les User Stories
+        * je suis capable d'évaluer une User Story selon la grilles INVEST ou un équivalent, et reformuler une User Story sans produire un résultat dégradé
+      * Avancé
+        * je suis capable d'interpréter des exigences considérées comme "non fonctionnelles" sous la forme d'une User Story: persistance, performance, portabilité...
+        * je suis capable de rattacher des User Stories à des descriptions de plus haut niveau du projet: "charte projet", etc. - et de justifier pour chaque User Story sa pertinence et sa valeur
+
+      A titre collectif:
+
+      * Débutant
+        * l'équipe sait organiser son activité autour des User Stories
+        * l'équipe est capable d'obtenir "juste à temps" le détail nécessaire à l'implémentation des User Stories, par exemple par la présence physique du client ou donneur d'ordres
+      * Intermédiaire
+        * l'équipe formalise la totalité de son travail sous la forme de User Stories, tout membre de l'équipe peut répondre à la question "sur quelle User Story travailles-tu?"
+      * Avancé
+        * a tout moment l'équipe est capable de répondre à la question "quelle est la User Story la plus importante restant à faire et pourquoi?"
+  -
+    type: signes
+    text: |
+      * l'équipe utilise des outils de planification visuels (Release Plan, Story Map, Task Board) et on peut y voir des fiches cartonnées ou Post-It
+      * les descriptifs de User Stories ne contiennent pas ou peu de langage technique ("base de données", "écran X" ou "dialogue Y") mais font référence à des objectifs d'utilisateurs
+  -
+    type: benefices
+    text: |
+      La pratique des User Stories conduit à un développement [incrémental](incremental.html), et doit permettre d'en réaliser les bénéfices, notamment
+
+      * une réduction des risques liés à l'effet tunnel, d'autant plus importante
+        * que les incréments sont de petite grandeur
+        * que les mises en production ont lieu tôt et fréquemment
+      * pour le donneur d'ordres, la possibilité de changer d'avis en cours de route sur les détails d'implémentation ou la priorité donnée à une User Story non encore réalisée
+      * pour les développeurs, l'obtention de critères d'acceptation et de validation clairs et précis, et la validation de leur travail au fil de l'eau
+      * la possibilité "d'auto-financer" le projet en réalisant très tôt les bénéfices d'une mise en exploitation rendue possible par l'approche incrémentale
+      * en scindant clairement le "quoi" et le "comment" (les donneurs d'ordre doivent se cantonner à décrire le "quoi" à savoir les objectifs, les développeurs restant force de proposition sur le "comment"), permettre d'exploiter au mieux le talent et la créativité de chacun
+  -
+    type: cost
+    text: |
+      Le développement incrémental en général nécessite une stratégie de test plus élaborée. En effet, le risque d'effets de bord lors du développement d'une fonctionnalité F2, entraînant la régression d'une fonctionnalité F1, exige que les fonctionnalités existantes soit re-testées. Dans le cas le plus pessimiste, le coût du test évolue donc comme le *carré* du nombre de fonctionnalités: on doit tester successivement F1, F1+F2, F1+F2+F3, et ainsi de suite. Plus les incréments sont de petite grandeur, plus cet effet est sensible.
+  -
+    type: resources
+    text: |
+      * [User Stories Applied](http://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685), de Mike Cohn
+        * [Software By Numbers](http://www.amazon.com/Software-Numbers-Low-Risk-High-Return-Development/dp/0131407287) examine les aspects économiques du développement itératif
+  -
+    type: pubs
+    text: |
+      * Théoriques
+        * Les [travaux](http://hotsoft.carleton.ca/hotsoft/projects/agile/) de Robert Biddle, Angela Martin, James Noble et leurs collaborateurs sont parmi les premiers à se pencher spécifiquement sur le rôle du Client dans les approches agiles et à en analyser les mécanismes, portés par les User Stories
+      * Empiriques
+        * ...
+---

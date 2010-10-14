@@ -1,0 +1,13 @@
+---
+title: Carton, Conversation, Confirmation
+type: Concept
+sections:
+  -
+    type: desc
+    text: |
+      Formule proposé par Ron Jeffries selon laquelle une User Story est la conjonction de trois éléments:
+
+      *  le *carton* ou Post-It, qui permet de donner une forme tangible et durable à ce qui n'est sans cela qu'une abstraction, à savoir:
+      *  une *conversation* qui peut avoir lieu en plusieurs temps au fil d'un projet, entre toutes les personnes concernées par un aspect fonctionnel d'un logiciel: clients, utilisateurs, développeurs, testeurs; cette conversation est en grande partie orale mais très souvent complétée par des documents;
+      *  la *confirmation*, enfin, la plus formalisée possible, que l'objectif dont il a été question au cours de cette conversation est atteint.      
+---

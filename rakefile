@@ -5,9 +5,10 @@ task :default => [:expand,  :webize, :clean]
 YML_SRC = FileList['src/*.yml']
 YML_OUT = YML_SRC.ext('.ham')
 
-HAM_SRC = FileList['site/*.ham','src/*.ham']
+HAM_SRC = FileList['src/*.yml', 'src/*.ham']
 HAM_OUT = HAM_SRC.ext('.html')
-CLEAN.include('site/*.ham')
+CLEAN.include('src/*.html')
+CLEAN.include(YML_SRC.ext('.ham'))
 
 desc "Expand YML descriptors into Haml markup"
 task :expand => YML_OUT
@@ -16,9 +17,10 @@ desc "Expand Haml markup into HTML"
 task :webize => HAM_OUT
 
 rule '.ham' => ['.yml'] do |t|
-  sh "mustache #{t.source} src/practice.tmpl > site/#{t.name.pathmap('%f')}"
+  sh "mustache #{t.source} src/practice.tmpl > #{t.name}"
 end
 
 rule '.html' => ['.ham'] do |t|
-  sh "haml -r src/helpers.rb #{t.source} > site/#{t.name.pathmap('%f')}"
+  sh "haml -r src/helpers.rb #{t.source} > #{t.name}"
+  sh "cp #{t.name} site"
 end

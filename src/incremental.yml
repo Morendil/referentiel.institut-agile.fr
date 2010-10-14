@@ -1,0 +1,10 @@
+---
+title: Développement Incrémental
+type: Concept
+sections:
+  -
+    type: desc
+    text: |
+      Le développement incrémental consiste à réaliser successivement des éléments fonctionnels utilisables, plutôt que des composants techniques.
+      Une approche incrémentale implique nécessairement d'adopter également, au moins dans une certaine mesure, une approche [itérative](iterative.html), mais les deux concepts ne sont pas identiques.
+---
