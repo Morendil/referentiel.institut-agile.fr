@@ -29,7 +29,7 @@ def signes
 end
 
 def benefices
-  'Quels bénéfice en attendre?'
+  'Quels bénéfices en attendre?'
 end
 
 def cost
