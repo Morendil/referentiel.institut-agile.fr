@@ -86,7 +86,7 @@ sections:
     type: resources
     text: |
       * [User Stories Applied](http://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685), de Mike Cohn
-        * [Software By Numbers](http://www.amazon.com/Software-Numbers-Low-Risk-High-Return-Development/dp/0131407287) examine les aspects économiques du développement itératif
+      * [Software By Numbers](http://www.amazon.com/Software-Numbers-Low-Risk-High-Return-Development/dp/0131407287) examine les aspects économiques du développement itératif
   -
     type: pubs
     text: |
