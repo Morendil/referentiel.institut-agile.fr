@@ -28,7 +28,7 @@ sections:
       Au fil des années, une pression croissante pousse la communauté Agile et sa composante Extreme Programming en particulier à répondre de façon plus précise à la question "comment sont traitées les exigences", il émergera de cette pression une définition considérablement plus sophistiquée de ces User Story:
 
       * la matrice [rôle-fonctionnalité](rolefeature.html) est proposée par Rachel Davies et Tim McKinnon en 2001
-      * le modèle des "[3C](3c.html)", ou "Carton, Conversation, Confirmation" est proposé par Ron Jeffries en 2001 (["Card, Conversation, Confirmation"](http://xprogramming.com/articles/expcardconversationconfirmation/))
+      * le modèle des "[3C](3C.html)", ou "Carton, Conversation, Confirmation" est proposé par Ron Jeffries en 2001 (["Card, Conversation, Confirmation"](http://xprogramming.com/articles/expcardconversationconfirmation/))
       * la grille [INVEST](invest.html) est décrite par Bill Wake en 2003 ("[INVEST in Good Stories and SMART tasks](http://xp123.com/xplor/xp0308/index.shtml)")
       * la matrice [given-when-then](gwt.html) pour décrire les tests de recette est décrite par Dan North en 2006 ("[Introducing BDD](http://blog.dannorth.net/introducing-bdd/)")
   -
