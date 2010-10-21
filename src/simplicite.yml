@@ -1,0 +1,20 @@
+---
+title: Critères de Simplicité
+type: Concept
+sections:
+  -
+    type: desc
+    text: |
+      Grille d'évaluation proposée par Kent Beck pour juger qu'un code source est "simple":
+
+      *  le code est doté de tests unitaires et fonctionnels et tous ces tests passent
+      *  le code ne fait apparaître aucune duplication
+      *  le code fait apparaître séparément chaque responsabilité distincte
+      *  le code contient le nombre minimum d'élément (classes, méthodes, lignes) compatible avec les trois premiers critères      
+
+      Le premier critère est aisé à juger, bien qu'il sous-entende quelque chose de moins trivial, à savoir que le logiciel en question est *correct*, ne présente pas de défauts. Les tests unitaires ne sont au mieux qu'une indication favorable de cet état; le discours Agile tient cependant pour acquis qu'ils sont la solution la plus pragmatique connue à ce jour.
+
+      Les second et troisième critères présentent une plus grande part de subjectivité. Ainsi le second peut être interprété littéralement: malheureusement, la "programmation par copier-coller" est une pratique encore répandue dans l'industrie et plombe de nombreux projets, le refactoring est un antidote efficace. Mais les programmeurs plus chevronnés sont capables d'identifier comme "duplication" des ressemblances plus subtiles entre éléments de code. De même le troisième s'appuie sur les notions non triviales de [couplage](http://fr.wikipedia.org/wiki/Couplage_%28informatique%29) et [cohésion](http://fr.wikipedia.org/wiki/Coh%C3%A9sion_%28informatique%29).
+
+      Le quatrième critère, sous réserve d'avoir pu se mettre d'accord sur les trois premiers, peut être plus facilement objectivé.
+---
