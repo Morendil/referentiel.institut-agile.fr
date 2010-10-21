@@ -1,0 +1,78 @@
+---
+title: Conception Simple
+type: Compétence
+sections:
+  -
+    type: desc
+    text: |
+      L'adhésion à cette pratique implique trois règles de conduite, sur lesquelles l'équipe appuie sa stratégie de conception logicielle:
+
+      * la conception est évaluée selon les 4 [critères de simplicité](simplicite.html) énoncés par Kent Beck, ce qui suppose notamment la pratique du [refactoring](refactoring.html) mais également l'adoption de l'heuristique YAGNI (voir définition ci-dessous), fort controversée;
+      * les éléments de conception tels que [patrons de conception ou "design patterns"](http://fr.wikipedia.org/wiki/Patron_de_conception), architecture à base de "plugins", etc. sont conçus comme ayant un coût et pas uniquement une valeur;
+      * l'équipe cherche à différer aussi longtemps qu'il est possible de le faire de façon responsable les décisions importantes de conception, afin d'obtenir le plus d'information possible sur la pertinence de ces décisions avant d'en payer le coût
+
+      Elle s'appuie souvent sur ces pratiques annexes:
+      * [sessions improvisées de conception](quickdesign.html)
+      * [sessions CRC](crc.html), moins répandues
+      * [remanier vers un pattern](refactor2patterns.html)
+      * [rétrospectives ou revues de conception](designretro.html)
+  -
+    type: syno
+    text: |
+      * la littérature anglophone désigne souvent cette pratique par l'expression YAGNI, un acronyme qui signifie "You Aren't Gonna Need It", c'est-à-dire "Tu n'en auras pas besoin"; allusion à l'argumentation utilisée par certains programmeurs pour justifier une décision de conception ("Plus tard nous aurons besoin de telle ou telle capacité technique, alors pourquoi pas la réaliser maintenant")
+      * on emploie également le terme de "Conception Emergente", pour insister sur le fait que la conception n'est pas considérée comme une activité qui a lieu antérieurement à la programmation et impose un cadre à cette dernière; mais qu'au contraire une bonne conception ou une bonne architecture résultent d'une attention portée tout au long du projet aux qualités structurelles du code, et "émergent" donc des interactions entre les détails de bas niveau et les préoccupations d'ensemble
+  -
+    type: abus
+    text: |
+      * la première erreur, fatale, serait de négliger, par exemple lors du recrutement, l'importance des compétences en conception au sein de l'équipe, au motif que la conception est "émergente" ou "au fil de l'eau": ces termes ne signifient pas qu'elle se fera toute seule!
+      * il s'agit exclusivement de conception **logicielle** et ce serait un abus d'invoquer ces règles pour argumenter par exemple une décision relevant des exigences du client ou d'un [arbitrage d'ergonomie](http://leedumond.com/blog/a-really-bad-example-of-yagni/)
+      * la pratique doit être modérée, voire est contre-indiquée, lorsque:
+        * le coût du déploiement de nouvelles versions du logiciel est important
+        * le projet exige ou doit s'accomoder d'une équipe pléthorique et dispersée
+  -
+    type: histo
+    text: |
+      * l'expression YAGNI est associée à Extreme Programming dès les premiers jours (1998)
+      * la formulation des [critères de simplicité](simplicite.html) est à peine plus tardive (avant 2000)
+      * l'application délibérée du remaniement en vue d'obtenir certains patrons de conception fait l'objet d'une première publication par Joshua Kerievsky, "[Refactoring to Patterns](http://industriallogic.com/xp/refactoring/)" (2004)
+      * les pratiques agiles ayant trait à la conception sont relativement stables dans la période 2000-2010, avec peu d'innovations par rapport à d'autres domaines comme les tests automatisés
+  -
+    type: progression
+    text: |
+      Sur le plan individuel:
+
+      * Débutant
+        * je suis capable d'identifier des éléments de conception redondants et de proposer des *simplifications* à du code existant
+      * Intermédiaire
+        * je suis capable de *différer* une décision de conception liée à une exigence future, et de déterminer les critères qui permettront d'arbitrer cette décision
+      * Avancé
+        * je suis capable d'identifier le moment pertinent pour introduire une décision de conception très structurante, par exemple une architecture à base de "plugins"
+
+      A titre collectif, une étape majeure est à franchir par toute équipe abordant la Conception Simple: **partager** les décisions de conception. Celles-ci ne sont pas uniquement le fait des architectes ou développeurs senior, elles sont comprises et mise en oeuvre par l'ensemble de l'équipe qui sait se les approprier.
+  -
+    type: signes
+    text: |
+      * l'équipe dispose d'un "backlog" de tâches spécifiquement liées à la conception:
+        * défauts identifiés nécessitant un refactoring explicite
+        * opportunitiés de simplification
+        * décisions potentielles, différées en attendant plus d'informations
+      * ce "backlog" ne stagne pas, et ne sert pas de cahier de doléances jamais confrontées; une partie du temps productif de l'équipe est effectivement consacrée à ces évolutions de conception
+      * l'équipe utilise une ou plusieurs pratiques annexes (sessions improvisées, CRC, revues de conception) offrant une opportunité d'aborder le sujet
+      * on doit considérer comme un **signal d'alarme**, indiquant que la pratique n'est pas correctement mise en oeuvre, toute impression que des évolutions relativement simples prennent de plus en plus de temps à mesure que le projet progresse
+  -
+    type: benefices
+    text: |
+      * une réduction du coût total de développement
+      * une réduction des risques liés à la surconception ("gold plating")
+  -
+    type: resources
+    text: |
+      * [Is Design Dead?](http://www.martinfowler.com/articles/designDead.html), article de Martin Fowler publié en 2000 et mis à jour en 2004, synthèse du point de vue Agile sur la conception logicielle
+  -
+    type: pubs
+    text: |
+      * Empiriques
+        * Les études empiriques font état de façon constante d'un taux important d'évolution des exigences au cours d'un projet
+        * Capers Jones estime qu'en moyenne 35% des exigences (volume calculé en points de fonction) d'un projet sont modifiées au cours de sa durée ("[Assessment and Control of Software Risks"](http://www.amazon.fr/Assessment-Control-Software-Risks-Capers/dp/0137414064), 1994)
+        * Les recherches se sont jusqu'à présent focalisées sur la *prévention* de ces évolutions, il n'existe pour l'instant pas de travaux notables axés sur l'approche Agile consistant à tenir la volatilité des exigences comme un constat auquel s'adapter, non une difficulté à surmonter...
+---
