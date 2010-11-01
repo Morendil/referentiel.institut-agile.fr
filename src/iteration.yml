@@ -5,7 +5,7 @@ sections:
   -
     type: desc
     text: |
-      Une itération au sens Agile est une ["boite de temps" ou "timebox"](timebox.yml) dont la durée:
+      Une itération au sens Agile est une ["boite de temps" ou "timebox"](timebox.html) dont la durée:
 
       * varie d'un projet à l'autre, de 1 semaine à 4 semaines, rarement plus
       * est en principe fixe sur la durée du projet
