@@ -11,5 +11,5 @@ sections:
   -
     type: histo
     text: |
-      Le "timeboxing" est une variante de la pratique ancienne de la "deadline", mais son utilisation explicite comme stratégie de gestion de projets logiciels remonte sans doute à James Martin, [*Rapid Application Development*](http://www.amazon.co.uk/dp/0023767758), en 1991.
+      Le "timeboxing" est une variante de la pratique ancienne de la "deadline", mais son utilisation explicite comme stratégie de gestion de projets logiciels remonte sans doute à James Martin, [*Rapid Application Development*](http://www.amazon.co.uk/dp/0023767758), en 1991. Il s'inspire des travaux de Scott Shultz chez l'industriel DuPont, qui met au point une stratégie de prototypage de nouveaux produits en moins de 90 jours.
 ---
