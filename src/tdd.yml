@@ -1,0 +1,96 @@
+---
+title: Développement par les tests
+type: Compétence
+sections:
+  -
+    type: desc
+    text: |
+      Ce terme désigne une technique de développement qui entremèle la programmation, l'écriture de [tests unitaires](unit.html) et l'activité de [remaniement](refactoring.html). Elle propose les règles suivantes:
+
+      * créer **un seul** test unitaire décrivant un aspect du programme
+      * s'assurer, en l'exécutant, que ce test échoue pour les bonnes raisons
+      * écrire **juste assez** de code, le plus simple possible, pour que ce test passe
+      * **remanier** le code autant que nécessaire pour se conformer aux [critères de simplicité](simplicite.html)
+      * recommencer, en **accumulant** les tests au fur et à mesure
+
+      La pratique est indissociable de la famille d'outils de tests [xUnit](http://gfx.developpez.com/tutoriel/java/junit/), à qui elle doit son vocabulaire: "barre verte" signifie que l'ensemble des tests unitaires accumulés passent avec succès, "barre rouge" signifie qu'au moins un test est en échec. (L'échec d'un unique test suffit à déclencher l'affichage rouge, avec sa connotation d'alerte: cette tolérance zéro reflète la philosophie de l'outil et de la pratique.) L'expression "dérouler les tests" désigne le fait de lancer ou d'exécuter tous les tests accumulés ("suite" ou "batterie" de tests).
+      L'une des notions les plus importantes pour un débutant est celle de **granularité** d'un test. Supposons par exemple qu'on écrive un correcteur orthographique. Un test "gros grain" consisterait à vérifier que lorsqu'il est appelé avec un mot mal orthographié, par exemple "import*e*nt", le correcteur renvoie la suggestion "important". Un test "grain fin" à l'inverse vise à vérifier la bonne implémentation d'un aspect plus précis de l'algorithme de correction: par exemple qu'une fonction calculant la "distance" entre ces deux mots renvoie bien 1 (une seule lettre a changé).
+  -
+    type: syno
+    text: |
+      Le nom anglais est "Test Driven Development", l'acronyme TDD étant très souvent utilisé.
+      On parle également, moins souvent, de développement piloté par les tests.
+      A l'origine on parle de "Test First Coding", programmation en commençant par les tests, souvent abrégé en "Test First". A mesure qu'une communauté de programmeurs s'empare de cette pratique on cherche à lui donner un nom plus valorisant. La variante "Test Driven" insiste sur le rôle déterminant des tests. Une construction inverse à partir de l'acronyme TDD le réinterprète en "Test Driven Design", ou *conception* par les tests.
+  -
+    type: abus
+    text: |
+      Quelques erreurs courantes des programmeurs novices en développement par les tests:
+
+      * oublier de dérouler les tests fréquemment
+      * écrire de nombreux tests à la fois
+      * écrire des tests d'une granularité inadaptée
+      * écrire des tests non probants, par exemple dépourvus d'assertions
+      * écrire des tests pour du code trivial, par exemple des accesseurs
+
+      Quant à l'organisation de l'équipe autour de cette pratique, les écueils suivants sont courants:
+
+      * adoption partielle: seuls certains développeurs plus motivés ou mieux formés utilisent TDD; on ne peut pas attendre de bénéfices collectifs dans ce cas
+      * mauvais entretien de la batterie de tests: en particulier, une batterie de tests qui prend trop longtemps à dérouler
+      * délaissement de la batterie de tests: découlant parfois du mauvais entretien, parfois d'autres facteurs tel un trop brusque renouvellement de l'équipe
+  -
+    type: histo
+    text: |
+      L'idée d'une séquence chronologique dans laquelle l'élaboration de tests précède celle des programmes eux-mêmes n'est pas nouvelle; c'est en fait dans la mesure où cette tâche incombe **aux programmeurs eux-mêmes** qu'il existe une rupture. Depuis 1976 date la publication du livre de Glenford Myers *[Software Reliability](http://www.amazon.fr/dp/0471627658)*, et jusqu'à l'apparition d'Extreme Programming, il sera communément admis **"qu'un programmeur ne doit jamais tester son propre code"**.
+      Cette affirmation présentée comme un axiome fournit une justification à l'établissement du test comme une discipline séparée de la programmation, le "test indépendant". Jusqu'aux années 1990, la tendance se confirme avec la vogue de l'approche "black box testing" et la domination du marché par des outils qui enregistrent et rejouent des séquences de clics (ce qui suppose évidemment que le code soit déjà écrit!).
+      On peut donc faire remonter l'historique de cette pratique aux premiers outils encourageant les programmeurs à tester leur propre code:
+
+      * l'article "[A Brief History of Test Frameworks](http://shebanator.com/2007/08/21/a-brief-history-of-test-frameworks/)" présente l'histoire apparemment parallèle de deux outils remontant à 1992 environ
+      * l'événement le plus déterminant est sans conteste la création par Kent Beck de l'outil SUnit pour Smalltalk, dont toute la famille xUnit va s'inspirer (The Smalltalk Report, [octobre 1994](http://www.macqueen.us/smalltalkReport/ST/91_95/SMAL0401.PDF))
+      * l'idée d'écrire les tests en premier est décrite comme un des piliers de l'approche Extreme Programming dès 1996
+      * l'élaboration du "Test First" en "Test Driven" fait partie d'une période d'intense élaboration sur le Wiki [C2.com](http://c2.com/cgi/wiki?TestDrivenDevelopment) entre 1996 et 2002
+      * des techniques spécifiques avec leurs propres outils apparaissent pendant cette période, l'une des plus connues est sans doute l'approche "[Mock Objects](http://www.mockobjects.com/files/endotesting.pdf)" de Freeman et McKinnon en 2000
+      * le livre de Kent Beck *[Test Driven Development: By Example](http://www.amazon.fr/dp/0321146530)* achève de codifier la pratique en 2003
+      * on assiste ensuite à la naissance de plusieurs pratiques inspirées par TDD mais qui s'en écartent suffisamment pour être considérées comme des innovations à part entière: "[ATDD](atdd.html)" ou "développement piloté par les tests fonctionnels" et "[BDD](bdd.html))" sont les plus notables (2006-2010)
+  -
+    type: progression
+    text: |
+      Niveaux de performance individuels:
+
+      * Débutant
+        * je suis capable d'écrire un test unitaire avant le code correspondant
+        * je suis capable d'écrire le code permettant de faire passer un test
+      * Intermédiaire
+        * je pratique la "correction de défauts pilotée par les tests", lorsqu'un défaut est détecté j'écris le test le mettant en évidence avant de le corriger
+        * je suis capable de décomposer une fonctionnalité à coder en un certain nombre de tests à écrire
+        * je connais plusieurs "recettes" pour guider l'écriture de mes tests (par exemple: "pour un algorithme récursif, écrire d'abord le test pour le cas terminal")
+        * je suis capable d'extraire des éléments réutilisables de mes tests unitaires afin d'obtenir un outil de test adapté à mon projet
+      * Avancé
+        * je suis capable d'élaborer une "feuille de route" pour une fonctionnalité complexe sous forme de tests envisagés, et de la remettre en question si nécessaire
+        * je suis capable de piloter par les tests différents "paradigmes" de conception: objet, fonctionnel, par événements...
+        * je suis capable de piloter par les tests différents types de domaines techniques: calcul, interface graphique, accès aux données...
+  -
+    type: signes
+    text: |
+      * la [couverture de code](http://fr.wikipedia.org/wiki/Couverture_de_code) est un des moyens courants de constater l'utilisation du développement par les tests; une couverture élevée ne signifie pas nécessairement une bonne utilisation, mais une couverture inférieure à environ 80% est à contrario un signe d'utilisation probablement déficiente 
+      * les historiques de la gestion de versions (logs CVS ou git par exemple) font apparaître des modifications équilibrées: chaque publication de code principal s'accompagne d'une publication de nouveaux tests (hors refactoring)
+  -
+    type: benefices
+    text: |
+      * de façon informelle, de nombreux retours d'expérience d'équipes utilisant TDD font état d'une réduction très significative du nombre de défauts, en contrepartie d'un surcoût modéré du développement *initial*
+      * ces mêmes retours suggèrent que ce surcoût est compensé par l'élimination d'une partie importante de l'effort de mise au point en fin de projet
+      * en imposant l'écriture du test avant celle du code, cette pratique annule le "biais de confirmation" qui est la justification avancée par Myers pour affirmer qu'un développeur "ne doit jamais tester son propre code"
+  -
+    type: resources
+    text: |
+      * [Test Driven Development: By Example](http://www.amazon.fr/dp/0321146530), de Kent Beck
+  -
+    type: pubs
+    text: |
+      Cette pratique considérée par des auteurs tels que Steve McConnell (Code Complete, 2nd Edition) comme l'une des contributions les plus importantes du mouvement Agile a fait l'objet de plusieurs études.
+      De même que pour le [binômage](binomage.html), les évaluations empiriques sont souvent sont menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice, ce qui limite la portée de leurs conclusions.
+
+      * Empiriques
+        * "[Test Driven Development: Empirical Body of Evidence](http://www.agile-itea.org/public/deliverables/ITEA-AGILE-D2.7_v1.0.pdf)" recense les principales études connues en 2006, portant majoritairement sur les effets constatés informellement de réduction des défauts (globalement favorable) et d'augmentation de l'effort (globalement neutre)
+        * "[Realizing quality improvement through test driven development](http://research.microsoft.com/en-us/projects/esm/nagappan_tdd.pdf)" est une étude plus récente dans un contexte industriel, confirmant ces résultats (2008)
+        * "[Does Test-Driven Development Improve the Program Code? Alarming Results from a Comparative Case Study ](http://www.springerlink.com/content/74145m974llj6678/)" est l'une des premières à s'intéresser à l'effet de TDD sur les métriques usuelles considérées comme corrélées à la qualité du code, et "s'alarme" d'un effet défavorable du TDD sur ces dernières (2008)
+---
