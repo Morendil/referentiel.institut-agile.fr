@@ -65,13 +65,6 @@ sections:
       * [Refactoring (SourceMaking)](http://sourcemaking.com/refactoring)
       * [La méthode Mikado](http://pragprog.com/magazines/2010-06/the-mikado-method)
   -
-    type: training
-    text: |
-      * Formations ciblant spécifiquement cette compétence: 
-        * (...)
-      * Formations qui couvrent tout ou partie des niveaux de performance ci-dessus: 
-        * (...)
-  -
     type: pubs
     text: |
       * Théoriques
