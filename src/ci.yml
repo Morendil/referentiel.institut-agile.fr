@@ -1,0 +1,69 @@
+---
+title: Intégration Continue
+type: Pratique
+sections:
+  -
+    type: desc
+    text: |
+      On appelle "intégration" tout ce qu'il reste à faire à une équipe projet, quand le travail de développement à proprement parler est terminé, pour obtenir un produit exploitable, "prêt à l'emploi".
+      Par exemple, si deux développeurs ont travaillé en parallèle sur deux composants A et B, et considèrent leur travail comme terminé, vérifier que A et B sont cohérents et corriger d'éventuelles incohérences relève de l'intégration. Ou encore, si le produit final est fourni sous la forme d'un fichier compressé, regroupant un exécutable, des données, une documentation, les étapes consistant à produire ces fichiers et à les rassembler relèvent aussi de l'intégration.
+      ----------
+      Une équipe qui pratique l'intégration continue vise deux objectifs:
+      * réduire *à presque zéro* la durée et l'effort nécessaire à *chaque* épisode d'intégration
+      * pouvoir *à tout moment* fournir un produit exploitable
+      Dans la pratique, cet objectif exige de faire de l'intégration une procédure **reproductible** et dans la plus large mesure **automatisée**.
+      ----------
+      Pour la plupart des équipes utilisant actuellement une approche Agile, cela se traduit ainsi:
+      * l'équipe utilise un référentiel de gestion de versions du code source (CVS, SVN, Git, etc.)
+      * l'équipe a automatisé entièrement le processus de compilation et génération du produit
+      * ce processus inclut l'exécution d'une batterie de tests unitaires et fonctionnels automatisés *à chaque publication dans le référentiel des sources*
+      * en cas d'échec ne serait-ce que de l'un de ces tests, l'équipe cherche prioritairement à rétablir la stabilité du produit
+  -
+    type: abus
+    text: |
+      * Attention à ne pas confondre les outils (serveurs d'intégration continue du type Cruise Control, Hudson, etc.) avec la pratique. L'intégration continue n'est pas en premier lieu une question d'outil mais d'attitude, et s'appuie sur un outillage diversifié: outils d'automatisation de la compilation et génération, outils de test, et bien sûr outils de gestion des versions.
+      * L'opposé d'une intégration continue serait une équipe prévoyant un unique épisde d'intégration, à la toute fin du projet. Généralement, cette intégration s'avère alors longue et pénible, ce qui conduit la plupart des développeurs expérimentés à préférer plusieurs épisodes d'intégration au fil du projet, afin d'anticiper les difficultés et d'améliorer la procédure d'intégration. L'intégration continue consiste à pousser ce raisonnement à sa limite. Par conséquent, *toute* activité qui n'apparaît qu'au moment d'une livraison intermédiaire et que l'équipe vit comme longue et pénible est candidate pour être prise en compte au titre de l'intégration continue... même si l'équipe estime déjà utiliser cette pratique.
+  -
+    type: histo
+    text: |
+      * l'expression "intégration continue" est relativement ancienne, on la trouve par exemple dans [cet article](http://www.computer.org/portal/web/csdl/doi?doc=doi%2F10.1109%2F52.207226) de 1993, qui ne l'emploie que pour recommander au contraire une intégration assez fréquente mais "programmée" dans le cadre d'un processus incrémental
+      * la technique du "Daily Build and Smoke Test" est un précurseur, appliquée dans les années 90 par Microsoft pour Windows NT 3.0 et [décrite](http://www.stevemcconnell.com/ieeesoftware/bp04.htm) entre autres par Steve McConnell en 1996
+        * on ne parle alors pas d'automatisation, ni des tests, ni du"build", c'est-à-dire les étapes de compilation, édition de liens et production de l'exécutable et des fichiers annexes; l'accent est mis sur la fréquence, le cycle quotidien étant considéré comme "extrême"
+        * l'expression "Smoke Test" est héritée de l'électronique: le test le plus basique pour un circuit complexe consiste à le mettre sous tension; si on voit de la fumée s'échapper d'un des composants, c'est qu'il y avait une erreur... il s'agit d'un test rudimentaire pour s'assurer du bon fonctionnement *général* du logiciel, sans préjuger de l'existence de défauts moins évidents
+      * l'idée d'intégration continue comme un objectif de l'organisation du projet, caractérisant un processus de développement "moderne" et par contraste aux intégrations infréquentes qui ont été la règle jusqu'alors, apparaît dans "Software project management: a unified framework" de Walker Royce, en 1998 
+      * l'idée d'intégration continue, avec les ingrédients suivants, est proposée par Extreme Programming en 1997 et [décrite](http://www.martinfowler.com/articles/originalContinuousIntegration.html) par Martin Fowler en 2000:
+        * utilisation d'un référentiel de gestion de versions du code source
+        * automatisation du processus de "build"
+        * présence de tests unitaires et fonctionnels automatisés (en lieu et place d'un "smoke test" manuel)
+        * exécution au minimum quotidienne de l'ensemble (build+test)
+        * gestion manuelle du processus d'intégration
+      * le premier "serveur d'intégration continue", [Cruise Control](http://cruisecontrol.sourceforge.net/), est publié sous une license Open Source en 2001
+        * par rapport à la pratique précédente, il automatise la surveillance du référentiel des versions, le lancement de l'ensemble (build+test), la notification des résultats et la publication de rapports
+      * la période 2001-2007 est surtout marquée par l'apparition de nombreux outils de ce type, la concurrence entre outils attirant l'attention de façon sans doute disproportionnée sur ces aspects un peu annexes
+      * un progrès important, cependant, est l'idée de rendre visible l'état de l'intégration la plus récente par un signal visuel, l'idée remonte environ à 2004
+        * dans les premiers temps elle a plutôt l'aspect d'un gadget, utilisant une [lampe d'ambiance](http://developertesting.com/archives/month200404/20040401-eXtremeFeedbackForSoftwareDevelopment.html)
+        * on voit ensuite apparaître de véritable [tableaux de bord](http://weblogs.asp.net/rlaneve/archive/2008/11/26/big-visible-cruise.aspx) de l'intégration continue, semblable à des tableaux de bord industriels
+      * à partir de 2007 on commence à parler de "déploiement continu", tout d'abord comme un idéal théorique; c'est un [article](http://timothyfitz.wordpress.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/) d'un ingénieur chez l'éditeur IMVU qui fera sensation et marque l'avènement concret de cette pratique, au début 2009
+  -
+    type: signes
+    text: |
+      Le signe le plus courant de la pratique au sein d'une équipe est la présence d'un moniteur dédié ou d'un indicateur visuel (lampe, écran LED ou LCD, etc.) dédié à l'affichage du résultat de l'intégration la plus récente.
+      Plus subtilement, il convient d'observer comment l'équipe réagit à une intégration "cassée" signalant un défaut dans le produit. Dès lors que l'équipe est consciente d'un défaut, mais tolère et laisse persister une situation où elle n'est pas en mesure de livrer un produit exploitable, il n'est plus possible de parler d'intégration continue!
+      Il est, de ce fait, presque tentant de parler de l'intégration continue comme d'une compétence (d'équipe) plutôt que comme d'une pratique.
+  -
+    type: benefices
+    text: |
+      * le principal intérêt de l'intégration continue est de réduire la durée, l'effort et la douleur provoquée par *chaque* intégration, l'expérience suggérant qu'il existe un "cercle vicieux" dans le sens inverse: plus les intégrations sont espacées, plus elles sont difficiles, et plus (en réaction à la douleur provoquée) on a tendance à les espacer
+      * l'intégration continue démultiplie le bénéfice d'une batterie étendue de tests unitaires: elle permet de détecter au plus tôt les défauts n'apparaissant qu'à l'intégration et par conséquent de minimiser leurs conséquences et les risques associés aux défauts d'intégration
+      * l'intégration continue permet de tirer le meilleur parti du développement incrémental: des questions comme l'installation et le déploiment du produit ne sont pas laissées de côté jusqu'à la fin du projet mais résolues dès le départ dans le cadre de la pratique
+  -
+    type: resources
+    text: |
+      * [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html), Martin Fowler (2006)
+      * [Continuous Integration: Improving Software Quality And Reducing Risk](http://www.amazon.fr/dp/0321336380/), de Paul Duvall (2007)
+  -
+    type: pubs
+    text: |
+      Sur le plan de l'évaluation empirique, l'une des questions les plus importantes semblerait être la suivante: si l'on compare le coût total, c'est-à-dire le coût unitaire d'une intégration multiplié par le nombre d'intégrations au cours d'un projet, existe-t-il une fréquence optimale d'intégration?
+      Cette question semble pour l'instant sans réponse, et aucune étude ne semble avoir été directement consacrée à l'évaluation de l'intégration continue.
+---
