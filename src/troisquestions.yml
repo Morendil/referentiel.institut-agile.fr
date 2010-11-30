@@ -1,0 +1,21 @@
+---
+title: Les Trois Questions
+type: Pratique
+sections:
+  -
+    type: desc
+    text: |
+      Les [réunions quotidiennes](daily.html) sont structurées autour des trois questions suivantes:
+
+      * Qu'as-tu terminé depuis la précédente réunion?
+      * Que penses-tu pouvoir terminer d'ici la prochaine réunion?
+      * Quels obstacles rencontres-tu en ce moment?
+  -
+    type: abus
+    text: |
+      * il est important d'insister sur le mot "terminé" dans ces questions; une erreur courante consiste à répondre: "hier j'ai travaillé sur le schéma de la base de données... et je continue là-dessus aujourd'hui... sinon tout va bien"; dans ce cas-là il vaut mieux dire "je n'ai rien terminé de nouveau"; cf. la [définition de 'terminé'](sashimi.yml)
+  -
+    type: histo
+    text: |
+      Ces trois questions sont à l'origine une spécificité des réunions Scrum, désormais adoptée par presque toutes les équipes Agiles
+---
