@@ -1,0 +1,42 @@
+---
+title: Tableau des Tâches
+type: Pratique
+sections:
+  -
+    type: desc
+    text: |
+      On répartit sur un tableau mural divisé en trois colonnes, "à faire", "en cours", "terminé" des Post-It ou fiches bristol représentant les tâches à réaliser au cours de l'itération.
+      De nombreuses [variantes](http://agiletools.wordpress.com/2007/11/24/task-boards-telling-a-compelling-agile-story/) existent; soit dans la disposition qui peut également être horizontale, ou plus sophistiquée; soit dans le nombre et l'intitulé des colonnes, qui matérialisent en général des activités - par exemple une colonne "en test".
+      En général au cours de la [réunion quotidienne](daily.html), l'équipe met à jour le tableau au fil de l'itération pour visualiser sa progression. Le tableau est "remis à zéro" en début d'itération avec de nouvelles tâches.
+  -
+    type: syno
+    text: |
+      En anglais, "task board"; on parle aussi de "project wall".
+      On entend plus rarement "tableau de Sprint" ou "tableau d'itération".
+  -
+    type: abus
+    text: |
+      * une erreur classique consiste à préférer d'emblée un support informatisé ("tableau des tâches virtuel"); c'est se priver des nombreux bénéfices de la réalisation plus "artisanale", et seules de fortes contraintes (par exemple une équipe dispersée géographiquement) doivent justifier cette solution de dernier recours
+      * ne pas confondre le tableau des tâches "canonique" avec le [tableau Kaban](kaban.html) dont le principe est assez différent (notamment, il n'est pas "remis à zéro")
+  -
+    type: benefices
+    text: |
+      * le tableau des tâches est un "[radiateur d'information](radiator.html)" - il favorise le partage instantané d'informations importantes pour toute l'équipe
+      * le tableau des tâches sert de point focal pour la [réunion quotidienne](daily.html)
+  -
+    type: histo
+    text: |
+      * dès les origines de Scrum et d'Extreme Programming on manipule des fiches bristol ou des Post-It mais le format précis du tableau des tâches ne se généralise qu'assez tardivement
+      * La [galerie de photos](http://xp123.com/xplor/room-gallery/index.shtml) collectée par Bill Wake montre que même si de nombreuses équipes Agiles utilisent un affichage mural, le tableau des tâches "standardisé" le plus largement adopté sera celui de Mike Cohn, comportant cinq colonnes (fin 2004)
+      * En partie en réaction aux tableaux plus sophistiqués produits par les équipes qui commencent à s'intéresser à la transposition Agile des [tableaux Kaban](kaban.html), on viendra un peu plus tard à considérer comme "canonique" la version à trois colonnes (fin 2007)
+  -
+    type: resources
+    text: |
+      * [Task Boards](http://www.mountaingoatsoftware.com/scrum/task-boards), de Mike Cohn (2004-2010)
+      * [Task Boards](http://agiletools.wordpress.com/2007/11/24/task-boards-telling-a-compelling-agile-story/), de Tom Perry
+  -
+    type: pubs
+    text: |
+      Peu de travaux de recherche concernent directement cette pratique.
+      Des investissements considérables sont consacrés par de nombreux éditeurs ou équipes Open Source à la réalisation d'équivalents virtuels du tableau de tâches, alors même que la communauté des praticiens aguerris reste majoritairement persuadée de l'intérêt, voire de la nécessité, du tableau de tâche physique; mettre en évidence le bénéfice réel de cette deuxième solution serait donc une piste de recherche prioritaire.
+---
