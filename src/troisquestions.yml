@@ -13,7 +13,7 @@ sections:
   -
     type: abus
     text: |
-      * il est important d'insister sur le mot "terminé" dans ces questions; une erreur courante consiste à répondre: "hier j'ai travaillé sur le schéma de la base de données... et je continue là-dessus aujourd'hui... sinon tout va bien"; dans ce cas-là il vaut mieux dire "je n'ai rien terminé de nouveau"; cf. la [définition de 'terminé'](sashimi.yml)
+      * il est important d'insister sur le mot "terminé" dans ces questions; une erreur courante consiste à répondre: "hier j'ai travaillé sur le schéma de la base de données... et je continue là-dessus aujourd'hui... sinon tout va bien"; dans ce cas-là il vaut mieux dire "je n'ai rien terminé de nouveau"; cf. la [définition de 'terminé'](sashimi.html)
   -
     type: histo
     text: |
