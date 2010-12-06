@@ -1,0 +1,58 @@
+---
+title: BDD (Behaviour-Driven Development)
+type: Pratique
+sections:
+  -
+    type: desc
+    text: |
+      BDD est une élaboration des pratiques [TDD](tdd.html) (développement par les tests) et [ATDD](atdd.html) (développement par les tests client).
+      Au lieu de parler de "tests", une personne utilisant BDD préfèrera le terme "spécifications". Il s'agit en fait de réunir dans un même document des exigences ([User Stories](stories.html)) exprimés selon le formalisme [rôle-fonction-bénéfice](rolefeature.html) et des scénarios ou exemples exprimés selon le canevas [given-when-then](gwt.html), ces deux notations étant les plus lisibles.
+      En mettant l'accent sur le mot "spécifications", BDD cherche à fournir une réponse unique à ce que nombre d'équipe Agiles considèrent comme deux activités séparées: l'élaboration de tests unitaires et de code "technique" d'une part, l'élaboration de tests fonctionnels (servant à formaliser les exigences) et de "fonctionnalités" d'autre part.
+      Plutôt que parler de "test unitaire d'une classe", une personne ou une équipe utilisant BDD préfère dire qu'elle fournit les "spécifications du comportement (behaviour) de la classe". Cela se traduit par une plus grande attention portée au rôle documentaire de ces spécifications: leur nom doit être parlant et, complété par leur description structurée par le canevas [given-when-then](gwt.html), doit pouvoir servir de documentation technique.
+      Plutôt que parler de "test fonctionnel" on préfèrera "spécifications du comportement du produit"; par ailleurs le volet technique de BDD est complété par un ensemble de techniques favorisant la conversation avec les interlocuteurs responsables de la définition du produit.
+      En supplément des techniques de [refactoring](refactoring.html) utilisées dans TDD, l'approche BDD prête, en matière de conception, une attention particulière à la *répartition des responsabilités* ce qui conduit à favoriser la technique dite de ["mocking"](mocks.html).
+      En synthèse, BDD consiste à augmenter TDD et ATDD d'un certain nombre de principes supplémentaires:
+
+      * appliquer le principe des ["cinq pourquoi"](http://fr.wikipedia.org/wiki/Cinq_pourquoi) à chaque User Story proposée pour en comprendre l'objectif
+      * raisonner "de l'extérieur vers l'intérieur", c'est-à-dire toujours implémenter le comportement qui contribue le plus directement à cet objectif
+      * décrire ces comportements dans des notations accessibles à tous: experts fonctionnels, développeurs, testeurs
+      * appliquer ces techniques jusqu'aux plus bas niveaux de description du logiciel, en étant attentif à la répartition des comportements entre classes
+  -
+    type: syno
+    text: |
+      On parle également de "behaviour driven design" pour des raisons similaires à celles invoquées dans le cas de [TDD](tdd.html).
+      Le terme n'a pas été francisé.
+  -
+    type: abus
+    text: |
+      * bien que son créateur, Dan North, explique avoir conçu BDD pour répondre à des difficultés récurrentes lors de l'enseignement de TDD, il faut bien constater que BDD mobilise un plus grand nombre de concepts que TDD, et il semble difficile d'envisager qu'un programmeur novice soit formé *d'abord* à BDD sans s'être préalablement familiarisé avec TDD
+      * il est parfaitement possible d'appliquer BDD sans outils particuliers, et indifféremment du langage: l'erreur serait d'y voir un sujet purement technique ou de réduire la pratique à l'utilisation d'un outil
+  -
+    type: signes
+    text: |
+      * au sein d'une équipe utilisant BDD, une partie significative de la "documentation fonctionnelle" du produit devrait être disponible sous la forme de User Stories agrémentées de scénarios exécutables
+  -
+    type: benefices
+    text: |
+      Une équipe utilisant déjà TDD ou ATDD peut souhaiter évoluer vers BDD pour les raisons suivantes:
+
+      * BDD propose un cadre plus précis pour le dialogue avec les experts fonctionnels
+      * les notations issues de l'approche BDD (notamment le canevas given-when-then) sont plus proches du langage courant et moins contraignantes comparées à des outils du type Fitnesse
+      * l'approche BDD permet de générer automatiquement une documentation technique à partir des "spécifications"
+  -
+    type: histo
+    text: |
+      * l'ancêtre de BDD est un outil, [agiledox](http://agiledox.sourceforge.net/), qui permet de générer automatiquement une documentation technique à partir de tests unitaires JUnit, réalisé par Chris Stevenson en 2003 
+      * visant à éliminer le mot "test" et à le remplacer par "comportement", Dan North réalise l'outil [JBehave](http://jbehave.org/) et le diffuse à partir de mi-2004
+      * en collaboration [avec Chris Matts](http://abc.truemesh.com/archives/000437.html), North formule le canevas given-when-then pour intégrer l'activité d'analyse à l'approche BDD, qu'il décrit dans un article ["Introducing BDD"](http://blog.dannorth.net/introducing-bdd/) qui paraît en 2006
+      * sont apparus depuis de [nombreux outils](http://en.wikipedia.org/wiki/Behavior_Driven_Development#Tools) confirmant l'engouement pour l'approche BDD, tels RSpec ou, plus récemment, Cucumber ou GivWenZen
+  -
+    type: resources
+    text: |
+      * ["Introducing BDD"](http://blog.dannorth.net/introducing-bdd/), de Dan North (2006)
+      * ["Translating TDD to BDD"](http://lizkeogh.com/2009/11/06/translating-tdd-to-bdd/), de Liz Keogh (2009)
+  -
+    type: pubs
+    text: |
+      Le peu de publications à ce sujet se concentre sur des questions d'implémentation, par exemple [cet article](http://www.citeulike.org/user/Scis0000002/article/7536581).
+---
