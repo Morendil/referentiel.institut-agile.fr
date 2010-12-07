@@ -28,7 +28,7 @@
           * [Développement par les tests](tdd.html)
           * [Intégration Continue](ci.html)
           * [Réunion quotidienne](daily.html)
-          * [Tableau des tâches](daily.html)
+          * [Tableau des tâches](taskboard.html)
           * [BDD](bdd.html)
         %hr
         :markdown
