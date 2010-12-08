@@ -1,0 +1,30 @@
+!!! Strict
+%html
+  %head
+    %title Référentiel des pratiques Agiles
+    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"images/referentiel.css"}
+  %body
+    #header
+      %h1#logo
+        Institut
+        %span.green Agile
+    #header-wrap
+      %img.header-photo{:src=>"images/headerphoto.jpg", :width=>"820", :height=>"120"}
+    #content
+      %h1.firstHeading#firstHeading Référentiel des concepts, pratiques et compétences agiles
+      #bodyContent
+        %h2 Fiches par ordre alphabétique
+        {{#parts}}
+        %h3 {{letter}}
+        %ul
+        {{#values}}
+        {{^full}}
+          %li {{title}}
+        {{/full}}
+        {{#full}}
+          %li
+            %a{:href=>"{{id}}.html"}
+              {{title}}
+        {{/full}}
+  {{/values}}
+{{/parts}}

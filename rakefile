@@ -1,6 +1,6 @@
 require 'rake/clean'
 
-task :default => [:expand,  :webize, :clean]
+task :default => [:generate, :expand,  :webize, :clean]
 
 YML_SRC = FileList['src/*.yml']
 YML_OUT = YML_SRC.ext('.ham')
@@ -9,6 +9,11 @@ HAM_SRC = FileList['src/*.yml', 'src/*.ham']
 HAM_OUT = HAM_SRC.ext('.html')
 CLEAN.include('src/*.html')
 CLEAN.include(YML_SRC.ext('.ham'))
+
+desc "Generate indices"
+task :generate => [] do |t|
+  sh "ruby lib/index.rb > src/index.ham"
+end
 
 desc "Expand YML descriptors into Haml markup"
 task :expand => YML_OUT
