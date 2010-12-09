@@ -8,7 +8,7 @@ YML_OUT = YML_SRC.ext('.ham')
 HAM_SRC = FileList['src/*.yml', 'src/*.ham']
 HAM_OUT = HAM_SRC.ext('.html')
 CLEAN.include('src/*.html')
-CLEAN.include(YML_SRC.ext('.ham'))
+CLEAN.include('src/*.ham')
 
 desc "Generate indices"
 task :generate => [] do |t|
