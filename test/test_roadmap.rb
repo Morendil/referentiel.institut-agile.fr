@@ -6,9 +6,10 @@ require "lib/roadmap"
 class TestRoadmap < Test::Unit::TestCase
  
   def setup
-    @tdd = {:id => :tdd, :title => "Test"}
-    @ci = {:id => :ci, :title => "Cont"}
-    @task = {:id => :task, :title => "Tabl"}
+    @velo = {:id => :velocity, "title" => "Velo"}
+    @tdd = {:id => :tdd, "title" => "Test"}
+    @ci = {:id => :ci, "title" => "Cont"}
+    @task = {:id => :task, "title" => "Tabl"}
   end
 
   def with_test_files
@@ -23,7 +24,7 @@ class TestRoadmap < Test::Unit::TestCase
   end
   
   def mock_roadmap
-    list = [@tdd,@ci,@task]
+    list = [@velo,@tdd,@ci,@task]
     r = Roadmap.new(nil)
     r.instance_eval do
       @list = list
@@ -56,7 +57,7 @@ class TestRoadmap < Test::Unit::TestCase
   end
   
   def test_alphabetical_order
-    by_alpha = [{:letter=>"C",:values=>[@ci]},{:letter=>"T",:values=>[@task,@tdd]}]
+    by_alpha = [{:letter=>"C",:values=>[@ci]},{:letter=>"T",:values=>[@task,@tdd]},{:letter=>"V",:values=>[@velo]}]
     assert_equal by_alpha, mock_roadmap.all_by_alpha
   end
 

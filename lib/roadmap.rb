@@ -33,7 +33,8 @@ class Roadmap
     grouped = sorted.inject({}) do
       |h,v| k = alpha(v); a=h[k] || []; h.merge({ k => a << v })
     end
-    return grouped.keys.map {|k| {:letter=>k,:values=>grouped[k]} }
+    restruct = grouped.keys.map {|k| {:letter=>k,:values=>grouped[k]} }
+    return restruct.sort_by{|v|v[:letter]}
   end
 
 end
