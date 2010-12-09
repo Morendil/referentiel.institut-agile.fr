@@ -7,5 +7,6 @@ sections:
     type: desc
     text: |
       Le développement incrémental consiste à réaliser successivement des éléments fonctionnels utilisables, plutôt que des composants techniques.
+      Un découpage en incréments est dit "vertical", en référence à l'imagerie habituelle qui présente les composants techniques d'une architecture logicielle comme les couches empilées d'un gâteau. ([Cet article](http://agilefromthegroundup.blogspot.com/2009/12/agile-software-construction-is-like.html) en est une illustration typique.) Un incrément est une fonctionnalité complète, métaphoriquement une tranche verticale du gâteau.
       Une approche incrémentale implique nécessairement d'adopter également, au moins dans une certaine mesure, une approche [itérative](iterative.html), mais les deux concepts ne sont pas identiques.
 ---
