@@ -1,0 +1,154 @@
+!!! Strict
+%html
+  %head
+    %title Référentiel des pratiques Agiles
+    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"images/referentiel.css"}
+  %body
+    #header
+      %h1#logo
+        Institut
+        %span.green Agile
+    #header-wrap
+      %img.header-photo{:src=>"images/headerphoto.jpg", :width=>"820", :height=>"120"}
+    #content
+      %h1.firstHeading#firstHeading Référentiel des concepts, pratiques et compétences agiles
+      #bodyContent
+        %h2 Fiches par ordre alphabétique
+        %h3 B
+        %ul
+          %li
+            %a{:href=>"bdd.html"}
+              BDD (Behaviour-Driven Development)
+          %li
+            %a{:href=>"backlog.html"}
+              Backlog
+          %li
+            %a{:href=>"timebox.html"}
+              Boîte de temps
+          %li Build automatisé
+        %h3 C
+        %ul
+          %li
+            %a{:href=>"3C.html"}
+              Carton, Conversation, Confirmation
+          %li Charte projet
+          %li
+            %a{:href=>"yagni.html"}
+              Conception Simple
+          %li Conception au tableau blanc
+          %li
+            %a{:href=>"simplicite.html"}
+              Critères de Simplicité
+        %h3 D
+        %ul
+          %li Définition de &quot;prêt&quot;
+          %li
+            %a{:href=>"sashimi.html"}
+              Définition de 'fini'
+          %li Déploiement continu
+          %li Déploiement continu
+          %li
+            %a{:href=>"incremental.html"}
+              Développement Incrémental
+          %li
+            %a{:href=>"iterative.html"}
+              Développement Itératif
+          %li
+            %a{:href=>"tdd.html"}
+              Développement par les tests
+          %li Développement par les tests client
+        %h3 E
+        %ul
+          %li Entretien du backlog
+          %li Equipe
+          %li Equipe dédiée intégrée
+          %li Estimation relative
+        %h3 F
+        %ul
+          %li
+            %a{:href=>"facilitation.html"}
+              Facilitation
+        %h3 G
+        %ul
+          %li
+            %a{:href=>"versioncontrol.html"}
+              Gestion de versions
+          %li
+            %a{:href=>"gwt.html"}
+              Given - When - Then
+          %li Graphe burn-down
+          %li
+            %a{:href=>"invest.html"}
+              Grille INVEST
+        %h3 I
+        %ul
+          %li
+            %a{:href=>"ci.html"}
+              Intégration Continue
+          %li
+            %a{:href=>"iteration.html"}
+              Itération
+        %h3 L
+        %ul
+          %li Langage omniprésent (ubiquitous language)
+          %li Livraisons fréquentes
+        %h3 M
+        %ul
+          %li Modèle de Kano
+        %h3 N
+        %ul
+          %li
+            %a{:href=>"nikoniko.html"}
+              Niko-niko
+        %h3 P
+        %ul
+          %li Personas
+          %li Planning poker
+          %li
+            %a{:href=>"binomage.html"}
+              Programmation en binômes
+        %h3 R
+        %ul
+          %li Radiateurs d'information
+          %li
+            %a{:href=>"refactoring.html"}
+              Refactoring
+          %li Responsabilité collective du code
+          %li
+            %a{:href=>"rolefeature.html"}
+              Role - Fonctionnalité - Bénéfice
+          %li Rythme soutenable
+          %li Rétrospective jalon
+          %li
+            %a{:href=>"heartbeatretro.html"}
+              Rétrospectives d'Itération
+          %li
+            %a{:href=>"daily.html"}
+              Réunion Quotidienne
+        %h3 S
+        %ul
+          %li Salle dédiée
+          %li Story mapping
+        %h3 T
+        %ul
+          %li
+            %a{:href=>"taskboard.html"}
+              Tableau des Tâches
+          %li Tableau kanban
+          %li Temps de latence
+          %li Test d'utilisabilité
+          %li Test exploratoire
+          %li Tests fonctionnels automatisés
+          %li Tests unitaires automatisés
+          %li
+            %a{:href=>"troisquestions.html"}
+              Trois Questions
+          %li Tâches choisies
+        %h3 U
+        %ul
+          %li
+            %a{:href=>"stories.html"}
+              User Stories
+        %h3 V
+        %ul
+          %li Vélocité
