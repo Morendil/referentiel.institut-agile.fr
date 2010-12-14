@@ -21,20 +21,31 @@ class Roadmap
   end
 
   def all
-    return list_files.map {|f|interpret(f)}
+    @all || (@all = fetch.sort_by {|v|v["title"] || ""})
+  end
+
+  def fetch
+    list_files.map{|f|interpret(f)}
   end
 
   def alpha value
-    value["title"][0..0].upcase || ""
+    value["title"][0..0].upcase 
   end
 
   def all_by_alpha
-    sorted = all.sort_by{|v|v["title"]}
-    grouped = sorted.inject({}) do
-      |h,v| k = alpha(v); a=h[k] || []; h.merge({ k => a << v })
+    return all_by {|v| alpha(v)}
+  end
+  
+  def all_by_type
+    return all_by {|v| v["type"]}
+  end
+
+  def all_by 
+    grouped = all.inject({}) do
+      |h,v| k = yield(v); a=h[k] || []; h.merge({ k => a << v })
     end
-    restruct = grouped.keys.map {|k| {:letter=>k,:values=>grouped[k]} }
-    return restruct.sort_by{|v|v[:letter]}
+    restruct = grouped.keys.map {|k| {:group=>k,:values=>grouped[k]} }
+    return restruct.sort_by{|v|v[:group]}
   end
 
 end

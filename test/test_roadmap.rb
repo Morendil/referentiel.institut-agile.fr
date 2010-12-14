@@ -6,10 +6,10 @@ require "lib/roadmap"
 class TestRoadmap < Test::Unit::TestCase
  
   def setup
-    @velo = {:id => :velocity, "title" => "Velo"}
-    @tdd = {:id => :tdd, "title" => "Test"}
-    @ci = {:id => :ci, "title" => "Cont"}
-    @task = {:id => :task, "title" => "Tabl"}
+    @velo = {:id => :velocity, "title" => "Velo", "type" => "Pra"}
+    @tdd = {:id => :tdd, "title" => "Test", "type" => "Comp"}
+    @ci = {:id => :ci, "title" => "Cont", "type" => "Conc"}
+    @task = {:id => :task, "title" => "Tabl", "type" => "Comp"}
   end
 
   def with_test_files
@@ -24,11 +24,11 @@ class TestRoadmap < Test::Unit::TestCase
   end
   
   def mock_roadmap
-    list = [@velo,@tdd,@ci,@task]
+    list = [@velo,@tdd,@task,@ci]
     r = Roadmap.new(nil)
     r.instance_eval do
       @list = list
-      def self.all
+      def self.fetch
         return @list
       end
     end
@@ -55,10 +55,19 @@ class TestRoadmap < Test::Unit::TestCase
       assert_equal all, Roadmap.new("tmp").all
     end
   end
+
+  def test_default_sort
+    assert_equal [@ci,@task,@tdd,@velo], mock_roadmap.all
+  end
   
   def test_alphabetical_order
-    by_alpha = [{:letter=>"C",:values=>[@ci]},{:letter=>"T",:values=>[@task,@tdd]},{:letter=>"V",:values=>[@velo]}]
+    by_alpha = [{:group=>"C",:values=>[@ci]},{:group=>"T",:values=>[@task,@tdd]},{:group=>"V",:values=>[@velo]}]
     assert_equal by_alpha, mock_roadmap.all_by_alpha
+  end
+
+  def test_type_order
+    by_type = [{:group=>"Comp",:values=>[@task,@tdd]},{:group=>"Conc",:values=>[@ci]},{:group=>"Pra",:values=>[@velo]}]
+    assert_equal by_type, mock_roadmap.all_by_type
   end
 
 end
