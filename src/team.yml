@@ -1,4 +1,17 @@
 ---
 title: Equipe
 type: Concept
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Une "équipe" au sens Agile est un petit groupe de personnes affectées à un seul projet, pour la plupart à temps plein (un membre d'une équipe peut avoir par ailleurs des responsabilités opérationnelles, c'est-à-dire qui ne constituent pas un "projet" à proprement parler).
+      La notion d'équipe implique le partage des responsabilités: bon ou mauvais, le résultat obtenu est le fait de l'équipe plutôt que de tel ou tel individu.
+  -
+    type: abus
+    text: |
+      * l'erreur la plus élémentaire est de penser qu'il suffit de réunir un groupe de personnes pour constituer une équipe
+      * une équipe est constituée d'au minimum 3 personnes (à deux, on forme un binôme), et dépasse rarement une dizaine
+      * une même personne peut intervenir sur plusieurs *projets* pendant une même période, mais ne fait généralement pas partie de plus d'une *équipe* à la fois
 ---

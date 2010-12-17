@@ -1,4 +1,22 @@
 ---
 title: Définition de "prêt"
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Par analogie à la "[définition de 'fini'](sashimi.html)", l'équipe explicite et rend visible les critères (généralement une déclinaison de la grille [INVEST](invest.html)) faute desquels une fonctionnalité ne saurait faire l'objet d'un travail au cours de l'itération qui commence.
+  -
+    type: syno
+    text: |
+      Traduction directe de "definition of ready".
+  -
+    type: benefices
+    text: |
+      * évite de commencer à travailler alors que les critères de satisfaction ne sont pas clairs, ce qui risquerait d'entraîner de coûteux allers-retours avant de se mettre d'accord
+  -
+    type: histo
+    text: | 
+      * appellation très récente, formulée par Jeff Sutherland en 2008
 ---

@@ -1,0 +1,20 @@
+---
+title: Scrum de Scrums 
+type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Approche utilisée lorsqu'un projet mobilise plus d'une dizaine de personnes, pour "monter en échelle".
+      On divise le groupe en petites équipes (de 4 à 9), chacune utilisant Scrum de façon habituelle. A l'issue de chaque [réunion quotidienne](daily.html), un membre de chaque équipe est désigné comme "ambassadeur" pour participer à une meta-réunion, formant ainsi une équipe "virtuelle" dont la mission est de résoudre les difficultés posées par la coordination inter-équipes: création d'interfaces, d'accords de fonctionnement..
+      Ce "Scrum de Scrums" dispose de son propre [backlog](backlog.html) qui regroupe toutes les tâches identifiées qui contribuent à une meilleure coordination entre les équipes opérationnelles.
+  -
+    type: syno
+    text: |
+      Traduction directe de l'anglais "Scrum of Scrums", on parle aussi de "meta Scrum".
+  -
+    type: histo
+    text: |
+      * Décrite pour la première fois dans l'article *[Cross-continent development using scrum and XP](http://portal.acm.org/citation.cfm?id=1763899)* de Bent Jensen (2003)
+---
