@@ -1,4 +1,31 @@
 ---
 title: Tests unitaires automatisés
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Un test unitaire, au sens Agile, est un court programme, écrit et maintenu par les développeurs, servant à vérifier de manière très étroite le bon fonctionnement d'une partie restreinte du programme principal.
+      Son résultat est binaire: il "passe" si le comportement du programme est celui attendu et "échoue" dans le cas contraire. Une convention héritée de l'outil [JUnit](http://junit.org/) et de ses nombreux dérivés veut qu'on représente par une "barre rouge" l'échec d'un ou plusieurs tests; une "barre verte" symbolise l'exécution avec succès de la **totalité** des tests unitaires associés à un produit.
+  -
+    type: syno
+    text: |
+      On parle également de "tests développeur" (par opposition à "tests client") pour insister sur la fonction qui en est responsable, plutôt que sur le niveau d'abstraction technique.
+  -
+    type: abus
+    text: |
+      La terminologie entourant les différents types de test prête à confusion. En effet, la mouvance Agile a repris à son compte des termes tels que "tests unitaires" déjà utilisés auparavant en leur donnant un sens différent (dans un environnement Agile ce terme ne saurait désigner que des tests automatisés, par exemple).
+      Il est également important de différencier la simple utilisation de tests unitaires automatisés, réalisés par des programmeurs, de la pratique plus contraignante qu'est le [développement par les tests](tdd.html).
+  -
+    type: histo
+    text: |
+      * plusieurs articles du même auteur, David J. Panzl, attestent de l'invention [d'outils très proches de JUnit](http://portal.acm.org/citation.cfm?id=807721) dès 1976
+      * l'émergence des outils du type "enregistrer et rejouer" a sans doute contribué à marginaliser les tests unitaires plus proches du code, de la fin des années 80 jusqu'au milieu des années 90
+      * la tendance s'inversera grâce à la popularité du [développement par les tests](tdd.html) et de l'outil JUnit dans la fin des années 90
+      * la pratique est intégrée dans Extreme Programming dès ses débuts sous la forme du [développement par les tests](tdd.html) (1996)
+  -
+    type: benefices
+    text: |
+      * une équipe utilisant des tests unitaires automatisés récoltera une partie des bénéfices attribués au [développement par les tests](tdd.html): réduction du nombre de défauts, principalement
 ---
