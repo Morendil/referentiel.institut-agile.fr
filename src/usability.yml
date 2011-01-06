@@ -1,4 +1,17 @@
 ---
 title: Test d'utilisabilité
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Le test d'utilisabilité est une technique empirique et exploratoire permettant de répondre à la question "comment un utilisateur appréhendra notre produit dans les conditions réelles d'utilisation ?".
+      On place un utilisateur final devant le produit, en lui fixant une tâche typique de celles que le produit permet de réaliser (par exemple "utilisez notre site de banque en ligne pour régler par virement votre facture de téléphone").
+      Les développeurs et/ou ergonomes observent l'utilisateur *sans intervenir* et enregistrent (soit informellement en prenant des notes, soit de façon plus complète par des moyens tels que la vidéo, la capture d'écran ou l'eye-tracking) les difficultés éventuelles rencontrées par l'utilisateur, afin d'améliorer la prise en main du produit dans des versions ultérieures.
+  -
+    type: histo
+    text: |
+      * l'invention de cette technique est attribué aux ingénieurs du célèbre Xerox PARC à Palo Alto en 1981
+      * l'assimilation progressive (et encore balbutiante) de cette pratique est représentative de l'ouverture récente de la communauté Agile aux techniques issues des disciplines "orientées utilisateurs" que sont l'ergonomie ou l'Interaction Design (à partir de 2008)
 ---
