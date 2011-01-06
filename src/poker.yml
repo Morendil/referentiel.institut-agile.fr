@@ -1,4 +1,31 @@
 ---
 title: Planning poker
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Une méthode ludique d'estimation, utilisées par de nombreuses équipes Agiles.
+      L'équipe se réunit avec son client ou Product Owner. Autour de la table, chacun dispose d'un jeu de cartes représentant des valeurs typiques pour l'estimation en [points](nuts.html) d'une [user story](stories.html).
+      Le client présente rapidement l'objectif d'une story. Chacun choisit ensuite une estimation, en silence, et prépare la carte correspondante face cachée. Lorsque tout le monde est prêt, on retourne les cartes simultanément et on donne lecture des estimations.
+      Les membres de l'équipe ayant donné les estimations la plus basse et la plus haute sont invités à expliquer leur raisonnement; après une brève discussion, on cherche à émettre une estimation faisant consensus, éventuellement en répétant le jeu.
+  -
+    type: abus
+    text: |
+      Un danger potentiel du Planning Poker réside dans l'obligation de "converger" vers une estimation produisant un consensus. En procédant de la sorte, on risque d'ignorer une information importante, à savoir *le degré d'incertitude* que représentait une divergence importante entre les estimations initiales.
+  -
+    type: histo
+    text: |
+      * proposée par James Grenning dans [un article](http://renaissancesoftware.net/papers/14-papers/44-planing-poker.html) paru en 2002
+      * rendue populaire notamment dans la communauté Scrum, et comme nombre d'autres techniques liées à la planification, par le livre de Mike Cohn [*Agile Estimating and Planning](http://www.amazon.com/dp/0131479415) paru en 2005
+  -
+    type: benefices
+    text: |
+      * le format de la réunion permet d'exploiter la connaissance de tous les membres de l'équipe, alors que dans une réunion "à bâtons rompus" il arrive souvent que certaines personnes ne s'expriment jamais
+      * la discussion qui a lieu suite à la révélation des estimations initiales permet de mettre en commun des connaissances sur la user story en question et les difficultés potentielles de son estimation
+  -
+    type: pubs
+    text: |
+      Plusieurs études initiales menées par [Nils Christian Haugen](http://simula.no/people/nch/bibliography) semblent confirmer l'intérêt de la pratique, qui produirait des estimations légèrement plus fiables que l'estimation par un seul "expert".
 ---
