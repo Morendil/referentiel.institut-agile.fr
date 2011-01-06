@@ -1,4 +1,52 @@
 ---
 title: Tests fonctionnels automatisés
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Un test fonctionnel, au sens Agile, est une description formelle du comportement d'un produit, généralement exprimée sous la forme d'un exemple ou d'un scénario.
+      Des formalismes très divers existent pour l'expression de ces exemples ou scénarios, mais on cherche le plus souvent à ce qu'il soit possible d'en automatiser le déroulement à l'aide d'un outil (interne à l'équipe de développement, ou disponible "sur étagère").
+      Comme pour un [test unitaire](unittest.html) son résultat est binaire, un "échec" (comportement différend de celui attendu) laissant présumer la présence d'un bug.
+      De tels tests tiennent lieu, pour une équipe Agile, de cahier des charges principal: il arrive qu'ils complètent et précisent un cahier des charges rédigé selon une technique non spécifiquement Agile ("use cases", ou encore document narratif); et dans certains cas qu'ils constituent l'unique expression formelle des exigences.
+  -
+    type: syno
+    text: |
+      On parle également de "tests de recette", plus rarement de "tests client" (par opposition à "tests développeur"). La traduction littérale "tests d'acceptation" est aussi utilisée (de l'anglais "acceptance test").
+  -
+    type: abus
+    text: |
+      * un travers courant consiste à exprimer les tests fonctionnels dans un formalisme trop proche de l'implémentation, ce qui les rend inintelligibles par les clients, utilisateurs ou experts métiers qui en sont l'audience privilégiée; on rencontre souvent ce défaut lorsque ce sont les développeurs qui prennent l'initiative de mettre en place cette pratique, il est donc **impératif de faire participer client, utilisateur ou expert métier** à cette activité
+      * une autre conséquence de ce type de dérive est de rendre les tests fonctionnels "fragiles", c'est à dire qu'ils échouent suite à des modifications de comportement qui sont sans rapport avec la fonctionnalité testée (par exemple la modification de l'étiquette d'un champ de texte)
+  -
+    type: histo
+    text: |
+      * la pratique est intégrée dans Extreme Programming dès ses débuts, mais sans être liée à un outil ou un formalisme particulier; sa description recouvre sous une même étiquette tests unitaires et de recette (1996)
+      * Ward Cunningham, l'un des créateurs d'Extreme Programming, publie l'outil Fit pour formaliser les tests de recette (2002)
+      * l'adoption de Fit reste marginale pendant quelque temps, mais explose lorsque Bob Martin fusionne Fit avec une autre création de Cunningham, le Wiki, donnant naissance à FitNesse (2003)
+      * pendant quelque temps, le duo Fit/FitNesse éclipse les autres outils et s'impose en modèle pour la mise en oeuvre de tests fonctionnels Agiles
+      * plus récemment de [nouveaux outils liés à l'approche BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development#Tools) ont contribué à réouvrir le débat
+  -
+    type: benefices
+    text: |
+      L'utilisation de tests fonctionnels automatisés apporte plusieurs bénéfices, complémentaires de ceux liés aux [tests unitaires](unittest.html):
+
+      * ils encouragent à une collaboration étroite entre les développeurs d'une part et les clients, utilisateurs ou experts métier d'autre part, puisqu'ils imposent de préciser suffisamment les exigences pour être en mesure de les exprimer dans un formalisme exécutable
+      * ils fournissent par la même occasion un "contrat" clair et précis pour l'acceptation par le client du travail fourni par les développeurs; si le produit passe les tests fonctionnels, il est considéré adéquat (mais les clients ou utilisateurs ont la possibilité d'affiner les tests ou d'en proposer de nouveaux si nécessaire)
+      * ils contribuent également à limiter le nombre de défauts et notamment de régressions (défauts apparus sur des fonctionnalités précédemment validées)
+  -
+    type: cost
+    text: |
+      Les tests fonctionnels, contrairement aux tests unitaires, font l'objet d'une controverse au sein de la communauté Agile, certains experts tels que Jim Shore ou Brian Marick jugeant que les bénéfices obtenus ne justifiaient pas les coûts à consentir:
+
+      * beaucoup d'équipes Agiles constatent que l'écriture de tests fonctionnels automatisé représente un effort important
+      * pour des raisons liées aux erreurs de mise en oeuvre évoquées ci-dessus, la maintenance de ces tests peut également s'avérer contraignante et coûteuse
+      * la première génération d'outils, inspirée de Fit/Fitnesse, a souvent conduit à des tests fonctionnels qui n'étaient pas acceptés comme intelligibles par les clients, utilisateurs ou experts métier
+
+      Cependant, les évolutions récentes notamment celles dûes au [BDD](bdd.html) peuvent être de nature à améliorer ce rapport coût-bénéfice.
+  -
+    type: pubs
+    text: |
+        * [Automated Acceptance Testing: A Literature Review and an Industrial Case Study](http://www.computer.org/portal/web/csdl/doi/10.1109/Agile.2008.82), passe en revue les articles sur le sujet et rapporte une étude de cas globalement positive
 ---
