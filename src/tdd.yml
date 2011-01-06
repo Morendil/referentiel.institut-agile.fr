@@ -80,6 +80,7 @@ sections:
       * de façon informelle, de nombreux retours d'expérience d'équipes utilisant TDD font état d'une réduction très significative du nombre de défauts, en contrepartie d'un surcoût modéré du développement *initial*
       * ces mêmes retours suggèrent que ce surcoût est compensé par l'élimination d'une partie importante de l'effort de mise au point en fin de projet
       * en imposant l'écriture du test avant celle du code, cette pratique annule le "biais de confirmation" qui est la justification avancée par Myers pour affirmer qu'un développeur "ne doit jamais tester son propre code"
+      * bien que les travaux scientifiques à ce sujet restent circonspects, de nombreux vétérans de cette pratique y voient un facteur d'amélioration de la conception objet de leur code, et plus généralement de la qualité technique: on entend ainsi que la pratique du TDD a pour résultat du code possédant une meilleure cohésion et un plus faible couplage
   -
     type: resources
     text: |
