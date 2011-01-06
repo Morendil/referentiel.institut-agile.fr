@@ -1,4 +1,16 @@
 ---
 title: Tâches choisies
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Au sein d'une équipe Agile, il est rare qu'un responsable attribue des tâches de développement aux différents membres de l'équipe. Le plus souvent l'affectation des tâches est basée sur le volontariat et la discussion.
+      En règle générale ce choix des tâches s'effectue devant le [tableau des tâches](taskboard.html) au cours de la [réunion quotidienne](daily.html). Il est souvent matérialisé par une annotation sur le [Post-It](3C.html) représentant la tâche concernée. Certaines équipes utilisent des photos (format identités) ou de plus petits Post-It qui sont collées de façon amovible à celui représentant la tâche qu'ils ont choisi de réaliser.
+  -
+    type: abus
+    text: |
+      Bien que rarement identifiée comme une pratique à part entière, l'attribution des tâches sur la base du volontariat semble être un élément important, sinon essentiel, constitutif d'une approche Agile.
+      Certaines équipes "en transition" vers l'Agilité peuvent conserver quelque temps un rôle de "chef de projet" dont l'une des prérogatives est traditionnellement la distribution des tâches au membres de l'équipe. Ce modèle est cependant largement considéré comme incompatible sur le long terme avec les autres pratiques Agiles.
 ---
