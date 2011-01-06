@@ -1,4 +1,19 @@
 ---
 title: Rythme soutenable
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      L'équipe vise un rythme de travail tel qu'il pourrait être soutenu indéfiniment.
+      Ceci implique en général de refuser ce qui est parfois considéré comme un "mal nécessaire": heures supplémentaires, travail le week-end.
+  -
+    type: syno
+    text: |
+      Le terme anglais originel était "40 hour week" soit "semaine de 40 heures". On lui a préféré "sustainable pace", terme plus général.
+  -
+    type: benefices
+    text: |
+      L'approche Agile considère que le recours autre qu'exceptionnel à des mesures telles que les heures supplémentaires est rarement productif, et contribue en fait à *masquer* des défauts de planification, de management ou de qualité interne. Il est préférable de mettre au jour ces défauts et d'en traiter la cause profonde plutôt que de leur appliquer un traitement symptômatique.
 ---
