@@ -1,0 +1,22 @@
+---
+title: Points (estimation en)
+type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      La plupart des équipes Agiles préfèrent émettre des estimations dans une unité autre que les classiques hommes-jours.
+      L'une des principales raisons en est que l'usage de la [vélocité](velocity.html) pour la planification permet de s'affranchir de toute unité: quelle que soit l'unité utilisée, on peut calculer la durée prévisible du projet en termes du nombre d'itérations, chaque itération produisant une certaine quantité de fonctionnalités.
+      Une raison plus socio-psychologique tient au fait que l'estimation dans une unité arbitraire tels que les "points" fait peser sur les développeurs une moindre pression.
+  -
+    type: abus
+    text: |
+      La principale erreur consiste à investir trop de temps ou d'énergie dans le débat sur l'unité d'estimation, dans la mesure où la planification basée sur la [vélocité](velocity.html) rend ce choix largement sans conséquence.
+  -
+    type: syno
+    text: |
+      L'expression anglophone consacrée est "story points".
+      Plusieurs synonymes existent exprimant avec plus ou moins de fantaisie l'intention de se démarquer des estimations "réalistes" en hommes-jours: l'un des plus courants est "NUTS", acronyme anglophone pour "Nebulous Units Of Time".
+      On peut également croiser des "cahouettes" (francisation de "nuts"), des "nounours" (francisation de "gummi bears", c'est à dire des bonbons en forme d'ourson), etc.
+---
