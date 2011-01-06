@@ -11,7 +11,11 @@ class Roadmap
   end
 
   def parse(filename)
-    return File.open(filename) {|f| YAML::load(f)} || {}
+    begin
+      return File.open(filename) {|f| YAML::load(f)} || {}
+    rescue
+      puts "YAML error in "+filename+" "+$!
+    end
   end
 
   def interpret(filename)
