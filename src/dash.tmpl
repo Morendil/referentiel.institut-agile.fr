@@ -19,20 +19,11 @@
             %a(href="index_alpha.html") ordre alphabétique
           %li
             %a(href="index_type.html") type
-          %li
-            %a(href="dash.html") état d'avancement
-        %h2 Fiches par {{order}}
+        %h2 Etat d'avancement
+        %table{:width => "40%", :border => "double"}
         {{#parts}}
-        %h3 {{group}}
-        %ul
-        {{#values}}
-        {{^full}}
-          %li {{title}}
-        {{/full}}
-        {{#full}}
-          %li
-            %a{:href=>"{{id}}.html"}
-              {{title}}
-        {{/full}}
-  {{/values}}
-{{/parts}}
+          %tr
+            %td {{group}}
+            %td {{full}}/{{total}}
+            %td{:align=>"right"} {{pct}}%
+        {{/parts}}
