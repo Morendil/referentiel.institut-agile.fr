@@ -13,6 +13,10 @@ sections:
     text: |
       * le critère de cloisonnement est important: un "open space" ou bureau paysager **n'est pas** une mise en oeuvre adéquate de cette pratique; le bruit occasioné par des personnes étrangères au projet constitue une distraction néfaste à la concentration requise pour un projet de développement
   -
+    type: benefices
+    text: |
+      * une salle dédiée favorise ce que Alistair Cockburn nomme la "[communication osmotique](http://alistair.cockburn.us/Osmotic+communication)": la diffusion d'information (jusqu'à l'équilibre) entre ceux qui en disposent et ceux qui en ont besoin; au lieu de dépendre de mécanismes *explicites* de communication (téléphone, email, réunion) cette diffusion se fait de façon "ambiante", par exemple en entendant (sans les écouter activement) les conversations des autres membres de l'équipe, ou en lisant des Post-It affichés au mur
+  -
     type: pubs
     text: |
       Les conditions "environnementales" favorisant la performance des développeurs ont fait l'objet d'un certain nombre d'études. Bien qu'il soit généralement difficile d'établir de façon fiable quoi que ce soit qui ait trait à la productivité, en raison du caractère flou et ambigu de la notion même de "productivité" pour un programmeur, il semble en ressortir que les deux "extrêmes" que sont le bureau individuel **ou** le local dédié soient les plus favorables.
