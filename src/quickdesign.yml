@@ -1,4 +1,24 @@
 ---
 title: Conception au tableau blanc
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Afin de prendre les décisions de conception "juste à temps", les développeurs au sein de l'équipe guettent certains moments critiques où un choix se pose parmi plusieurs alternatives qui peut avoir une influence durable sur la suite du projet.
+      Lorsqu'un choix de ce type est identifé, une réunion impromptue autour d'un tableau blanc ou d'une session de [cartes CRC](crc.html) s'organise, mobilisant une partie de l'équipe (généralement deux ou trois développeurs). Deux facteurs d'efficacité de ce type de session sont à noter:
+
+        * on envisage *plusieurs alternatives*, idéalement un minimum de trois; le choix définitif se fait parmi des alternatives acceptables sur la base de critères telles que simplicité ou cohérence avec l'existant;
+        * on éprouves chacune des alternatives proposées en considérant un scénario concret; par exemple en imaginant comment le [test de recette](acceptance.html) associé à une [user story](stories.html) serait traité dans une conception donnée
+  -
+    type: syno
+    text: |
+      En anglais le terme consacré, provenant de Ron Jeffries dans sa description d'Extreme Programming, est "quick design session".
+  -
+    type: benefices
+    text: |
+      Dans une approche Agile l'activité de conception est réputée être "lissée" tout au long du projet, plutôt que concentrée dans une phase explicite de conception en amont de l'implémentation.
+      Cependant, il n'est pas suffisant de supprimer cette phase explicite de conception pour *s'assurer* que les activités de conception, qui restent nécessaires,  sont menées de façon satisfaisante.
+      Les sessions de conception au tableau blanc sont l'une des deux pratiques Agiles qui jouent ce rôle, l'autre étant le [refactoring](refactoring.html).
 ---
