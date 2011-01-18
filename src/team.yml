@@ -8,10 +8,19 @@ sections:
     text: |
       Une "équipe" au sens Agile est un petit groupe de personnes affectées à un seul projet, pour la plupart à temps plein (un membre d'une équipe peut avoir par ailleurs des responsabilités opérationnelles, c'est-à-dire qui ne constituent pas un "projet" à proprement parler).
       La notion d'équipe implique le partage des responsabilités: bon ou mauvais, le résultat obtenu est le fait de l'équipe plutôt que de tel ou tel individu.
+      L'équipe réunit l'ensemble des compétences nécessaires: fonctionnelles et techniques. L'accent est mis sur les résultats à obtenir plus que sur les rôles et responsabilités de chacun: un développeur peut tester, analyser ou découvrir des exigences, même si celles-ci restent soumises à la validation du client; un testeur peut développer si nécessaire, etc.
+  -
+    type: syno
+    text: |
+      En anglais "Whole Team" ou "One Team".
   -
     type: abus
     text: |
       * l'erreur la plus élémentaire est de penser qu'il suffit de réunir un groupe de personnes pour constituer une équipe
       * une équipe est constituée d'au minimum 3 personnes (à deux, on forme un binôme), et dépasse rarement une dizaine
       * une même personne peut intervenir sur plusieurs *projets* pendant une même période, mais ne fait généralement pas partie de plus d'une *équipe* à la fois
+  -
+    type: histo
+    text: |
+      Kent Beck propose l'expression "Whole Team" fin 2004 pendant la rédaction de la deuxième édition de son livre "Extreme Programming Explained", en remplacement de sa précédente idée du "Client sur site", jugée trop restrictive.
 ---
