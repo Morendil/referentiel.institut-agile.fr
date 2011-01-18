@@ -1,4 +1,30 @@
 ---
 title: Entretien du backlog
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Le responsable client et tout ou partie de l'équipe se réunissent régulièrement pour un "toilettage" du [backlog](backlog.html), à l'occasion duquel on peut:
+
+      * identifier des [user stories](stories.html) qui n'auraient plus de sens
+      * créer de nouvelles stories si des besoins nouveaux ont été signalés
+      * réévaluer la priorité des stories entre elles
+      * attribuer des estimations à des stories qui n'en ont pas encore
+      * corriger des estimations en fonction de nouvelles informations
+      * [découper](split.html) des user stories prioritaires mais encore trop lourdes pour être planifiées dans une prochaine itération.
+  -
+    type: syno
+    text: |
+      En anglais "backlog grooming", littérallement "toilettage" ou "épouillage" du backlog.
+  -
+    type: benefices
+    text: |
+      L'intérêt de cette réunion est de s'assurer de la pertinence du backlog. Contrairement à un cahier des charges celui-ci est un "document" par nature évolutif: il n'est pas nécessaire par exemple que toutes les user stories aient été finement découpées et estimées en début de projet, par contre il est important *qu'à tout moment* une quantité suffisante de stories soient finement découpées et estimées.
+      Il arrive fréquemment qu'un backlog "enfle" excessivement au cours d'un projet, se chargeant de fonctionnalités qui ne sont pas vraiment prioritaires mais qu'on a considéré comme potentiellement de bonnes idées à ne pas oublier: en l'absence d'une effort dans le sens inverse, cette inflation peut s'avérer néfaste au respect du calendrier de livraison souhaité.
+  -
+    type: histo
+    text: |
+      On doit apparemment l'expression "backlog grooming" à Mike Cohn et elle remonte au moins à 2005.
 ---
