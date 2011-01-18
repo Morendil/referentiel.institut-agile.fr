@@ -14,6 +14,7 @@ sections:
     type: syno
     text: |
       On parle également de "tests de recette", plus rarement de "tests client" (par opposition à "tests développeur"). La traduction littérale "tests d'acceptation" est aussi utilisée (de l'anglais "acceptance test").
+      Le terme anglais "Storytest" (le plus souvent en un seul mot) est parfois utilisé, dans l'expression "storytest driven development" par exemple.
   -
     type: abus
     text: |
