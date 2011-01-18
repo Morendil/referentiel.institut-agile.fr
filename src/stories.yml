@@ -48,7 +48,7 @@ sections:
         * je connais différentes matrices d'expression des User Stories et suis capable d'utiliser la plus appropriée
         * je suis capable de formaliser les critères de satisfaction d'une User Story sous une forme susceptible d'être transformée en test de recette
         * je connais ou puis identifier les différentes populations d'utilisateurs et m'y référer dans les User Stories
-        * je suis capable d'évaluer une User Story selon la grilles INVEST ou un équivalent, et reformuler une User Story sans produire un résultat dégradé
+        * je suis capable d'évaluer une User Story selon la grilles INVEST ou un équivalent, et reformuler ou [découper](split.html) une User Story sans produire un résultat dégradé
       * Avancé
         * je suis capable d'interpréter des exigences considérées comme "non fonctionnelles" sous la forme d'une User Story: persistance, performance, portabilité...
         * je suis capable de rattacher des User Stories à des descriptions de plus haut niveau du projet: "charte projet", etc. - et de justifier pour chaque User Story sa pertinence et sa valeur
