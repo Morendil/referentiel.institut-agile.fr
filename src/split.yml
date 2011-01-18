@@ -1,0 +1,11 @@
+---
+title: Découpage d'une user story
+type: Concept
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      On considère en général que l'estimation associée à une [user story](stories.html) doit être [suffisamment petite](invest.html) pour qu'il soit envisageable de réaliser cette story en une seule itération.
+      Lorsque ce n'est pas le cas, il est nécessaire de découper une story en plusieurs, plus petites mais de telle sorte que chacune garde un réel intérêt pour le responsable produit ou l'utilisateur final.
+---
