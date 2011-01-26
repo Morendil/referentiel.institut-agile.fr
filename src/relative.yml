@@ -16,7 +16,7 @@ sections:
   -
     type: histo
     text: |
-      * le nom "Affinity Estimating" semble dû à Kane Mar qui [met au point cette technique](http://kanemar.com/2008/04/21/scrum-trainers-gathering-44-affinity-estimating/) lors d'un Scrum Gathering en 2008
+      * le nom "Affinity Estimating" semble dû à Lowell Lindstrom qui [met au point cette technique](http://kanemar.com/2008/04/21/scrum-trainers-gathering-44-affinity-estimating/) lors d'un Scrum Gathering en 2008
       * l'idée d'estimation en "tailles tee-shirt" remonte au moins à 2005
   -
     type: benefices
