@@ -1,0 +1,18 @@
+---
+title: Estimation
+type: Concept
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Une "estimation" au sens usuel en développement logiciel consiste à évaluer l'effort nécessaire à la réalisation d'une tâche de développement.
+      On cherche ensuite a "agréger" ces estimations individuelles de façon à établir une planification prévisionnelle d'un projet.
+  -
+    type: abus
+    text: |
+      Il existe de nombreuses écoles de pensée au sein de la communauté Agile concernant les estimations et leur utilisation. Cependant un consensus se dégage sur un certain nombre d'erreurs élémentaires à ne pas commettre:
+
+      * une "estimation" n'est pas la même chose qu'un "engagement"; il n'est pas judicieux de reprocher à un programmeur de mettre 3 jours à terminer ce qu'il avait prévu de réaliser en 2 - la notion d'estimation implique une incertitude; confondre "estimation" et "engagement" conduit les personnes concernées à gonfler artificiellement leurs estimations, ce qui est contre-productif
+      * une "estimation" n'est pas définitive; elle est le reflet l'information dont on disposait au moment de l'émettre: il est par conséquent toujours admissible de réviser une estimation, à la hausse ou à la baisse, lorsqu'on a acquis de nouvelles informations plus pertinentes 
+---
