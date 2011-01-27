@@ -1,4 +1,33 @@
 ---
-title: Personas 
+title: Personas
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Lorsque le projet l'exige (par exemple si l'ergonomie joue un rôle déterminant dans le succès du projet), l'équipe rédige la fiche biographique détaillée d'un utilisateur fictif de son produit: c'est ce qu'on appelle une "persona".
+      Le plus souvent cela prend la forme d'une page A4 avec la photo de ce personnage (découpée par exemple dans un magazine), son nom et des détails de sa situation sociale, personnelle et professionnelle: "Amanda Jones, 34 ans, attachée de presse d'un grand groupe alimentaire, etc."
+      Un produit logiciel étant le plus souvant destiné à plusieurs catégories de personnes, avec potentiellement des préférences différentes qui peuvent les amener à avoir des attentes différentes quant au produit, on réalise autant de "personas" qu'on a identifié de catégories importantes.
+      Ces fiches biographiques sont affichées dans le local de l'équipe. 
+  -
+    type: benefices
+    text: |
+      Le principe des Personas se résume à l'observation suivante: un concepteur qui cherche à faire plaisir à tous les utilisateurs concevable est contraint à tellement de compromis que sa création ne convient finalement à personne.
+      Par conséquent, il est préférable de décrire de façon précise et personnalisée un utilisateur néammoins représentatif, et justifier ses choix (de fonctionnalité, de conception graphique, d'ergonomie) en fonction de cet utilisateur.
+      Partager ces informations au sein de l'équipe permet également de responsabiliser chacun sur les conséquences de ses choix. Un développeur soucieux d'optimiser son produit pour "Jeanine, retraitée" évitera de lui-même de proposer un dialogue de préférences contenant 50 réglages; ce ne serait pas nécessairement le cas s'il avait en tête la notion plus abstraite de "l'utilisateur". 
+  -
+    type: abus
+    text: |
+      Ne pas confondre les Personas avec différents autres outils utilisés pour la gestion des exigences ou dans le marketing:
+
+      * ce ne sont pas des "rôles d'utilisateurs" (par exemple administrateur, agent de saisie, etc.) caractérisés principalement par leur fonction professionnelle
+      * ce ne sont pas non plus des "segments de marché" (l'exemple canonique étant la ménagère de moins de cinquante ans) définis par des critères principalement démographiques
+  -
+    type: pubs
+    text: |
+      Deux études empiriques notables concernent cette pratique:
+
+        * ["An Empirical Study Demonstrating How Different Design Constraints, Project Organization and Contexts Limited the Utility of Personas"](http://portal.acm.org/citation.cfm?id=1043147) de Ronkko et al. (2005) est une étude de cas qui s'appuie sur trois projets pour montrer que les enjeux politiques présents au sein de toute entreprise peuvent limiter voire annuler l'efficacité de cette pratique
+        * ["Real or Imaginary: The effectiveness of using personas in product design"](http://www.frontend.com/products-digital-devices/real-or-imaginary-the-effectiveness-of-using-personas-in-product-design.html) de Long (2009) présente une étude expérimentale, utilisant des étudiants, qui tend à confirmer l'intérêt de la pratique
 ---
