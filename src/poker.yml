@@ -17,7 +17,8 @@ sections:
   -
     type: histo
     text: |
-      * proposée par James Grenning dans [un article](http://renaissancesoftware.net/papers/14-papers/44-planing-poker.html) paru en 2002
+      * le Planning Poker est une adaptation du ["Wideband Delphi"](http://en.wikipedia.org/wiki/Wideband_Delphi) proposé par Barry Boehm dans les années 1970
+      * sa forme actuelle est proposée par James Grenning dans [un article](http://renaissancesoftware.net/papers/14-papers/44-planing-poker.html) paru en 2002
       * rendue populaire notamment dans la communauté Scrum, et comme nombre d'autres techniques liées à la planification, par le livre de Mike Cohn [*Agile Estimating and Planning](http://www.amazon.com/dp/0131479415) paru en 2005
   -
     type: benefices
