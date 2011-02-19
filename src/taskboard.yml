@@ -18,7 +18,7 @@ sections:
     type: abus
     text: |
       * une erreur classique consiste à préférer d'emblée un support informatisé ("tableau des tâches virtuel"); c'est se priver des nombreux bénéfices de la réalisation plus "artisanale", et seules de fortes contraintes (par exemple une équipe dispersée géographiquement) doivent justifier cette solution de dernier recours
-      * ne pas confondre le tableau des tâches "canonique" avec le [tableau Kaban](kaban.html) dont le principe est assez différent (notamment, il n'est pas "remis à zéro")
+      * ne pas confondre le tableau des tâches "canonique" avec le [tableau Kanban](kanban.html) dont le principe est assez différent (notamment, il n'est pas "remis à zéro")
   -
     type: benefices
     text: |
@@ -29,7 +29,7 @@ sections:
     text: |
       * dès les origines de Scrum et d'Extreme Programming on manipule des fiches bristol ou des Post-It mais le format précis du tableau des tâches ne se généralise qu'assez tardivement
       * La [galerie de photos](http://xp123.com/xplor/room-gallery/index.shtml) collectée par Bill Wake montre que même si de nombreuses équipes Agiles utilisent un affichage mural, le tableau des tâches "standardisé" le plus largement adopté sera celui de Mike Cohn, comportant cinq colonnes (fin 2004)
-      * En partie en réaction aux tableaux plus sophistiqués produits par les équipes qui commencent à s'intéresser à la transposition Agile des [tableaux Kaban](kaban.html), on viendra un peu plus tard à considérer comme "canonique" la version à trois colonnes (fin 2007)
+      * En partie en réaction aux tableaux plus sophistiqués produits par les équipes qui commencent à s'intéresser à la transposition Agile des [tableaux Kanban](kanban.html), on viendra un peu plus tard à considérer comme "canonique" la version à trois colonnes (fin 2007)
   -
     type: resources
     text: |
