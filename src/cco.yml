@@ -1,4 +1,39 @@
 ---
 title: Responsabilité collective du code
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Une équipe établit généralement des conventions, tacites, orales ou implciites, précisant quel développeur peut intervenir sur quelle partie du code source dont l'équipe a la charge. Différents modes existent: ainsi un module ou un fichier peut être la responsabilité exclusive d'un développeur, un autre membre de l'équipe ne pouvant le modifier qu'avec sa permission.
+      Lorsque cette responsabilité est collective, *tous* les développeurs sont autorisés et encouragés à modifier *toute partie* du code lorsque c'est nécessaire, soit pour réaliser une tâche en cours, soit pour corriger un défaut ou améliorer la structure de l'ensemble.
+  -
+    type: syno
+    text: |
+      Le terme anglais est "collective code ownership".
+  -
+    type: abus
+    text: |
+      Il est fréquent que des règles tacites existent qui sont en contradiction avec les règles explicite de l'équipe: par exemple, une équipe peut avoir ostensiblement adopté un modèle de responsabilité collective, mais un des développeurs manifeste des mouvements d'humeur lorsqu'on modifie certains fichiers, conduisant l'équipe à les considérer comme *de facto* sous sa responsabilité exclusive. Il est important de vérifier qu'une responsabilité collective revendiquée se traduit effectivement dans les faits.
+  -
+    type: benefices
+    text: |
+      Un modèle de responsabilité collective
+
+      * diminue les risques de blocage en cas d'absence d'un des développeurs
+      * favorise la transmission des connaissances techniques
+      * rend chacun des développeurs responsable de la qualité de l'ensemble
+      * favorise une conception du code dictée par des décisions techniques et non par la structure sociale de l'équipe
+  -
+    type: cost
+    text: |
+      Si la notion de responsabilité collective est bien acceptée dans le discours Agile car conforme à la philosophie générale de responsabilité partagée, elle a ses détracteurs qui y voient plusieurs risques, auxquels il convient d'être attentif:
+
+      * rendre chacun responsable de la qualité peut amener à ce que personne ne s'en préoccupe ou à ce que chacun se renvoie la balle
+      * la possiblité d'intervenir sur toutes les parties du code peut être défavorable à la définition d'interfaces claires et explicites entre ces différentes parties, alors que ces interfaces sont garantes d'une bonne conception
+  -
+    type: histo
+    text: |
+      Dès ses débuts, Extreme Programming fait une pratique à part entière de ce qui n'est à l'origine qu'un à priori favorable, issu des pratiques des développeurs Smalltalk - pour qui la notion de "fichier" est nettement moins structurante, compte tenu des outils de développement utilisés.
 ---
