@@ -1,4 +1,42 @@
 ---
 title: Tableau kanban
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Pratique émergente, portée par une minorité très active, l'approche dite "kanban" regroupe un ensemble de modifications au dispositif Agile le plus couramment utilisé pour le pilotage du projet:
+
+      * les [itérations](iteration.html), les [estimations](estimation.html) et la mesure de la [vélocité](velocity.html) sont abolies;
+      * la mesure du [temps de cycle](leadtime.html) se substitue à celle de la vélocité
+      * enfin, la modification la plus visible remplace le [tableau des tâches](taskboard.html) par un tableau dit "tableau kanban":
+        * on y retrouve les colonnes correspondant aux différents états par lesquels peut transiter une "unité de valeur" (qui est souvent une [user story](stories.html), mais pas nécessairement)
+        * par contre il comporte, outre ces colonnes, des **limites de stock**: si une activité, par exemple le test, se voit attribuer une limite de stock égale à 2, cela signifie qu'il est "interdit" de démarrer l'activité de test concernant une troisième user story, si deux d'entre elles sont déjà en test;
+        * si cette situation se présente, il faut au contraire demander à d'autres membres de l'équipe qui sont éventuellement disponibles à ce moment de venir préter main-forte, de façon à ce que l'une des deux user stories puisse sortir de l'état "en test" le plus rapidement possible;
+        * contrairement au tableau des tâches, le tableau kanban n'est pas "réinitialisé" en début de chaque itération, c'est un tableau perpétuel.
+  -
+    type: syno
+    text: |
+      Le terme est japonais, et signifie simplement "étiquette" ou "carte".
+      Il désigne un système utilisé dans les usines Toyota; sans entrer dans les détails, il est analogue à ce qu'on peut observer dans certains supermarchés, où derrière un stock, par exemple de boîtes de céréales, on place une carte portant la mention "veuillez réapprovisionner ce produit".
+      Ce système permet de tenir une comptabilité précise des "stocks" ou "en-cours" (en anglais "Work In Process" qui donne l'acronyme WIP). Le système de production Toyota cherche à réduire la quantité de ces en-cours.
+  -
+    type: abus
+    text: |
+      Les tableaux kanban sont souvent plus sophistiqués qu'un simple tableau des tâches. Ce n'est pas en soi une erreur, mais il convient d'éviter la réintroduction, par le biais d'un tableau kanban structuré en fonction d'une séquence d'activités, d'un modèle "en cascade" avec tout ce que cela peut impliquer: création de "silos" ou de spécialistes au sein de l'équipe.
+      On se méfiera en particulier de l'utilisation d'un tableau kanban **sans** l'assortir de "limites de stock" qui soient véritablement opposables aux clients et commanditaires de l'équipe. Ce sont ces limites de stock qui sont l'élément le plus structurant de l'approche dite "kanban".
+  -
+    type: benefices
+    text: |
+      Il existe des contextes dans lesquels la mesure du temps de cycle et l'utilisation de tableaux kanban (perpétuel) a plus de sens que la mesure de la vélocité à chaque itération: par exemple lorsque le respect d'une date de livraison précise n'est pas une priorité, ou lorsque l'équipe assure simultanément l'évolution ou la maintenance de produits multiples.
+      De façon très schématique, on peut considérer que l'approche "kanban" se prête plus à un mode de maintenance ou d'évolution continue, alors que l'approche par itérations se prête plus à un mode projet.
+  -
+    type: histo
+    text: |
+      * le rapprochement entre la philosophie d'organisation du travail en vigueur chez Toyota (sous l'étiquette "Lean") remonte à la publication du livre de Mary et Tom Poppendieck, [*Lean Software Development*](http://www.amazon.com/dp/0321150783) (2003)
+      * cependant ce rapprochement reste relativement abstrait dans le début des années 2000; l'un des premiers adeptes de cette approche, David Anderson, expérimente certaines idées (suppression des estimations et des itérations notamment) chez Microsoft, dès 2004
+      * d'après David Anderson, la première mise en oeuvre complète, y compris l'utilisation d'un tableau kanban avec des limites de stock, a lieu alors qu'il travaille pour Corbis à partir de septembre 2006
+      * suite à une présentation lors de la conférence Agile aux Etats-Unis, un groupe de discussion se forme pour échanger sur cette approche (mi-2007)
+      * une communauté plus visible, organisant des conférences dédiées, sous le titre "The Limited WIP Society" finit par se former en 2009
 ---
