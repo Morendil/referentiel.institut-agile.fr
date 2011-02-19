@@ -1,4 +1,29 @@
 ---
 title: Rétrospective jalon
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      A mi-chemin de la durée prévue du projet, ou bien en fin de projet (et surtout lorsque l'équipe prévoit d'être ensuite à nouveau réunie pour un nouveau projet), l'ensemble des membres permanents de l'équipe (au sens large, et pas seulement les développeurs) consacre une voire deux journées entières à un bilan approfondi.
+      Plus encore que lors d'une [rétrospective d'itération](heartbeatretro.html), cette réunion doit être [facilitée](facilitation.html), suivre un format qui peut varier selon les objectifs mais qui sera décidé à l'avance.
+  -
+    type: syno
+    text: |
+      On parle en anglais de "project retrospective" ou "interim retrospective" pour la distinguer de la [rétrospective d'itération](heartbeatretro.html).
+  -
+    type: abus
+    text: |
+      * Il est souvent conseillé de faire appel à un facilitateur extérieur plutôt que de confier ce rôle à un membre de l'équipe: on considère que le facilitateur ne peut pas jouer ce rôle s'il prend également part aux discussions.
+      * Les enjeux d'une rétrospective jalon sont différents et par certains aspects plus importants que ceux d'une rétrospective d'itération; l'accent est mis sur des questions stratégiques, sur le long terme, sur la santé relationnelle de l'équipe, alors qu'une rétrospective d'itération s'intéresse souvent à des questions concrètes et tactiques.
+  -
+    type: histo
+    text: |
+      * le terme "Rétrospectives" est dû au livre de Norm Kerth (cf. ci-dessous) en 2001
+      * la pratique de la rétrospective jalon reste marginale au sein des équipes agiles, qui privilégient le plus souvent les rétrospectives d'itération, populaires à partir de 2006
+  -
+    type: resources
+    text: |
+      * [Project Retrospectives](http://www.amazon.fr/dp/0932633447), de Norm Kerth (2001)
 ---
