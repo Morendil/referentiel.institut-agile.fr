@@ -1,4 +1,19 @@
 ---
 title: Story mapping
 type: Pratique
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Pratique émergente visant à structurer la planification des [livraisons](smallrelease.html), le "story mapping" consiste en une organisation en deux dimensions des [user stories](stories.html): l'axe horizontal matérialise la succession (chronologique) des usages de l'utilisateur, l'axe vertical matérialise la priorité des fonctionnalités: en haut celles qui sont indispensables à l'usage, en bas celles qui sont annexes ou ne concernent qu'une fraction des flux d'informations que traite le produit.
+  -
+    type: benefices
+    text: |
+      L'intention de cette pratique est de modérer le risque de livrer un produit qui comporterait des fonctionnalités avec une forte "valeur métier", mais que l'utilisateur ne pourrait pas exploiter parce qu'elles s'avèrent dépendantes de fonctionnalités à plus faible "valeur métier", donc de plus basse priorité et qui n'ont pas encore été réalisées.
+  -
+    type: histo
+    text: |
+      * formulée, sans la nommer, par Jeff Patton dans un article intitulé ["It's All in How You Slice"](http://www.agileproductdesign.com/writing/how_you_slice_it.pdf) en 2005
+      * nommée "Story Mapping" dans un article, très illustré, du même Jeff Patton: ["The new user story backlog is a map"](http://www.agileproductdesign.com/blog/the_new_backlog.html), en 2008
 ---
