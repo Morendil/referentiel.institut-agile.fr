@@ -1,4 +1,16 @@
 ---
 title: Temps de cycle
 type: Concept
+full: yes
+sections:
+  -
+    type: desc
+    text: |
+      Le "temps de cycle" est un terme emprunté à l'approche manufacturière connue sous le nom de Lean ou Toyota Production System, où il désigne le délai entre la réception de la commande d'un client, et la livraison au client du produit fini.
+      Transposé au domaine du logiciel, le temps de cycle est le délai écoulé entre le moment où apparaît un besoin, et la satisfaction de ce besoin. Cette définition plus abstraite permet d'analyser plusieurs types de situation: par exemple on peut mesurer le "temps de cycle" entre la formalisation d'une exigence sous la forme d'une [user story](stories.html) et le début de l'utilisation ("en production", en conditions réelles) de la fonctionnalité correspondante.
+      Les équipes ayant adopté une approche à base de [kanban](kanban.html) privilégient cette mesure, de préférence à celle de la [vélocité](velocity.html). Au lieu d'avoir pour effet d'augmenter la vélocité, les améliorations du fonctionnement de l'équipe ont (en principe) pour effet de diminuer le temps de cycle.
+  -
+    type: syno
+    text: |
+      Le terme anglais est "lead time".
 ---
