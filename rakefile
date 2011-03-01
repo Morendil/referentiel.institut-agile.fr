@@ -26,6 +26,6 @@ rule '.ham' => ['.yml'] do |t|
 end
 
 rule '.html' => ['.ham'] do |t|
-  sh "haml -r src/helpers.rb #{t.source} > #{t.name}"
+  sh "haml -r lib/helpers.rb #{t.source} > #{t.name}"
   sh "cp #{t.name} site"
 end
