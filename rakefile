@@ -22,7 +22,7 @@ desc "Expand Haml markup into HTML"
 task :webize => HAM_OUT
 
 rule '.ham' => ['.yml'] do |t|
-  sh "mustache #{t.source} src/practice.tmpl > #{t.name}"
+  sh "mustache #{t.source} views/practice.tmpl > #{t.name}"
 end
 
 rule '.html' => ['.ham'] do |t|
