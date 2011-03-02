@@ -1,8 +1,18 @@
 require "rubygems"
 require "mustache"
 require "lib/roadmap"
+require "bibtex"
+require "bibtex/parser"
 
 r = Roadmap.new("src")
+p = BibTeX::Parser.new({})
+r.add_bib File.read("src/AgilePractices.bib")
+
+Mustache.template_file = "views/biblio.tmpl"
+m = Mustache.new
+m[:parts] = r.all
+File.open("src/biblio.ham","w") {|f| f.write m.render}
+
 Mustache.template_file = "views/index.tmpl"
 
 m = Mustache.new
