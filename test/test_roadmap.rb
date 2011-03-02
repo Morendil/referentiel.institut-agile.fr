@@ -2,6 +2,8 @@
 require "test/unit"
 require "fileutils"
 require "lib/roadmap"
+require "bibtex"
+require "bibtex/parser"
 
 class TestRoadmap < Test::Unit::TestCase
  
@@ -68,6 +70,42 @@ class TestRoadmap < Test::Unit::TestCase
   def test_type_order
     by_type = [{:group=>"Comp",:values=>[@task,@tdd]},{:group=>"Conc",:values=>[@ci]},{:group=>"Pra",:values=>[@velo]}]
     assert_equal by_type, mock_roadmap.all_by_type
+  end
+
+  def test_parse_biblio_entry
+    roadmap = mock_roadmap
+    entry = "@inproceedings{key,Keywords={tdd},Title={Foo}}"
+    roadmap.add_bib(entry,BibTeX::Parser.new({}))
+    assert_equal(1, roadmap.all_bib.length)
+    assert_equal("tdd",roadmap.all_bib[0][:keywords][0])
+  end
+
+  def test_find_by_id
+    assert_equal @tdd, mock_roadmap.find_by_id("tdd")
+  end
+  
+  def test_group_bib_entries
+    roadmap = mock_roadmap
+    entries = <<EOT
+      @inproceedings{key,Keywords={tdd},Title={Foo}}
+      @inproceedings{key,Keywords={velocity},Title={Foo}}
+      @inproceedings{key,Keywords={tdd},Title={Bar}}
+EOT
+   roadmap.add_bib entries, BibTeX::Parser.new({})
+   assert_equal(2, roadmap.group_bib.length)
+   assert_equal("tdd",roadmap.group_bib[0][:group])
+   assert_equal(2, roadmap.group_bib[0][:values].length)
+  end
+
+  def test_inject_bib
+    roadmap = mock_roadmap
+    entries = <<EOT
+      @inproceedings{key,Keywords={tdd},Title={Foo}}
+      @inproceedings{key,Keywords={ci},Title={Foo}}
+      @inproceedings{key,Keywords={tdd},Title={Bar}}
+EOT
+    roadmap.add_bib entries, BibTeX::Parser.new({})
+    assert_equal(2, roadmap.find_by_id("tdd")[:bibs].length)
   end
 
 end

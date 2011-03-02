@@ -24,6 +24,10 @@ class Roadmap
     return hash
   end
 
+  def find_by_id id
+    return all.find {|v| v[:id].to_s == id.to_s}
+  end
+
   def all
     @all || (@all = fetch.sort_by {|v|v["title"] || ""})
   end
@@ -44,12 +48,30 @@ class Roadmap
     return all_by {|v| v["type"]}
   end
 
-  def all_by 
-    grouped = all.inject({}) do
+  def all_by &block
+    group_by all, &block 
+  end
+
+  def group_by array, &block
+    grouped = array.inject({}) do
       |h,v| k = yield(v); a=h[k] || []; h.merge({ k => a << v })
     end
     restruct = grouped.keys.map {|k| {:group=>k,:values=>grouped[k]} }
     return restruct.sort_by{|v|v[:group]}
+  end
+
+  def add_bib entry, parser
+    @bibs = parser.parse(entry).data
+    group_bib.each {|group| find_by_id(group[:group])[:bibs] = group[:values]}
+  end
+
+  def all_bib
+   @bibs
+  end
+ 
+  def group_bib
+    by_keyword = lambda {|bib| bib[:keywords][0]}
+    group_by @bibs, &by_keyword 
   end
 
 end
