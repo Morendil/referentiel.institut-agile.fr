@@ -5,7 +5,7 @@ task :default => [:generate, :expand,  :webize, :clean]
 YML_SRC = FileList['src/*.yml']
 YML_OUT = YML_SRC.ext('.ham')
 
-HAM_SRC = FileList['src/*.ham', 'src/*.yml']
+HAM_SRC = FileList['src/*.ham', 'static/*.ham', 'src/*.yml']
 HAM_OUT = HAM_SRC.ext('.html')
 CLEAN.include('src/*.html')
 CLEAN.include('src/*.ham')

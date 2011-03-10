@@ -18,7 +18,6 @@ Mustache.template_file = "views/index.tmpl"
 m = Mustache.new
 m[:parts] = r.all_by_alpha
 m[:order] = "ordre alphabétique"
-File.open("src/index.ham","w") {|f| f.write m.render}
 File.open("src/index_alpha.ham","w") {|f| f.write m.render}
 
 m = Mustache.new
