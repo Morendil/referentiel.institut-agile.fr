@@ -12,8 +12,8 @@ body {
 }
 /* Content */
 #content {
-	width: 788px;
-	margin-left: 14em;
+//	width: 788px;
+//	margin-left: 14em;
 	padding: 1em;
 	background-image: url(images/border.png?1);
 	background-position: top left;
@@ -22,15 +22,22 @@ body {
 	color: black;
 }
 
+#wrap {
+	background: #FFF;
+	width: 820px; height: 100%;
+	margin: 0 auto;	
+	text-align: left;
+}
+
 /* header */
 #header {
 	position: relative;
 	height: 85px;	
 	background: #000 url(headerbg.gif) repeat-x 0% 100%;	
-	margin-left: 14em;
+//	margin-left: 14em;
 }
 #header-wrap {
-	margin-left: 14em;
+//	margin-left: 14em;
 }
 #header h1#logo {
 	position: absolute;
@@ -458,3 +465,53 @@ div.vectorTabs ul {
 	background-position:right bottom;
 	background-repeat:no-repeat;
 }
+
+/* menu tabs */
+#header ul {
+	z-index: 999999;
+	position: absolute;
+   margin:0; padding: 0;
+   list-style:none;
+	right: 0; 
+	bottom: 6px !important; bottom: 5px;
+	font: bold 13px  Arial, 'Trebuchet MS', Tahoma, verdana,  sans-serif;	
+}
+#header li {
+   display:inline;
+   margin:0; padding:0;
+}
+#header a {
+   float:left;
+   background: url(tableft.gif) no-repeat left top;
+   margin:0;
+   padding:0 0 0 4px;
+   text-decoration:none;
+}
+#header a span {
+   float:left;
+   display:block;
+   background: url(tabright.gif) no-repeat right top;
+   padding:6px 15px 3px 8px;
+   color: #FFF;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#header a span {float:none;}
+/* End IE5-Mac hack */
+#header a:hover span {
+	color:#FFF;
+}
+#header a:hover {
+   background-position:0% -42px;
+}
+#header a:hover span {
+   background-position:100% -42px;
+}
+#header #current a {
+   background-position:0% -42px;
+	color: #FFF;
+}
+#header #current a span {
+   background-position:100% -42px;
+	color: #FFF;
+}
+/* end menu tabs */
