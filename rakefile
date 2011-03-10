@@ -9,6 +9,7 @@ HAM_SRC = FileList['src/*.ham', 'static/*.ham', 'src/*.yml']
 HAM_OUT = HAM_SRC.ext('.html')
 CLEAN.include('src/*.html')
 CLEAN.include('src/*.ham')
+CLEAN.include('static/*.html')
 
 desc "Generate indices"
 task :generate => [] do |t|
