@@ -62,7 +62,13 @@ class Roadmap
 
   def add_bib entry, parser
     @bibs = parser.parse(entry).data
-    group_bib.each {|group| find_by_id(group[:group])[:bibs] = group[:values]}
+    group_bib.each do |group|
+      begin
+        find_by_id(group[:group])[:bibs] = group[:values]
+      rescue
+        puts "Oops:"+group[:group]+" has no corresponding practice in roadmap"
+      end
+    end
   end
 
   def all_bib

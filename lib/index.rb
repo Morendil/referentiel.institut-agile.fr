@@ -6,7 +6,7 @@ require "bibtex/parser"
 
 r = Roadmap.new("src")
 p = BibTeX::Parser.new({})
-r.add_bib File.read("src/AgilePractices.bib")
+r.add_bib File.read("src/AgilePractices.bib"), p
 
 Mustache.template_file = "views/biblio.tmpl"
 m = Mustache.new
