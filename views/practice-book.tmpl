@@ -1,0 +1,10 @@
+%div.chapter
+  %h1 {{title}}
+  %h4 {{type}}
+  {{#sections}}
+  %div#{{type}}
+    %h2= {{type}}
+    :markdown
+      {{#text}}
+      {{to_s}}{{/text}}
+  {{/sections}}

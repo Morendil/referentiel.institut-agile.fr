@@ -11,16 +11,16 @@ r.add_bib File.read("src/AgilePractices.bib"), p
 Mustache.template_file = "views/biblio.tmpl"
 m = Mustache.new
 m[:parts] = r.all
-File.open("src/biblio.ham","w") {|f| f.write m.render}
+File.open("tmp/biblio.ham","w") {|f| f.write m.render}
 
 Mustache.template_file = "views/index.tmpl"
 
 m = Mustache.new
 m[:parts] = r.all_by_alpha
 m[:order] = "ordre alphabétique"
-File.open("src/index_alpha.ham","w") {|f| f.write m.render}
+File.open("tmp/index_alpha.ham","w") {|f| f.write m.render}
 
 m = Mustache.new
 m[:parts] = r.all_by_type
 m[:order] = "type"
-File.open("src/index_type.ham","w") {|f| f.write m.render}
+File.open("tmp/index_type.ham","w") {|f| f.write m.render}

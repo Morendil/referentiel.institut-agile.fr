@@ -1,32 +1,99 @@
 require 'rake/clean'
 
-task :default => [:generate, :expand,  :webize, :clean]
+## Default target - targets are "site", "book"
 
-YML_SRC = FileList['src/*.yml']
-YML_OUT = YML_SRC.ext('.ham')
+task :default => [:site]
 
-HAM_SRC = FileList['src/*.ham', 'static/*.ham', 'src/*.yml']
-HAM_OUT = HAM_SRC.ext('.html')
-CLEAN.include('src/*.html')
-CLEAN.include('src/*.ham')
-CLEAN.include('static/*.html')
+## Filesets
 
-desc "Generate indices"
-task :generate => [] do |t|
-  sh "ruby lib/index.rb"
+SITE				= "site/%n.html"
+BOOK			= "book/%n.html"
+
+YML_SRC		= FileList['src/*.yml']
+
+SITE_INDICES		= FileList['index_alpha.ham','index_type.ham'].pathmap("tmp/%p")
+SITE_STATIC		= FileList['static/*.ham']
+SITE_OUT		= (YML_SRC).pathmap(SITE)
+
+BOOK_INDICES	= FileList['book.ham'].pathmap("tmp/%p")
+BOOK_OUT		= (YML_SRC).pathmap("book/%n.html")
+
+CLEAN.include('tmp/*')
+
+## Helpers
+
+def haml_indirect target, where, built
+	task target => built
+        from = built.pathmap("%{#{where},tmp}X_#{where}.ham")
+        haml built, from
 end
 
-desc "Expand YML descriptors into Haml markup"
-task :expand => YML_OUT
-
-desc "Expand Haml markup into HTML"
-task :webize => HAM_OUT
-
-rule '.ham' => ['.yml'] do |t|
-  sh "mustache #{t.source} views/practice.tmpl > #{t.name}"
+def haml built, from
+	file built => from do
+          sh "haml -r lib/helpers.rb #{from} > #{built}" unless uptodate?(built,from)
+        end
 end
 
-rule '.html' => ['.ham'] do |t|
-  sh "haml -r lib/helpers.rb #{t.source} > #{t.name}"
-  sh "cp #{t.name} site"
+def generate_indices which, how
+  uptodate = which.select {|each| !uptodate?(each,YML_SRC)}.empty?
+  sh "ruby lib/#{how}.rb" unless uptodate
+end
+
+def mustache built, from, template
+	file built => from do
+          sh "mustache #{from} views/#{template}.tmpl > #{built}" unless uptodate?(built,from)
+        end
+end
+
+## Synthetic tasks
+
+SITE_OUT.each do |built|
+  haml_indirect(:site,"site",built)
+end
+
+BOOK_OUT.each do |built|
+  haml_indirect(:book,"book",built)
+end
+
+SITE_STATIC.each do |from|
+  built = from.pathmap(SITE)
+  task :site => built
+  haml built, from
+end
+
+SITE_INDICES.each do |from|
+  task from => :site_index
+  built = from.pathmap(SITE)
+  task :site => built
+  haml built, from
+end
+
+BOOK_INDICES.each do |from|
+  task from => :book_index
+  built = from.pathmap(BOOK)
+  task :book => built
+  haml built, from
+end
+
+YML_SRC.each do |from|
+        built = from.pathmap("%{src,tmp}X_book.ham")
+        mustache built, from, "practice-book"
+end
+
+YML_SRC.each do |from|
+        built = from.pathmap("%{src,tmp}X_site.ham")
+        mustache built, from, "practice"
+end
+
+## Final tasks
+
+task :site => :site_index
+task :book => :book_index
+
+task :site_index => [] do |t|
+  generate_indices SITE_INDICES, "site"
+end
+
+task :book_index => [] do |t|
+  generate_indices BOOK_INDICES, "book"
 end
