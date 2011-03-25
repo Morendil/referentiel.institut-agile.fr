@@ -87,6 +87,10 @@ end
 
 ## Final tasks
 
+file "eBook.pdf" => :book do
+  sh "prince book/book.html -o eBook.pdf"
+end
+
 task :site => :site_index
 task :book => :book_index
 
