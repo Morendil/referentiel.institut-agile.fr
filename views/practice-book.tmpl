@@ -1,6 +1,6 @@
 !!! XML
 !!!
-%div.chapter
+%div.chapter{:xmlns=>"http://www.w3.org/1999/xhtml"}
   %h1 {{title}}
   %h4 {{type}}
   {{#sections}}
@@ -8,5 +8,6 @@
     %h2= {{type}}
     :markdown
       {{#text}}
-      {{to_s}}{{/text}}
+      {{to_s}}
+      {{/text}}
   {{/sections}}
