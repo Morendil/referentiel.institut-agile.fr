@@ -9,7 +9,7 @@ def desc
 end
 
 def syno
-  'On l\'appelle également...'
+  'On l\'appelle Ã©galement...'
 end
 
 def abus
@@ -21,7 +21,7 @@ def histo
 end
 
 def progression
-  'Comment s\'améliorer?'
+  'Comment s\'amÃ©liorer?'
 end
 
 def signes
@@ -29,23 +29,23 @@ def signes
 end
 
 def benefices
-  'Quels bénéfices en attendre?'
+  'Quels bÃ©nÃ©fices en attendre?'
 end
 
 def cost
-  'Quels coûts ou investissements faut-il consentir?'
+  'Quels coÃ»ts ou investissements faut-il consentir?'
 end
 
 def resources
-  'Où se renseigner pour en savoir plus? (livres, articles)'
+  'OÃ¹ se renseigner pour en savoir plus? (livres, articles)'
 end
 
 def pubs
-  'Publications académiques et travaux de recherche'
+  'Publications acadÃ©miques et travaux de recherche'
 end
 
 def training
-  'Où peut-on se former?'
+  'OÃ¹ peut-on se former?'
 end
 
 def experts
