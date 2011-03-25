@@ -2,20 +2,20 @@
 !!!
 %html{"xmlns:xi"=>"http://www.w3.org/2003/XInclude"}
   %head
-    %title Référentiel des pratiques Agiles
+    %title RÃ©fÃ©rentiel des pratiques Agiles
     <meta name="author" content="Institut Agile"/> 
     %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/book.css"}
   %body
 
   %div.frontCover
     <img src="assets/cover.png"/> 
-    %h1 Référentiel des Pratiques Agiles
-    %h2 Le développement Agile de A à Z (ou presque)
+    %h1 RÃ©fÃ©rentiel des Pratiques Agiles
+    %h2 Le dÃ©veloppement Agile de A Ã  Z (ou presque)
     %h3 Edition eBook
   
   -# Inclusion directives to pick up all the practice chapters
   {{#parts}}
   {{#values}}
-  %xi:include{:href=>"{{uid}}.html"}
+  %xi:include{:href=>"{{id}}.html"}
   {{/values}}
   {{/parts}}
