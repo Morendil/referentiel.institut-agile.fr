@@ -1,14 +1,14 @@
 ---
-title: Livraisons fréquentes
+title: Livraisons frÃ©quentes
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Une équipe Agile met fréquemment son produit entre les mains d'utilisateurs finaux, aptes à l'évaluer et à formuler des critiques ou des appréciations.
-      Ce qu'on entend par "fréquemment" varie selon le contexte technique, mais on estime en général qu'une telle livraison doit avoir lieu toutes les quatre à six itérations au grand maximum.
-      (Dans certains contextes, tels que le développement Web, on peut souvent envisager des fréquences plus élevées, par exemple une livraison par itération; la limite étant le [déploiement continu](cd.html).)
+      Une Ã©quipe Agile met frÃ©quemment son produit entre les mains d'utilisateurs finaux, aptes Ã  l'Ã©valuer et Ã  formuler des critiques ou des apprÃ©ciations.
+      Ce qu'on entend par "frÃ©quemment" varie selon le contexte technique, mais on estime en gÃ©nÃ©ral qu'une telle livraison doit avoir lieu toutes les quatre Ã  six itÃ©rations au grand maximum.
+      (Dans certains contextes, tels que le dÃ©veloppement Web, on peut souvent envisager des frÃ©quences plus Ã©levÃ©es, par exemple une livraison par itÃ©ration; la limite Ã©tant le [dÃ©ploiement continu](cd.html).)
   -
     type: syno
     text: |
@@ -16,13 +16,13 @@ sections:
   -
     type: abus
     text: |
-      * livrer le produit à un responsable marketing ou un chef de projet pour qu'il "teste" la dernière version n'est pas suffisant, pas plus qu'à une équipe d'assurance qualité; au minimum une livraison doit être une "version beta" évaluée par des utilisateurs représentatifs
-      * dans certains contextes (logiciels embarqués, par exemple) il n'est pas possible de prévoir une livraison fréquente à *tous* les utilisateurs; cela ne doit pas servir de prétexte à ne pas organiser une livraison fréquente à *des* utilisateurs (sites pilotes, clients volontaires, etc.)
+      * livrer le produit Ã  un responsable marketing ou un chef de projet pour qu'il "teste" la derniÃ¨re version n'est pas suffisant, pas plus qu'Ã  une Ã©quipe d'assurance qualitÃ©; au minimum une livraison doit Ãªtre une "version beta" Ã©valuÃ©e par des utilisateurs reprÃ©sentatifs
+      * dans certains contextes (logiciels embarquÃ©s, par exemple) il n'est pas possible de prÃ©voir une livraison frÃ©quente Ã  *tous* les utilisateurs; cela ne doit pas servir de prÃ©texte Ã  ne pas organiser une livraison frÃ©quente Ã  *des* utilisateurs (sites pilotes, clients volontaires, etc.)
   -
     type: benefices
     text: |
-      Savoir organiser une mise en production fréquente *dès les débuts du projet* est l'une des pierres angulaires de la réduction du risque par l'approche Agile:
+      Savoir organiser une mise en production frÃ©quente *dÃ¨s les dÃ©buts du projet* est l'une des pierres angulaires de la rÃ©duction du risque par l'approche Agile:
         * on diminue l'effet tunnel pour la planification du projet
-        * on s'assure plus rapidement de l'adéquation du produit aux besoins réels
-        * on obtient un retour plus rapide sur la qualité et la stabilité du produit
+        * on s'assure plus rapidement de l'adÃ©quation du produit aux besoins rÃ©els
+        * on obtient un retour plus rapide sur la qualitÃ© et la stabilitÃ© du produit
 ---

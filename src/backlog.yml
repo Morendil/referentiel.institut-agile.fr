@@ -6,18 +6,18 @@ sections:
   -
     type: desc
     text: |
-      Un "backlog" est une liste de fonctionnalités ou de tâches, jugées *nécessaires* et *suffisantes* pour la réalisation satisfaisante du projet:
+      Un "backlog" est une liste de fonctionnalitÃ©s ou de tÃ¢ches, jugÃ©es *nÃ©cessaires* et *suffisantes* pour la rÃ©alisation satisfaisante du projet:
 
-        * si une tâche contenue dans le backlog ne contribue pas aux objectifs du projet, il faut l'en retirer;
-        * a contrario, dès qu'on a connaissance d'une tâche qu'on pense nécessaire pour le projet, on doit l'inclure dans le backlog
+        * si une tÃ¢che contenue dans le backlog ne contribue pas aux objectifs du projet, il faut l'en retirer;
+        * a contrario, dÃ¨s qu'on a connaissance d'une tÃ¢che qu'on pense nÃ©cessaire pour le projet, on doit l'inclure dans le backlog
 
-      Ces propriétés s'apprécient relativement à l'état des connaissances de l'équipe à un instant donné: l'élaboration du backlog peut se poursuivre tout au long du projet.
-      Il est le principal référentiel de l'équipe en matière d'exigences
+      Ces propriÃ©tÃ©s s'apprÃ©cient relativement Ã  l'Ã©tat des connaissances de l'Ã©quipe Ã  un instant donnÃ©: l'Ã©laboration du backlog peut se poursuivre tout au long du projet.
+      Il est le principal rÃ©fÃ©rentiel de l'Ã©quipe en matiÃ¨re d'exigences
   -
     type: abus
     text: |
       Le backlog n'est pas un cahier des charges.
-      Dans l'absolu, sa forme n'est pas imposée: on peut le représenter par un document Excel, un fichier texte, une base de données ou encore par un ensemble de Post-It ou fiches cartonnées, ces dernières formes étant les plus courantes parmi les équipes Agiles.
-      L'important est l'aspect "atomique" des éléments d'un backlog, par opposition à un document narratif dans lequel, par exemple, une seule phrase peut contenir plusieurs exigences distinctes, ou au contraire décrire sur plusieurs paragraphes une exigence unique.
-      Tous les éléments du backlog ne sont pas décrits au même niveau de détail à chaque moment du projet: les éléments dont la réalisation est prévue à une date lointaine peuvent être des pans entiers de fonctionnalités décrits en une seule phrase, alors que ceux dont la réalisation est imminente peuvent être très détaillés et accompagnés de nombreux éléments de détails tels que tests, dessins d'interface, etc.
+      Dans l'absolu, sa forme n'est pas imposÃ©e: on peut le reprÃ©senter par un document Excel, un fichier texte, une base de donnÃ©es ou encore par un ensemble de Post-It ou fiches cartonnÃ©es, ces derniÃ¨res formes Ã©tant les plus courantes parmi les Ã©quipes Agiles.
+      L'important est l'aspect "atomique" des Ã©lÃ©ments d'un backlog, par opposition Ã  un document narratif dans lequel, par exemple, une seule phrase peut contenir plusieurs exigences distinctes, ou au contraire dÃ©crire sur plusieurs paragraphes une exigence unique.
+      Tous les Ã©lÃ©ments du backlog ne sont pas dÃ©crits au mÃªme niveau de dÃ©tail Ã  chaque moment du projet: les Ã©lÃ©ments dont la rÃ©alisation est prÃ©vue Ã  une date lointaine peuvent Ãªtre des pans entiers de fonctionnalitÃ©s dÃ©crits en une seule phrase, alors que ceux dont la rÃ©alisation est imminente peuvent Ãªtre trÃ¨s dÃ©taillÃ©s et accompagnÃ©s de nombreux Ã©lÃ©ments de dÃ©tails tels que tests, dessins d'interface, etc.
 ---

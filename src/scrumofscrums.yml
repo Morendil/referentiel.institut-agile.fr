@@ -6,9 +6,9 @@ sections:
   -
     type: desc
     text: |
-      Approche utilisÈe lorsqu'un projet mobilise plus d'une dizaine de personnes, pour "monter en Èchelle".
-      On divise le groupe en petites Èquipes (de 4 ‡ 9), chacune utilisant Scrum de faÁon habituelle. A l'issue de chaque [rÈunion quotidienne](daily.html), un membre de chaque Èquipe est dÈsignÈ comme "ambassadeur" pour participer ‡ une meta-rÈunion, formant ainsi une Èquipe "virtuelle" dont la mission est de rÈsoudre les difficultÈs posÈes par la coordination inter-Èquipes: crÈation d'interfaces, d'accords de fonctionnement..
-      Ce "Scrum de Scrums" dispose de son propre [backlog](backlog.html) qui regroupe toutes les t‚ches identifiÈes qui contribuent ‡ une meilleure coordination entre les Èquipes opÈrationnelles.
+      Approche utilis√©e lorsqu'un projet mobilise plus d'une dizaine de personnes, pour "monter en √©chelle".
+      On divise le groupe en petites √©quipes (de 4 √† 9), chacune utilisant Scrum de fa√ßon habituelle. A l'issue de chaque [r√©union quotidienne](daily.html), un membre de chaque √©quipe est d√©sign√© comme "ambassadeur" pour participer √† une meta-r√©union, formant ainsi une √©quipe "virtuelle" dont la mission est de r√©soudre les difficult√©s pos√©es par la coordination inter-√©quipes: cr√©ation d'interfaces, d'accords de fonctionnement..
+      Ce "Scrum de Scrums" dispose de son propre [backlog](backlog.html) qui regroupe toutes les t√¢ches identifi√©es qui contribuent √† une meilleure coordination entre les √©quipes op√©rationnelles.
   -
     type: syno
     text: |
@@ -16,5 +16,5 @@ sections:
   -
     type: histo
     text: |
-      * DÈcrite pour la premiËre fois dans l'article *[Cross-continent development using scrum and XP](http://portal.acm.org/citation.cfm?id=1763899)* de Bent Jensen (2003)
+      * D√©crite pour la premi√®re fois dans l'article *[Cross-continent development using scrum and XP](http://portal.acm.org/citation.cfm?id=1763899)* de Bent Jensen (2003)
 ---

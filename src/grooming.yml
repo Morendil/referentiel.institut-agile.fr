@@ -6,25 +6,25 @@ sections:
   -
     type: desc
     text: |
-      Le responsable client et tout ou partie de l'équipe se réunissent régulièrement pour un "toilettage" du [backlog](backlog.html), à l'occasion duquel on peut:
+      Le responsable client et tout ou partie de l'Ã©quipe se rÃ©unissent rÃ©guliÃ¨rement pour un "toilettage" du [backlog](backlog.html), Ã  l'occasion duquel on peut:
 
       * identifier des [user stories](stories.html) qui n'auraient plus de sens
-      * créer de nouvelles stories si des besoins nouveaux ont été signalés
-      * réévaluer la priorité des stories entre elles
-      * attribuer des estimations à des stories qui n'en ont pas encore
+      * crÃ©er de nouvelles stories si des besoins nouveaux ont Ã©tÃ© signalÃ©s
+      * rÃ©Ã©valuer la prioritÃ© des stories entre elles
+      * attribuer des estimations Ã  des stories qui n'en ont pas encore
       * corriger des estimations en fonction de nouvelles informations
-      * [découper](split.html) des user stories prioritaires mais encore trop lourdes pour être planifiées dans une prochaine itération.
+      * [dÃ©couper](split.html) des user stories prioritaires mais encore trop lourdes pour Ãªtre planifiÃ©es dans une prochaine itÃ©ration.
   -
     type: syno
     text: |
-      En anglais "backlog grooming", littérallement "toilettage" ou "épouillage" du backlog.
+      En anglais "backlog grooming", littÃ©rallement "toilettage" ou "Ã©pouillage" du backlog.
   -
     type: benefices
     text: |
-      L'intérêt de cette réunion est de s'assurer de la pertinence du backlog. Contrairement à un cahier des charges celui-ci est un "document" par nature évolutif: il n'est pas nécessaire par exemple que toutes les user stories aient été finement découpées et estimées en début de projet, par contre il est important *qu'à tout moment* une quantité suffisante de stories soient finement découpées et estimées.
-      Il arrive fréquemment qu'un backlog "enfle" excessivement au cours d'un projet, se chargeant de fonctionnalités qui ne sont pas vraiment prioritaires mais qu'on a considéré comme potentiellement de bonnes idées à ne pas oublier: en l'absence d'une effort dans le sens inverse, cette inflation peut s'avérer néfaste au respect du calendrier de livraison souhaité.
+      L'intÃ©rÃªt de cette rÃ©union est de s'assurer de la pertinence du backlog. Contrairement Ã  un cahier des charges celui-ci est un "document" par nature Ã©volutif: il n'est pas nÃ©cessaire par exemple que toutes les user stories aient Ã©tÃ© finement dÃ©coupÃ©es et estimÃ©es en dÃ©but de projet, par contre il est important *qu'Ã  tout moment* une quantitÃ© suffisante de stories soient finement dÃ©coupÃ©es et estimÃ©es.
+      Il arrive frÃ©quemment qu'un backlog "enfle" excessivement au cours d'un projet, se chargeant de fonctionnalitÃ©s qui ne sont pas vraiment prioritaires mais qu'on a considÃ©rÃ© comme potentiellement de bonnes idÃ©es Ã  ne pas oublier: en l'absence d'une effort dans le sens inverse, cette inflation peut s'avÃ©rer nÃ©faste au respect du calendrier de livraison souhaitÃ©.
   -
     type: histo
     text: |
-      On doit apparemment l'expression "backlog grooming" à Mike Cohn et elle remonte au moins à 2005.
+      On doit apparemment l'expression "backlog grooming" Ã  Mike Cohn et elle remonte au moins Ã  2005.
 ---

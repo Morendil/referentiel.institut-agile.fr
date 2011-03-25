@@ -1,18 +1,18 @@
 ---
-title: Cartes CRC (Classe, Responsabilité, Collaborateurs)
+title: Cartes CRC (Classe, ResponsabilitÃ©, Collaborateurs)
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Les cartes CRC sont un exercice mélant "jeux de rôles" et conception objet.
-      Afin de décrire rapidement plusieurs manières d'aborder la conception d'une même partie du système, on écrit sur des fiches cartonnées les noms des principales classes concernées, et, afin de cerner la façon dont elles interagissent, les responsabilités de chacune et celles avec lesquelles elles doivent collaborer.
-      On cherche ensuite à valider le modèle de conception en simulant un scénario d'exécution, chaque développeur participant à la réunion jouant le rôle d'une des classes concernées.
-      Ainsi un dialogue typique pourrait être: "Bonjour Contrôleur d'Authentification, je suis une Requête Web" - "Très bien, je vais noter vos informations d'identité et l'opération que vous souhaitez effectuer et les transmettre au Gestionnaire d'Accès, s'il vous accepte je vous redirigerai vers l'Afficheur de Page", etc.
+      Les cartes CRC sont un exercice mÃ©lant "jeux de rÃ´les" et conception objet.
+      Afin de dÃ©crire rapidement plusieurs maniÃ¨res d'aborder la conception d'une mÃªme partie du systÃ¨me, on Ã©crit sur des fiches cartonnÃ©es les noms des principales classes concernÃ©es, et, afin de cerner la faÃ§on dont elles interagissent, les responsabilitÃ©s de chacune et celles avec lesquelles elles doivent collaborer.
+      On cherche ensuite Ã  valider le modÃ¨le de conception en simulant un scÃ©nario d'exÃ©cution, chaque dÃ©veloppeur participant Ã  la rÃ©union jouant le rÃ´le d'une des classes concernÃ©es.
+      Ainsi un dialogue typique pourrait Ãªtre: "Bonjour ContrÃ´leur d'Authentification, je suis une RequÃªte Web" - "TrÃ¨s bien, je vais noter vos informations d'identitÃ© et l'opÃ©ration que vous souhaitez effectuer et les transmettre au Gestionnaire d'AccÃ¨s, s'il vous accepte je vous redirigerai vers l'Afficheur de Page", etc.
   -
     type: histo
     text: |
-      * La technique des cartes CRC est inventée par Ward Cunningham en reprenant, sur des fiches cartonnées, la maquette d'une application [Hypercard](http://fr.wikipedia.org/wiki/HyperCard) destinée à documenter la conception d'un système; elle fait l'objet d'un [article](http://c2.com/doc/oopsla89/paper.html) coécrit avec Kent Beck (1989)
-      * (Pour l'anecdote, c'est [à partir de l'idée originale](http://c2.com/cgi/wiki?WikiWikiHyperCard) de cette même application que Ward Cunningham invente en 1995 le concept du Wiki, qui devient quelques années plus tard l'ancêtre de Wikipedia et l'une des innovations les plus marquantes de ce qu'il convient d'appeler le Web 2.0)
+      * La technique des cartes CRC est inventÃ©e par Ward Cunningham en reprenant, sur des fiches cartonnÃ©es, la maquette d'une application [Hypercard](http://fr.wikipedia.org/wiki/HyperCard) destinÃ©e Ã  documenter la conception d'un systÃ¨me; elle fait l'objet d'un [article](http://c2.com/doc/oopsla89/paper.html) coÃ©crit avec Kent Beck (1989)
+      * (Pour l'anecdote, c'est [Ã  partir de l'idÃ©e originale](http://c2.com/cgi/wiki?WikiWikiHyperCard) de cette mÃªme application que Ward Cunningham invente en 1995 le concept du Wiki, qui devient quelques annÃ©es plus tard l'ancÃªtre de Wikipedia et l'une des innovations les plus marquantes de ce qu'il convient d'appeler le Web 2.0)
 ---

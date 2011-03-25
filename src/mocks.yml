@@ -6,24 +6,24 @@ sections:
   -
     type: desc
     text: |
-      Technique couramment utilisée dans la mise au point de [tests unitaires automatisés](unittest.html).
-      Il s'agit de créer pour les besoins d'un test une version spécifique d'un composant logiciel (typiquement une classe, qui sera par conséquent instanciée par un objet), qui au lieu de reproduire le fonctionnement réel de ce composant en fournit une version "pré-enregistrée": par exemple, le "mock" d'une base de données est un objet qui simule la base de données, en renvoyant des données prédéterminées quelle que soit la requêtre qu'on lui transmet.
+      Technique couramment utilisÃ©e dans la mise au point de [tests unitaires automatisÃ©s](unittest.html).
+      Il s'agit de crÃ©er pour les besoins d'un test une version spÃ©cifique d'un composant logiciel (typiquement une classe, qui sera par consÃ©quent instanciÃ©e par un objet), qui au lieu de reproduire le fonctionnement rÃ©el de ce composant en fournit une version "prÃ©-enregistrÃ©e": par exemple, le "mock" d'une base de donnÃ©es est un objet qui simule la base de donnÃ©es, en renvoyant des donnÃ©es prÃ©dÃ©terminÃ©es quelle que soit la requÃªtre qu'on lui transmet.
   -
     type: syno
     text: |
-      On parle également de "simulacres".
-      Le terme "stub" (bouchon) n'est pas à proprement parler un synonyme, mais fait partie du même vocabulaire créé pour parler avec plus de précision de certaines techniques liées aux tests unitaires.
-      Le terme générique pour l'ensemble des objets de ce type est "doublure" (en anglais "test double" par analogie à "stunt double").
+      On parle Ã©galement de "simulacres".
+      Le terme "stub" (bouchon) n'est pas Ã  proprement parler un synonyme, mais fait partie du mÃªme vocabulaire crÃ©Ã© pour parler avec plus de prÃ©cision de certaines techniques liÃ©es aux tests unitaires.
+      Le terme gÃ©nÃ©rique pour l'ensemble des objets de ce type est "doublure" (en anglais "test double" par analogie Ã  "stunt double").
   -
     type: histo
     text: |
-      * le terme est dû à Steve Freeman, Tim McKinnon et Philip Craig, c'est une allusion à un passage *d'Alice au Pays des Merveilles* de Lewis Carroll sur la Tortue Fantaisie (Mock Turtle), leur article "Endo-Testing: Unit Testing with Mock Objects" est publié en 2000
+      * le terme est dÃ» Ã  Steve Freeman, Tim McKinnon et Philip Craig, c'est une allusion Ã  un passage *d'Alice au Pays des Merveilles* de Lewis Carroll sur la Tortue Fantaisie (Mock Turtle), leur article "Endo-Testing: Unit Testing with Mock Objects" est publiÃ© en 2000
   -
     type: benefices
     text: |
-      Le principal intérêt de cette technique est qu'elle permet de *découpler* des parties du code de façon à les tester de façon réellement "unitaire", c'est-à-dire sans que le résultat du test soit dépendant d'un composant qui n'a rien à voir avec celui que l'on teste, mais dont ce dernier dépend pour son fonctionnement.
+      Le principal intÃ©rÃªt de cette technique est qu'elle permet de *dÃ©coupler* des parties du code de faÃ§on Ã  les tester de faÃ§on rÃ©ellement "unitaire", c'est-Ã -dire sans que le rÃ©sultat du test soit dÃ©pendant d'un composant qui n'a rien Ã  voir avec celui que l'on teste, mais dont ce dernier dÃ©pend pour son fonctionnement.
   -
     type: abus
     text: |
-      Cette technique un peu controversée a de nombreux adeptes mais également des détracteurs, qui estiment que l'utilisation de ces objets fantaisie ou "mocks" complique, souvent inutilement, le code des tests unitaires, au détriment de leur rôle de documentation technique.
+      Cette technique un peu controversÃ©e a de nombreux adeptes mais Ã©galement des dÃ©tracteurs, qui estiment que l'utilisation de ces objets fantaisie ou "mocks" complique, souvent inutilement, le code des tests unitaires, au dÃ©triment de leur rÃ´le de documentation technique.
 ---

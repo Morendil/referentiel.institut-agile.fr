@@ -6,17 +6,17 @@ sections:
   -
     type: desc
     text: |
-      La plupart des équipes Agiles préfèrent émettre des estimations dans une unité autre que les classiques hommes-jours.
-      L'une des principales raisons en est que l'usage de la [vélocité](velocity.html) pour la planification permet de s'affranchir de toute unité: quelle que soit l'unité utilisée, on peut calculer la durée prévisible du projet en termes du nombre d'itérations, chaque itération produisant une certaine quantité de fonctionnalités.
-      Une raison plus socio-psychologique tient au fait que l'estimation dans une unité arbitraire tels que les "points" fait peser sur les développeurs une moindre pression.
+      La plupart des Ã©quipes Agiles prÃ©fÃ¨rent Ã©mettre des estimations dans une unitÃ© autre que les classiques hommes-jours.
+      L'une des principales raisons en est que l'usage de la [vÃ©locitÃ©](velocity.html) pour la planification permet de s'affranchir de toute unitÃ©: quelle que soit l'unitÃ© utilisÃ©e, on peut calculer la durÃ©e prÃ©visible du projet en termes du nombre d'itÃ©rations, chaque itÃ©ration produisant une certaine quantitÃ© de fonctionnalitÃ©s.
+      Une raison plus socio-psychologique tient au fait que l'estimation dans une unitÃ© arbitraire tels que les "points" fait peser sur les dÃ©veloppeurs une moindre pression.
   -
     type: abus
     text: |
-      La principale erreur consiste à investir trop de temps ou d'énergie dans le débat sur l'unité d'estimation, dans la mesure où la planification basée sur la [vélocité](velocity.html) rend ce choix largement sans conséquence.
+      La principale erreur consiste Ã  investir trop de temps ou d'Ã©nergie dans le dÃ©bat sur l'unitÃ© d'estimation, dans la mesure oÃ¹ la planification basÃ©e sur la [vÃ©locitÃ©](velocity.html) rend ce choix largement sans consÃ©quence.
   -
     type: syno
     text: |
-      L'expression anglophone consacrée est "story points".
-      Plusieurs synonymes existent exprimant avec plus ou moins de fantaisie l'intention de se démarquer des estimations "réalistes" en hommes-jours: l'un des plus courants est "NUTS", acronyme anglophone pour "Nebulous Units Of Time".
-      On peut également croiser des "cahouettes" (francisation de "nuts"), des "nounours" (francisation de "gummi bears", c'est à dire des bonbons en forme d'ourson), etc.
+      L'expression anglophone consacrÃ©e est "story points".
+      Plusieurs synonymes existent exprimant avec plus ou moins de fantaisie l'intention de se dÃ©marquer des estimations "rÃ©alistes" en hommes-jours: l'un des plus courants est "NUTS", acronyme anglophone pour "Nebulous Units Of Time".
+      On peut Ã©galement croiser des "cahouettes" (francisation de "nuts"), des "nounours" (francisation de "gummi bears", c'est Ã  dire des bonbons en forme d'ourson), etc.
 ---

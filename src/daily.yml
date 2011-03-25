@@ -1,45 +1,45 @@
 ---
-title: Réunion quotidienne
+title: RÃ©union quotidienne
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      L'équipe se réunit une fois par jour, à heure fixe, pour mettre en commun les apports de chacun au produit ou à l'infrastructure de développement, et signaler les obstacles rencontrés. On utilise souvent les [trois questions](troisquestions.html) suggérées par Scrum pour structurer la réunion.
-      Cette réunion est généralement [timeboxée](timebox.html) pour une durée de 15 minutes. Tout sujet risquant de déborder est noté et abordé en dehors de la réunion en plus petit comité.
+      L'Ã©quipe se rÃ©unit une fois par jour, Ã  heure fixe, pour mettre en commun les apports de chacun au produit ou Ã  l'infrastructure de dÃ©veloppement, et signaler les obstacles rencontrÃ©s. On utilise souvent les [trois questions](troisquestions.html) suggÃ©rÃ©es par Scrum pour structurer la rÃ©union.
+      Cette rÃ©union est gÃ©nÃ©ralement [timeboxÃ©e](timebox.html) pour une durÃ©e de 15 minutes. Tout sujet risquant de dÃ©border est notÃ© et abordÃ© en dehors de la rÃ©union en plus petit comitÃ©.
   -
     type: syno
     text: |
       Plusieurs synonymes existent:
 
-      * "Stand-up" ou "réunion debout" : appellation Extreme Programming, qui recommande que les participants restent debout pour encourager à raccourcir la durée de la réunion
-      * "Daily Scrum" ou "mélée quotidienne": bien que ce soit historiquement incorrect (cf. ci-dessous) cette "mélée" (en anglais rugbystique, "scrum") quotidienne est la pratique éponyme de l'approche Scrum
+      * "Stand-up" ou "rÃ©union debout" : appellation Extreme Programming, qui recommande que les participants restent debout pour encourager Ã  raccourcir la durÃ©e de la rÃ©union
+      * "Daily Scrum" ou "mÃ©lÃ©e quotidienne": bien que ce soit historiquement incorrect (cf. ci-dessous) cette "mÃ©lÃ©e" (en anglais rugbystique, "scrum") quotidienne est la pratique Ã©ponyme de l'approche Scrum
   -
     type: abus
     text: |
-      * la réunion quotidienne doit être une "place de marché" où les échanges se font d'un membre de l'équipe à un autre; l'erreur la plus courante consiste à en faire un "compte-rendu", chaque équipier s'adressant à une seule personne (son responsable, ou bien le "Scrum Master" désigné de l'équipe)
-      * la deuxième difficulté la plus couramment rencontrée: une réunion qui s'éternise; des compétences en [facilitation](facilitation.html) en viendront rapidement à bout
-      * troisième difficulté courante: l'équipe trouve peu de valeur dans la réunion, au point qu'elle "oublie" de la tenir si le Scrum Master ou chef de projet n'en prend pas l'initiative; c'est souvent le symptôme d'une adhésion tiède aux principes de l'approche Agile
-      * dernier syndrome couramment rencontré: le "tout va bien", aucun membre de l'équipe ne profite de la réunion quotidienne pour faire état d'obstacles ou de difficultés rencontrée, alors même que le fonctionnement de l'équipe est objectivement améliorable - une telle réticence à admettre des difficultés doit amener à réfléchir sur le style d'encadrement de l'entreprise.
+      * la rÃ©union quotidienne doit Ãªtre une "place de marchÃ©" oÃ¹ les Ã©changes se font d'un membre de l'Ã©quipe Ã  un autre; l'erreur la plus courante consiste Ã  en faire un "compte-rendu", chaque Ã©quipier s'adressant Ã  une seule personne (son responsable, ou bien le "Scrum Master" dÃ©signÃ© de l'Ã©quipe)
+      * la deuxiÃ¨me difficultÃ© la plus couramment rencontrÃ©e: une rÃ©union qui s'Ã©ternise; des compÃ©tences en [facilitation](facilitation.html) en viendront rapidement Ã  bout
+      * troisiÃ¨me difficultÃ© courante: l'Ã©quipe trouve peu de valeur dans la rÃ©union, au point qu'elle "oublie" de la tenir si le Scrum Master ou chef de projet n'en prend pas l'initiative; c'est souvent le symptÃ´me d'une adhÃ©sion tiÃ¨de aux principes de l'approche Agile
+      * dernier syndrome couramment rencontrÃ©: le "tout va bien", aucun membre de l'Ã©quipe ne profite de la rÃ©union quotidienne pour faire Ã©tat d'obstacles ou de difficultÃ©s rencontrÃ©e, alors mÃªme que le fonctionnement de l'Ã©quipe est objectivement amÃ©liorable - une telle rÃ©ticence Ã  admettre des difficultÃ©s doit amener Ã  rÃ©flÃ©chir sur le style d'encadrement de l'entreprise.
   -
     type: signes
     text: |
-      * assister en observateur à une réunion de ce type est la meilleure façon de constater la mise en place de cette pratique
+      * assister en observateur Ã  une rÃ©union de ce type est la meilleure faÃ§on de constater la mise en place de cette pratique
   -
     type: benefices
     text: |
-      * la réunion quotidienne favorise la circulation d'informations importantes; elle apporte une occasion explicite permettant à l'ensemble de l'équipe de se synchroniser
-      * le partage d'informations à l'occasion d'une réunion courte et énergique contribue également à la cohésion de l'équipe
+      * la rÃ©union quotidienne favorise la circulation d'informations importantes; elle apporte une occasion explicite permettant Ã  l'ensemble de l'Ã©quipe de se synchroniser
+      * le partage d'informations Ã  l'occasion d'une rÃ©union courte et Ã©nergique contribue Ã©galement Ã  la cohÃ©sion de l'Ã©quipe
   -
     type: histo
     text: |
-      * Jim Coplien observe chez l'équipe Quattro Pro Windows de Borland, "hyperproductive", l'habitude de tenir une réunion presque tous les jours, mais sans lui donner un nom distinct, dans un article de 1994
-      * bien que la pratique "Daily Scrum" soit décrite dans les articles concernant Scrum à partir de 2000 elle n'apparaît pas dans les tous premiers écrits (1996)
-      * (le nom "SCRUM" lui-même n'est pas initialement associé à la "mélée" strictement, mais fait allusion à l'expression "moving the scrum downfield" utilisée dans l'article de Takeuchi et Nonaka "The New New Product Development Game" et exprime l'idée d'auto-organisation)
+      * Jim Coplien observe chez l'Ã©quipe Quattro Pro Windows de Borland, "hyperproductive", l'habitude de tenir une rÃ©union presque tous les jours, mais sans lui donner un nom distinct, dans un article de 1994
+      * bien que la pratique "Daily Scrum" soit dÃ©crite dans les articles concernant Scrum Ã  partir de 2000 elle n'apparaÃ®t pas dans les tous premiers Ã©crits (1996)
+      * (le nom "SCRUM" lui-mÃªme n'est pas initialement associÃ© Ã  la "mÃ©lÃ©e" strictement, mais fait allusion Ã  l'expression "moving the scrum downfield" utilisÃ©e dans l'article de Takeuchi et Nonaka "The New New Product Development Game" et exprime l'idÃ©e d'auto-organisation)
       * on retrouve le "Daily Stand Up" dans les premiers articles sur Extreme Programming (1998)
-      * les "[trois questions](troisquestions.html)" de Scrum sont adoptées par les équipes Extreme Programming dès le début des années 2000	
-      * La pratique trouve sa forme définitive avec la généralisation du [tableau des tâches](taskboard.html), il devient alors important de tenir la réunion devant le tableau (2004-2006)
+      * les "[trois questions](troisquestions.html)" de Scrum sont adoptÃ©es par les Ã©quipes Extreme Programming dÃ¨s le dÃ©but des annÃ©es 2000	
+      * La pratique trouve sa forme dÃ©finitive avec la gÃ©nÃ©ralisation du [tableau des tÃ¢ches](taskboard.html), il devient alors important de tenir la rÃ©union devant le tableau (2004-2006)
   -
     type: resources
     text: |

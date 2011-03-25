@@ -6,19 +6,19 @@ sections:
   -
     type: desc
     text: |
-      Afin de prendre les décisions de conception "juste à temps", les développeurs au sein de l'équipe guettent certains moments critiques où un choix se pose parmi plusieurs alternatives qui peut avoir une influence durable sur la suite du projet.
-      Lorsqu'un choix de ce type est identifé, une réunion impromptue autour d'un tableau blanc ou d'une session de [cartes CRC](crc.html) s'organise, mobilisant une partie de l'équipe (généralement deux ou trois développeurs). Deux facteurs d'efficacité de ce type de session sont à noter:
+      Afin de prendre les dÃ©cisions de conception "juste Ã  temps", les dÃ©veloppeurs au sein de l'Ã©quipe guettent certains moments critiques oÃ¹ un choix se pose parmi plusieurs alternatives qui peut avoir une influence durable sur la suite du projet.
+      Lorsqu'un choix de ce type est identifÃ©, une rÃ©union impromptue autour d'un tableau blanc ou d'une session de [cartes CRC](crc.html) s'organise, mobilisant une partie de l'Ã©quipe (gÃ©nÃ©ralement deux ou trois dÃ©veloppeurs). Deux facteurs d'efficacitÃ© de ce type de session sont Ã  noter:
 
-        * on envisage *plusieurs alternatives*, idéalement un minimum de trois; le choix définitif se fait parmi des alternatives acceptables sur la base de critères telles que simplicité ou cohérence avec l'existant;
-        * on éprouves chacune des alternatives proposées en considérant un scénario concret; par exemple en imaginant comment le [test de recette](acceptance.html) associé à une [user story](stories.html) serait traité dans une conception donnée
+        * on envisage *plusieurs alternatives*, idÃ©alement un minimum de trois; le choix dÃ©finitif se fait parmi des alternatives acceptables sur la base de critÃ¨res telles que simplicitÃ© ou cohÃ©rence avec l'existant;
+        * on Ã©prouves chacune des alternatives proposÃ©es en considÃ©rant un scÃ©nario concret; par exemple en imaginant comment le [test de recette](acceptance.html) associÃ© Ã  une [user story](stories.html) serait traitÃ© dans une conception donnÃ©e
   -
     type: syno
     text: |
-      En anglais le terme consacré, provenant de Ron Jeffries dans sa description d'Extreme Programming, est "quick design session".
+      En anglais le terme consacrÃ©, provenant de Ron Jeffries dans sa description d'Extreme Programming, est "quick design session".
   -
     type: benefices
     text: |
-      Dans une approche Agile l'activité de conception est réputée être "lissée" tout au long du projet, plutôt que concentrée dans une phase explicite de conception en amont de l'implémentation.
-      Cependant, il n'est pas suffisant de supprimer cette phase explicite de conception pour *s'assurer* que les activités de conception, qui restent nécessaires,  sont menées de façon satisfaisante.
-      Les sessions de conception au tableau blanc sont l'une des deux pratiques Agiles qui jouent ce rôle, l'autre étant le [refactoring](refactoring.html).
+      Dans une approche Agile l'activitÃ© de conception est rÃ©putÃ©e Ãªtre "lissÃ©e" tout au long du projet, plutÃ´t que concentrÃ©e dans une phase explicite de conception en amont de l'implÃ©mentation.
+      Cependant, il n'est pas suffisant de supprimer cette phase explicite de conception pour *s'assurer* que les activitÃ©s de conception, qui restent nÃ©cessaires,  sont menÃ©es de faÃ§on satisfaisante.
+      Les sessions de conception au tableau blanc sont l'une des deux pratiques Agiles qui jouent ce rÃ´le, l'autre Ã©tant le [refactoring](refactoring.html).
 ---

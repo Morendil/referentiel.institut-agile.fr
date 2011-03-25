@@ -6,9 +6,9 @@ sections:
   -
     type: desc
     text: |
-      Formule proposé par Ron Jeffries selon laquelle une User Story est la conjonction de trois éléments:
+      Formule proposÃ©e par Ron Jeffries selon laquelle une User Story est la conjonction de trois Ã©lÃ©ments:
 
-      *  le *carton* ou Post-It, qui permet de donner une forme tangible et durable à ce qui n'est sans cela qu'une abstraction, à savoir:
-      *  une *conversation* qui peut avoir lieu en plusieurs temps au fil d'un projet, entre toutes les personnes concernées par un aspect fonctionnel d'un logiciel: clients, utilisateurs, développeurs, testeurs; cette conversation est en grande partie orale mais très souvent complétée par des documents;
-      *  la *confirmation*, enfin, la plus formalisée possible, que l'objectif dont il a été question au cours de cette conversation est atteint.      
+      *  le *carton* ou Post-It, qui permet de donner une forme tangible et durable Ã  ce qui n'est sans cela qu'une abstraction, Ã  savoir:
+      *  une *conversation* qui peut avoir lieu en plusieurs temps au fil d'un projet, entre toutes les personnes concernÃ©es par un aspect fonctionnel d'un logiciel: clients, utilisateurs, dÃ©veloppeurs, testeurs; cette conversation est en grande partie orale mais trÃ¨s souvent complÃ©tÃ©e par des documents;
+      *  la *confirmation*, enfin, la plus formalisÃ©e possible, que l'objectif dont il a Ã©tÃ© question au cours de cette conversation est atteint.      
 ---

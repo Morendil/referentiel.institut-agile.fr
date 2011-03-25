@@ -1,27 +1,27 @@
 ---
-title: Salle dédiée
+title: Salle dÃ©diÃ©e
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      L'équipe (idéalement au complet, c'est à dire incluant le "client" ou Product Owner) dispose d'un local dédié à plein temps pour le projet, cloisonné des autres activités de l'entreprise.
-      Ce local est équipé de façon à répondre aux besoins logistiques du projet: stations de travail (si nécessaires adaptées au [binômage](binomage.html)), tableaux effaçables et chevalets, espaces aux murs pour l'affichage de Post-Its, etc.
+      L'Ã©quipe (idÃ©alement au complet, c'est Ã  dire incluant le "client" ou Product Owner) dispose d'un local dÃ©diÃ© Ã  plein temps pour le projet, cloisonnÃ© des autres activitÃ©s de l'entreprise.
+      Ce local est Ã©quipÃ© de faÃ§on Ã  rÃ©pondre aux besoins logistiques du projet: stations de travail (si nÃ©cessaires adaptÃ©es au [binÃ´mage](binomage.html)), tableaux effaÃ§ables et chevalets, espaces aux murs pour l'affichage de Post-Its, etc.
   -
     type: abus
     text: |
-      * le critère de cloisonnement est important: un "open space" ou bureau paysager **n'est pas** une mise en oeuvre adéquate de cette pratique; le bruit occasioné par des personnes étrangères au projet constitue une distraction néfaste à la concentration requise pour un projet de développement
+      * le critÃ¨re de cloisonnement est important: un "open space" ou bureau paysager **n'est pas** une mise en oeuvre adÃ©quate de cette pratique; le bruit occasionÃ© par des personnes Ã©trangÃ¨res au projet constitue une distraction nÃ©faste Ã  la concentration requise pour un projet de dÃ©veloppement
   -
     type: benefices
     text: |
-      * une salle dédiée favorise ce que Alistair Cockburn nomme la "[communication osmotique](http://alistair.cockburn.us/Osmotic+communication)": la diffusion d'information (jusqu'à l'équilibre) entre ceux qui en disposent et ceux qui en ont besoin; au lieu de dépendre de mécanismes *explicites* de communication (téléphone, email, réunion) cette diffusion se fait de façon "ambiante", par exemple en entendant (sans les écouter activement) les conversations des autres membres de l'équipe, ou en lisant des Post-It affichés au mur
+      * une salle dÃ©diÃ©e favorise ce que Alistair Cockburn nomme la "[communication osmotique](http://alistair.cockburn.us/Osmotic+communication)": la diffusion d'information (jusqu'Ã  l'Ã©quilibre) entre ceux qui en disposent et ceux qui en ont besoin; au lieu de dÃ©pendre de mÃ©canismes *explicites* de communication (tÃ©lÃ©phone, email, rÃ©union) cette diffusion se fait de faÃ§on "ambiante", par exemple en entendant (sans les Ã©couter activement) les conversations des autres membres de l'Ã©quipe, ou en lisant des Post-It affichÃ©s au mur
   -
     type: pubs
     text: |
-      Les conditions "environnementales" favorisant la performance des développeurs ont fait l'objet d'un certain nombre d'études. Bien qu'il soit généralement difficile d'établir de façon fiable quoi que ce soit qui ait trait à la productivité, en raison du caractère flou et ambigu de la notion même de "productivité" pour un programmeur, il semble en ressortir que les deux "extrêmes" que sont le bureau individuel **ou** le local dédié soient les plus favorables.
-      Le bureau paysager, malgré son intérêt économique évident, et l'attrait (plus subtil) qu'il peut exercer sur des managers soucieux de "surveiller" leurs troupes, s'avère être la pire des solutions, retenant le plus mauvais des deux mondes.
+      Les conditions "environnementales" favorisant la performance des dÃ©veloppeurs ont fait l'objet d'un certain nombre d'Ã©tudes. Bien qu'il soit gÃ©nÃ©ralement difficile d'Ã©tablir de faÃ§on fiable quoi que ce soit qui ait trait Ã  la productivitÃ©, en raison du caractÃ¨re flou et ambigu de la notion mÃªme de "productivitÃ©" pour un programmeur, il semble en ressortir que les deux "extrÃªmes" que sont le bureau individuel **ou** le local dÃ©diÃ© soient les plus favorables.
+      Le bureau paysager, malgrÃ© son intÃ©rÃªt Ã©conomique Ã©vident, et l'attrait (plus subtil) qu'il peut exercer sur des managers soucieux de "surveiller" leurs troupes, s'avÃ¨re Ãªtre la pire des solutions, retenant le plus mauvais des deux mondes.
 
-        * [How office space affects programming productivity](http://ieeexplore.ieee.org//xpls/abs_all.jsp?arnumber=362626) examine quelques études empiriques assez anciennes et évoque l'intérêt de bureaux privatifs (1995)
-        * [Rapid software development through team collocation](http://ieeexplore.ieee.org//xpls/abs_all.jsp?arnumber=1019481), une étude plus récente,  semble confirmer qu'un local dédié favorise de meilleures performances (du moins mesurées par des indices subjectifs de satisfaction, du client comme des développeurs) (2002)
+        * [How office space affects programming productivity](http://ieeexplore.ieee.org//xpls/abs_all.jsp?arnumber=362626) examine quelques Ã©tudes empiriques assez anciennes et Ã©voque l'intÃ©rÃªt de bureaux privatifs (1995)
+        * [Rapid software development through team collocation](http://ieeexplore.ieee.org//xpls/abs_all.jsp?arnumber=1019481), une Ã©tude plus rÃ©cente,  semble confirmer qu'un local dÃ©diÃ© favorise de meilleures performances (du moins mesurÃ©es par des indices subjectifs de satisfaction, du client comme des dÃ©veloppeurs) (2002)
 ---

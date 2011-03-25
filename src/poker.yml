@@ -6,27 +6,27 @@ sections:
   -
     type: desc
     text: |
-      Une méthode ludique d'estimation, utilisées par de nombreuses équipes Agiles.
-      L'équipe se réunit avec son client ou Product Owner. Autour de la table, chacun dispose d'un jeu de cartes représentant des valeurs typiques pour l'estimation en [points](nuts.html) d'une [user story](stories.html).
-      Le client présente rapidement l'objectif d'une story. Chacun choisit ensuite une estimation, en silence, et prépare la carte correspondante face cachée. Lorsque tout le monde est prêt, on retourne les cartes simultanément et on donne lecture des estimations.
-      Les membres de l'équipe ayant donné les estimations la plus basse et la plus haute sont invités à expliquer leur raisonnement; après une brève discussion, on cherche à émettre une estimation faisant consensus, éventuellement en répétant le jeu.
+      Une mÃ©thode ludique d'estimation, utilisÃ©es par de nombreuses Ã©quipes Agiles.
+      L'Ã©quipe se rÃ©unit avec son client ou Product Owner. Autour de la table, chacun dispose d'un jeu de cartes reprÃ©sentant des valeurs typiques pour l'estimation en [points](nuts.html) d'une [user story](stories.html).
+      Le client prÃ©sente rapidement l'objectif d'une story. Chacun choisit ensuite une estimation, en silence, et prÃ©pare la carte correspondante face cachÃ©e. Lorsque tout le monde est prÃªt, on retourne les cartes simultanÃ©ment et on donne lecture des estimations.
+      Les membres de l'Ã©quipe ayant donnÃ© les estimations la plus basse et la plus haute sont invitÃ©s Ã  expliquer leur raisonnement; aprÃ¨s une brÃ¨ve discussion, on cherche Ã  Ã©mettre une estimation faisant consensus, Ã©ventuellement en rÃ©pÃ©tant le jeu.
   -
     type: abus
     text: |
-      Un danger potentiel du Planning Poker réside dans l'obligation de "converger" vers une estimation produisant un consensus. En procédant de la sorte, on risque d'ignorer une information importante, à savoir *le degré d'incertitude* que représentait une divergence importante entre les estimations initiales.
+      Un danger potentiel du Planning Poker rÃ©side dans l'obligation de "converger" vers une estimation produisant un consensus. En procÃ©dant de la sorte, on risque d'ignorer une information importante, Ã  savoir *le degrÃ© d'incertitude* que reprÃ©sentait une divergence importante entre les estimations initiales.
   -
     type: histo
     text: |
-      * le Planning Poker est une adaptation du ["Wideband Delphi"](http://en.wikipedia.org/wiki/Wideband_Delphi) proposé par Barry Boehm dans les années 1970
-      * sa forme actuelle est proposée par James Grenning dans [un article](http://renaissancesoftware.net/papers/14-papers/44-planing-poker.html) paru en 2002
-      * rendue populaire notamment dans la communauté Scrum, et comme nombre d'autres techniques liées à la planification, par le livre de Mike Cohn [*Agile Estimating and Planning](http://www.amazon.com/dp/0131479415) paru en 2005
+      * le Planning Poker est une adaptation du ["Wideband Delphi"](http://en.wikipedia.org/wiki/Wideband_Delphi) proposÃ© par Barry Boehm dans les annÃ©es 1970
+      * sa forme actuelle est proposÃ©e par James Grenning dans [un article](http://renaissancesoftware.net/papers/14-papers/44-planing-poker.html) paru en 2002
+      * rendue populaire notamment dans la communautÃ© Scrum, et comme nombre d'autres techniques liÃ©es Ã  la planification, par le livre de Mike Cohn [*Agile Estimating and Planning](http://www.amazon.com/dp/0131479415) paru en 2005
   -
     type: benefices
     text: |
-      * le format de la réunion permet d'exploiter la connaissance de tous les membres de l'équipe, alors que dans une réunion "à bâtons rompus" il arrive souvent que certaines personnes ne s'expriment jamais
-      * la discussion qui a lieu suite à la révélation des estimations initiales permet de mettre en commun des connaissances sur la user story en question et les difficultés potentielles de son estimation
+      * le format de la rÃ©union permet d'exploiter la connaissance de tous les membres de l'Ã©quipe, alors que dans une rÃ©union "Ã  bÃ¢tons rompus" il arrive souvent que certaines personnes ne s'expriment jamais
+      * la discussion qui a lieu suite Ã  la rÃ©vÃ©lation des estimations initiales permet de mettre en commun des connaissances sur la user story en question et les difficultÃ©s potentielles de son estimation
   -
     type: pubs
     text: |
-      Plusieurs études initiales menées par [Nils Christian Haugen](http://simula.no/people/nch/bibliography) semblent confirmer l'intérêt de la pratique, qui produirait des estimations légèrement plus fiables que l'estimation par un seul "expert".
+      Plusieurs Ã©tudes initiales menÃ©es par [Nils Christian Haugen](http://simula.no/people/nch/bibliography) semblent confirmer l'intÃ©rÃªt de la pratique, qui produirait des estimations lÃ©gÃ¨rement plus fiables que l'estimation par un seul "expert".
 ---

@@ -1,31 +1,31 @@
 ---
-title: Vélocité
+title: VÃ©locitÃ©
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      A la fin d'une itération, l'équipe additionne les estimations associées aux [user stories](stories.html) qui ont été [terminées](sashimi.html) au cours de cette itération. Ce total est appelé vélocité.
-      Une fois connue, la vélocité peut être utilisée pour valider ou réviser la planification de l'ensemble du projet, en partant du principe que la vélocité lors de futures itérations sera approximativement égale à la dernière vélocité constatée.      
-      **Exemple:** une équipe entame une itération, prévoyant de terminer les stories suivantes: A, estimée à 2 points; B, estimée à 2 points; C, estimée à 3 points. A la fin de l'itération, les stories A et B sont terminées à 100% mais C n'est terminée qu'à 80%.
-      Une équipe Agile ne reconnait que deux niveaux de complétion: 0% ou 100%. Par conséquent C n'est pas comptabilisée, et la vélocité de l'itération est de 4 points. Supposons que la totalité des stories du projet représente 40 points; on prévoit donc une durée totale du projet équivalente à 10 itérations.
-      L'itération suivante, l'équipe devrait ne prévoir qu'un lot de stories équivalent à 4 points, afin d'éviter de retomber dans le travers que constitue une story terminée à 80%. La vélocité fonctionne ainsi comme une soupape permettant de faire retomber la pression lorsque l'équipe rencontre des difficultés à tenir ses engagements. (Si la story C est complétée au début de l'itération suivante, les 3 points correspondants pourront être comptabilisés dans la vélocité de cette dernière. La vélocité de l'équipe va donc "naturellement" remonter.)
+      A la fin d'une itÃ©ration, l'Ã©quipe additionne les estimations associÃ©es aux [user stories](stories.html) qui ont Ã©tÃ© [terminÃ©es](sashimi.html) au cours de cette itÃ©ration. Ce total est appelÃ© vÃ©locitÃ©.
+      Une fois connue, la vÃ©locitÃ© peut Ãªtre utilisÃ©e pour valider ou rÃ©viser la planification de l'ensemble du projet, en partant du principe que la vÃ©locitÃ© lors de futures itÃ©rations sera approximativement Ã©gale Ã  la derniÃ¨re vÃ©locitÃ© constatÃ©e.      
+      **Exemple:** une Ã©quipe entame une itÃ©ration, prÃ©voyant de terminer les stories suivantes: A, estimÃ©e Ã  2 points; B, estimÃ©e Ã  2 points; C, estimÃ©e Ã  3 points. A la fin de l'itÃ©ration, les stories A et B sont terminÃ©es Ã  100% mais C n'est terminÃ©e qu'Ã  80%.
+      Une Ã©quipe Agile ne reconnait que deux niveaux de complÃ©tion: 0% ou 100%. Par consÃ©quent C n'est pas comptabilisÃ©e, et la vÃ©locitÃ© de l'itÃ©ration est de 4 points. Supposons que la totalitÃ© des stories du projet reprÃ©sente 40 points; on prÃ©voit donc une durÃ©e totale du projet Ã©quivalente Ã  10 itÃ©rations.
+      L'itÃ©ration suivante, l'Ã©quipe devrait ne prÃ©voir qu'un lot de stories Ã©quivalent Ã  4 points, afin d'Ã©viter de retomber dans le travers que constitue une story terminÃ©e Ã  80%. La vÃ©locitÃ© fonctionne ainsi comme une soupape permettant de faire retomber la pression lorsque l'Ã©quipe rencontre des difficultÃ©s Ã  tenir ses engagements. (Si la story C est complÃ©tÃ©e au dÃ©but de l'itÃ©ration suivante, les 3 points correspondants pourront Ãªtre comptabilisÃ©s dans la vÃ©locitÃ© de cette derniÃ¨re. La vÃ©locitÃ© de l'Ã©quipe va donc "naturellement" remonter.)
   -
     type: abus
     text: |
-      Cette définition a plusieurs conséquences importantes:
+      Cette dÃ©finition a plusieurs consÃ©quences importantes:
 
-      * la vélocité est une **constatation**, une mesure à postériori, et non un budget ou une prévision; parler de "fixer une vélocité" est un contresens
-      * on parle de la vélocité d'une équipe uniquement, en aucun cas de vélocité individuelle; cela n'aurait pas de sens, une équipe étant conçue précisément comme un ensemble plus performant que la somme de ses individus
-      * on ne peut pas directement comparer la vélocité de deux équipes différentes, puisque ces équipes peuvent avoir émis leurs estimations sur des bases différentes
-      * pour que la vélocité permette la prévision d'une date de fin du projet, il est impératif que l'ensemble des [user stories](stories.html) que comprend le projet soient estimées de façon cohérente; il existe deux manières d'y parvenir:
-        * estimer la totalité des user stories très tôt dans le projet (avant ou pendant les premières itérations)
-        * utiliser une technique [d'estimations relatives](relative.html) pour s'assurer que les estimations tardives sont émises sur la même base que celles émises en début de projet
+      * la vÃ©locitÃ© est une **constatation**, une mesure Ã  postÃ©riori, et non un budget ou une prÃ©vision; parler de "fixer une vÃ©locitÃ©" est un contresens
+      * on parle de la vÃ©locitÃ© d'une Ã©quipe uniquement, en aucun cas de vÃ©locitÃ© individuelle; cela n'aurait pas de sens, une Ã©quipe Ã©tant conÃ§ue prÃ©cisÃ©ment comme un ensemble plus performant que la somme de ses individus
+      * on ne peut pas directement comparer la vÃ©locitÃ© de deux Ã©quipes diffÃ©rentes, puisque ces Ã©quipes peuvent avoir Ã©mis leurs estimations sur des bases diffÃ©rentes
+      * pour que la vÃ©locitÃ© permette la prÃ©vision d'une date de fin du projet, il est impÃ©ratif que l'ensemble des [user stories](stories.html) que comprend le projet soient estimÃ©es de faÃ§on cohÃ©rente; il existe deux maniÃ¨res d'y parvenir:
+        * estimer la totalitÃ© des user stories trÃ¨s tÃ´t dans le projet (avant ou pendant les premiÃ¨res itÃ©rations)
+        * utiliser une technique [d'estimations relatives](relative.html) pour s'assurer que les estimations tardives sont Ã©mises sur la mÃªme base que celles Ã©mises en dÃ©but de projet
   -
     type: histo
     text: |
-        * le terme de "vélocité" provient d'Extreme Programming, où il apparaît assez tardivement, remplaçant le terme "load factor" dont la définition est [jugée trop complexe](http://www.c2.com/cgi/wiki?VelocityVsLoadFactor) (milieu de l'année 2000)
-        * la définition canonique apparaît dans [*Planning Extreme Programming*](http://www.amazon.fr/dp/0201710919) de Beck et Fowler (2001)
-        * le terme est ensuite adopté par la communauté Scrum à partir de 2002
+        * le terme de "vÃ©locitÃ©" provient d'Extreme Programming, oÃ¹ il apparaÃ®t assez tardivement, remplaÃ§ant le terme "load factor" dont la dÃ©finition est [jugÃ©e trop complexe](http://www.c2.com/cgi/wiki?VelocityVsLoadFactor) (milieu de l'annÃ©e 2000)
+        * la dÃ©finition canonique apparaÃ®t dans [*Planning Extreme Programming*](http://www.amazon.fr/dp/0201710919) de Beck et Fowler (2001)
+        * le terme est ensuite adoptÃ© par la communautÃ© Scrum Ã  partir de 2002
 ---

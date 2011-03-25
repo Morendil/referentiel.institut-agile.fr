@@ -1,48 +1,48 @@
 ---
-title: Rétrospectives d'itération
+title: RÃ©trospectives d'itÃ©ration
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      L'équipe se réunit périodiquement, le plus souvent à un rythme calé sur celui des [itérations](iteration.html), pour réfléchir explicitement sur les événements saillants depuis la précédente réunion de ce type, et décider collectivement des actions d'amélioration ou de remédiation suggérées par la discussion.
-      Le plus souvent il s'agit d'une réunion [facilitée](facilitation.html) et utilisant un format prédéterminé, l'intention étant de s'assurer que tous les membres de l'équipe ont l'occasion de s'exprimer.
+      L'Ã©quipe se rÃ©unit pÃ©riodiquement, le plus souvent Ã  un rythme calÃ© sur celui des [itÃ©rations](iteration.html), pour rÃ©flÃ©chir explicitement sur les Ã©vÃ©nements saillants depuis la prÃ©cÃ©dente rÃ©union de ce type, et dÃ©cider collectivement des actions d'amÃ©lioration ou de remÃ©diation suggÃ©rÃ©es par la discussion.
+      Le plus souvent il s'agit d'une rÃ©union [facilitÃ©e](facilitation.html) et utilisant un format prÃ©dÃ©terminÃ©, l'intention Ã©tant de s'assurer que tous les membres de l'Ã©quipe ont l'occasion de s'exprimer.
   -
     type: syno
     text: |
-      Le terme "retrospective" est emprunté directement à l'anglais, on le préfère à "debriefing" ou "post-mortem" pour ses connotations plus neutres. On parle également de "heartbeat retrospectives" pour insister sur le fait que leur régularité contribue à donner au projet une cadence (le sens littéral est "battement de coeur").
-      Le terme "reflection workshop" (atelier de réflexion) utilisé par Alistair Cockburn est moins utilisé mais connu de quelques experts.
+      Le terme "retrospective" est empruntÃ© directement Ã  l'anglais, on le prÃ©fÃ¨re Ã  "debriefing" ou "post-mortem" pour ses connotations plus neutres. On parle Ã©galement de "heartbeat retrospectives" pour insister sur le fait que leur rÃ©gularitÃ© contribue Ã  donner au projet une cadence (le sens littÃ©ral est "battement de coeur").
+      Le terme "reflection workshop" (atelier de rÃ©flexion) utilisÃ© par Alistair Cockburn est moins utilisÃ© mais connu de quelques experts.
   -
     type: abus
     text: |
-      * Une rétrospective a pour objet de mettre à jour des éléments soit factuels, soit d'ordre relationnel, qui ont des effets tangibles sur le travail de l'équipe, et d'en tirer des pistes d'amélioration; elle ne doit pas se transformer en discussion "de comptoir" ou en défouloir.
-      * A contrario, une rétrospective ne peut fonctionner que si chacun se sent libre de s'exprimer, la responsabilité de l'animateur est d'établir les conditions de la confiance entre participants; cela peut exiger la prise en compte des relations hiérarchiques; la présence d'un responsable peut entraîner des tensions.
-      * Comme toute réunion impliquant l'ensemble de l'équipe, elle représente un investissement en temps conséquent; si la réunion est inefficace, que ce soit pour des raisons usuelles (manque de préparation, participants en retard ou dissipés) ou spécifiques à ce format (réticences des participants, non-dits), cette pratique pourtant très utile risque d'être discréditée au sein de l'équipe.
-      * Une rétrospective d'itération doit aboutir à des décisions; ni trop peu (il y a toujours quelque chose à améliorer), ni en trop grand nombre (il ne sera pas possible de régler toutes les difficultés en une seule itération). Une ou deux pistes d'amélioration par rétrospective suffisent.
-      * Si les mêmes constats reviennent systématiquement d'une rétrospective sur l'autre, sans que les décisions prises soient suivies d'effets, c'est le signe d'une ritualisation des rétrospectives.
+      * Une rÃ©trospective a pour objet de mettre Ã  jour des Ã©lÃ©ments soit factuels, soit d'ordre relationnel, qui ont des effets tangibles sur le travail de l'Ã©quipe, et d'en tirer des pistes d'amÃ©lioration; elle ne doit pas se transformer en discussion "de comptoir" ou en dÃ©fouloir.
+      * A contrario, une rÃ©trospective ne peut fonctionner que si chacun se sent libre de s'exprimer, la responsabilitÃ© de l'animateur est d'Ã©tablir les conditions de la confiance entre participants; cela peut exiger la prise en compte des relations hiÃ©rarchiques; la prÃ©sence d'un responsable peut entraÃ®ner des tensions.
+      * Comme toute rÃ©union impliquant l'ensemble de l'Ã©quipe, elle reprÃ©sente un investissement en temps consÃ©quent; si la rÃ©union est inefficace, que ce soit pour des raisons usuelles (manque de prÃ©paration, participants en retard ou dissipÃ©s) ou spÃ©cifiques Ã  ce format (rÃ©ticences des participants, non-dits), cette pratique pourtant trÃ¨s utile risque d'Ãªtre discrÃ©ditÃ©e au sein de l'Ã©quipe.
+      * Une rÃ©trospective d'itÃ©ration doit aboutir Ã  des dÃ©cisions; ni trop peu (il y a toujours quelque chose Ã  amÃ©liorer), ni en trop grand nombre (il ne sera pas possible de rÃ©gler toutes les difficultÃ©s en une seule itÃ©ration). Une ou deux pistes d'amÃ©lioration par rÃ©trospective suffisent.
+      * Si les mÃªmes constats reviennent systÃ©matiquement d'une rÃ©trospective sur l'autre, sans que les dÃ©cisions prises soient suivies d'effets, c'est le signe d'une ritualisation des rÃ©trospectives.
   -
     type: signes
     text: |
-      * assister en observateur à une réunion de ce type est la meilleure façon de constater la mise en place de cette pratique
-      * à défaut, on sera attentif aux pistes et décisions d'amélioration prises lors de la rétrospective: elles peuvent prendre la forme d'un document écrit, ou simplement de Post-It matérialisant les décisions prises et affichés sur un tableau mural spécifique
+      * assister en observateur Ã  une rÃ©union de ce type est la meilleure faÃ§on de constater la mise en place de cette pratique
+      * Ã  dÃ©faut, on sera attentif aux pistes et dÃ©cisions d'amÃ©lioration prises lors de la rÃ©trospective: elles peuvent prendre la forme d'un document Ã©crit, ou simplement de Post-It matÃ©rialisant les dÃ©cisions prises et affichÃ©s sur un tableau mural spÃ©cifique
   -
     type: benefices
     text: |
-      * en premier lieu, les rétrospectives permettent de tirer le meilleur parti des cycles itératifs: elles sont l'occasion d'adapter et d'améliorer graduellement le fonctionnement de l'équipe
-      * en mettant entre les mains des acteurs du projet les décisions sur le fonctionnement du projet, les rétrospectives responsabilisent les participants et favorisent l'appropriation des décisions 
+      * en premier lieu, les rÃ©trospectives permettent de tirer le meilleur parti des cycles itÃ©ratifs: elles sont l'occasion d'adapter et d'amÃ©liorer graduellement le fonctionnement de l'Ã©quipe
+      * en mettant entre les mains des acteurs du projet les dÃ©cisions sur le fonctionnement du projet, les rÃ©trospectives responsabilisent les participants et favorisent l'appropriation des dÃ©cisions 
   -
     type: histo
     text: |
-      * Alistair Cockburn revendique l'usage du terme "reflection workshop" dès 1995, bien que la première description par écrit apparaisse dans son livre de 2001
-      * la notion de "reflection" et d'ajustement est inscrite au [Manifeste Agile](http://agilemanifesto.org/iso/fr/) dès 2001, très probablement inspirée par Cockburn
-      * le terme "Rétrospectives" est dû au livre de Norm Kerth (cf. ci-dessous) en 2001
-      * la pratique se diffuse notamment [par le biais des conférences XP Day en Europe](http://xpday3.xpday.org/sessions.php#Retro) à partir de 2003
-      * le livre de Diana Larsen et Esther Derby ciblant spécifiquement les équipes Agiles finit de codifier la pratique de la rétrospective d'itération en 2006
+      * Alistair Cockburn revendique l'usage du terme "reflection workshop" dÃ¨s 1995, bien que la premiÃ¨re description par Ã©crit apparaisse dans son livre de 2001
+      * la notion de "reflection" et d'ajustement est inscrite au [Manifeste Agile](http://agilemanifesto.org/iso/fr/) dÃ¨s 2001, trÃ¨s probablement inspirÃ©e par Cockburn
+      * le terme "RÃ©trospectives" est dÃ» au livre de Norm Kerth (cf. ci-dessous) en 2001
+      * la pratique se diffuse notamment [par le biais des confÃ©rences XP Day en Europe](http://xpday3.xpday.org/sessions.php#Retro) Ã  partir de 2003
+      * le livre de Diana Larsen et Esther Derby ciblant spÃ©cifiquement les Ã©quipes Agiles finit de codifier la pratique de la rÃ©trospective d'itÃ©ration en 2006
   -
     type: resources
     text: |
       * [Project Retrospectives](http://www.amazon.fr/dp/0932633447), de Norm Kerth (2001)
-      * [Agile Software Development](http://www.amazon.fr/dp/0321482751), de Alistair Cockburn (2001, réédité 2006)
+      * [Agile Software Development](http://www.amazon.fr/dp/0321482751), de Alistair Cockburn (2001, rÃ©Ã©ditÃ© 2006)
       * [Agile Retrospectives](http://www.amazon.fr/dp/0977616649), de Esther Derby et Diana Larsen (2006)
 ---

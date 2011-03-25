@@ -1,13 +1,13 @@
 ---
-title: Responsabilité collective du code
+title: ResponsabilitÃ© collective du code
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Une équipe établit généralement des conventions, tacites, orales ou implciites, précisant quel développeur peut intervenir sur quelle partie du code source dont l'équipe a la charge. Différents modes existent: ainsi un module ou un fichier peut être la responsabilité exclusive d'un développeur, un autre membre de l'équipe ne pouvant le modifier qu'avec sa permission.
-      Lorsque cette responsabilité est collective, *tous* les développeurs sont autorisés et encouragés à modifier *toute partie* du code lorsque c'est nécessaire, soit pour réaliser une tâche en cours, soit pour corriger un défaut ou améliorer la structure de l'ensemble.
+      Une Ã©quipe Ã©tablit gÃ©nÃ©ralement des conventions, tacites, orales ou implciites, prÃ©cisant quel dÃ©veloppeur peut intervenir sur quelle partie du code source dont l'Ã©quipe a la charge. DiffÃ©rents modes existent: ainsi un module ou un fichier peut Ãªtre la responsabilitÃ© exclusive d'un dÃ©veloppeur, un autre membre de l'Ã©quipe ne pouvant le modifier qu'avec sa permission.
+      Lorsque cette responsabilitÃ© est collective, *tous* les dÃ©veloppeurs sont autorisÃ©s et encouragÃ©s Ã  modifier *toute partie* du code lorsque c'est nÃ©cessaire, soit pour rÃ©aliser une tÃ¢che en cours, soit pour corriger un dÃ©faut ou amÃ©liorer la structure de l'ensemble.
   -
     type: syno
     text: |
@@ -15,25 +15,25 @@ sections:
   -
     type: abus
     text: |
-      Il est fréquent que des règles tacites existent qui sont en contradiction avec les règles explicite de l'équipe: par exemple, une équipe peut avoir ostensiblement adopté un modèle de responsabilité collective, mais un des développeurs manifeste des mouvements d'humeur lorsqu'on modifie certains fichiers, conduisant l'équipe à les considérer comme *de facto* sous sa responsabilité exclusive. Il est important de vérifier qu'une responsabilité collective revendiquée se traduit effectivement dans les faits.
+      Il est frÃ©quent que des rÃ¨gles tacites existent qui sont en contradiction avec les rÃ¨gles explicite de l'Ã©quipe: par exemple, une Ã©quipe peut avoir ostensiblement adoptÃ© un modÃ¨le de responsabilitÃ© collective, mais un des dÃ©veloppeurs manifeste des mouvements d'humeur lorsqu'on modifie certains fichiers, conduisant l'Ã©quipe Ã  les considÃ©rer comme *de facto* sous sa responsabilitÃ© exclusive. Il est important de vÃ©rifier qu'une responsabilitÃ© collective revendiquÃ©e se traduit effectivement dans les faits.
   -
     type: benefices
     text: |
-      Un modèle de responsabilité collective
+      Un modÃ¨le de responsabilitÃ© collective
 
-      * diminue les risques de blocage en cas d'absence d'un des développeurs
+      * diminue les risques de blocage en cas d'absence d'un des dÃ©veloppeurs
       * favorise la transmission des connaissances techniques
-      * rend chacun des développeurs responsable de la qualité de l'ensemble
-      * favorise une conception du code dictée par des décisions techniques et non par la structure sociale de l'équipe
+      * rend chacun des dÃ©veloppeurs responsable de la qualitÃ© de l'ensemble
+      * favorise une conception du code dictÃ©e par des dÃ©cisions techniques et non par la structure sociale de l'Ã©quipe
   -
     type: cost
     text: |
-      Si la notion de responsabilité collective est bien acceptée dans le discours Agile car conforme à la philosophie générale de responsabilité partagée, elle a ses détracteurs qui y voient plusieurs risques, auxquels il convient d'être attentif:
+      Si la notion de responsabilitÃ© collective est bien acceptÃ©e dans le discours Agile car conforme Ã  la philosophie gÃ©nÃ©rale de responsabilitÃ© partagÃ©e, elle a ses dÃ©tracteurs qui y voient plusieurs risques, auxquels il convient d'Ãªtre attentif:
 
-      * rendre chacun responsable de la qualité peut amener à ce que personne ne s'en préoccupe ou à ce que chacun se renvoie la balle
-      * la possiblité d'intervenir sur toutes les parties du code peut être défavorable à la définition d'interfaces claires et explicites entre ces différentes parties, alors que ces interfaces sont garantes d'une bonne conception
+      * rendre chacun responsable de la qualitÃ© peut amener Ã  ce que personne ne s'en prÃ©occupe ou Ã  ce que chacun se renvoie la balle
+      * la possiblitÃ© d'intervenir sur toutes les parties du code peut Ãªtre dÃ©favorable Ã  la dÃ©finition d'interfaces claires et explicites entre ces diffÃ©rentes parties, alors que ces interfaces sont garantes d'une bonne conception
   -
     type: histo
     text: |
-      Dès ses débuts, Extreme Programming fait une pratique à part entière de ce qui n'est à l'origine qu'un à priori favorable, issu des pratiques des développeurs Smalltalk - pour qui la notion de "fichier" est nettement moins structurante, compte tenu des outils de développement utilisés.
+      DÃ¨s ses dÃ©buts, Extreme Programming fait une pratique Ã  part entiÃ¨re de ce qui n'est Ã  l'origine qu'un Ã  priori favorable, issu des pratiques des dÃ©veloppeurs Smalltalk - pour qui la notion de "fichier" est nettement moins structurante, compte tenu des outils de dÃ©veloppement utilisÃ©s.
 ---

@@ -6,25 +6,25 @@ sections:
   -
     type: desc
     text: |
-      "Radiateur d'information" est le terme générique désignant un affichage mural (passif, par exemple une feuille de papier, ou actif, par exemple un écran affichant des résultats [d'intégration continue](ci.html)) réalisé par une équipe pour diffuser publiquement une information jugée pertinente: nombre total de tests, vélocité, nombre d'incidents en exploitation, etc.
+      "Radiateur d'information" est le terme gÃ©nÃ©rique dÃ©signant un affichage mural (passif, par exemple une feuille de papier, ou actif, par exemple un Ã©cran affichant des rÃ©sultats [d'intÃ©gration continue](ci.html)) rÃ©alisÃ© par une Ã©quipe pour diffuser publiquement une information jugÃ©e pertinente: nombre total de tests, vÃ©locitÃ©, nombre d'incidents en exploitation, etc.
   -
     type: syno
     text: |
-      * un terme apparenté est "Big Visible Chart" (un grand graphe bien visible).
-      * pour généraliser on utilise également le terme ["informative workspace"](http://www.informativeworkspace.org/)
-      * on peut enfin rapprocher ces termes de la notion de "Visual management" de la pensée dite [Lean](http://fr.wikipedia.org/wiki/Lean)
+      * un terme apparentÃ© est "Big Visible Chart" (un grand graphe bien visible).
+      * pour gÃ©nÃ©raliser on utilise Ã©galement le terme ["informative workspace"](http://www.informativeworkspace.org/)
+      * on peut enfin rapprocher ces termes de la notion de "Visual management" de la pensÃ©e dite [Lean](http://fr.wikipedia.org/wiki/Lean)
   -
     type: benefices
     text: |
-      L'usage significatif de radiateurs d'information véhicule deux messages importants:
+      L'usage significatif de radiateurs d'information vÃ©hicule deux messages importants:
 
-      * l'équipe n'a rien à cacher (notamment à ses clients)
-      * l'équipe n'a rien à *se* cacher: elle admet et confronte ses difficultés
+      * l'Ã©quipe n'a rien Ã  cacher (notamment Ã  ses clients)
+      * l'Ã©quipe n'a rien Ã  *se* cacher: elle admet et confronte ses difficultÃ©s
 
-      Le principal intérêt de cette pratique est donc de responsabiliser les différents intervenants. Un avantage annexe consiste à susciter des conversations lorsque des personnes extérieures à l'équipe visitent les locaux.
+      Le principal intÃ©rÃªt de cette pratique est donc de responsabiliser les diffÃ©rents intervenants. Un avantage annexe consiste Ã  susciter des conversations lorsque des personnes extÃ©rieures Ã  l'Ã©quipe visitent les locaux.
   -
     type: histo
     text: |
-      * le terme "information radiator" est dû à [Alistair Cockburn](http://alistair.cockburn.us/Information+radiator), entre 2000 et 2002
-      * le terme "big visible chart" remonte à la même époque, il est en tout cas [antérieur](http://web.archive.org/web/*/http://c2.com/cgi/wiki?BigVisibleChart) à 2001
+      * le terme "information radiator" est dÃ» Ã  [Alistair Cockburn](http://alistair.cockburn.us/Information+radiator), entre 2000 et 2002
+      * le terme "big visible chart" remonte Ã  la mÃªme Ã©poque, il est en tout cas [antÃ©rieur](http://web.archive.org/web/*/http://c2.com/cgi/wiki?BigVisibleChart) Ã  2001
 ---

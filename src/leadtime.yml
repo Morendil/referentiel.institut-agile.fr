@@ -6,9 +6,9 @@ sections:
   -
     type: desc
     text: |
-      Le "temps de cycle" est un terme emprunté à l'approche manufacturière connue sous le nom de Lean ou Toyota Production System, où il désigne le délai entre la réception de la commande d'un client, et la livraison au client du produit fini.
-      Transposé au domaine du logiciel, le temps de cycle est le délai écoulé entre le moment où apparaît un besoin, et la satisfaction de ce besoin. Cette définition plus abstraite permet d'analyser plusieurs types de situation: par exemple on peut mesurer le "temps de cycle" entre la formalisation d'une exigence sous la forme d'une [user story](stories.html) et le début de l'utilisation ("en production", en conditions réelles) de la fonctionnalité correspondante.
-      Les équipes ayant adopté une approche à base de [kanban](kanban.html) privilégient cette mesure, de préférence à celle de la [vélocité](velocity.html). Au lieu d'avoir pour effet d'augmenter la vélocité, les améliorations du fonctionnement de l'équipe ont (en principe) pour effet de diminuer le temps de cycle.
+      Le "temps de cycle" est un terme empruntÃ© Ã  l'approche manufacturiÃ¨re connue sous le nom de Lean ou Toyota Production System, oÃ¹ il dÃ©signe le dÃ©lai entre la rÃ©ception de la commande d'un client, et la livraison au client du produit fini.
+      TransposÃ© au domaine du logiciel, le temps de cycle est le dÃ©lai Ã©coulÃ© entre le moment oÃ¹ apparaÃ®t un besoin, et la satisfaction de ce besoin. Cette dÃ©finition plus abstraite permet d'analyser plusieurs types de situation: par exemple on peut mesurer le "temps de cycle" entre la formalisation d'une exigence sous la forme d'une [user story](stories.html) et le dÃ©but de l'utilisation ("en production", en conditions rÃ©elles) de la fonctionnalitÃ© correspondante.
+      Les Ã©quipes ayant adoptÃ© une approche Ã  base de [kanban](kanban.html) privilÃ©gient cette mesure, de prÃ©fÃ©rence Ã  celle de la [vÃ©locitÃ©](velocity.html). Au lieu d'avoir pour effet d'augmenter la vÃ©locitÃ©, les amÃ©liorations du fonctionnement de l'Ã©quipe ont (en principe) pour effet de diminuer le temps de cycle.
   -
     type: syno
     text: |

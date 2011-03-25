@@ -6,21 +6,21 @@ sections:
   -
     type: desc
     text: |
-      L'équipe affiche en grand format, sur un des murs de son local, un graphe représentant la quantité de travail restant à effectuer (sur l'axe vertical) rapportée au temps (sur l'axe horizontal). C'est un "[radiateur d'information](radiator.html)".
-      Ce graphe peut concerner l'itération en cours ("iteration burndown") ou plus couramment l'ensemble du projet ("product burndown").
+      L'Ã©quipe affiche en grand format, sur un des murs de son local, un graphe reprÃ©sentant la quantitÃ© de travail restant Ã  effectuer (sur l'axe vertical) rapportÃ©e au temps (sur l'axe horizontal). C'est un "[radiateur d'information](radiator.html)".
+      Ce graphe peut concerner l'itÃ©ration en cours ("iteration burndown") ou plus couramment l'ensemble du projet ("product burndown").
   -
     type: syno
     text: |
-      Claude Aubry, expert Scrum, a proposé la francisation "beurdone"; elle est restée quelque peu marginale.
+      Claude Aubry, expert Scrum, a proposÃ© la francisation "beurdone"; elle est restÃ©e quelque peu marginale.
   -
     type: benefices
     text: |
-      En rendant non seulement visible mais indéniable la situation réelle de l'itération ou du projet par rapport au planning initialement prévu, cette pratique oblige l'équipe à confronter les difficultés plus rapidement.
-      (Corollairement, pour être efficace ce graphe doit être affiché dans un format assez grand et dans un endroit où il suscite des discussions; on évitera de le placer à l'écart dans un couloir, au format A4...)
+      En rendant non seulement visible mais indÃ©niable la situation rÃ©elle de l'itÃ©ration ou du projet par rapport au planning initialement prÃ©vu, cette pratique oblige l'Ã©quipe Ã  confronter les difficultÃ©s plus rapidement.
+      (Corollairement, pour Ãªtre efficace ce graphe doit Ãªtre affichÃ© dans un format assez grand et dans un endroit oÃ¹ il suscite des discussions; on Ã©vitera de le placer Ã  l'Ã©cart dans un couloir, au format A4...)
   -
     type: histo
     text: |
-      * Cette pratique est décrite pour la première fois [par Ken Schwaber](http://web.archive.org/web/20010503112119/www.controlchaos.com/sburndown.htm) sur son site "Control Chaos" (2000)
-      * Elle devient populaire dans la communauté Scrum à partir de 2002
-      * Diverses alternatives sont ensuite proposées, sans toutefois détrôner le "burn down" comme choix le plus simple, telles que le "burnup" (on inverse l'axe des Y) ou le plus sophistiqué "[Cumulative Flow Diagram](http://www.featuredrivendevelopment.com/node/515)", à partir de 2003
+      * Cette pratique est dÃ©crite pour la premiÃ¨re fois [par Ken Schwaber](http://web.archive.org/web/20010503112119/www.controlchaos.com/sburndown.htm) sur son site "Control Chaos" (2000)
+      * Elle devient populaire dans la communautÃ© Scrum Ã  partir de 2002
+      * Diverses alternatives sont ensuite proposÃ©es, sans toutefois dÃ©trÃ´ner le "burn down" comme choix le plus simple, telles que le "burnup" (on inverse l'axe des Y) ou le plus sophistiquÃ© "[Cumulative Flow Diagram](http://www.featuredrivendevelopment.com/node/515)", Ã  partir de 2003
 ---

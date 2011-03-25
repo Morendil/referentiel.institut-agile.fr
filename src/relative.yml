@@ -6,20 +6,20 @@ sections:
   -
     type: desc
     text: |
-      Une des nombreuses pratiques d'[estimation](estimation.html) utilisées par des équipes Agiles. Celle-ci préconise d'attribuer des estimations aux tâches ou user stories, non pas considérées isolément, mais en regroupant ensemble des éléments considérés comme de difficulté équivalente.
-      Une mise en oeuvre possible consiste à tracer sur un tableau blanc plusieurs colonnes, autant qu'on souhaite avoir de valeurs distinctes à l'issue de l'activité. Plus le nombre de colonnes est important, plus le résultat sera précis; mais plus il prendra de temps. Certaines équipes utilisent pour cet exercice les "tailles tee-shirt", de XS à XXL.
-      Cette technique peut également être utilisée pour ajouter des user stories à un [backlog](backlog.html) déjà estimé: plutôt que de les estimer isolément, on cherchera à les rapprocher d'une user story déjà connue dont la difficulté serait comparable.
+      Une des nombreuses pratiques d'[estimation](estimation.html) utilisÃ©es par des Ã©quipes Agiles. Celle-ci prÃ©conise d'attribuer des estimations aux tÃ¢ches ou user stories, non pas considÃ©rÃ©es isolÃ©ment, mais en regroupant ensemble des Ã©lÃ©ments considÃ©rÃ©s comme de difficultÃ© Ã©quivalente.
+      Une mise en oeuvre possible consiste Ã  tracer sur un tableau blanc plusieurs colonnes, autant qu'on souhaite avoir de valeurs distinctes Ã  l'issue de l'activitÃ©. Plus le nombre de colonnes est important, plus le rÃ©sultat sera prÃ©cis; mais plus il prendra de temps. Certaines Ã©quipes utilisent pour cet exercice les "tailles tee-shirt", de XS Ã  XXL.
+      Cette technique peut Ã©galement Ãªtre utilisÃ©e pour ajouter des user stories Ã  un [backlog](backlog.html) dÃ©jÃ  estimÃ©: plutÃ´t que de les estimer isolÃ©ment, on cherchera Ã  les rapprocher d'une user story dÃ©jÃ  connue dont la difficultÃ© serait comparable.
   -
     type: syno
     text: |
-      On parle également d'estimation par affinité ("affinity estimation") ou d'estimation [par similitude d'effort](http://www.aubryconseil.com/post/L-estimation-par-similitude-d-effort).
+      On parle Ã©galement d'estimation par affinitÃ© ("affinity estimation") ou d'estimation [par similitude d'effort](http://www.aubryconseil.com/post/L-estimation-par-similitude-d-effort).
   -
     type: histo
     text: |
-      * le nom "Affinity Estimating" semble dû à Lowell Lindstrom qui [met au point cette technique](http://kanemar.com/2008/04/21/scrum-trainers-gathering-44-affinity-estimating/) lors d'un Scrum Gathering en 2008
-      * l'idée d'estimation en "tailles tee-shirt" remonte au moins à 2005
+      * le nom "Affinity Estimating" semble dÃ» Ã  Lowell Lindstrom qui [met au point cette technique](http://kanemar.com/2008/04/21/scrum-trainers-gathering-44-affinity-estimating/) lors d'un Scrum Gathering en 2008
+      * l'idÃ©e d'estimation en "tailles tee-shirt" remonte au moins Ã  2005
   -
     type: benefices
     text: |
-      * exprimer les estimations de façon relative, surtout lorsqu'on utilise une unité telle que les [points](nuts.html), est une façon d'éviter les erreurs courantes liées à l'activité d'estimation: exiger trop de précision, ou confondre estimation et engagement
+      * exprimer les estimations de faÃ§on relative, surtout lorsqu'on utilise une unitÃ© telle que les [points](nuts.html), est une faÃ§on d'Ã©viter les erreurs courantes liÃ©es Ã  l'activitÃ© d'estimation: exiger trop de prÃ©cision, ou confondre estimation et engagement
 ---

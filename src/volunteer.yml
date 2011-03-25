@@ -1,16 +1,16 @@
 ---
-title: Tâches choisies
+title: TÃ¢ches choisies
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Au sein d'une équipe Agile, il est rare qu'un responsable attribue des tâches de développement aux différents membres de l'équipe. Le plus souvent l'affectation des tâches est basée sur le volontariat et la discussion.
-      En règle générale ce choix des tâches s'effectue devant le [tableau des tâches](taskboard.html) au cours de la [réunion quotidienne](daily.html). Il est souvent matérialisé par une annotation sur le [Post-It](3C.html) représentant la tâche concernée. Certaines équipes utilisent des photos (format identités) ou de plus petits Post-It qui sont collées de façon amovible à celui représentant la tâche qu'ils ont choisi de réaliser.
+      Au sein d'une Ã©quipe Agile, il est rare qu'un responsable attribue des tÃ¢ches de dÃ©veloppement aux diffÃ©rents membres de l'Ã©quipe. Le plus souvent l'affectation des tÃ¢ches est basÃ©e sur le volontariat et la discussion.
+      En rÃ¨gle gÃ©nÃ©rale ce choix des tÃ¢ches s'effectue devant le [tableau des tÃ¢ches](taskboard.html) au cours de la [rÃ©union quotidienne](daily.html). Il est souvent matÃ©rialisÃ© par une annotation sur le [Post-It](3C.html) reprÃ©sentant la tÃ¢che concernÃ©e. Certaines Ã©quipes utilisent des photos (format identitÃ©s) ou de plus petits Post-It qui sont collÃ©es de faÃ§on amovible Ã  celui reprÃ©sentant la tÃ¢che qu'ils ont choisi de rÃ©aliser.
   -
     type: abus
     text: |
-      Bien que rarement identifiée comme une pratique à part entière, l'attribution des tâches sur la base du volontariat semble être un élément important, sinon essentiel, constitutif d'une approche Agile.
-      Certaines équipes "en transition" vers l'Agilité peuvent conserver quelque temps un rôle de "chef de projet" dont l'une des prérogatives est traditionnellement la distribution des tâches au membres de l'équipe. Ce modèle est cependant largement considéré comme incompatible sur le long terme avec les autres pratiques Agiles.
+      Bien que rarement identifiÃ©e comme une pratique Ã  part entiÃ¨re, l'attribution des tÃ¢ches sur la base du volontariat semble Ãªtre un Ã©lÃ©ment important, sinon essentiel, constitutif d'une approche Agile.
+      Certaines Ã©quipes "en transition" vers l'AgilitÃ© peuvent conserver quelque temps un rÃ´le de "chef de projet" dont l'une des prÃ©rogatives est traditionnellement la distribution des tÃ¢ches au membres de l'Ã©quipe. Ce modÃ¨le est cependant largement considÃ©rÃ© comme incompatible sur le long terme avec les autres pratiques Agiles.
 ---

@@ -1,17 +1,17 @@
 ---
-title: Test d'utilisabilité
+title: Test d'utilisabilitÃ©
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Le test d'utilisabilité est une technique empirique et exploratoire permettant de répondre à la question "comment un utilisateur appréhendra notre produit dans les conditions réelles d'utilisation ?".
-      On place un utilisateur final devant le produit, en lui fixant une tâche typique de celles que le produit permet de réaliser (par exemple "utilisez notre site de banque en ligne pour régler par virement votre facture de téléphone").
-      Les développeurs et/ou ergonomes observent l'utilisateur *sans intervenir* et enregistrent (soit informellement en prenant des notes, soit de façon plus complète par des moyens tels que la vidéo, la capture d'écran ou l'eye-tracking) les difficultés éventuelles rencontrées par l'utilisateur, afin d'améliorer la prise en main du produit dans des versions ultérieures.
+      Le test d'utilisabilitÃ© est une technique empirique et exploratoire permettant de rÃ©pondre Ã  la question "comment un utilisateur apprÃ©hendra notre produit dans les conditions rÃ©elles d'utilisation ?".
+      On place un utilisateur final devant le produit, en lui fixant une tÃ¢che typique de celles que le produit permet de rÃ©aliser (par exemple "utilisez notre site de banque en ligne pour rÃ©gler par virement votre facture de tÃ©lÃ©phone").
+      Les dÃ©veloppeurs et/ou ergonomes observent l'utilisateur *sans intervenir* et enregistrent (soit informellement en prenant des notes, soit de faÃ§on plus complÃ¨te par des moyens tels que la vidÃ©o, la capture d'Ã©cran ou l'eye-tracking) les difficultÃ©s Ã©ventuelles rencontrÃ©es par l'utilisateur, afin d'amÃ©liorer la prise en main du produit dans des versions ultÃ©rieures.
   -
     type: histo
     text: |
-      * l'invention de cette technique est attribué aux ingénieurs du célèbre Xerox PARC à Palo Alto en 1981
-      * l'assimilation progressive (et encore balbutiante) de cette pratique est représentative de l'ouverture récente de la communauté Agile aux techniques issues des disciplines "orientées utilisateurs" que sont l'ergonomie ou l'Interaction Design (à partir de 2008)
+      * l'invention de cette technique est attribuÃ© aux ingÃ©nieurs du cÃ©lÃ¨bre Xerox PARC Ã  Palo Alto en 1981
+      * l'assimilation progressive (et encore balbutiante) de cette pratique est reprÃ©sentative de l'ouverture rÃ©cente de la communautÃ© Agile aux techniques issues des disciplines "orientÃ©es utilisateurs" que sont l'ergonomie ou l'Interaction Design (Ã  partir de 2008)
 ---

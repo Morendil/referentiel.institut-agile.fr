@@ -1,44 +1,44 @@
 ---
-title: Tableau des tâches
+title: Tableau des tÃ¢ches
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      On répartit sur un tableau mural divisé en trois colonnes, "à faire", "en cours", "terminé" des Post-It ou fiches bristol représentant les tâches à réaliser au cours de l'itération.
-      De nombreuses [variantes](http://agiletools.wordpress.com/2007/11/24/task-boards-telling-a-compelling-agile-story/) existent; soit dans la disposition qui peut également être horizontale, ou plus sophistiquée; soit dans le nombre et l'intitulé des colonnes, qui matérialisent en général des activités - par exemple une colonne "en test".
-      En général au cours de la [réunion quotidienne](daily.html), l'équipe met à jour le tableau au fil de l'itération pour visualiser sa progression. Le tableau est "remis à zéro" en début d'itération avec de nouvelles tâches.
+      On rÃ©partit sur un tableau mural divisÃ© en trois colonnes, "Ã  faire", "en cours", "terminÃ©" des Post-It ou fiches bristol reprÃ©sentant les tÃ¢ches Ã  rÃ©aliser au cours de l'itÃ©ration.
+      De nombreuses [variantes](http://agiletools.wordpress.com/2007/11/24/task-boards-telling-a-compelling-agile-story/) existent; soit dans la disposition qui peut Ã©galement Ãªtre horizontale, ou plus sophistiquÃ©e; soit dans le nombre et l'intitulÃ© des colonnes, qui matÃ©rialisent en gÃ©nÃ©ral des activitÃ©s - par exemple une colonne "en test".
+      En gÃ©nÃ©ral au cours de la [rÃ©union quotidienne](daily.html), l'Ã©quipe met Ã  jour le tableau au fil de l'itÃ©ration pour visualiser sa progression. Le tableau est "remis Ã  zÃ©ro" en dÃ©but d'itÃ©ration avec de nouvelles tÃ¢ches.
   -
     type: syno
     text: |
       En anglais, "task board"; on parle aussi de "project wall".
-      On entend plus rarement "tableau de Sprint" ou "tableau d'itération".
+      On entend plus rarement "tableau de Sprint" ou "tableau d'itÃ©ration".
   -
     type: abus
     text: |
-      * une erreur classique consiste à préférer d'emblée un support informatisé ("tableau des tâches virtuel"); c'est se priver des nombreux bénéfices de la réalisation plus "artisanale", et seules de fortes contraintes (par exemple une équipe dispersée géographiquement) doivent justifier cette solution de dernier recours
-      * ne pas confondre le tableau des tâches "canonique" avec le [tableau Kanban](kanban.html) dont le principe est assez différent (notamment, il n'est pas "remis à zéro")
+      * une erreur classique consiste Ã  prÃ©fÃ©rer d'emblÃ©e un support informatisÃ© ("tableau des tÃ¢ches virtuel"); c'est se priver des nombreux bÃ©nÃ©fices de la rÃ©alisation plus "artisanale", et seules de fortes contraintes (par exemple une Ã©quipe dispersÃ©e gÃ©ographiquement) doivent justifier cette solution de dernier recours
+      * ne pas confondre le tableau des tÃ¢ches "canonique" avec le [tableau Kanban](kanban.html) dont le principe est assez diffÃ©rent (notamment, il n'est pas "remis Ã  zÃ©ro")
   -
     type: benefices
     text: |
-      * le tableau des tâches est un "[radiateur d'information](radiator.html)" - il favorise le partage instantané d'informations importantes pour toute l'équipe
-      * le tableau des tâches sert de point focal pour la [réunion quotidienne](daily.html)
+      * le tableau des tÃ¢ches est un "[radiateur d'information](radiator.html)" - il favorise le partage instantanÃ© d'informations importantes pour toute l'Ã©quipe
+      * le tableau des tÃ¢ches sert de point focal pour la [rÃ©union quotidienne](daily.html)
   -
     type: histo
     text: |
-      * dès les origines de Scrum et d'Extreme Programming on manipule des fiches bristol ou des Post-It mais le format précis du tableau des tâches ne se généralise qu'assez tardivement
-      * La [galerie de photos](http://xp123.com/xplor/room-gallery/index.shtml) collectée par Bill Wake montre que même si de nombreuses équipes Agiles utilisent un affichage mural, le tableau des tâches "standardisé" le plus largement adopté sera celui de Mike Cohn, comportant cinq colonnes (fin 2004)
-      * En partie en réaction aux tableaux plus sophistiqués produits par les équipes qui commencent à s'intéresser à la transposition Agile des [tableaux Kanban](kanban.html), on viendra un peu plus tard à considérer comme "canonique" la version à trois colonnes (fin 2007)
+      * dÃ¨s les origines de Scrum et d'Extreme Programming on manipule des fiches bristol ou des Post-It mais le format prÃ©cis du tableau des tÃ¢ches ne se gÃ©nÃ©ralise qu'assez tardivement
+      * La [galerie de photos](http://xp123.com/xplor/room-gallery/index.shtml) collectÃ©e par Bill Wake montre que mÃªme si de nombreuses Ã©quipes Agiles utilisent un affichage mural, le tableau des tÃ¢ches "standardisÃ©" le plus largement adoptÃ© sera celui de Mike Cohn, comportant cinq colonnes (fin 2004)
+      * En partie en rÃ©action aux tableaux plus sophistiquÃ©s produits par les Ã©quipes qui commencent Ã  s'intÃ©resser Ã  la transposition Agile des [tableaux Kanban](kanban.html), on viendra un peu plus tard Ã  considÃ©rer comme "canonique" la version Ã  trois colonnes (fin 2007)
   -
     type: resources
     text: |
       * [Task Boards](http://www.mountaingoatsoftware.com/scrum/task-boards), de Mike Cohn (2004-2010)
       * [Task Boards](http://agiletools.wordpress.com/2007/11/24/task-boards-telling-a-compelling-agile-story/), de Tom Perry
-      * [Elements of Task Board Design](http://www.xqa.com.ar/visualmanagement/elements-of-taskboard-design/), et plus généralement le blog "Visual Management", de Xavier Quesada
+      * [Elements of Task Board Design](http://www.xqa.com.ar/visualmanagement/elements-of-taskboard-design/), et plus gÃ©nÃ©ralement le blog "Visual Management", de Xavier Quesada
   -
     type: pubs
     text: |
       Peu de travaux de recherche concernent directement cette pratique.
-      Des investissements considérables sont consacrés par de nombreux éditeurs ou équipes Open Source à la réalisation d'équivalents virtuels du tableau de tâches, alors même que la communauté des praticiens aguerris reste majoritairement persuadée de l'intérêt, voire de la nécessité, du tableau de tâches physique; mettre en évidence le bénéfice réel de cette deuxième solution serait donc une piste de recherche prioritaire.
+      Des investissements considÃ©rables sont consacrÃ©s par de nombreux Ã©diteurs ou Ã©quipes Open Source Ã  la rÃ©alisation d'Ã©quivalents virtuels du tableau de tÃ¢ches, alors mÃªme que la communautÃ© des praticiens aguerris reste majoritairement persuadÃ©e de l'intÃ©rÃªt, voire de la nÃ©cessitÃ©, du tableau de tÃ¢ches physique; mettre en Ã©vidence le bÃ©nÃ©fice rÃ©el de cette deuxiÃ¨me solution serait donc une piste de recherche prioritaire.
 ---

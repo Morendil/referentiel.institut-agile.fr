@@ -6,24 +6,24 @@ sections:
   -
     type: desc
     text: |
-      Au sein d'une équipe Agile, la répartition usuelle des rôles entre les spécialistes du développement et les spécialistes du test se trouve fortement modifiée suite à l'utilisation de tests [unitaires](unittest.html) et [fonctionnels](acceptance.html) automatisés. Une grande partie des activités de vérification consistant à dérouler des scripts, scénarios ou plans de test est désormais sous la responsabilité des développeurs.
-      Cependant, il s'avère que ces tests automatisés ne suffisent pas à évaluer les risques de défauts de qualité dont peut souffrir le produit: les spécialistes du test continuent à jouer un rôle important dans les projets Agiles.
-      L'approche exploratoire de l'activité de test s'avère très complémentaire de l'approche Agile pour plusieurs raisons: 
+      Au sein d'une Ã©quipe Agile, la rÃ©partition usuelle des rÃ´les entre les spÃ©cialistes du dÃ©veloppement et les spÃ©cialistes du test se trouve fortement modifiÃ©e suite Ã  l'utilisation de tests [unitaires](unittest.html) et [fonctionnels](acceptance.html) automatisÃ©s. Une grande partie des activitÃ©s de vÃ©rification consistant Ã  dÃ©rouler des scripts, scÃ©narios ou plans de test est dÃ©sormais sous la responsabilitÃ© des dÃ©veloppeurs.
+      Cependant, il s'avÃ¨re que ces tests automatisÃ©s ne suffisent pas Ã  Ã©valuer les risques de dÃ©fauts de qualitÃ© dont peut souffrir le produit: les spÃ©cialistes du test continuent Ã  jouer un rÃ´le important dans les projets Agiles.
+      L'approche exploratoire de l'activitÃ© de test s'avÃ¨re trÃ¨s complÃ©mentaire de l'approche Agile pour plusieurs raisons: 
 
-      * elle insiste sur l'autonomie, la compétence et la créativité du testeur, tout comme l'approche Agile met en avant ces qualités du développeur;
-      * elle préconise de mener de front toutes les activités liées au test: découverte d'informations sur le produit, conception de tests susceptibles de révéler des défauts et exécution de ces tests;
-      * elle insiste sur l'importance d'une pluralité de techniques, qui ne peut en aucun cas se réduire à un "plan de test" formel, et par conséquent rejoint la philosophie Agile en faisant peu de cas des référentiels documentaires pour le test
+      * elle insiste sur l'autonomie, la compÃ©tence et la crÃ©ativitÃ© du testeur, tout comme l'approche Agile met en avant ces qualitÃ©s du dÃ©veloppeur;
+      * elle prÃ©conise de mener de front toutes les activitÃ©s liÃ©es au test: dÃ©couverte d'informations sur le produit, conception de tests susceptibles de rÃ©vÃ©ler des dÃ©fauts et exÃ©cution de ces tests;
+      * elle insiste sur l'importance d'une pluralitÃ© de techniques, qui ne peut en aucun cas se rÃ©duire Ã  un "plan de test" formel, et par consÃ©quent rejoint la philosophie Agile en faisant peu de cas des rÃ©fÃ©rentiels documentaires pour le test
   -
     type: syno
     text: |
-      Le terme anglais est "exploratory testing". Il est utilisé par une communauté de testeurs qui revendiquent leur appartenance intellectuelle à une "école de pensée" qu'ils appellent "the Context-Driven School" et qu'ils distinguent des autres "écoles" ayant des approches différentes de l'activité de test: Analytique, Standardisée, Orientée Qualité, et Agile.
+      Le terme anglais est "exploratory testing". Il est utilisÃ© par une communautÃ© de testeurs qui revendiquent leur appartenance intellectuelle Ã  une "Ã©cole de pensÃ©e" qu'ils appellent "the Context-Driven School" et qu'ils distinguent des autres "Ã©coles" ayant des approches diffÃ©rentes de l'activitÃ© de test: Analytique, StandardisÃ©e, OrientÃ©e QualitÃ©, et Agile.
   -
     type: benefices
     text: |
-      Le rôle des testeurs est souvent marginal au sein des projets de développement en France. Cependant, dans les équipes travaillant avec des testeurs professionnels, l'approche Agile suscite souvent des interrogations profondes sur la pertinence et l'organisation de leur activité. L'approche "exploratoire" offre de nombreuses pistes pour intégrer efficacement ces spécialistes dans une équipe Agile.
+      Le rÃ´le des testeurs est souvent marginal au sein des projets de dÃ©veloppement en France. Cependant, dans les Ã©quipes travaillant avec des testeurs professionnels, l'approche Agile suscite souvent des interrogations profondes sur la pertinence et l'organisation de leur activitÃ©. L'approche "exploratoire" offre de nombreuses pistes pour intÃ©grer efficacement ces spÃ©cialistes dans une Ã©quipe Agile.
   -
     type: histo
     text: |
-      La pratique du test exploratoire, bien que restée relativement marginale dans la communauté Agile, est évangélisée dès 2001 par Brian Marick, l'un des participants au séminaire de Snowbird qui donne naissance au [Manifeste Agile](http://agilemanifesto.org/), et qui se décrit lui-même comme "le testeur de service" au sein de ce groupe.
-      Il est indéniable que l'essor du mouvement Agile a contribué à renforcer l'intérêt de nombreux développeurs pour les activités de test, jusqu'alors peu valorisées dans la profession. Cependant, il a également eu l'effet paradoxal de marginaliser un peu plus le testeur, puisque c'est le développeur qui s'appropriait certaines activités de test.
+      La pratique du test exploratoire, bien que restÃ©e relativement marginale dans la communautÃ© Agile, est Ã©vangÃ©lisÃ©e dÃ¨s 2001 par Brian Marick, l'un des participants au sÃ©minaire de Snowbird qui donne naissance au [Manifeste Agile](http://agilemanifesto.org/), et qui se dÃ©crit lui-mÃªme comme "le testeur de service" au sein de ce groupe.
+      Il est indÃ©niable que l'essor du mouvement Agile a contribuÃ© Ã  renforcer l'intÃ©rÃªt de nombreux dÃ©veloppeurs pour les activitÃ©s de test, jusqu'alors peu valorisÃ©es dans la profession. Cependant, il a Ã©galement eu l'effet paradoxal de marginaliser un peu plus le testeur, puisque c'est le dÃ©veloppeur qui s'appropriait certaines activitÃ©s de test.
 ---

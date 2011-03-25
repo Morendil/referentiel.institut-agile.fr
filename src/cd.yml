@@ -1,28 +1,28 @@
 ---
-title: Déploiement continu
+title: DÃ©ploiement continu
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Le déploiement continu, prolongement de [l'intégration continue](ci.html), est une pratique visant à réduire le plus possible le [temps de cycle](leadtime.html), le temps écoulé entre l'écriture d'une nouvelle ligne de code et l'utilisation réelle de ce même code par des utilisateurs finaux.
-      L'équipe s'appuie sur une infrastructure qui automatise l'ensemble des étapes de déploiement (ou "mise en production"), de sorte qu'après chaque intégration qui se solde par des tests passant avec succès, l'application en production est mise à jour.
+      Le dÃ©ploiement continu, prolongement de [l'intÃ©gration continue](ci.html), est une pratique visant Ã  rÃ©duire le plus possible le [temps de cycle](leadtime.html), le temps Ã©coulÃ© entre l'Ã©criture d'une nouvelle ligne de code et l'utilisation rÃ©elle de ce mÃªme code par des utilisateurs finaux.
+      L'Ã©quipe s'appuie sur une infrastructure qui automatise l'ensemble des Ã©tapes de dÃ©ploiement (ou "mise en production"), de sorte qu'aprÃ¨s chaque intÃ©gration qui se solde par des tests passant avec succÃ¨s, l'application en production est mise Ã  jour.
   -
     type: benefices
     text: |
-      Dans le contexte des entreprises qui l'ont mise en place initialement (startups du Web 2.0), le principal bénéfice du déploiement continu est la réduction du [temps de cycle](leadtime.html), avec deux effets principaux:
+      Dans le contexte des entreprises qui l'ont mise en place initialement (startups du Web 2.0), le principal bÃ©nÃ©fice du dÃ©ploiement continu est la rÃ©duction du [temps de cycle](leadtime.html), avec deux effets principaux:
 
-      * le retour sur investissement pour chaque nouveau développement commence bien plus tôt, ce qui limite les besoins en capitaux
-      * il est possible d'obtenir très rapidement des retours des utilisateurs sur une nouvelle fonctionnalité, ce qui permet par exemple de tester plusieurs hypothèses et de retenir celle qui représente une amélioration du produit
+      * le retour sur investissement pour chaque nouveau dÃ©veloppement commence bien plus tÃ´t, ce qui limite les besoins en capitaux
+      * il est possible d'obtenir trÃ¨s rapidement des retours des utilisateurs sur une nouvelle fonctionnalitÃ©, ce qui permet par exemple de tester plusieurs hypothÃ¨ses et de retenir celle qui reprÃ©sente une amÃ©lioration du produit
   -
     type: cost
     text: |
-      L'infrastructure permettant le déploiement continu tient compte non seulement du test automatisé, mais également (entre autres) de la surveillance du comportement de l'application en production pour détecter rapidement des anomalies qui n'auraient pas été révélée par ces tests, et de la possibilité de retour en arrière très rapide dans le cas d'une telle anomalie. L'investissement nécessaire est donc sensiblement plus important.
+      L'infrastructure permettant le dÃ©ploiement continu tient compte non seulement du test automatisÃ©, mais Ã©galement (entre autres) de la surveillance du comportement de l'application en production pour dÃ©tecter rapidement des anomalies qui n'auraient pas Ã©tÃ© rÃ©vÃ©lÃ©e par ces tests, et de la possibilitÃ© de retour en arriÃ¨re trÃ¨s rapide dans le cas d'une telle anomalie. L'investissement nÃ©cessaire est donc sensiblement plus important.
   -
     type: histo
     text: |
-      * cette pratique relativement récente (2008) est représentative de deux tendances dans la communauté Agile:
-        *  adaptation des pratiques Agiles pour les besoins des nouvelles générations de startups, ou Lean Startup
-        *  extension de l'approche Agile à des métiers connexes au développement, en l'occurrence les métiers de l'exploitation; c'est le mouvement Devops
+      * cette pratique relativement rÃ©cente (2008) est reprÃ©sentative de deux tendances dans la communautÃ© Agile:
+        *  adaptation des pratiques Agiles pour les besoins des nouvelles gÃ©nÃ©rations de startups, ou Lean Startup
+        *  extension de l'approche Agile Ã  des mÃ©tiers connexes au dÃ©veloppement, en l'occurrence les mÃ©tiers de l'exploitation; c'est le mouvement Devops
 ---

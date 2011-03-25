@@ -1,21 +1,21 @@
 ---
-title: Critères de simplicité
+title: CritÃ¨res de simplicitÃ©
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      Grille d'évaluation proposée par Kent Beck pour juger qu'un code source est "simple":
+      Grille d'Ã©valuation proposÃ©e par Kent Beck pour juger qu'un code source est "simple":
 
-      *  le code est doté de tests unitaires et fonctionnels et tous ces tests passent
-      *  le code ne fait apparaître aucune duplication
-      *  le code fait apparaître séparément chaque responsabilité distincte
-      *  le code contient le nombre minimum d'élément (classes, méthodes, lignes) compatible avec les trois premiers critères      
+      *  le code est dotÃ© de tests unitaires et fonctionnels et tous ces tests passent
+      *  le code ne fait apparaÃ®tre aucune duplication
+      *  le code fait apparaÃ®tre sÃ©parÃ©ment chaque responsabilitÃ© distincte
+      *  le code contient le nombre minimum d'Ã©lÃ©ment (classes, mÃ©thodes, lignes) compatible avec les trois premiers critÃ¨res      
 
-      Le premier critère est aisé à juger, bien qu'il sous-entende quelque chose de moins trivial, à savoir que le logiciel en question est *correct*, ne présente pas de défauts. Les tests unitaires ne sont au mieux qu'une indication favorable de cet état; le discours Agile tient cependant pour acquis qu'ils sont la solution la plus pragmatique connue à ce jour.
+      Le premier critÃ¨re est aisÃ© Ã  juger, bien qu'il sous-entende quelque chose de moins trivial, Ã  savoir que le logiciel en question est *correct*, ne prÃ©sente pas de dÃ©fauts. Les tests unitaires ne sont au mieux qu'une indication favorable de cet Ã©tat; le discours Agile tient cependant pour acquis qu'ils sont la solution la plus pragmatique connue Ã  ce jour.
 
-      Les second et troisième critères présentent une plus grande part de subjectivité. Ainsi le second peut être interprété littéralement: malheureusement, la "programmation par copier-coller" est une pratique encore répandue dans l'industrie et plombe de nombreux projets, le refactoring est un antidote efficace. Mais les programmeurs plus chevronnés sont capables d'identifier comme "duplication" des ressemblances plus subtiles entre éléments de code. De même le troisième s'appuie sur les notions non triviales de [couplage](http://fr.wikipedia.org/wiki/Couplage_%28informatique%29) et [cohésion](http://fr.wikipedia.org/wiki/Coh%C3%A9sion_%28informatique%29).
+      Les second et troisiÃ¨me critÃ¨res prÃ©sentent une plus grande part de subjectivitÃ©. Ainsi le second peut Ãªtre interprÃ©tÃ© littÃ©ralement: malheureusement, la "programmation par copier-coller" est une pratique encore rÃ©pandue dans l'industrie et plombe de nombreux projets, le refactoring est un antidote efficace. Mais les programmeurs plus chevronnÃ©s sont capables d'identifier comme "duplication" des ressemblances plus subtiles entre Ã©lÃ©ments de code. De mÃªme le troisiÃ¨me s'appuie sur les notions non triviales de [couplage](http://fr.wikipedia.org/wiki/Couplage_%28informatique%29) et [cohÃ©sion](http://fr.wikipedia.org/wiki/Coh%C3%A9sion_%28informatique%29).
 
-      Le quatrième critère, sous réserve d'avoir pu se mettre d'accord sur les trois premiers, peut être plus facilement objectivé.
+      Le quatriÃ¨me critÃ¨re, sous rÃ©serve d'avoir pu se mettre d'accord sur les trois premiers, peut Ãªtre plus facilement objectivÃ©.
 ---

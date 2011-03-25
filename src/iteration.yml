@@ -1,24 +1,24 @@
 ---
-title: Itération
+title: ItÃ©ration
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      Une itération au sens Agile est une ["boite de temps" ou "timebox"](timebox.html) dont la durée:
+      Une itÃ©ration au sens Agile est une ["boite de temps" ou "timebox"](timebox.html) dont la durÃ©e:
 
-      * varie d'un projet à l'autre, de 1 semaine à 4 semaines, rarement plus
-      * est en principe fixe sur la durée du projet
+      * varie d'un projet Ã  l'autre, de 1 semaine Ã  4 semaines, rarement plus
+      * est en principe fixe sur la durÃ©e du projet
 
-      Dans la plupart des cas les itérations sont alignées avec les semaines civiles, débutant un lundi et se terminant un vendredi.
-      La durée fixe des itérations permet d'appliquer une simple formule de proportionnalité pour déduire, compte tenu de la [vélocité](velocite.html) observée et de [l'effort estimé](perimetre.html) restant à fournir, la durée prévisionnelle du projet. 
+      Dans la plupart des cas les itÃ©rations sont alignÃ©es avec les semaines civiles, dÃ©butant un lundi et se terminant un vendredi.
+      La durÃ©e fixe des itÃ©rations permet d'appliquer une simple formule de proportionnalitÃ© pour dÃ©duire, compte tenu de la [vÃ©locitÃ©](velocite.html) observÃ©e et de [l'effort estimÃ©](perimetre.html) restant Ã  fournir, la durÃ©e prÃ©visionnelle du projet. 
   -
     type: syno
     text: |
-      Le terme "Sprint" est également utilisé et vient de Scrum. Les deux termes "Sprint" et "itération" sont utilisés indifféremment sans connotation particulière.
+      Le terme "Sprint" est Ã©galement utilisÃ© et vient de Scrum. Les deux termes "Sprint" et "itÃ©ration" sont utilisÃ©s indiffÃ©remment sans connotation particuliÃ¨re.
   -
     type: histo
     text: |
-      L'usage courant du terme "itération" suggère bien l'idée de base de répéter plus d'une fois une même démarche, mais son association avec la stratégie consistant à délibérément "tronçonner" la durée d'un projet en sous-périodes semble remonter à Objectory, précurseur d'Unified Process, vers 1993.
+      L'usage courant du terme "itÃ©ration" suggÃ¨re bien l'idÃ©e de base de rÃ©pÃ©ter plus d'une fois une mÃªme dÃ©marche, mais son association avec la stratÃ©gie consistant Ã  dÃ©libÃ©rÃ©ment "tronÃ§onner" la durÃ©e d'un projet en sous-pÃ©riodes semble remonter Ã  Objectory, prÃ©curseur d'Unified Process, vers 1993.
 ---

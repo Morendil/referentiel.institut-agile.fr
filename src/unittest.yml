@@ -1,31 +1,31 @@
 ---
-title: Tests unitaires automatisés
+title: Tests unitaires automatisÃ©s
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Un test unitaire, au sens Agile, est un court programme, écrit et maintenu par les développeurs, servant à vérifier de manière très étroite le bon fonctionnement d'une partie restreinte du programme principal.
-      Son résultat est binaire: il "passe" si le comportement du programme est celui attendu et "échoue" dans le cas contraire. Une convention héritée de l'outil [JUnit](http://junit.org/) et de ses nombreux dérivés veut qu'on représente par une "barre rouge" l'échec d'un ou plusieurs tests; une "barre verte" symbolise l'exécution avec succès de la **totalité** des tests unitaires associés à un produit.
+      Un test unitaire, au sens Agile, est un court programme, Ã©crit et maintenu par les dÃ©veloppeurs, servant Ã  vÃ©rifier de maniÃ¨re trÃ¨s Ã©troite le bon fonctionnement d'une partie restreinte du programme principal.
+      Son rÃ©sultat est binaire: il "passe" si le comportement du programme est celui attendu et "Ã©choue" dans le cas contraire. Une convention hÃ©ritÃ©e de l'outil [JUnit](http://junit.org/) et de ses nombreux dÃ©rivÃ©s veut qu'on reprÃ©sente par une "barre rouge" l'Ã©chec d'un ou plusieurs tests; une "barre verte" symbolise l'exÃ©cution avec succÃ¨s de la **totalitÃ©** des tests unitaires associÃ©s Ã  un produit.
   -
     type: syno
     text: |
-      On parle également de "tests développeur" (par opposition à "tests client") pour insister sur la fonction qui en est responsable, plutôt que sur le niveau d'abstraction technique.
+      On parle Ã©galement de "tests dÃ©veloppeur" (par opposition Ã  "tests client") pour insister sur la fonction qui en est responsable, plutÃ´t que sur le niveau d'abstraction technique.
   -
     type: abus
     text: |
-      La terminologie entourant les différents types de test prête à confusion. En effet, la mouvance Agile a repris à son compte des termes tels que "tests unitaires" déjà utilisés auparavant en leur donnant un sens différent (dans un environnement Agile ce terme ne saurait désigner que des tests automatisés, par exemple).
-      Il est également important de différencier la simple utilisation de tests unitaires automatisés, réalisés par des programmeurs, de la pratique plus contraignante qu'est le [développement par les tests](tdd.html).
+      La terminologie entourant les diffÃ©rents types de test prÃªte Ã  confusion. En effet, la mouvance Agile a repris Ã  son compte des termes tels que "tests unitaires" dÃ©jÃ  utilisÃ©s auparavant en leur donnant un sens diffÃ©rent (dans un environnement Agile ce terme ne saurait dÃ©signer que des tests automatisÃ©s, par exemple).
+      Il est Ã©galement important de diffÃ©rencier la simple utilisation de tests unitaires automatisÃ©s, rÃ©alisÃ©s par des programmeurs, de la pratique plus contraignante qu'est le [dÃ©veloppement par les tests](tdd.html).
   -
     type: histo
     text: |
-      * plusieurs articles du même auteur, David J. Panzl, attestent de l'invention [d'outils très proches de JUnit](http://portal.acm.org/citation.cfm?id=807721) dès 1976
-      * l'émergence des outils du type "enregistrer et rejouer" a sans doute contribué à marginaliser les tests unitaires plus proches du code, de la fin des années 80 jusqu'au milieu des années 90
-      * la tendance s'inversera grâce à la popularité du [développement par les tests](tdd.html) et de l'outil JUnit dans la fin des années 90
-      * la pratique est intégrée dans Extreme Programming dès ses débuts sous la forme du [développement par les tests](tdd.html) (1996)
+      * plusieurs articles du mÃªme auteur, David J. Panzl, attestent de l'invention [d'outils trÃ¨s proches de JUnit](http://portal.acm.org/citation.cfm?id=807721) dÃ¨s 1976
+      * l'Ã©mergence des outils du type "enregistrer et rejouer" a sans doute contribuÃ© Ã  marginaliser les tests unitaires plus proches du code, de la fin des annÃ©es 80 jusqu'au milieu des annÃ©es 90
+      * la tendance s'inversera grÃ¢ce Ã  la popularitÃ© du [dÃ©veloppement par les tests](tdd.html) et de l'outil JUnit dans la fin des annÃ©es 90
+      * la pratique est intÃ©grÃ©e dans Extreme Programming dÃ¨s ses dÃ©buts sous la forme du [dÃ©veloppement par les tests](tdd.html) (1996)
   -
     type: benefices
     text: |
-      * une équipe utilisant des tests unitaires automatisés récoltera une partie des bénéfices attribués au [développement par les tests](tdd.html): réduction du nombre de défauts, principalement
+      * une Ã©quipe utilisant des tests unitaires automatisÃ©s rÃ©coltera une partie des bÃ©nÃ©fices attribuÃ©s au [dÃ©veloppement par les tests](tdd.html): rÃ©duction du nombre de dÃ©fauts, principalement
 ---

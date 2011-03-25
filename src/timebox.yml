@@ -1,16 +1,16 @@
 ---
-title: Boîte de temps
+title: BoÃ®te de temps
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      Une boîte de temps ou "timebox" est une période fixe pendant laquelle on cherche à exécuter le plus efficacement possible une ou plusieurs tâches.
-      On peut utiliser les "timebox" à différentes échelles de temps. La ["technique du pomodoro"](http://www.pomodorotechnique.com/) s'appuie sur des boîtes de 25 minutes. Dans un autre domaine que le logiciel, le ["speed dating"](http://fr.wikipedia.org/wiki/Speed_dating) est connu pour ses boîtes de 7 minutes. D'autres domaines peuvent utiliser des durées allant de la journée à plusieurs semaines.
-      Le plus important est qu'on s'astreint, à la fin de la période, à s'arrêter de travailler pour effectuer un bilan: l'objectif est-il atteint, ou partiellement atteint si on s'est fixé plusieurs tâches? Dans le cas où une seule tâche était prévue on ne tient compte que de deux états possibles de complétion: 0% ou 100%.
+      Une boÃ®te de temps ou "timebox" est une pÃ©riode fixe pendant laquelle on cherche Ã  exÃ©cuter le plus efficacement possible une ou plusieurs tÃ¢ches.
+      On peut utiliser les "timebox" Ã  diffÃ©rentes Ã©chelles de temps. La ["technique du pomodoro"](http://www.pomodorotechnique.com/) s'appuie sur des boÃ®tes de 25 minutes. Dans un autre domaine que le logiciel, le ["speed dating"](http://fr.wikipedia.org/wiki/Speed_dating) est connu pour ses boÃ®tes de 7 minutes. D'autres domaines peuvent utiliser des durÃ©es allant de la journÃ©e Ã  plusieurs semaines.
+      Le plus important est qu'on s'astreint, Ã  la fin de la pÃ©riode, Ã  s'arrÃªter de travailler pour effectuer un bilan: l'objectif est-il atteint, ou partiellement atteint si on s'est fixÃ© plusieurs tÃ¢ches? Dans le cas oÃ¹ une seule tÃ¢che Ã©tait prÃ©vue on ne tient compte que de deux Ã©tats possibles de complÃ©tion: 0% ou 100%.
   -
     type: histo
     text: |
-      Le "timeboxing" est une variante de la pratique ancienne de la "deadline", mais son utilisation explicite comme stratégie de gestion de projets logiciels remonte sans doute à James Martin, [*Rapid Application Development*](http://www.amazon.co.uk/dp/0023767758), en 1991. Il s'inspire des travaux de Scott Shultz chez l'industriel DuPont, qui met au point une stratégie de prototypage de nouveaux produits en moins de 90 jours.
+      Le "timeboxing" est une variante de la pratique ancienne de la "deadline", mais son utilisation explicite comme stratÃ©gie de gestion de projets logiciels remonte sans doute Ã  James Martin, [*Rapid Application Development*](http://www.amazon.co.uk/dp/0023767758), en 1991. Il s'inspire des travaux de Scott Shultz chez l'industriel DuPont, qui met au point une stratÃ©gie de prototypage de nouveaux produits en moins de 90 jours.
 ---

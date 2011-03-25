@@ -1,13 +1,13 @@
 ---
-title: Développement itératif
+title: DÃ©veloppement itÃ©ratif
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      Le développement itératif implique de découper un projet en un certain nombre de cycles, ou [itérations](iteration.html), au cours desquelles on prévoit de répéter les *mêmes* activités.
-      Ainsi, on considère comme itératif un cycle dans lequel on prévoirait, à l'issue d'une phase de spécifications et d'analyse, de répéter 3 fois une itération au cours de laquelle on réaliserait successivement la conception, le développement et le test.
-      Un tel cycle serait itératif mais ne serait pas "Agile" au sens strict: l'approche Agile privilégie des itérations nombreuses et très courtes, et considère que chaque itération doit regrouper l'ensemble des activités du développement, de la spécification jusqu'au test.
-      A distinguer du développement [incrémental](incremental.html) qui consiste à planifier par éléments fonctionnels ayant de l'intérêt séparément.
+      Le dÃ©veloppement itÃ©ratif implique de dÃ©couper un projet en un certain nombre de cycles, ou [itÃ©rations](iteration.html), au cours desquelles on prÃ©voit de rÃ©pÃ©ter les *mÃªmes* activitÃ©s.
+      Ainsi, on considÃ¨re comme itÃ©ratif un cycle dans lequel on prÃ©voirait, Ã  l'issue d'une phase de spÃ©cifications et d'analyse, de rÃ©pÃ©ter 3 fois une itÃ©ration au cours de laquelle on rÃ©aliserait successivement la conception, le dÃ©veloppement et le test.
+      Un tel cycle serait itÃ©ratif mais ne serait pas "Agile" au sens strict: l'approche Agile privilÃ©gie des itÃ©rations nombreuses et trÃ¨s courtes, et considÃ¨re que chaque itÃ©ration doit regrouper l'ensemble des activitÃ©s du dÃ©veloppement, de la spÃ©cification jusqu'au test.
+      A distinguer du dÃ©veloppement [incrÃ©mental](incremental.html) qui consiste Ã  planifier par Ã©lÃ©ments fonctionnels ayant de l'intÃ©rÃªt sÃ©parÃ©ment.
 ---

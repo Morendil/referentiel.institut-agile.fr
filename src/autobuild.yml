@@ -1,37 +1,37 @@
 ---
-title: Build automatisé
+title: Build automatisÃ©
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Le terme "build" désigne la production, à partir de l'ensemble des fichiers qui sont sous la responsabilité d'une équipe de développement, du produit sous sa forme définitive.
-      Cela inclut non seulement la compilation des fichiers sources, éventuellement leur regroupement sous la forme de fichiers compressés (Jar, zip, etc.) mais également la production de fichiers d'installation, de mise à jour ou création de bases de données, et ainsi de suite.
-      On parle de "build automatisé" dès lors que toutes ces étapes peuvent être réalisées de manière totalement répétable et sans intervention humaine, uniquement à partir des fichiers sources présents dans l'outil de gestion des versions.
+      Le terme "build" dÃ©signe la production, Ã  partir de l'ensemble des fichiers qui sont sous la responsabilitÃ© d'une Ã©quipe de dÃ©veloppement, du produit sous sa forme dÃ©finitive.
+      Cela inclut non seulement la compilation des fichiers sources, Ã©ventuellement leur regroupement sous la forme de fichiers compressÃ©s (Jar, zip, etc.) mais Ã©galement la production de fichiers d'installation, de mise Ã  jour ou crÃ©ation de bases de donnÃ©es, et ainsi de suite.
+      On parle de "build automatisÃ©" dÃ¨s lors que toutes ces Ã©tapes peuvent Ãªtre rÃ©alisÃ©es de maniÃ¨re totalement rÃ©pÃ©table et sans intervention humaine, uniquement Ã  partir des fichiers sources prÃ©sents dans l'outil de gestion des versions.
   -
     type: abus
     text: |
-      * ne pas confondre build automatisé et [intégration continue](ci.html): l'intégration continue consiste à *déclencher* le plus fréquemment possible le processus de construction (idéalement, automatiquement à chaque publication de code dans l'outil de gestion des versions) et à *vérifier* l'intégrité du résultat produit, notamment par l'exécution de tests automatisés
-      * en particulier, les outils d'intégration continue (CruiseControl, Hudson, etc.) sont distincts des outils d'automatisation du build (make, Ant, Maven, rake, etc.)
-      * la prise en charge par un environnement de développement (IDE) de certaines opérations d'assemblage n'est pas suffisante: il doit être possible de réaliser le "build" en dehors de l'IDE
-      * on conseille en général s'assurer que le "build" dure moins de 10 minutes, tests automatisés compris; au-delà, on compromet la capacité de l'équipe à pratiquer l'intégration continue
+      * ne pas confondre build automatisÃ© et [intÃ©gration continue](ci.html): l'intÃ©gration continue consiste Ã  *dÃ©clencher* le plus frÃ©quemment possible le processus de construction (idÃ©alement, automatiquement Ã  chaque publication de code dans l'outil de gestion des versions) et Ã  *vÃ©rifier* l'intÃ©gritÃ© du rÃ©sultat produit, notamment par l'exÃ©cution de tests automatisÃ©s
+      * en particulier, les outils d'intÃ©gration continue (CruiseControl, Hudson, etc.) sont distincts des outils d'automatisation du build (make, Ant, Maven, rake, etc.)
+      * la prise en charge par un environnement de dÃ©veloppement (IDE) de certaines opÃ©rations d'assemblage n'est pas suffisante: il doit Ãªtre possible de rÃ©aliser le "build" en dehors de l'IDE
+      * on conseille en gÃ©nÃ©ral s'assurer que le "build" dure moins de 10 minutes, tests automatisÃ©s compris; au-delÃ , on compromet la capacitÃ© de l'Ã©quipe Ã  pratiquer l'intÃ©gration continue
   -
     type: histo
     text: |
-      * le principe d'automatiser une mécanique complexe d'assemblage de composants logiciels ne date pas d'hier: l'outil "make" remonte à... 1977
-      * bien que la pratique ne soit pas nouvelle, ni limitée aux approches Agiles, ce sont ces dernières qui relancent l'intérêt pour une automatisation complète; la vogue des environnements intégrés pendant les années 90 a putôt eu pour effet de marginaliser les outils du type "make", on assiste ensuite à un revirement dans les années 2000
+      * le principe d'automatiser une mÃ©canique complexe d'assemblage de composants logiciels ne date pas d'hier: l'outil "make" remonte Ã ... 1977
+      * bien que la pratique ne soit pas nouvelle, ni limitÃ©e aux approches Agiles, ce sont ces derniÃ¨res qui relancent l'intÃ©rÃªt pour une automatisation complÃ¨te; la vogue des environnements intÃ©grÃ©s pendant les annÃ©es 90 a putÃ´t eu pour effet de marginaliser les outils du type "make", on assiste ensuite Ã  un revirement dans les annÃ©es 2000
   -
     type: signes
     text: |
-      Pour s'assurer de la mise en place d'un build automatisé, le plus simple est d'effectuer un test à l'improviste: demander par exemple à une équipe de fournir une version installable de son produit.
-      Utilisez un chronomètre pour mesurer le temps nécessaire à l'obtention d'une version, puis tentez l'installation sur une machine qui n'a pas été préparée par l'équipe de développement. Toute "surprise" pendant ce processus peut être considérée comme une piste d'amélioration du build automatisé.
+      Pour s'assurer de la mise en place d'un build automatisÃ©, le plus simple est d'effectuer un test Ã  l'improviste: demander par exemple Ã  une Ã©quipe de fournir une version installable de son produit.
+      Utilisez un chronomÃ¨tre pour mesurer le temps nÃ©cessaire Ã  l'obtention d'une version, puis tentez l'installation sur une machine qui n'a pas Ã©tÃ© prÃ©parÃ©e par l'Ã©quipe de dÃ©veloppement. Toute "surprise" pendant ce processus peut Ãªtre considÃ©rÃ©e comme une piste d'amÃ©lioration du build automatisÃ©.
   -
     type: benefices
     text: |
-      L'automatisation du build est un prérequis à l'utilisation efficace de l'intégration continue. Elle apporte cependant des bénéfices propres:
-        * elle élimine une source de variation et par conséquent de défauts; une procédure manuelle qui contient de nombreuses étapes, toutes nécessaires, offre autant d'opportunités de se tromper
-        * elle impose de documenter l'ensemble des hypothèses et suppositions qui caractérisent l'environnement cible, ainsi que les dépendances envers des produits externes
+      L'automatisation du build est un prÃ©requis Ã  l'utilisation efficace de l'intÃ©gration continue. Elle apporte cependant des bÃ©nÃ©fices propres:
+        * elle Ã©limine une source de variation et par consÃ©quent de dÃ©fauts; une procÃ©dure manuelle qui contient de nombreuses Ã©tapes, toutes nÃ©cessaires, offre autant d'opportunitÃ©s de se tromper
+        * elle impose de documenter l'ensemble des hypothÃ¨ses et suppositions qui caractÃ©risent l'environnement cible, ainsi que les dÃ©pendances envers des produits externes
   -
     type: resources
     text: |

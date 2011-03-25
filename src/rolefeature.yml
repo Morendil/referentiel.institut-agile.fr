@@ -1,24 +1,24 @@
 ---
-title: Rôle - fonctionnalité - bénéfice
+title: RÃ´le - fonctionnalitÃ© - bÃ©nÃ©fice
 type: Concept
 full: yes
 sections:
   -
     type: desc
     text: |
-      La matrice Rôle-Fonctionnalité-Bénéfice est un format recommandé pour verbaliser ou écrire une User Story:
+      La matrice RÃ´le-FonctionnalitÃ©-BÃ©nÃ©fice est un format recommandÃ© pour verbaliser ou Ã©crire une User Story:
 
-      *  En tant que <rôle>
-      *  Je veux que <fonctionnalité>
-      *  Afin de <bénéfice>
+      *  En tant que <rÃ´le>
+      *  Je veux que <fonctionnalitÃ©>
+      *  Afin de <bÃ©nÃ©fice>
 
       Par exemple:
 
       *  En tant que client de la banque
-      *  Je veux retirer de l'argent à un guichet automatique
+      *  Je veux retirer de l'argent Ã  un guichet automatique
       *  Afin de ne me soucier ni des horaires d'ouverture ni de l'affluence en agence
 
-      Cette formulation permet d'équilibrer les préoccupations: non pas seulement ce que le logiciel doit faire, mais également *pour qui* et *afin de satisfaire quel objectif* de la personne en question.
+      Cette formulation permet d'Ã©quilibrer les prÃ©occupations: non pas seulement ce que le logiciel doit faire, mais Ã©galement *pour qui* et *afin de satisfaire quel objectif* de la personne en question.
 
       Il en existe de nombreuses variantes.
 ---

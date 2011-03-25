@@ -6,9 +6,9 @@ sections:
   -
     type: desc
     text: |
-      La gestion de versions n'est pas à proprement parler une "pratique" Agile, puisqu'elle caractérise (heureusement) de très nombreux projets de développement menés selon d'autres principes.
+      La gestion de versions n'est pas Ã  proprement parler une "pratique" Agile, puisqu'elle caractÃ©rise (heureusement) de trÃ¨s nombreux projets de dÃ©veloppement menÃ©s selon d'autres principes.
       Il est cependant pertinent de la citer ici pour deux raisons:
 
-        * bien qu'elles soient devenues rares, certaines équipes restent encore réfractaire à l'utilisation d'outils de gestion de versions, or il s'agit là non seulement d'une "bonne pratique" mais d'un prérequis à nombre de pratiques Agiles ([intégration continue](ci.html) par exemple)
-        * il est judicieux pour une équipe Agile d'expliciter sa politique de gestion de versions, et de s'assurer que celle-ci est adaptée aux pratiques qu'elle utilise
+        * bien qu'elles soient devenues rares, certaines Ã©quipes restent encore rÃ©fractaire Ã  l'utilisation d'outils de gestion de versions, or il s'agit lÃ  non seulement d'une "bonne pratique" mais d'un prÃ©requis Ã  nombre de pratiques Agiles ([intÃ©gration continue](ci.html) par exemple)
+        * il est judicieux pour une Ã©quipe Agile d'expliciter sa politique de gestion de versions, et de s'assurer que celle-ci est adaptÃ©e aux pratiques qu'elle utilise
 ---

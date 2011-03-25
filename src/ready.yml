@@ -1,12 +1,12 @@
 ---
-title: Définition de "prêt"
+title: DÃ©finition de "prÃªt"
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Par analogie à la "[définition de 'fini'](sashimi.html)", l'équipe explicite et rend visible les critères (généralement une déclinaison de la grille [INVEST](invest.html)) faute desquels une fonctionnalité ne saurait faire l'objet d'un travail au cours de l'itération qui commence.
+      Par analogie Ã  la "[dÃ©finition de 'fini'](sashimi.html)", l'Ã©quipe explicite et rend visible les critÃ¨res (gÃ©nÃ©ralement une dÃ©clinaison de la grille [INVEST](invest.html)) faute desquels une fonctionnalitÃ© ne saurait faire l'objet d'un travail au cours de l'itÃ©ration qui commence.
   -
     type: syno
     text: |
@@ -14,9 +14,9 @@ sections:
   -
     type: benefices
     text: |
-      * évite de commencer à travailler alors que les critères de satisfaction ne sont pas clairs, ce qui risquerait d'entraîner de coûteux allers-retours avant de se mettre d'accord
+      * Ã©vite de commencer Ã  travailler alors que les critÃ¨res de satisfaction ne sont pas clairs, ce qui risquerait d'entraÃ®ner de coÃ»teux allers-retours avant de se mettre d'accord
   -
     type: histo
     text: | 
-      * appellation très récente, formulée par Jeff Sutherland en 2008
+      * appellation trÃ¨s rÃ©cente, formulÃ©e par Jeff Sutherland en 2008
 ---

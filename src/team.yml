@@ -6,9 +6,9 @@ sections:
   -
     type: desc
     text: |
-      Une "équipe" au sens Agile est un petit groupe de personnes affectées à un seul projet, pour la plupart à temps plein (un membre d'une équipe peut avoir par ailleurs des responsabilités opérationnelles, c'est-à-dire qui ne constituent pas un "projet" à proprement parler).
-      La notion d'équipe implique le partage des responsabilités: bon ou mauvais, le résultat obtenu est le fait de l'équipe plutôt que de tel ou tel individu.
-      L'équipe réunit l'ensemble des compétences nécessaires: fonctionnelles et techniques. L'accent est mis sur les résultats à obtenir plus que sur les rôles et responsabilités de chacun: un développeur peut tester, analyser ou découvrir des exigences, même si celles-ci restent soumises à la validation du client; un testeur peut développer si nécessaire, etc.
+      Une "Ã©quipe" au sens Agile est un petit groupe de personnes affectÃ©es Ã  un seul projet, pour la plupart Ã  temps plein (un membre d'une Ã©quipe peut avoir par ailleurs des responsabilitÃ©s opÃ©rationnelles, c'est-Ã -dire qui ne constituent pas un "projet" Ã  proprement parler).
+      La notion d'Ã©quipe implique le partage des responsabilitÃ©s: bon ou mauvais, le rÃ©sultat obtenu est le fait de l'Ã©quipe plutÃ´t que de tel ou tel individu.
+      L'Ã©quipe rÃ©unit l'ensemble des compÃ©tences nÃ©cessaires: fonctionnelles et techniques. L'accent est mis sur les rÃ©sultats Ã  obtenir plus que sur les rÃ´les et responsabilitÃ©s de chacun: un dÃ©veloppeur peut tester, analyser ou dÃ©couvrir des exigences, mÃªme si celles-ci restent soumises Ã  la validation du client; un testeur peut dÃ©velopper si nÃ©cessaire, etc.
   -
     type: syno
     text: |
@@ -16,11 +16,11 @@ sections:
   -
     type: abus
     text: |
-      * l'erreur la plus élémentaire est de penser qu'il suffit de réunir un groupe de personnes pour constituer une équipe
-      * une équipe est constituée d'au minimum 3 personnes (à deux, on forme un binôme), et dépasse rarement une dizaine
-      * une même personne peut intervenir sur plusieurs *projets* pendant une même période, mais ne fait généralement pas partie de plus d'une *équipe* à la fois
+      * l'erreur la plus Ã©lÃ©mentaire est de penser qu'il suffit de rÃ©unir un groupe de personnes pour constituer une Ã©quipe
+      * une Ã©quipe est constituÃ©e d'au minimum 3 personnes (Ã  deux, on forme un binÃ´me), et dÃ©passe rarement une dizaine
+      * une mÃªme personne peut intervenir sur plusieurs *projets* pendant une mÃªme pÃ©riode, mais ne fait gÃ©nÃ©ralement pas partie de plus d'une *Ã©quipe* Ã  la fois
   -
     type: histo
     text: |
-      Kent Beck propose l'expression "Whole Team" fin 2004 pendant la rédaction de la deuxième édition de son livre "Extreme Programming Explained", en remplacement de sa précédente idée du "Client sur site", jugée trop restrictive.
+      Kent Beck propose l'expression "Whole Team" fin 2004 pendant la rÃ©daction de la deuxiÃ¨me Ã©dition de son livre "Extreme Programming Explained", en remplacement de sa prÃ©cÃ©dente idÃ©e du "Client sur site", jugÃ©e trop restrictive.
 ---

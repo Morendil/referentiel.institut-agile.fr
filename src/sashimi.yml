@@ -1,45 +1,45 @@
 ---
-title: Définition de 'fini'
+title: DÃ©finition de 'fini'
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      L'équipe affiche de façon visible une liste de critères génériques qui conditionnent le fait de pouvoir considérer un incrément comme "fini". Faute de remplir ces critères en fin de Sprint ou d'itération le travail réalisé n'est pas comptabilisé dans la vélocité.
+      L'Ã©quipe affiche de faÃ§on visible une liste de critÃ¨res gÃ©nÃ©riques qui conditionnent le fait de pouvoir considÃ©rer un incrÃ©ment comme "fini". Faute de remplir ces critÃ¨res en fin de Sprint ou d'itÃ©ration le travail rÃ©alisÃ© n'est pas comptabilisÃ© dans la vÃ©locitÃ©.
   -
     type: syno
     text: |
-      En anglais "done" signifie "terminé, fini". L'anecdote veut que quand on demande à un développeur si quelque chose est "fini" cela n'a qu'un sens technique: il a fini de coder. Si le sens de la question est de savoir s'il a fini de coder, de tester, de mettre à jour les tests et la documentation, il faut le regarder droit dans les yeux en insistant: "est-ce que c'est fini-fini?"
-      On parle de "Definition of Done" ou "Done List", en français on pourra entendre "Définition de fini" ou "Définition de terminé".
-      Le terme "Sashimi" plus imagé gagne du terrain pour désigner une "tranche" fonctionnelle à laquelle rien ne saurait manquer.
+      En anglais "done" signifie "terminÃ©, fini". L'anecdote veut que quand on demande Ã  un dÃ©veloppeur si quelque chose est "fini" cela n'a qu'un sens technique: il a fini de coder. Si le sens de la question est de savoir s'il a fini de coder, de tester, de mettre Ã  jour les tests et la documentation, il faut le regarder droit dans les yeux en insistant: "est-ce que c'est fini-fini?"
+      On parle de "Definition of Done" ou "Done List", en franÃ§ais on pourra entendre "DÃ©finition de fini" ou "DÃ©finition de terminÃ©".
+      Le terme "Sashimi" plus imagÃ© gagne du terrain pour dÃ©signer une "tranche" fonctionnelle Ã  laquelle rien ne saurait manquer.
   -
     type: abus
     text: |
-      * Accorder trop d'importance à la liste peut être contre-productif: elle doit définir le *minimum* à faire pour qu'on puisse considérer un incrément comme terminé
-      * Si la liste n'est qu'implicite, au lieu d'être affichée au mur, elle perd beaucoup de son intérêt, ce qui fait sa valeur étant précisément que chacun est au courant de tous les critères
-      * Constater qu'un incrément n'est pas réellement fini mais se dire "on reviendra dessus plus tard" réduit considérablement l'intérêt de cette pratique.
+      * Accorder trop d'importance Ã  la liste peut Ãªtre contre-productif: elle doit dÃ©finir le *minimum* Ã  faire pour qu'on puisse considÃ©rer un incrÃ©ment comme terminÃ©
+      * Si la liste n'est qu'implicite, au lieu d'Ãªtre affichÃ©e au mur, elle perd beaucoup de son intÃ©rÃªt, ce qui fait sa valeur Ã©tant prÃ©cisÃ©ment que chacun est au courant de tous les critÃ¨res
+      * Constater qu'un incrÃ©ment n'est pas rÃ©ellement fini mais se dire "on reviendra dessus plus tard" rÃ©duit considÃ©rablement l'intÃ©rÃªt de cette pratique.
   -
     type: signes
     text: |
-      * l'équipe est capable de montrer, sur demande, sa définition de "fini"
-      * ces critères sont évoqués en fin de Sprint ou d'itération et justifient la décision de comptabiliser un incrément dans la vélocité, ou non
+      * l'Ã©quipe est capable de montrer, sur demande, sa dÃ©finition de "fini"
+      * ces critÃ¨res sont Ã©voquÃ©s en fin de Sprint ou d'itÃ©ration et justifient la dÃ©cision de comptabiliser un incrÃ©ment dans la vÃ©locitÃ©, ou non
   -
     type: benefices
     text: |
-      * en amont, fonctionne comme une "checklist" guidant la réflexion des développeurs pendant l'estimation et la réalisation
-      * en aval, moins de temps perdu en travaux de "réfection" une fois qu'une fonctionnalité a été acceptée
-      * réduit les risques de brouille entre l'équipe et ses commanditaires en instaurant un contrat clair
+      * en amont, fonctionne comme une "checklist" guidant la rÃ©flexion des dÃ©veloppeurs pendant l'estimation et la rÃ©alisation
+      * en aval, moins de temps perdu en travaux de "rÃ©fection" une fois qu'une fonctionnalitÃ© a Ã©tÃ© acceptÃ©e
+      * rÃ©duit les risques de brouille entre l'Ã©quipe et ses commanditaires en instaurant un contrat clair
   -
     type: histo
     text: |
-      * Proposée par [Dan Rawsthorne](http://advancedtopicsinscrum.com/musings/donedonedonedone/) en 2002-2004
-      * Répandue sous ce terme à partir de 2007 environ
-      * Considérée comme un élément majeur de Scrum
+      * ProposÃ©e par [Dan Rawsthorne](http://advancedtopicsinscrum.com/musings/donedonedonedone/) en 2002-2004
+      * RÃ©pandue sous ce terme Ã  partir de 2007 environ
+      * ConsidÃ©rÃ©e comme un Ã©lÃ©ment majeur de Scrum
   -
     type: pubs
     text: |
-      Aucun travail de recherche théorique ou empirique connu ne concerne cette pratique. On peut cependant considérer comme pertinents les travaux de Flores et Winograd, Macomber:
-      * Understanding Computers and Cognition, Flores F., Winograd T., 1987, présentant le modèle "[Conversation for Action](http://www.contingences.com/spip.php?article45)"
+      Aucun travail de recherche thÃ©orique ou empirique connu ne concerne cette pratique. On peut cependant considÃ©rer comme pertinents les travaux de Flores et Winograd, Macomber:
+      * Understanding Computers and Cognition, Flores F., Winograd T., 1987, prÃ©sentant le modÃ¨le "[Conversation for Action](http://www.contingences.com/spip.php?article45)"
       * [Securing Reliable Promises on Projects](http://www.reformingprojectmanagement.com/docs/securing-reliable-promises-on-projects.pdf), Macomber H., 2001
 ---

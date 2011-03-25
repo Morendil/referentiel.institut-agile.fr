@@ -1,29 +1,29 @@
 ---
-title: Développement par les tests client
+title: DÃ©veloppement par les tests client
 type: Pratique
 full: yes
 sections:
   -
     type: desc
     text: |
-      Sur le modèle du [développement par les tests](tdd.html), cette pratique ajoute au développement de [tests de recette automatisés](acceptance.html) une contrainte supplémentaire: ceux-ci doivent être réalisés en amont des développements correspondants.
-      L'idéal recherché (mais atteint relativement rarement) consiste à ce que le responsable du produit, client ou expert fonctionnel soit en mesure de définir de nouvelles fonctionnalités sous la forme de tests de recette, sans que l'intervention des développeurs soit nécessaire.
+      Sur le modÃ¨le du [dÃ©veloppement par les tests](tdd.html), cette pratique ajoute au dÃ©veloppement de [tests de recette automatisÃ©s](acceptance.html) une contrainte supplÃ©mentaire: ceux-ci doivent Ãªtre rÃ©alisÃ©s en amont des dÃ©veloppements correspondants.
+      L'idÃ©al recherchÃ© (mais atteint relativement rarement) consiste Ã  ce que le responsable du produit, client ou expert fonctionnel soit en mesure de dÃ©finir de nouvelles fonctionnalitÃ©s sous la forme de tests de recette, sans que l'intervention des dÃ©veloppeurs soit nÃ©cessaire.
   -
     type: syno
     text: |
-      Couramment désignée par l'acronyme ATDD ("acceptance test driven development"), plus rarement STDD ("storytest driven development").
+      Couramment dÃ©signÃ©e par l'acronyme ATDD ("acceptance test driven development"), plus rarement STDD ("storytest driven development").
   -
     type: abus
     text: |
-      Plus encore que la simple utilisation de tests de recette automatisés, cette pratique est liée à des outils tels que Fit/FitNesse, Cucumber, etc.
-      Il convient par conséquent d'être d'autant plus vigilant à ce que le choix des outils ne se fasse pas au détriment de la facilité, pour les responsables produit, à dialoguer avec les développeurs à propos de la définition des exigences.
+      Plus encore que la simple utilisation de tests de recette automatisÃ©s, cette pratique est liÃ©e Ã  des outils tels que Fit/FitNesse, Cucumber, etc.
+      Il convient par consÃ©quent d'Ãªtre d'autant plus vigilant Ã  ce que le choix des outils ne se fasse pas au dÃ©triment de la facilitÃ©, pour les responsables produit, Ã  dialoguer avec les dÃ©veloppeurs Ã  propos de la dÃ©finition des exigences.
   -
     type: histo
     text: |
-      * Kent Beck aborde brièvement cette pratique dans son livre "Test Driven Development: By Example" mais la juge peu praticable (2003)
-      * c'est à partir de 2003-2004 et sous l'impulsion de Fit/FitNesse que cette pratique fait son chemin malgré les objections soulevées par Beck
+      * Kent Beck aborde briÃ¨vement cette pratique dans son livre "Test Driven Development: By Example" mais la juge peu praticable (2003)
+      * c'est Ã  partir de 2003-2004 et sous l'impulsion de Fit/FitNesse que cette pratique fait son chemin malgrÃ© les objections soulevÃ©es par Beck
   -
     type: benefices
     text: |
-      * de même que le développement par les tests oblige à concevoir les applications pour être facilement testable au niveau unitaire, le développement par les tests client oblige à créer des interfaces spécifiques pour le test fonctionnel; il est généralement conseillé de ne pas tester directement à travers l'IHM mais de fournir une couche dédiée au test applicatif par exemple
+      * de mÃªme que le dÃ©veloppement par les tests oblige Ã  concevoir les applications pour Ãªtre facilement testable au niveau unitaire, le dÃ©veloppement par les tests client oblige Ã  crÃ©er des interfaces spÃ©cifiques pour le test fonctionnel; il est gÃ©nÃ©ralement conseillÃ© de ne pas tester directement Ã  travers l'IHM mais de fournir une couche dÃ©diÃ©e au test applicatif par exemple
 ---
