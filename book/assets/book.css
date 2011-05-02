@@ -311,45 +311,40 @@ div.frontcover { page: cover; }
 
 div.frontcover img {
   position: absolute;
-  width: 7in; height: 9.25in;
-  left: 0; top: 0;
+  height: 6.25in;
+  left: 0; top: 2in;
   z-index: -1;
 }
 
 div.frontcover h1 {
   position: absolute;
-  left: 2cm; top: 1cm;
-  color: white;
-  font-size: 44pt;
+  left: 2cm;
+  color: blue;
+  font-size: 36pt;
   font-weight: normal;
 }
 
 div.frontcover h2 {
   position: absolute;
-  right: 0; top: 5cm;
-  color: black;
-  background: white;
-  font-size: 16pt;
+  left: 2cm; top: 2.5cm;
+  color: blue;
+  font-size: 24pt;
   font-weight: normal;
-  padding: 0.2em 5em 0.2em 1em;
-  letter-spacing: 0.15em;
 }
 
 div.frontcover h3 {
   position: absolute;
-  left: 2cm; top: 7cm;
-  color: white;
-  font-size: 24pt;
-  font-weight: normal;
+  left: 2cm; bottom: 2cm;
+  color: black;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 div.frontcover p {
   position: absolute;
-  left: 2cm; bottom: 1.5cm;
+  left: 2cm; bottom: 1cm;
   font-size: 24pt;
   color: black;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 
@@ -396,8 +391,11 @@ ul.toc > li.chapter::before {
   display: block;
   margin: 1em 0 0.1em -2.5cm;
   font-weight: normal;
-  counter-increment: toc-chapter;
   page-break-after: avoid;
+}
+
+ul.toc > li.chapter {
+  counter-increment: toc-chapter;
 }
 
 /* chapter numbers */
