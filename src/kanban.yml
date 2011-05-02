@@ -2,6 +2,7 @@
 title: Tableau kanban
 type: Pratique
 full: yes
+id: kanban
 sections:
   -
     type: desc

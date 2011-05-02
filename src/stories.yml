@@ -2,6 +2,7 @@
 title: User stories
 type: Compétence
 full: yes
+id: stories
 sections:
   -
     type: desc

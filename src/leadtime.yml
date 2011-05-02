@@ -2,6 +2,7 @@
 title: Temps de cycle
 type: Concept
 full: yes
+id: leadtime
 sections:
   -
     type: desc

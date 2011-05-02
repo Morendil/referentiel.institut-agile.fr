@@ -2,6 +2,7 @@
 title: Test exploratoire
 type: Pratique
 full: yes
+id: exploratory
 sections:
   -
     type: desc

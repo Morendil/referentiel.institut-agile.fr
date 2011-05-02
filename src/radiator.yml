@@ -2,6 +2,7 @@
 title: Radiateurs d'information
 type: Pratique
 full: yes
+id: radiator
 sections:
   -
     type: desc

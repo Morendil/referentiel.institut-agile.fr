@@ -2,6 +2,7 @@
 title: Développement incrémental
 type: Concept
 full: yes
+id: incremental
 sections:
   -
     type: desc

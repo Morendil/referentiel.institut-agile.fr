@@ -2,6 +2,7 @@
 title: Définition de "prêt"
 type: Pratique
 full: yes
+id: ready
 sections:
   -
     type: desc

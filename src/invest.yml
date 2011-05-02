@@ -2,6 +2,7 @@
 title: Grille INVEST
 type: Concept
 full: yes
+id: invest
 sections:
   -
     type: desc

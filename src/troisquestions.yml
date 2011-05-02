@@ -2,6 +2,7 @@
 title: Trois questions
 type: Pratique
 full: yes
+id: troisquestions
 sections:
   -
     type: desc

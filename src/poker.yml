@@ -2,6 +2,7 @@
 title: Planning poker
 type: Pratique
 full: yes
+id: poker
 sections:
   -
     type: desc

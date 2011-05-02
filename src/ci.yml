@@ -2,6 +2,7 @@
 title: Intégration continue
 type: Pratique
 full: yes
+id: ci
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Objets fantaisie (Mock Objects)
 type: Concept
 full: yes
+id: mocks
 sections:
   -
     type: desc

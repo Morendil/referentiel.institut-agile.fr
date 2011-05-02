@@ -7,15 +7,41 @@
     %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/book.css"}
   %body
 
-  %div.frontCover
-    <img src="assets/cover.png"/> 
-    %h1 Référentiel des Pratiques Agiles
-    %h2 Le développement Agile de A à Z (ou presque)
-    %h3 Edition eBook
-  
-  -# Inclusion directives to pick up all the practice chapters
-  {{#parts}}
-  {{#values}}
-  %xi:include{:href=>"{{id}}.html"}
-  {{/values}}
-  {{/parts}}
+    %div.frontcover
+      %img{:src=>"assets/cover.png"}
+      %h1 Agile de A à Z
+      %h2 (...ou presque...)
+      %h3 Référentiel des Pratiques Agiles: édition eBook
+      %p Une production de l'Institut Agile
+
+    %div.halftitlepage
+      %h1.no-toc Agile de A à Z
+      %h2.no-toc (...ou presque...)
+      %h3.no-toc Référentiel des Pratiques Agiles
+      %p.no-toc (c) 2011 Institut Agile et Laurent Bossavit
+
+    %div.toc#toc-h-1
+      %h1 Table des matières
+      %ul.toc
+        %li.frontmatter
+          <a href="#toc-h-1">Table des matières</a>
+        %h2 Première partie: Agile
+        %li.chapter
+          <a href="#01-chapter">Vous avez dit Agile?</a>
+        %h2 Deuxième partie: les pratiques
+        {{#parts}}
+        {{#values}}
+        %li.chapter
+          <a href="#{{id}}">{{title}}</a>
+        {{/values}}
+        {{/parts}}
+
+    -# Inclusion directives for static content
+    %xi:include{:href=>"01-chapter.html"}
+
+    -# Inclusion directives to pick up all the practice chapters
+    {{#parts}}
+    {{#values}}
+    %xi:include{:href=>"{{id}}.html"}
+    {{/values}}
+    {{/parts}}

@@ -2,6 +2,7 @@
 title: Développement par les tests client
 type: Pratique
 full: yes
+id: atdd
 sections:
   -
     type: desc

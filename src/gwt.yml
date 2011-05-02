@@ -2,6 +2,7 @@
 title: Given - When - Then
 type: Concept
 full: yes
+id: gwt
 sections:
   -
     type: desc

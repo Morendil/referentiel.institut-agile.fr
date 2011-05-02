@@ -2,6 +2,7 @@
 title: Déploiement continu
 type: Pratique
 full: yes
+id: cd
 sections:
   -
     type: desc

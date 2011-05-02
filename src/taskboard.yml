@@ -2,6 +2,7 @@
 title: Tableau des tâches
 type: Pratique
 full: yes
+id: taskboard
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Niko-niko
 type: Pratique
 full: yes
+id: nikoniko
 sections:
   -
     type: desc

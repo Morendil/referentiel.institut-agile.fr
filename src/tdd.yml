@@ -2,6 +2,7 @@
 title: Développement par les tests
 type: Compétence
 full: yes
+id: tdd
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Réunion quotidienne
 type: Pratique
 full: yes
+id: daily
 sections:
   -
     type: desc

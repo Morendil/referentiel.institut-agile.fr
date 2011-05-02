@@ -2,6 +2,7 @@
 title: Gestion de versions
 type: Concept
 full: yes
+id: versioncontrol
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Rétrospective jalon
 type: Pratique
 full: yes
+id: retro
 sections:
   -
     type: desc

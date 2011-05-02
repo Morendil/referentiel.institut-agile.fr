@@ -2,6 +2,7 @@
 title: Tests unitaires automatisés
 type: Pratique
 full: yes
+id: unittest
 sections:
   -
     type: desc

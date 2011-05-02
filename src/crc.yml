@@ -2,6 +2,7 @@
 title: Cartes CRC (Classe, Responsabilité, Collaborateurs)
 type: Pratique
 full: yes
+id: crc
 sections:
   -
     type: desc

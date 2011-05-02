@@ -2,6 +2,7 @@
 title: Equipe
 type: Concept
 full: yes
+id: team
 sections:
   -
     type: desc

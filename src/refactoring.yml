@@ -2,6 +2,7 @@
 title: Refactoring
 type: Compétence
 full: yes
+id: refactoring
 sections:
   -
     type: desc

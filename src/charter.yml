@@ -2,6 +2,7 @@
 title: Charte projet
 type: Pratique
 full: yes
+id: charter
 sections:
   -
     type: desc

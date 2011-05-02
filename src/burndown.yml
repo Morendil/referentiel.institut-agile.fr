@@ -2,6 +2,7 @@
 title: Graphe burn-down
 type: Pratique
 full: yes
+id: burndown
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Boîte de temps
 type: Concept
 full: yes
+id: timebox
 sections:
   -
     type: desc

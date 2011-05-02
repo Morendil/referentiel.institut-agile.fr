@@ -2,6 +2,7 @@
 title: Programmation en binômes
 type: Compétence
 full: yes
+id: binomage
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Build automatisé
 type: Pratique
 full: yes
+id: autobuild
 sections:
   -
     type: desc

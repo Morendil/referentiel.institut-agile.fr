@@ -2,6 +2,7 @@
 title: Livraisons fréquentes
 type: Pratique
 full: yes
+id: smallrelease
 sections:
   -
     type: desc

@@ -2,6 +2,7 @@
 title: Estimation relative
 type: Pratique
 full: yes
+id: relative
 sections:
   -
     type: desc

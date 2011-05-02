@@ -2,6 +2,7 @@
 title: Conception simple
 type: Compétence
 full: yes
+id: yagni
 sections:
   -
     type: desc

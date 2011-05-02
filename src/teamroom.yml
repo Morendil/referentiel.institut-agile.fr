@@ -2,6 +2,7 @@
 title: Salle dédiée
 type: Pratique
 full: yes
+id: teamroom
 sections:
   -
     type: desc

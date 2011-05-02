@@ -2,6 +2,7 @@
 title: Story mapping
 type: Pratique
 full: yes
+id: storymap
 sections:
   -
     type: desc
