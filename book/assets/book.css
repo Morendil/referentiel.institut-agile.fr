@@ -56,7 +56,7 @@ p.author {
 
 pre {  margin: 1em 1.3em; }
 
-a { text-decoration: none; color: black }
+.hidelinks a { text-decoration: none; color: black }
 
 /* cross-references */
 
@@ -311,30 +311,30 @@ div.frontcover { page: cover; }
 
 div.frontcover img {
   position: absolute;
-  height: 6.25in;
-  left: 0; top: 2in;
+  height: 15cm;
+  width: 12cm;
+  left: 4cm; top: 2.8cm;
   z-index: -1;
 }
 
 div.frontcover h1 {
   position: absolute;
-  left: 2cm;
-  color: blue;
-  font-size: 36pt;
+  left: 8.5cm; top: 1.3cm;
+  color: black;
+  font-size: 32pt;
   font-weight: normal;
 }
 
 div.frontcover h2 {
   position: absolute;
-  left: 2cm; top: 2.5cm;
-  color: blue;
+  left: 8.5cm; top: 3.1cm;
   font-size: 24pt;
   font-weight: normal;
 }
 
 div.frontcover h3 {
   position: absolute;
-  left: 2cm; bottom: 2cm;
+  left: 2cm; bottom: 2.8cm;
   color: black;
   font-size: 16pt;
   font-weight: bold;
@@ -342,17 +342,17 @@ div.frontcover h3 {
 
 div.frontcover p {
   position: absolute;
-  left: 2cm; bottom: 1cm;
-  font-size: 24pt;
+  left: 2cm; bottom: 1.8cm;
+  font-size: 12pt;
   color: black;
 }
 
 
 /* titlepage, halftitlepage */
 
-div.titlepage h1, div.halftitlepage h1 { margin-bottom: 2em; }
-div.titlepage h2, div.halftitlepage h2 { font-size: 1.2em; margin-bottom: 3em; }
-div.titlepage h3, div.halftitlepage h3 { font-size: 1em; margin-bottom: 3em; }
+div.titlepage h1, div.halftitlepage h1 { padding-bottom: 0; margin-bottom: 0; }
+div.titlepage h2, div.halftitlepage h2 { font-size: 1.2em; padding-bottom: 0; margin-bottom: 0; }
+div.titlepage h3, div.halftitlepage h3 { font-size: 1em; margin-bottom: 4em; }
 div.titlepage p, div.halftitlepage p { 
   font-size: 1.4em;
   font-weight: bold;
@@ -361,6 +361,8 @@ div.titlepage p, div.halftitlepage p {
 
 
 /* TOC */
+
+div.toc a {text-decoration: none; color: black }
 
 ul.toc, ul.toc ul { 
   list-style-type: none;

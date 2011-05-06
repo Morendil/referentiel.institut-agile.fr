@@ -7,7 +7,7 @@ sections:
   -
     type: desc
     text: |
-      Ce terme désigne une technique de développement qui entremèle la programmation, l'écriture de [tests unitaires](unit.html) et l'activité de [remaniement](refactoring.html). Elle propose les règles suivantes:
+      Ce terme désigne une technique de développement qui entremèle la programmation, l'écriture de [tests unitaires](unittest.html) et l'activité de [remaniement](refactoring.html). Elle propose les règles suivantes:
 
       * créer **un seul** test unitaire décrivant un aspect du programme
       * s'assurer, en l'exécutant, que ce test échoue pour les bonnes raisons

@@ -9,25 +9,44 @@
 
     %div.frontcover
       %img{:src=>"assets/cover.png"}
-      %h1 Agile de A à Z
-      %h2 (...ou presque...)
+      %h1 Agile: de A à Z
       %h3 Référentiel des Pratiques Agiles: édition eBook
-      %p Une production de l'Institut Agile
+      %p Une production de l'Institut Agile<br/> Préface de Pierre Pezziardi, Directeur Informatique, Bred Banques Populaires
 
     %div.halftitlepage
-      %h1.no-toc Agile de A à Z
-      %h2.no-toc (...ou presque...)
-      %h3.no-toc Référentiel des Pratiques Agiles
-      %p.no-toc (c) 2011 Institut Agile et Laurent Bossavit
+      %h1.no-toc Agile: de A à Z
+      %h3.no-toc (...ou presque...)
+      %h2.no-toc Référentiel des Pratiques Agiles
+      %h2.no-toc Edition eBook
+      %div.no-toc{:style=>"position:absolute; bottom:6cm"}
+        %div (c) 2011 Institut Agile
+        %div (c) 2011 Laurent Bossavit
+
+    -# Inclusion directives for front matter
+    %xi:include{:href=>"00-chapter.html"}
 
     %div.toc#toc-h-1
       %h1 Table des matières
       %ul.toc
         %li.frontmatter
+          <a href="#00-chapter">Préface</a>
+        %li.frontmatter
           <a href="#toc-h-1">Table des matières</a>
+        %li.frontmatter
+          <a href="#01-chapter">Remerciements</a>
+        %li.frontmatter
+          <a href="#02-chapter">Guide de Lecture</a>
         %h2 Première partie: Agile
         %li.chapter
-          <a href="#01-chapter">Vous avez dit Agile?</a>
+          <a href="#11-chapter">Au commencement était... le Génie Logiciel</a>
+        %li.chapter
+          <a href="#12-chapter">La rupture Agile</a>
+        %li.chapter
+          <a href="#13-chapter">Quel avenir pour les approches Agiles?</a>
+        %li.chapter
+          <a href="#14-chapter">Un capital: les pratiques Agiles</a>
+        %li.chapter
+          <a href="#15-chapter">Comment utiliser le référentiel</a>
         %h2 Deuxième partie: les pratiques
         {{#parts}}
         {{#values}}
@@ -35,9 +54,18 @@
           <a href="#{{id}}">{{title}}</a>
         {{/values}}
         {{/parts}}
+        %h2 Annexes
+        %li.chapter
+          <a href="#99-chapter">Bibliographie</a>
 
     -# Inclusion directives for static content
     %xi:include{:href=>"01-chapter.html"}
+    %xi:include{:href=>"02-chapter.html"}
+    %xi:include{:href=>"11-chapter.html"}
+    %xi:include{:href=>"12-chapter.html"}
+    %xi:include{:href=>"13-chapter.html"}
+    %xi:include{:href=>"14-chapter.html"}
+    %xi:include{:href=>"15-chapter.html"}
 
     -# Inclusion directives to pick up all the practice chapters
     {{#parts}}
@@ -45,3 +73,6 @@
     %xi:include{:href=>"{{id}}.html"}
     {{/values}}
     {{/parts}}
+
+    %xi:include{:href=>"99-chapter.html"}
+    %xi:include{:href=>"98-chapter.html"}

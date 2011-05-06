@@ -26,24 +26,32 @@ CLEAN.include('tmp/*')
 def haml_indirect target, where, built
 	task target => built
         from = built.pathmap("%{#{where},tmp}X_#{where}.ham")
-        haml built, from
+       	haml built, from
 end
 
 def haml built, from
+        rebuilt = !uptodate?(built,from)
 	file built => from do
           sh "haml -r lib/helpers.rb #{from} > #{built}" unless uptodate?(built,from)
         end
 end
 
-def generate_indices which, how
-  uptodate = which.select {|each| !uptodate?(each,YML_SRC)}.empty?
-  sh "ruby lib/#{how}.rb" unless uptodate
+def outdatedTargetOrTemplate target, view
+  !uptodate?(target,YML_SRC) || !uptodate?(target,view)
 end
 
-def mustache built, from, template
+def generate_indices which, how, view
+  outofdate = which.any? {|target| outdatedTargetOrTemplate target, view}
+  sh "ruby lib/#{how}.rb" if outofdate
+end
+
+def mustache built, from, template, fix
 	file built => from do
           view = "views/#{template}.tmpl"
-          sh "mustache #{from} #{view} > #{built}" unless uptodate?(built,from) && uptodate?(built, view)
+          skip = uptodate?(built,from) && uptodate?(built, view)
+          sh "mustache #{from} #{view} > #{built}" unless skip
+          # Ugly hack to fix internal links for the eBook version - improve this
+          sh "perl -i.old -pe 's/]\\((.*?).html\\)/](\#$1)/g' #{built}" unless skip || !fix
         end
 end
 
@@ -54,7 +62,7 @@ SITE_OUT.each do |built|
 end
 
 BOOK_OUT.each do |built|
-  haml_indirect(:book,"book",built)
+  rebuilt = haml_indirect(:book,"book",built)
 end
 
 SITE_STATIC.each do |from|
@@ -85,12 +93,12 @@ end
 
 YML_SRC.each do |from|
         built = from.pathmap("%{src,tmp}X_book.ham")
-        mustache built, from, "practice-book"
+        mustache built, from, "practice-book", true
 end
 
 YML_SRC.each do |from|
         built = from.pathmap("%{src,tmp}X_site.ham")
-        mustache built, from, "practice"
+        mustache built, from, "practice", false
 end
 
 ## Final tasks
@@ -103,9 +111,9 @@ task :site => :site_index
 task :book => :book_index
 
 task :site_index => [] do |t|
-  generate_indices SITE_INDICES, "site"
+  generate_indices SITE_INDICES, "site", "views/index.tmpl"
 end
 
 task :book_index => [] do |t|
-  generate_indices BOOK_INDICES, "book"
+  generate_indices BOOK_INDICES, "book", "views/book.tmpl"
 end

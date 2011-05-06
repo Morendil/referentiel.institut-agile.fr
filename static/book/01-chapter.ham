@@ -1,32 +1,35 @@
 !!! XML
 !!!
 %div#01-chapter.chapter{:xmlns=>"http://www.w3.org/1999/xhtml"}
-  %h1 Agile: valeurs ou pratiques?
+  %h1 Remerciements
+  %p FÃ©dÃ©rant un rÃ©seau de compÃ©tences individuelles reconnues, mandatÃ© par des entreprises dÃ©veloppant un savoir-faire et une culture distincte basÃ©es sur ces compÃ©tences, mais agissant en toute indÃ©pendance et neutralitÃ©, lâ€™Institut Agile a pour missions de dÃ©velopper en France le marchÃ© du â€œproduitâ€ Agile, de prÃ©senter une dÃ©finition claire et cohÃ©rente de ce que recouvre le terme Agile, de recenser les attentes du marchÃ©, de mettre au point des programmes de collecte dâ€™informations et de mesures sur les effets constatÃ©s des pratiques dites Agiles.
+  %p
+  Pour plus d'informations: <a href="http://institut-agile.fr/">http://institut-agile.fr/</a>
+  %p
+  %p Merci Ã  tous ceux qui ont soutenu le projet de l'Institut Agile, Ã  commencer par les partenaires et soutiens financiers:
+  %p
+  %p{:align=>'center'}
+    <a href="http://www.axones.com/"><img alt="Axones" src="assets/axones.gif"/></a> 
+  %p{:align=>'center'}
+    <a href="http://www.exakis.com/"><img alt="Exakis" src="assets/exakis.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://www.agilidee.fr/"><img alt="AgilidÃ©e" src="assets/agilidee.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://www.agiletoyou.com/"><img alt="AgileToYou" src="assets/agile2you.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://www.piaction.com/"><img alt="People In Action" src="assets/pia.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://www.ut7.fr/"><img alt="UT7" src="assets/ut7.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://neoxia.com/"><img alt="Neoxia" src="assets/neoxia.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://microsoft.fr/"><img alt="Microsoft France" src="assets/microsoft.png"/></a> 
+  %p{:align=>'center'}
+    <a href="http://paristech.fr/"><img alt="Telecom ParisTech" src="assets/telecomparis.png"/></a> 
+  %p
+
   :markdown
-    Un débat agite régulièrement les listes et forums de diffusions destinées aux spécialistes du sujet: "Qu'appelle-t-on Agile, finalement; s'agit-il d'une philosophie, de valeurs, ou de pratiques concrètes?"
 
-    A cette question, et justement pour éviter de trancher d'une façon trop arbitraire, il convient de répondre par une autre question:
+    Remerciements personnels de la part de Laurent Bossavit Ã  tous ceux, qui ont Ã  un moment ou un autre donnÃ© un coup de pouce crucial: bien qu'il soit impossible faute de place de rendre Ã  chacun l'hommage qui convient, je tiens Ã  saluer Godefroy Beauvallet pour ses conseils et Xavier Warzee pour y avoir cru le premier. Merci Ã©galement pour leurs idÃ©es et encouragements Ã  Karim, Vincent, Romain, Benoit, Alex, Manu et Manu, Gilles, JÃ©rÃ´me, Arthur, Colin et Alain. Merci pour leur amitiÃ© Ã  Bernard Notarianni et Jonathan Perret. Pour leur patience, Ã  Sophie, Axel, Erwan et Mika.
 
-    "Dans une bonne bouteille, vous buvez l'étiquette?"
-
-    Ce qui est important dans l'ensemble certes un peu hétéroclite de notions associées au terme "Agile", ce n'est évidemment pas le mot "Agile", de la même façon que ce qui nous procure du plaisir dans une bonne bouteille de vin, c'est (en principe) son contenu.
-
-    En principe? Oui, une des vertus de cette analogie, c'est de nous rappeler que trop souvent c'est bien de l'étiquette qu'on se délecte. On appelle "effet de halo" le biais cognitif qui nous fait trouver plus plaisant un produit lorsqu'on sait qu'il provient d'une "bonne" marque, alors même que si nous faisions l'essai à l'aveugle nous ne saurions pas distinguer une piquette d'un cru à la mode.
-
-    Sans jeter la pierre à personne, le fait est que nous courons un risque à trop parler des étiquettes: Agile, Lean, Scrum, XP... On entend trop souvent des choses parfaitement absurdes, par exemple "Lean est le successeur d'Agile".
-
-    C'est un contre-sens pour qui connaît le contenu qu'on désigne par le terme Agile: un ensemble de pratiques, certes pas toutes de la même origine, certes pas toutes aussi largement connues et pratiquées, mais dont statistiquement, en interrogeant un assez grand nombre de personnes faisant partie de la communauté depuis longtemps (cette appartenance pourrait se déterminer par un critère concret tel que la participation à des conférences), le recouvrement nous donnerait une idée assez précise.
-
-    Citons en vrac, et pour l'exercice: le développement par les tests (TDD), le refactoring, l'automatisation du build, l'intégration continue, la conception incrémentale, les User Stories, les tests de recette, les critères "Done", les Personas, le Story Mapping, le Planning Poker, les itérations timeboxées, les rétrospectives, le tableau des tâches, le libre choix des tâches, la réunion quotidienne ou "mélée", la programmation en binômes, les demandes d'aide explicites...
-
-    Parmi les "méthodes Agiles" (le mot méthode est mal choisi, mais nous y reviendrons) on peut effectivement recenser certaines dont les préconisations sont des sous-ensembles de cette longue liste: Scrum et XP notamment.
-
-    Si on se pose la question de savoir de quel mode de pensée sont issues les pratiques Agiles, alors oui, on retombe sur quelque chose qui a de nombreuses affinités avec le discours Lean. Pour autant, le recouvrement en termes de pratiques est relativement faible.
-
-    Or, soyons clair là-dessus, ce qui fait le succès ou non d'un projet, ce n'est pas le nom du discours dont on se revendique, l'attachement identitaire des membres de l'équipe: "nous sommes Agiles" ou "nous sommes Lean". **Ce qui fait le succès d'un projet c'est ce que font les gens!**
-
-    De ce point de vue, force est de constater que beaucoup d'équipes se proclament "Agiles" alors même qu'elles peinent à appliquer de façon compétente des pratiques aussi élémentaires que le refactoring, ou qu'elles révèlent lorsqu'on interroge les ingénieurs des contresens sur des notions de base comme la vélocité.
-
-    Une partie de ce déficit est à mettre sur le compte de la communauté Agile elle-même. Pendant de longues années, elle ne s'est que peu préoccupée de donner une description systématique, détaillée, cohérente et mise à jour des pratiques désignées par le terme "Agile".
-
-    C'est justement ce constat qui a motivé l'ouvrage que vous avez en mains.
+    *Image de couverture:* reprÃ©sentation en volume dite "Alexander", extraite de [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Periodic_system_Alexander_format.svg), par l'utilisateur Bastianow d'aprÃ¨s J. Scholten.

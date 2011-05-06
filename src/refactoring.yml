@@ -64,11 +64,12 @@ sections:
       * [Refactoring](http://www.amazon.fr/Refactoring-Improving-Design-Existing-Code/dp/0201485672), de Martin Fowler
       * [Refactoring (SourceMaking)](http://sourcemaking.com/refactoring)
       * [Le Refactoring](http://www.regismedina.com/articles/fr/refactoring), Régis Medina
-      * [Refactoring (SourceMaking)](http://sourcemaking.com/refactoring)
       * [La méthode Mikado](http://pragprog.com/magazines/2010-06/the-mikado-method)
   -
     type: pubs
     text: |
+      Les travaux empiriques concernant la pratique du remaniement sont équivoques, et peinent à mettre en évidence les bénéfices prétendus par les équipes de développement, qui y voient pourtant une pratique indispensable. C'est  un sujet de recherche prioritaire compte tenu de l'importance accordée à cette pratique au sein des mouvements Agile, Extreme Programming et Software Craftsmanship.
+
       * Théoriques
         * [Refactoring Object-Oriented Frameworks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.688), thèse de doctorat de Bill Opdyke
       * Empiriques
