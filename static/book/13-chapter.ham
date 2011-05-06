@@ -1,0 +1,69 @@
+!!! XML
+!!!
+%div#13-chapter.chapter{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %h1 Quel avenir pour les approches Agiles?
+  :markdown  
+
+    En dix ans, de 2001 à 2011, les approches dites agiles pour le développement de logiciels (Extreme Programming, Scrum) ont changé de statut: initialement considérées comme marginales, elles sont désormais perçues comme l’une des alternatives majeures à l'interprétation traditionnelle d'une discipline, le génie logiciel, qui s’avère incapable de remplir les promesses sans doutes excessives avancées lors de la conférence fondatrice de 1968.
+
+    En France notamment, de nombreux cabinets de conseil remportent un succès croissant en répondant à l’appétence d’entreprises de tous profils pour une expertise sur ces stratégies, vues comme mieux capables de répondre au contexte de crise et d’instablité actuel. Une rupture, plus qu'une simple évolution, semble se dessiner.
+
+    Pour autant, ces approches, explorées essentiellement sur le terrain par des intervenants de projets de toutes sortes, sont encore mal comprises par le public qu’elles visent, souvent mal expliquées, leurs bénéfices attendus spécifiés de façon trop vague, de sorte que beaucoup d’équipes qui s’y essayent font fausse route dans leur application; avec pour conséquences que le marché qu’elles représentent tarde à se développer, et la promesse d’une amélioration globale dans l’industrie du logiciel semble toujours aussi lointaine.
+
+    ## Agile: des valeurs ou des pratiques?
+
+    Un débat agite régulièrement les listes et forums de diffusions destinées aux spécialistes du sujet: "Qu'appelle-t-on Agile, finalement; s'agit-il d'une philosophie, de valeurs, ou de pratiques concrètes?"
+
+    Les agilistes forment ce qu'il convient d'appeler une "communauté", le terme consacré dès lors qu'un nombre important de personnes, communiquant via Internet, s'intéressent à un même sujet. Le terme peut sembler intrinsèquement flatteur: il évoque respect mutuel, solidarité. Pourtant, il n'est pas anodin, car il sous-tend parfois des connotations moins agréables: fermeture sur soi-même, rejet des "autres". En dehors de cette communauté justement, des voix s'élèvent parfois pour poser la question plus brutalement: "Est-ce que ça veut dire quelque chose, Agile-avec-un-grand-A?"
+
+    A cette question, et justement pour éviter de trancher d'une façon trop dogmatique, il convient de répondre par une autre question:
+
+    "Dans une bonne bouteille, vous buvez l'étiquette?"
+
+    Ce qui est important dans l'ensemble certes un peu hétéroclite de notions associées au terme "Agile", ce n'est évidemment pas le mot "Agile", de la même façon que ce qui nous procure du plaisir dans une bonne bouteille de vin, c'est (en principe) son contenu.
+
+    En principe? Oui, une des vertus de cette analogie, c'est de nous rappeler que trop souvent c'est bien de l'étiquette qu'on se délecte. On appelle "effet de halo" le biais cognitif qui nous fait trouver plus plaisant un produit lorsqu'on sait qu'il provient d'une "bonne" marque, alors même que si nous faisions l'essai à l'aveugle nous ne saurions pas distinguer une piquette d'un cru à la mode.
+
+    Sans jeter la pierre à personne, le fait est que nous courons un risque à trop parler des étiquettes: Agile, Lean, Scrum, XP... On entend trop souvent des choses parfaitement absurdes, par exemple "Lean est le successeur d'Agile".
+
+    C'est un contre-sens pour qui connaît le contenu qu'on désigne par le terme Agile: un ensemble de pratiques, certes pas toutes de la même origine, certes pas toutes aussi largement connues et pratiquées, mais dont statistiquement, en interrogeant un assez grand nombre de personnes faisant partie de la communauté depuis longtemps (cette appartenance pourrait se déterminer par un critère concret tel que la participation à des conférences), le recouvrement nous donnerait une idée assez précise.
+
+    Citons en vrac, et pour l'exercice: le développement par les tests (TDD), le refactoring, l'automatisation du build, l'intégration continue, la conception incrémentale, les User Stories, les tests de recette, les critères "Done", les Personas, le Story Mapping, le Planning Poker, les itérations timeboxées, les rétrospectives, le tableau des tâches, le libre choix des tâches, la réunion quotidienne ou "mélée", la programmation en binômes, les demandes d'aide explicites...
+
+    Parmi les approches dites Agiles on peut effectivement recenser certaines dont les préconisations sont des sous-ensembles de cette longue liste: Scrum et XP notamment.
+
+    Si on se pose la question de savoir de quel mode de pensée sont issues les pratiques Agiles, alors oui, on retombe sur quelque chose qui a de nombreuses affinités avec le discours Lean. Pour autant, le recouvrement en termes de pratiques est relativement faible.
+
+    Or, soyons clair là-dessus, ce qui fait le succès ou non d'un projet, ce n'est pas le nom du discours dont on se revendique, l'attachement identitaire des membres de l'équipe: "nous sommes Agiles" ou "nous sommes Lean". **Ce qui fait le succès d'un projet, c'est ce que font les gens!**
+
+    De ce point de vue, force est de constater que beaucoup d'équipes se proclament "Agiles" alors même qu'elles peinent à appliquer de façon compétente des pratiques aussi élémentaires que le refactoring, ou qu'elles révèlent lorsqu'on interroge les ingénieurs des contresens sur des notions de base comme la vélocité.
+
+    Une partie de ce déficit est à mettre sur le compte de la communauté Agile elle-même. Pendant de longues années, elle ne s'est que peu préoccupée de donner une description systématique, détaillée, cohérente et mise à jour des pratiques désignées par le terme "Agile".
+
+    C'est justement ce constat qui a motivé l'ouvrage que vous avez en mains.
+
+    ## Le projet de l'Institut Agile: un avenir possible
+
+    A quoi pourrait ressembler un marché des prestations informatiques dans lequel les approches Agiles auraient pleinement trouvé leur place ?
+
+    * les entreprises consommatrices qui s’y intéressent trouveraient une information claire, cohérente, neutre et indépendante de tout discours “commercial” sur ce que recouvre réellement le terme “Agile” - ce Référentiel étant un début de réponse, sans doute à compléter
+    * les entreprises prestataires compétentes dans le domaine Agile bénéficieraient d’une reconnaissance de ces compétences et d’un accès facilité aux contrat les exigeant
+    * cette reconnaissance proviendrait notamment, au travers de partenariats entre les grandes SSII et les acteurs aux compétences les plus “pointues”, du succès reconnu de projets de référence notables par leur échelle ou leur importance
+    * les bénéfices réels de ces pratiques feraient l’objet d’études empiriques, également réalisées de façon neutre et indépendante, agrégeant des échantillons statistiquement représentatifs
+    * ces éléments empiriques permettraient d’une part de justifier l’utilisation des approches Agiles, mais aussi d’infléchir leur évolution au fil du temps, vers plus d’efficacité
+    * les parcours de formation permettant d’obtenir les compétences nécessaires à la mise en oeuvre de projets Agiles seraient identifiés, afin de pouvoir recruter les compétences appropriées pour ces projets
+    * le milieu de la recherche et de l’enseignement, en lien avec l’industrie, contribuerait pleinement à la consolidation et à l’évolution des connaissances et compétences dans ce domaine
+    * pour autant, l’ensemble de cet écosystème resterait fidèle à ce qui est à la fois la particularité et la valeur de la dynamique Agile, à savoir d’être avant tout un mouvement “de terrain” initié par des intervenants opérationnels (développeurs, chefs de projet) et qui s’appuie sur leur expérience au quotidien.
+
+    ## Les obstacles à surmonter
+
+    L'analyse faite plus haut du discours Agile, replacé dans le contexte historique plus global qui est celui du Génie Logiciel, et vu sous l'angle de la théorie de la rupture, éclaire un certain nombre d'obstacles qui peuvent encore empêcher cette situation de se réaliser.
+
+    L'obession persistante de la communauté pour le sujet de la **certification** continue de mener bataille sur un terrain, le contrôle des qualifications, où elle représente précisément ce qu'il ne faut pas faire, une concurrence frontale au modèle dominant. Le mouvement Agile doit trouver des solutions à cette question lancinante, mais des solutions qui soient compatibles avec sa propre philosophie. Des modèles ont été proposés, inspirés notamment par le succès des "réseaux sociaux": ils ont pour nom WeVouchFor (défunt), Entaggle (naissant). La version Web du présent Référentiel des pratiques servira de base à l'Institut Agile pour proposer, sans prétentions, des outils permettant
+    Il faut répondre enfin à une autre question lancinante, celle du **modèle contractuel**. Nous continuons à dire que le contrat forfaitaire est un frein à l'adoption des pratiques Agiles en France, mais quelle solution proposons-nous?
+
+    La prolifération de jargon rend difficile la conversation au-delà du cercle des initiés; la communication sur les pratiques Agile est brouillonne et trop centrée sur les étiquettes: Scrum vs Kanban vs Lean vs XP. Le présent travail est un début de réponse, mais l'Institut Agile veut encourager ceux qui présentent la réalité du terrain, les **éléments concrets et visibles** qui au sein d'une équipe permettent d'identifier **les pratiques Agiles et les bénéfices qu'elles apportent**.
+    A ce sujet, il est regrettable que l'une des critiques les plus courantes du mouvement Agile soit désormais la suivante: "Depuis 10 ans, il n'y a toujours pas de chiffres probants". La communauté Agile a désormais suffisamment d'ampleur pour être en principe capable de **fournir ces chiffres**.
+    Certes, il y a dix ans, la demande "montrez-nous vos statistiques" pouvait à raison être rejetée comme un discours de délégitimation, une façon de remettre à leur place ces "hippies du logiciel". Mais nous ne sommes plus en 2001, nous sommes en 2010; les éléments empiriques sont nécessaires, non seulement pour étayer ce que nous avançons, mais aussi pour faire le tri entre celles des pratiques qu'il faut conserver et celles qu'il faut modifier ou éliminer de notre discours. Non seulement nécessaires, mais disponibles, pour peu que nous nous donnions la peine d'aller les chercher.
+    Dans cette logique, il est critique que la communauté Agile se rapproche de la communauté **de la recherche et de l'enseignement**. Pour l'instant, rares sont les chercheurs qui s'intéressent à l'Agilité, tout simplement parce que les travaux dans ce domaine ne trouveraient pas à être publiés. Ceci pourrait être réparé en entamant une démarche explicite pour faire de ce sujet une discipline soeur, voire concurrente, du Génie Logiciel. Après tout, cette dernière a pu persister pendant 40 ans sans solutionner les difficultés qui ont motivé sa création... il est temps qu'elle subisse la concurrence.
+    Cette liste n'est sans doute pas exhaustive mais suffirait probablement à tracer une feuille de route pour les approches Agiles au cours des 10 ans à venir.

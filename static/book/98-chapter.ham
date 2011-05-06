@@ -1,0 +1,5 @@
+!!! XML
+!!!
+%div.imprint{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %div.sidebar (c) 2011 Institut Agile  
+  %div.sidebar Version 1.0 du 04/05/2011

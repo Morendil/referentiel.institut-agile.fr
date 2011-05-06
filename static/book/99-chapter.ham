@@ -1,0 +1,528 @@
+!!! XML
+!!!
+%div#99-chapter.chapter.hidelinks{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %h1 Bibliographie académique
+  %p
+    La centaine de références ci-dessous donne un aperçu des quelques pratiques Agiles qui ont le plus intéressé les chercheurs (et dessinent en creux le travail restant à effectuer dans ce domaine). 
+  %p
+    La sélection que nous proposons s'intéresse principalement aux études empiriques, laissant de côté la plupart des travaux purement conceptuels ou spéculatifs qui n'ont pas fait l'objet d'une collecte de données.
+  %div
+    %h3 BDD (Behaviour-Driven Development)
+    %ul
+      %li
+        %i Towards an empirical evaluation of behaviour-driven development
+        (Laplante, C.S., 2011)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1016/j.entcs.2010.07.007"}
+          %i Behaviour-Driven Development of Foundational UML Components
+          (Lazr, Ioan and Motogna, Simona and Pirv, Bazil,   2010)
+    %h3 Charte projet
+    %ul
+      %li
+        %i Charters and Chartering: Immunizing Against Foreseeable Project Failure
+        (III, 2001)
+    %h3 Développement par les tests
+    %ul
+      %li
+        %i Empirical Studies for the Application of Agile Methods to Embedded Systems
+        (Wilking, Dirk, 2008)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/11774129_10"}
+          %i The Effect of Test-Driven Development on Program Code
+          (Muller, Matthias,   2006)
+      %li
+        %i Evaluation of Test Driven Development
+        (Wasmus, Hans, 2006)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ICSE.2007.8"}
+          %i A Leveled Examination of Test-Driven Development Acceptance
+          (Janzen, David S. and Saiedian, Hossein,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1299129.1299229"}
+          %i On the Sustained Use of a Test-Driven Development Practice at IBM
+          (Sanchez, Julio Cesar and Williams, Laurie and Maximilien, E. Michael,   2007)
+      %li
+        %i Programmer's Expertise during Test-Driven Software Development.
+        (Shaochun Xu and Zendi Cui and Dapeng Liu and Xuhui Chen, 2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1380662.1380664"}
+          %i Realizing quality improvement through test driven development: results and experiences of four industrial teams
+          (Nagappan, Nachiappan and Maximilien, E. Michael and Bhat, Thirumalesh and Williams, Laurie,   2008)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1414004.1414053"}
+          %i Adding planned design to xp might help novices' productivity (or might not): two controlled experiments
+          (Noel, René and Valdes, Gonzalo and Visconti, Marcello and Astudillo, Hernan,   2008)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/978-3-540-85279-7_12"}
+          %i Does Test-Driven Development Improve the Program Code? Alarming Results from a Comparative Case Study
+          (Siniaalto, Maria and Abrahamsson, Pekka,   2008)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1473251.1474427"}
+          %i The Impact of Test Driven Development on the Evolution of a Reusable Framework of Components - An Industrial Case Study
+          (Slyngstad, Odd Petter N. and Li, Jingyue and Conradi, Reidar and Ronneberg, Harald and Landre, Einar and Wesenberg, Harald,   2008)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/978-3-540-75381-0_18"}
+          %i The Impact of Test-Driven Development on Software Development Productivity --- An Empirical Study
+          (Madeyski, Lech and Szala, Lukasz,   2007)
+      %li
+        %i Effective test driven development for embedded software
+        (Karlesky, M. and Bereza, W. and Erickson, C., 2006)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/CSEET.2006.25"}
+          %i On the Influence of Test-Driven Development on Software Design
+          (Janzen, D.S. and Saiedian, H.,   2006)
+      %li
+        %a{:href=>"http://www.sciencedirect.com/science/article/B6V0B-4S5VCGJ-2/2/93e4db58e66f9aebc9a74990b7fd2011"}
+          %i Empirical investigation towards the effectiveness of Test First programming
+          (Liang Huang and Mike Holcombe,   2009)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ESEM.2007.20"}
+          %i An Experimental Evaluation of the Effectiveness and Efficiency of the Test Driven Development
+          (Gupta, Atul and Jalote, Pankaj,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1018439.1021923"}
+          %i A Prototype Empirical Evaluation of Test Driven Development
+          (Geras, A. and Smith, M. and Miller, J.,   2004)
+      %li
+        %a{:href=>"http://evidencebasedse.com/?q=node/112"}
+          %i A structured experiment of test-driven development
+          (George, B. and Williams, L.,   2004)
+      %li
+        %i Lessons learned from an XP Experiment with Students: Test-First needs more teachings
+        (Flohr, T. and Schneider, T., 2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/971300.971312"}
+          %i Using software testing to move students from trial-and-error to reflection-in-action
+          (Edwards, Stephen H.,   2004)
+      %li
+        %i Test driven development of embedded systems using existing software test infrastructure
+        (Dowty, M., 2004)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1383602.1383644"}
+          %i A survey of evidence for test-driven development in academia
+          (Desai, Chetan and Janzen, David and Savage, Kyle,   2008)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1315690.1315695"}
+          %i The effect of experience on the test-driven development process
+          (Muller, Matthias M. and Hofer, Andreas,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/978-3-540-75381-0_17"}
+          %i Quality Impact of Introducing Component-Level Test Automation and Test-Driven Development
+          (Damm, Lars-Ola and Lundberg, Lars,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1159517.1159528"}
+          %i Results from introducing component-level test automation and test-driven development
+          (Damm, Lars-Ola and Lundberg, Lars,   2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1159733.1159787"}
+          %i Evaluating the efficacy of test-driven development: industrial case studies
+          (Bhat, Thirumalesh and Nagappan, Nachiappan,   2006)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/0-387-25590-7%5C_14"}
+          %i Improving Business Agility Through Technical Solutions: A Case Study on Test-Driven Development in Mobile Software Development
+          (Abrahamsson, Pekka and Hanhineva, Antti and Jaalinoja, Juho,   2005)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1007/978-3-540-24853-8_27"}
+          %i Test Driven Development and Software Process Improvement in China
+          (Lui, Kim Man and Chan, Keith C.C.,   2004)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1013886.1007523"}
+          %i An experimental evaluation of continuous testing during development
+          (Saff, David and Ernst, Michael D.,   2004)
+      %li
+        %a{:href=>"http://www.onlined.org/papers/000145.pdf"}
+          %i Using test-driven development in the classroom: providing students with automatic, concrete feedback on performance
+          (Edwards, S.,   2003)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1029994.1029995"}
+          %i Improving student performance by evaluating how well students test their own programs
+          (Edwards, Stephen H.,   2003)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1159733.1159788"}
+          %i Evaluating advantages of test driven development: a controlled experiment with professionals
+          (Canfora, Gerardo and Cimitile, Aniello and Garcia, Felix and Piattini, Mario and Visaggio, Corrado Aaron,   2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/952532.952753"}
+          %i An initial investigation of test driven development in industry
+          (George, Boby and Williams, Laurie,   2003)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/949344.949421"}
+          %i Implications of test-driven development: a pilot study
+          (Kaufmann, Reid and Janzen, David,   2003)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=776816.776892"}
+          %i Assessing test-driven development at IBM
+          (Maximilien, E. Michael and Williams, Laurie,   2003)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/EURCON.2003.1248153"}
+          %i Towards empirical evaluation of test-driven development in a university environment
+          (Pancur, M. and Ciglaric, M. and Trampus, M. and Vidmar, T.,   2003)
+      %li
+        %i Web-CAT: A Web-based Center for Automated Testing
+        (Shah, Anuj, 2003)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=951952.952364"}
+          %i Test-Driven Development as a Defect-Reduction Practice
+          (Williams, Laurie and Maximilien, E. Michael and Vouk, Mladen,   2003)
+      %li
+        %a{:href=>"http://www.lib.ncsu.edu/theses/available/etd-08202002-095244/unrestricted/etd.pdf"}
+          %i Analysis and Quantification of Test Driven Development Approach
+          (George, B.,   2002)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1049/ip-sen:20020540"}
+          %i Experiment about test-first programming
+          (Muller, M.M. and Hagner, O.,   2002)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=647276.722311"}
+          %i An Informal Formal Method for Systematic JUnit Test Case Generation
+          (Stotts, P. David and Lindsey, Mark and Antley, Angus,   2002)
+      %li
+        %i The effect of unit tests on entry points, coupling and cohesion in an introductory Java programming course
+        (Steinberg, Daniel H., 2001)
+      %li
+        %i Integrating Unit Testing into a Software Development Team's Process
+        (R.A. Ynchausti, 2001)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/MS.2007.91"}
+          %i Test-Driven Development of Relational Databases
+          (Ambler, Scott W.,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/MS.2008.34"}
+          %i Does Test-Driven Development Really Improve Software Design Quality?
+          (Janzen, D.S. and Saiedian, H.,   2008)
+      %li
+        %a{:href=>"http://evidencebasedse.com/?q=node/90"}
+          %i On the effectiveness of the test-first approach to programming
+          (Hakan Erdogmus and Maurizio Morisio and Ieee Computer Society and Marco Torchiano and Ieee Computer Society,   2005)
+      %li
+        %a{:href=>"http://csdl.ics.hawaii.edu/techreports/06-13/06-13.pdf"}
+          %i Automated Recognition of Test-Driven Development with {Z}orro
+          (Johnson, Philip M. and Kou, Hongbing,   2007)
+      %li
+        %i The impact of test-driven development on design quality
+        (Maria Siniaalto, 2006)
+      %li
+        %i Test-driven development: empirical body of evidence
+        (Maria Siniaalto, 2006)
+    %h3 Développement par les tests client
+    %ul
+      %li
+        %i Empirical analyses of executable acceptance test driven development
+        (Melnik, Grigori Igorovych, 2007)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1368088.1368138"}
+          %i Are fit tables really talking?: a series of experiments to understand whether fit tables are useful during evolution tasks
+          (Ricca, Filippo and Di Penta, Massimiliano and Torchiano, Marco and Tonella, Paolo and Ceccato, Mariano and Visaggio, Corrado Aaron,   2008)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1768961.1768978"}
+          %i FitClipse: a fit-based eclipse plug-in for executable acceptance test driven development
+          (Deng, Chengyao and Wilson, Patrick and Maurer, Frank,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1465741.1466069"}
+          %i Using acceptance tests as a support for clarifying requirements: A series of experiments
+          (Ricca, Filippo and Torchiano, Marco and Di Penta, Massimiliano and Ceccato, Mariano and Tonella, Paolo,   2009)
+    %h3 Objets fantaisie (Mock Objects)
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/IWAST.2009.5069054"}
+          %i An empirical study of testing file-system-dependent software with mock objects
+          (Marri, M.R. and Tao Xie and Tillmann, N. and de Halleux, J. and Schulte, W.,   2009)
+    %h3 Personas
+    %ul
+      %li
+        %a{:href=>"http://www.andrearicheson.com/ischool/usability/PersonaWhitepaper.pdf"}
+          %i Personas - a Literature Review
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1011870.1011884"}
+          %i Personas is not applicable: local remedies interpreted in a wider context
+          (Ronkko, Kari and Hellman, Mats and Kilander, Britta and Dittrich, Yvonne,   2004)
+      %li
+        %i Resolving Incommensurable Debates: A Preliminary Identification of Persona Kinds, Attributes, and Characteristics
+        (Ingbert R. Floyd and M. Cameron Jones and Michael B. Twidale, 2008)
+      %li
+        %a{:href=>"http://www.frontend.com/products-digital-devices/real-or-imaginary-the-effectiveness-of-using-personas-in-product-design.html"}
+          %i Real or Imaginary: The effectiveness of using personas in product design
+          (Long, Frank,   2009)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/HICSS.2005.85"}
+          %i An Empirical Study Demonstrating How Different Design Constraints, Project Organization and Contexts Limited the Utility of Personas
+          (Ronkko, K.,   2005)
+    %h3 Planning poker
+    %ul
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1454787.1454972"}
+          %i Using planning poker for combining expert estimates in software projects
+          (Molokken-Ostvold, Kjetil and Haugen, Nils Christian and Benestad, Hans Christian,   2008)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1249255.1250597"}
+          %i Combining Estimates with Planning Poker--An Empirical Study
+          (Molokken-Ostvold, Kjetil and Haugen, Nils Christian,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1155439.1155510"}
+          %i An Empirical Study of Using Planning Poker for User Story Estimation
+          (Haugen, Nils C.,   2006)
+    %h3 Programmation en binômes
+    %ul
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1324991.1324994"}
+          %i Controlled experimentation on adaptations of pair programming
+          (Domino, Madeline Ann and Collins, Rosann Webb and Hevner, Alan R.,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1565142.1565156"}
+          %i Preliminary Analysis of the Effects of Pair Programming and Test-Driven Development on the External Code Quality
+          (Madeyski, Lech,   2005)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1161668.1161678"}
+          %i Pair programming productivity: Novice-novice vs. expert-expert
+          (Lui, Kim Man and Chan, Keith C. C.,   2006)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ESEM.2009.5315996"}
+          %i Personality and the nature of collaboration in pair programming
+          (Walle, Thorbjorn and Hannay, Jo E.,   2009)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1159733.1159749"}
+          %i An empirical comparison between pair development and software inspection in Thailand
+          (Phongpaibul, Monvorath and Boehm, Barry,   2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/272287.272333"}
+          %i The case for collaborative programming
+          (Nosek, John T.,   1998)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1062455.1062545"}
+          %i A multiple case study on the impact of pair programming on product quality
+          (Hulkko, Hanna and Abrahamsson, Pekka,   2005)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1370143.1370151"}
+          %i Video analysis of pair programming
+          (Hofer, Andreas,   2008)
+      %li
+        %a{:href=>"http://doi.ieeecomputersociety.org/10.1109/TSE.2009.41"}
+          %i Effects of Personality on Pair Programming
+          (Jo E. Hannay and Erik Arisholm and Harald Engvik and Dag I.K. Sjoberg,   2010)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1734263.1734348"}
+          %i The benefits of pairing by ability
+          (Braught, Grant and MacCormick, John and Wahls, Tim,   2010)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ESEM.2009.5315998"}
+          %i An interpretation of the results of the analysis of pair programming during novices integration in a team
+          (Fronza, Ilenia and Sillitti, Alberto and Succi, Giancarlo,   2009)
+      %li
+        %i The Economics of Software Development by Pair Programmers
+        (Erdogmus, H. and Williams, L., 2003)
+      %li
+        %a{:href=>"http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.26.9064"}
+          %i The Costs and Benefits of Pair Programming
+          (Cockburn, Alistair and Williams, Laurie,   2000)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1539052.1539606"}
+          %i The effectiveness of pair programming: A meta-analysis
+          (Hannay, Jo E. and Dybaa, Tore and Arisholm, Erik and Sjoberg, Dag I. K.,   2009)
+      %li
+        %a{:href=>"http://doi.ieeecomputersociety.org/10.1109/52.854064"}
+          %i Strengthening the Case for Pair Programming
+          (Laurie Williams and Robert R. Kessler and Ward Cunningham and Ron Jeffries,   2000)
+      %li
+        %i The collaborative software process(sm)
+        (Williams, Laurie Ann, 2000)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1299129.1299236"}
+          %i &quot;Talking the talk&quot;: Is intermediate-level conversation the key to the pair programming success story?
+          (Freudenberg, S. (nee Bryant) and Romero, P. and du Boulay, B.,   2007)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1308450.1309094"}
+          %i Are Two Heads Better than One? On the Effectiveness of Pair Programming
+          (Dybaa, Tore and Arisholm, Erik and Sjoberg, Dag I. K. and Hannay, Jo E. and Shull, Forrest,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ICSE.2007.87"}
+          %i The Social Dynamics of Pair Programming
+          (Chong, Jan and Hurlbutt, Tom,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/AGILE.2006.20"}
+          %i Critical Personality Traits in Successful Pair Programming
+          (Chao, Joseph and Atli, Gulgunes,   2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1140123.1140155"}
+          %i A replicated experiment of pair-programming in a 2nd-year software development and design computer science course
+          (Mendes, Emilia and Al-Fakhri, Lubna and Luxton-Reilly, Andrew,   2006)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1352135.1352207"}
+          %i The effects of pair-programming on individual programming skill
+          (Braught, Grant and Eby, L. Martin and Wahls, Tim,   2008)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1414004.1414026"}
+          %i Pair programming: what's in it for me?
+          (Begel, Andrew and Nagappan, Nachiappan,   2008)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ADC.2005.37"}
+          %i Promiscuous pairing and beginner's mind: embrace inexperience [agile programming]
+          (Belshee, A.,   2005)
+      %li
+        %a{:href=>"http://doi.ieeecomputersociety.org/10.1109/TSE.2007.17"}
+          %i Evaluating Pair Programming with Respect to System Complexity and Programmer Expertise
+          (Erik Arisholm and Hans Gallis and Tore Dyba and Dag I.K. Sjoberg,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1145/1145287.1145293"}
+          %i Pair programming improves student retention, confidence, and program quality
+          (C McDowell and L Werner and H E Bullock and J Fernald,   2006)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1145/563517.563353"}
+          %i The effects of pair-programming on performance in an introductory programming course
+          (C McDowell and L Werner and H Bullock and J Fernald,   2002)
+      %li
+        %a{:href=>"http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.1689"}
+          %i Experimental evaluation of pair programming
+          (Jerzy Nawrocki and Adam Wojciechowski,   2001)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1145/792548.612007"}
+          %i Code Warriors and Code-a-Phobes: A study in attitude and pair programming
+          (L Thomas and M Ratcliffe and A Robertson,   2003)
+      %li
+        %i Female Computer Science Students Who Pair Program Persist
+        (Linda Werner and Charlie McDowell and Brian Hanks, 2004)
+    %h3 Refactoring
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/WOSQ.2007.11"}
+          %i Refactoring--Does It Improve Software Quality?
+          (Stroggylos, Konstantinos and Spinellis, Diomidis,   2007)
+      %li
+        %i Refactoring trends across n versions of n java open source systems: an empirical study
+        (Deepak Advani and Youssef Hassoun and Steve Counsell, 2005)
+      %li
+        %i Why don't people use refactoring tools
+        (Emerson Murphy-Hill and Andrew P. Black, 2007)
+      %li
+        %i A comparison of software refactoring tools
+        (J Simmonds and T Mens, 2002)
+      %li
+        %i Digging the Development Dust for Refactorings
+        (C Schofield and B Tansey and Z Xing and E Stroulia, 2006)
+      %li
+        %i Are refactorings less errorprone than other changes
+        (P Weissgerber and S Diehl, 2006)
+      %li
+        %i Roots of refactoring
+        (J Philipps and B Rumpe, 2001)
+      %li
+        %i Program Refactoring, Program Synthesis, and Model-Driven Development
+        (D Batory, 2007)
+      %li
+        %i Work experience versus refactoring to design patterns: a controlled experiment
+        (T H Ng and S C Cheung and W K Chan and Y T Yu, 2006)
+      %li
+        %i A discussion of refactoring in research and practice
+        (B Du Bois and P Van Gorp and A Amsel and N Van Eetvelde and H Stenten and S Demeyer and T Mens, 2004)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ICSM.2006.52"}
+          %i Refactoring Practice: How it is and How it Should be Supported - An Eclipse Case Study
+          (Zhenchang Xing and Stroulia, E.,   2006)
+      %li
+        %i A survey of software refactoring
+        (Tom Mens and Tom Tourwe, 2004)
+      %li
+        %i Refactoring: emerging trends and open problems
+        (T Mens and A V Deursen, 2003)
+    %h3 Rétrospective jalon
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/MS.2002.1032872"}
+          %i Project retrospectives, and why they never happen
+          (Glass, R.L.,   2002)
+    %h3 Réunion quotidienne
+    %ul
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1723028.1723101"}
+          %i Daily scrums in a distributed environment
+          (Ganis, Matt and Surdek, Steffan and Woodward, Elizabeth,   2009)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1037/0021-9010.84.2.277"}
+          %i The effects of stand-up and sit-down meeting formats on meeting outcomes
+          (Bluedorn, A C and Turban, D B and Love, M S,   1999)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/1557914.1557927"}
+          %i Supporting daily scrum meetings with change structure
+          (Rubart, Jessica and Freykamp, Frank,   2009)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/765891.766071"}
+          %i 'Today' messages: lightweight group awareness via email
+          (Brush, A. J. and Borning, Alan,   2003)
+      %li
+        %a{:href=>"http://link.aip.org/link/?APC/1127/110/1"}
+          %i Introduction to Stand-up Meetings in Agile Methods
+          (Eisha Hasnain and Tracy Hall,   2009)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/957717.957730"}
+          %i Stand and Deliver: Why I Hate Stand-Up Meetings
+          (Laplante, Phillip A,   2003)
+    %h3 Tableau des tâches
+    %ul
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1443221.1443546"}
+          %i Drifting Toward Invisibility: The Transition to the Electronic Task Board
+          (Perry, Thomas,   2008)
+      %li
+        %a{:href=>"http://doi.acm.org/10.1145/320719.322602"}
+          %i Design and technology for Collaborage: collaborative collages of information on physical walls
+          (Moran, Thomas P. and Saund, Eric and Van Melle, William and Gujar, Anuj U. and Fishkin, Kenneth P. and Harrison, Beverly L.,   1999)
+    %h3 Tableau kanban
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/SEAA.2010.40"}
+          %i Exploring the Sources of Waste in Kanban Software Development Projects
+          (Ikonen, Marko and Kettunen, Petri and Oza, Nilay and Abrahamsson, Pekka,   2010)
+    %h3 Test exploratoire
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/ESEM.2007.38"}
+          %i Defect Detection Efficiency: Test Case Based vs. Exploratory Testing
+          (Itkonen, Juha and Mantyla, Mika V. and Lassenius, Casper,   2007)
+    %h3 Tests fonctionnels automatisés
+    %ul
+      %li
+        %a{:href=>"http://doi.ieeecomputersociety.org/10.1109/ESEM.2007.76"}
+          %i &quot;Talking tests&quot;: a Preliminary Experimental Study on Fit User Acceptance Tests
+          (Marco Torchiano and Filippo Ricca and Massimiliano Di Penta,   2007)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/Agile.2008.82"}
+          %i Automated Acceptance Testing: A Literature Review and an Industrial Case Study
+          (Haugset, B. and Hanssen, G.K.,   2008)
+    %h3 Tests unitaires automatisés
+    %ul
+      %li
+        %a{:href=>"http://dx.doi.org/10.1109/CJECE.2004.1532522"}
+          %i A survey of software testing practices in Alberta
+          (Geras, A.M. and Smith, M.R. and Miller, J.,   2004)
+      %li
+        %a{:href=>"http://dx.doi.org/10.1016/j.jss.2010.07.012"}
+          %i A replicated survey of software testing practices in the Canadian province of Alberta: What has changed from 2004 to 2009?
+          (Garousi, Vahid and Varma, Tan,   2010)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1300736.1301359"}
+          %i Automatic Software Test Drivers
+          (Panzl, D. J.,   1978)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=800099.803225"}
+          %i Automatic revision of formal test procedures
+          (Panzl, David J.,   1978)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1802408.1802420"}
+          %i On the effectiveness of unit test automation at Microsoft
+          (Williams, Laurie and Kudrjavets, Gunnar and Nagappan, Nachiappan,   2009)
+    %h3 User stories
+    %ul
+      %li
+        %a{:href=>"http://doi.ieeecomputersociety.org/10.1109/AGILE.2009.66"}
+          %i Supporting Program Comprehension in Agile with Links to User Stories
+          (Sukanya Ratanotayanon and Susan Elliott Sim and Rosalva Gallardo-Valencia,   2009)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1558382.1558417"}
+          %i Sizing user stories using paired comparisons
+          (Miranda, Eduardo and Bourque, Pierre and Abran, Alain,   2009)
+      %li
+        %a{:href=>"http://portal.acm.org/citation.cfm?id=1813962.1814001"}
+          %i Generating user stories in groups
+          (Nguyen, Cuong D. and Gallagher, Erin and Read, Aaron and De Vreede, Gert-Jan,   2009)
+      %li
+        %i INVEST in Good Stories, and SMART Tasks
+        (William Wake, 2003)

@@ -1,0 +1,22 @@
+!!! XML
+!!!
+%div#00-chapter.chapter{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %h1 Préface
+  :markdown
+    ## Agile ? 
+
+    En ce début d'année 2011, nous sommes à un tournant important du monde de l'informatique d'entreprise. Les méthodes classiques de développement logiciel - le fameux cycle en V où phase après phase un logiciel émerge de spécifications réputées "justes" - ont échoué à adresser la complexité toujours grandissante de nos Systèmes d'Information. La productivité, s'y est dégradée, c'est à dire que le coût marginal et le délai de mise à disposition d'une nouvelle fonctionnalité dans le SI ne fait qu'augmenter. "Trop long, trop cher" sont les principaux griefs adressés aux DSI, dont la durée moyenne du mandat a considérablement diminué, passant en dessous des deux ans en France (source Cigref)...
+
+    En marge de ce phénomène généralisé, des éditeurs professionnels ou Open Source obtiennent des résultats à l'extrême opposé : leur productivité est stable malgré la masse croissante de code qu'ils doivent gérer : Google, Eclipse, Firefox, iPhone OS ... Mais ces éditeurs ne fonctionnent plus selon des méthodes classiques, mais au sein d'équipes intégrées produisant en cycles courts  des logiciels qualifiés d'utile par leurs utilisateurs.
+
+    Mais au fond qui pourrait ne pas le souhaiter ? Qui peut préférer livrer dans des délais longs des logiciels laissant les utilisateurs insatisfaits ? Alors en matière d'informatique, les modes se succèdent, reflets de cette perpétuelle insatisfaction : UML, SOA, RAD, ERP, EAI, MDA, XML, Cloud (was ASP)... et récemment l'Agile et (bientôt) le Lean.  
+
+    Le marché l'a bien compris. tout le monde doit être agile ! Pourtant ces nouvelles méthodes ne réclament pas qu'un simple coup de peinture, mais l'abandon de règles et d'habitudes profondément ancrées. Le dirigeant qui souhaitera obtenir les résultats des pionniers ne pourra pas se payer uniquement de mots avec "la suite de modélisation XYZ, votre meilleur outil pour agiliser vos équipes", "notre chef de projet MOA agile à 800€ jour", "10 leçons pour devenir agile en 15 jours !". Ce serait reproduire la tragédie de la diffusion du Lean au-delà des frontières de son inventeur Japonais Toyota : en ne reprenant que les pratiques superficielles, sans changer les habitudes managériales qui laissent peu d'autonomie aux équipes, nos industriels occidentaux n'ont tiré que de maigres bénéfices de cette méthode. Pendant ce temps, Toyota est devenu leader mondial, car pour lui le Lean n'est pas un corpus figé d'outils, mais une dynamique quotidienne d’amélioration continue emmenée par la base avec le soutien des cadres.
+
+    Si votre objectif est de rechercher la satisfaction de vos clients, en livrant régulièrement des fonctionnalités, sans perturber celles qui fonctionnent déjà, ce recueil de pratiques est fait pour vous. Il ne se lit pas comme un vulgaire manuel d'agilité en 15 leçons, mais comme un jeu de cartes vous permettant de toucher du doigt des principes qui se sont avérés utiles dans de nombreuses équipes, et que vous pourrez progressivement apprendre, puis utiliser - ou pas - dans les vôtres. J'espère que vous prendrez autant de plaisir que moi à le parcourir.
+
+    <br/>
+    *Pierre Pezziardi, 13 avril 2011*
+    <br/>
+
+    Pierre Pezziardi est Directeur Informatique de la Bred Banques Populaires, et auteur de "Lean Management, Mieux, plus vite, avec les mêmes personnes" publié aux éditions Eyrolles.

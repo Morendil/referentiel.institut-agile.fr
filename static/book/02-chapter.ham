@@ -1,0 +1,21 @@
+!!! XML
+!!!
+%div#02-chapter.chapter{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %h1 Guide de lecture
+  :markdown
+
+    La **première partie** de cet ouvrage en présente les motivations: pourquoi vouloir publier, en 2011, soit dix ans après la parution du Manifeste Agile, et alors que ne nombreux livres déjà parus sur le sujet, un parcours encyclopédique à travers les nombreuses pratiques dites "agiles"?
+
+    Si vous souhaitez aller rapidement à l'essentiel, vous pouvez commencer directement par le chapitre 5, présentant le canevas des fiches consacrées aux pratiques Agiles. Si vous préférez prendre le temps de connaître les questions de fond qui sous-tendent le travail réalisé, suivez l'ordre chronologique.
+
+    Le premier chapitre aborde donc le positionnement de ces approches Agiles sous l'angle historique, en remontant aux origines de la discipline dont la plupart des personnes concernées se réclament encore aujourd'hui, le Génie Logiciel.
+
+    Le chapitre suivant est consacré notamment à décrire le mouvement Agile comme établissant une rupture avec cet héritage; il s'attache à mettre en lumière les différences les plus structurantes entre les deux courants de pensée.
+
+    Afin d'éclairer à la fois les enjeux du présent livre et plus largement les perspectives d'avenir qui s'ouvrent, dans l'analyse de l'Institut Agile, à ces nouvelles pratiques, le chapitre 3 établit un bilan des années 2001-2011 et cite quelques défis restant à relever.
+
+    Au chapitre 4, nous verrons plus en détail pourquoi les "pratiques Agiles" constituent la matière la plus intéressante produite par ce mouvement au cours de cette décennie.
+
+    Le chapitre 5 aborde pour finir le canevas de description détaillée de ces différentes pratiques.
+
+    La deuxième partie est consacrée aux pratiques Agiles à proprement parler. Abordées par ordre alphabétique, chacune y est décrite selon le canevas précédemment décrit, de la façon la plus concise mais également la plus claire possible.
