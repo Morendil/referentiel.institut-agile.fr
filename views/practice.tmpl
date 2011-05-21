@@ -1,47 +1,12 @@
-!!! Strict
-%html
-  %head
-    %title Référentiel des pratiques Agiles
-    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"images/referentiel.css"}
-  %body
-    #wrap
-      #header
-        %h1#logo
-          Institut
-          %span.green Agile
-        %h2#slogan
-          Une informatique plus humaine et plus efficace...
-        %ul
-          %li
-            %a{:href=>"http://institut-agile.fr/"}
-              %span
-                L'Institut
-          %li#current
-            %a{:href=>"http://referentiel.institut-agile.fr/"}
-              %span
-                Les pratiques agiles
-          %li
-            %a{:href=>"http://blog.institut-agile.fr/"}
-              %span
-                Le blog
-      #header-wrap
-        %img.header-photo{:src=>"images/headerphoto.jpg", :width=>"820", :height=>"120"}
-      #content
-        %h1.firstHeading#firstHeading {{title}}
-        #bodyContent
-          #contentSub {{type}}
-          {{#sections}}
-          %div#{{type}}
-            %h2= {{type}}
-            :markdown
-              {{#text}}
-              {{to_s}}
-              {{/text}}
-          {{/sections}}
-  <script type="text/javascript">
-  (function() {
-  var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-  uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/XOcYOECsnbd4w993r6F52Q.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
-  })();
-  </script>
+#content
+  %h1.firstHeading#firstHeading {{title}}
+  #bodyContent
+    #contentSub {{type}}
+    {{#sections}}
+    %div#{{type}}
+      %h2= {{type}}
+      :markdown
+        {{#text}}
+        {{to_s}}
+        {{/text}}
+    {{/sections}}
