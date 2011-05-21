@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 String.class_eval do
   def indent
     return "            "+self

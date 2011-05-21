@@ -21,6 +21,7 @@ class Roadmap
   def interpret(filename)
     hash = parse(filename)
     hash[:id] = File.basename(filename).split(".")[0].intern
+    hash["sections"] = hash["sections"].map {|e| e["text"]=e["text"].split(/^/);e}
     return hash
   end
 

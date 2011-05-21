@@ -30,25 +30,20 @@ def haml_indirect target, where, built
 end
 
 def haml built, from
-        rebuilt = !uptodate?(built,from)
 	file built => from do
-          sh "haml -r lib/helpers.rb #{from} > #{built}" unless uptodate?(built,from)
+          sh "haml -r ./lib/helpers.rb #{from} > #{built}" unless uptodate?(built,FileList[from])
         end
 end
 
-def outdatedTargetOrTemplate target, view
-  !uptodate?(target,YML_SRC) || !uptodate?(target,view)
-end
-
 def generate_indices which, how, view
-  outofdate = which.any? {|target| outdatedTargetOrTemplate target, view}
+  outofdate = which.any? {|target| !uptodate?(target,(YML_SRC.add view))}
   sh "ruby lib/#{how}.rb" if outofdate
 end
 
 def mustache built, from, template, fix
 	file built => from do
           view = "views/#{template}.tmpl"
-          skip = uptodate?(built,from) && uptodate?(built, view)
+          skip = uptodate?(built,from) && uptodate?(built, FileList[view])
           sh "mustache #{from} #{view} > #{built}" unless skip
           # Ugly hack to fix internal links for the eBook version - improve this
           sh "perl -i.old -pe 's/]\\((.*?).html\\)/](\#$1)/g' #{built}" unless skip || !fix
@@ -56,7 +51,6 @@ def mustache built, from, template, fix
 end
 
 ## Synthetic tasks
-
 SITE_OUT.each do |built|
   haml_indirect(:site,"site",built)
 end
