@@ -7,41 +7,41 @@ require './lib/helpers'
 
   r = Roadmap.new("src")
 
+  helpers do
+    def before_render template, data={}
+      Mustache.template_file = template
+      m = Mustache.new
+      yield m if block_given?
+      haml m.render data
+    end
+  end
+
   get '/' do
     haml :index, {:views => 'static/site'}
   end
 
   get '/index_alpha.html' do
-    Mustache.template_file = "views/index.tmpl"
-    m = Mustache.new
-    m[:parts] = r.all_by_alpha
-    m[:order] = "ordre alphabétique"
-    ham = m.render
-    Haml::Engine.new(ham).render
+    before_render "views/index.tmpl" do |m|
+      m[:parts] = r.all_by_alpha
+      m[:order] = "ordre alphabétique"
+    end
   end
 
   get '/index_type.html' do
-    Mustache.template_file = "views/index.tmpl"
-    m = Mustache.new
-    m[:parts] = r.all_by_type
-    m[:order] = "type"
-    ham = m.render
-    Haml::Engine.new(ham).render
+    before_render "views/index.tmpl" do |m|
+      m[:parts] = r.all_by_type
+      m[:order] = "type"
+    end
+  end
+
+  get '/*.html' do
+    src = r.find_by_id(params[:splat].first)
+    pass unless src
+    before_render "views/practice.tmpl", src
   end
 
   get '/images/*' do |file|
     send_file File.join('site',request.path)
-  end
-
-  get '/*.html' do
-    id = params[:splat].first
-    src = r.find_by_id(id)
-    pass unless src
-    # If found
-    Mustache.template_file = "views/practice.tmpl"
-    m = Mustache.new 
-    ham = m.render(src)
-    Haml::Engine.new(ham).render
   end
 
   not_found do
