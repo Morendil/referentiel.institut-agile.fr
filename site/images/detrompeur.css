@@ -1,0 +1,9 @@
+.highlighted {
+	border: 1px dotted;
+        margin: -3px;
+        padding: 3px;
+	background-color: yellow;
+}
+.highlighted a {
+        text-decoration: none;
+}

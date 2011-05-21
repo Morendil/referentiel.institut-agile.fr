@@ -1,0 +1,6 @@
+.highlighted {
+	border-bottom: 1px dotted;
+}
+.highlighted a {
+        text-decoration: none;
+}
