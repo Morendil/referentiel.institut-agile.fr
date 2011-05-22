@@ -57,7 +57,7 @@ var replacements = [
   ["stories",["user stories","user story"]],
   ["velocity",["v(.?)locit(.?)"]]
 ];
-var base = "http://instagile.heroku.com/";
+var base = "http://referentiel.institut-agile.fr/";
 
 // Core functions
 
