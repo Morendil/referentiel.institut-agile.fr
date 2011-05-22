@@ -40,14 +40,14 @@ require './lib/helpers'
     before_render "views/practice.tmpl", src
   end
 
+  get '/images/*' do |file|
+    send_file File.join('site',request.path)
+  end
+
   ['/*.js','*.css'].each do |path|
     get path do |file|
       send_file File.join('site/images',request.path)
     end
-  end
-  
-  get '/images/*' do |file|
-    send_file File.join('site',request.path)
   end
 
   not_found do
