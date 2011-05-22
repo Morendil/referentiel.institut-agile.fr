@@ -28,7 +28,7 @@
     %p
       Le Détrompeur est un outil destiné aux <b>lecteurs</b> de sites ou d'articles sur le Web consacré aux approches Agiles. Beaucoup d'articles de ce type utilisent des termes tels que "itération", "backlog" ou "TDD" sans se donner la peine de les définir ou de renvoyer à un glossaire. Cliquez ci-dessous pour voir le Détrompeur en action: il soulignera les termes en question dans ce paragraphe, et en plaçant votre curseur par-dessus vous verrez apparaître une définition. Vous pouvez cliquer le lien pour consulter la page complète concernant cette pratique.
     %p{:style=>"text-align:center"}
-      <a href='javascript:(function(e,a,b,d,c){c=a.createElement("script");c.type="text/javascript";c.src="http://referentiel.institut-agile.fr/detrompeur.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){b=1;activate(c)}};a.documentElement.childNodes[0].appendChild(c);})(window,document)'><img src="images/PlusButn.png"/></a>
+      <a href='javascript:(function(e,a,b,d,c){c=a.createElement("script");c.type="text/javascript";c.src="http://referentiel.institut-agile.fr/detrompeur.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){b=1;activate(c)}};a.documentElement.childNodes[0].appendChild(c);})(window,document)'><img src="assets/PlusButn.png"/></a>
     %p
       Le plus intéressant est que le Détrompeur est un "bookmarklet", autrement dit un "signet actif". Vous pouvez l'enregistrer par glisser-déposer dans la barre d'adresse de votre navigateur (comme l'illustre <a href="http://www.youtube.com/watch?v=QrwevUN0KdQ">cette vidéo</a>), il sera alors toujours disponible lorsque vous en aurez besoin, sans revenir ici!
     %h3 Le Souligneur

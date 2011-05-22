@@ -7,15 +7,13 @@ body {
 }
 body {
 	background-color: #f3f3f3;
-	background-image: url(images/page-base.png?1);
+	background-image: url(assets/page-base.png?1);
 	background: #A9BAC3 url(bg.gif) repeat-x;
 }
 /* Content */
 #content {
-//	width: 788px;
-//	margin-left: 14em;
 	padding: 1em;
-	background-image: url(images/border.png?1);
+	background-image: url(assets/border.png?1);
 	background-position: top left;
 	background-repeat: repeat-y;
 	background-color: white;
@@ -34,10 +32,8 @@ body {
 	position: relative;
 	height: 85px;	
 	background: #000 url(headerbg.gif) repeat-x 0% 100%;	
-//	margin-left: 14em;
 }
 #header-wrap {
-//	margin-left: 14em;
 }
 #header h1#logo {
 	position: absolute;
@@ -200,7 +196,7 @@ ul {
 	list-style-type: square;
 	margin: .3em 0 0 1.5em;
 	padding: 0;
-	list-style-image: url(images/bullet-icon.png?1);
+	list-style-image: url(assets/bullet-icon.png?1);
 }
 ol {
 	line-height: 1.5em;
@@ -461,7 +457,7 @@ div#bodyContent {
 
 
 div.vectorTabs ul {
-	background-image:url(images/tab-break.png?1);
+	background-image:url(assets/tab-break.png?1);
 	background-position:right bottom;
 	background-repeat:no-repeat;
 }
