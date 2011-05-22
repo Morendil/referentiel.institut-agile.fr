@@ -57,7 +57,7 @@ var replacements = [
   ["stories",["user stories","user story"]],
   ["velocity",["v(.?)locit(.?)"]]
 ];
-var base = "http://referentiel.institut-agile.fr/";
+var base = "http://instagile.heroku.com/";
 
 // Core functions
 
@@ -146,7 +146,7 @@ function finish2($) {
     where = $(this);
     // instantiate separate scopes for "where"
     (function(where,$) {
-    $.getJSON("http://referentiel.institut-agile.fr/json.phtml?id="+rel+"&from="+escape(document.location)+"&jsonp=?",
+    $.getJSON("http://jsonpify.heroku.com/?resource="+base+rel+".html&callback=?",
       function(value) {
          var desc = $("div#desc",$(value));
          $("a",desc).removeAttr("href");
