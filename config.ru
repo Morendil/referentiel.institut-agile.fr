@@ -17,7 +17,7 @@ require './lib/helpers'
   end
 
   get '/' do
-    haml :index, {:views => 'static/site'}
+    haml :index
   end
 
   get '/index_alpha.html' do
