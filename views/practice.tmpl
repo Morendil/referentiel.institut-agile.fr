@@ -1,12 +1,11 @@
-#content
-  %h1.firstHeading#firstHeading {{title}}
-  #bodyContent
-    #contentSub {{type}}
-    {{#sections}}
-    %div#{{type}}
-      %h2= {{type}}
-      :markdown
-        {{#text}}
-        {{to_s}}
-        {{/text}}
-    {{/sections}}
+%h1.firstHeading#firstHeading {{title}}
+#bodyContent
+  #contentSub {{type}}
+  {{#sections}}
+  %div#{{type}}
+    %h2= {{type}}
+    :markdown
+      {{#text}}
+      {{to_s}}
+      {{/text}}
+  {{/sections}}

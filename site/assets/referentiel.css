@@ -101,6 +101,10 @@ body {
 }
 /* end menu tabs */
 
+#status {
+	font-size: 0.6em;
+}
+
 /* Content */
 #content {
 	padding: 1em;

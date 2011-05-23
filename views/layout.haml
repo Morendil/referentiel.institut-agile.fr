@@ -4,6 +4,11 @@
     %title Référentiel des pratiques Agiles
     %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/referentiel.css"}
     %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/grid.css"}
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+    <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+    api_key: pjYC0O4ib3pih8B0aqD4AoEUPJb7o5tnIiQ9bK4Uvh3LUGizfcg47f8_HOEI6oce
+    authorize: true
+    </script>
   %body
     #wrap
       #header-wrap
@@ -27,7 +32,15 @@
                 %span
                   Le blog
       %img.header-photo{:src=>"assets/headerphoto.jpg", :width=>"820", :height=>"120"}
-      = yield
+
+      #content
+        .container_10.clearfix
+          .grid_8
+            = yield
+          .grid_2
+            #status
+              &nbsp;
+
     <script type="text/javascript">
     (function() {
     var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
@@ -45,4 +58,7 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+    </script>
+    <script type="text/javascript">
+    $("#status").load("/status")
     </script>

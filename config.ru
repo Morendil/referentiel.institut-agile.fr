@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'mustache'
+require 'linkedin'
+require 'CGI'
 require './lib/roadmap'
 require './lib/helpers'
 
@@ -7,13 +9,68 @@ require './lib/helpers'
 
   r = Roadmap.new("src")
 
+  use Rack::Session::Pool, :expire_after => 60 * 60
+  set :session_secret, ENV['session_secret']
+
   helpers do
+
     def before_render template, data={}
       Mustache.template_file = template
       m = Mustache.new
       yield m if block_given?
       haml m.render data
     end
+
+    def profile
+      return @profile = session[:profile] if session[:profile]
+      retrieve_profile
+    end
+
+    def retrieve_profile
+      return false unless (cookie = request.cookies["oauth"]) || (result = session.delete(:oauth))
+      begin
+        client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
+        connect_client client, cookie, result
+        session[:profile] = @profile = (client.profile :public => true)
+      rescue
+      ensure
+        @profile
+      end
+    end
+
+    def connect_client client, cookie, result
+      response.delete_cookie("oauth")
+      client.authorize_from_access(cookie.split("&")[0],cookie.split("&")[1]) if cookie
+      cookie = client.authorize_from_request(result.token, result.secret,params[:oauth_verifier]) if result
+      response.set_cookie("oauth", cookie) if cookie
+    end
+
+  end
+
+  before do
+    expires 500, :public, :must_revalidate
+  end
+
+  get '/status' do
+      cache_control :no_cache
+      profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
+  end
+
+  get '/login' do
+    session.delete(:profile)
+    response.delete_cookie("oauth")
+    client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
+    from = CGI::escape(request.referrer)
+    callback = "/done?backto=#{CGI::escape(request.referrer)}"
+    result = client.request_token :oauth_callback => to(callback)
+    session[:oauth]=result
+    redirect result.authorize_url
+  end
+
+  get '/done' do
+    retrieve_profile
+    where = params[:backto] || "/";
+    redirect to(where)
   end
 
   get '/' do
