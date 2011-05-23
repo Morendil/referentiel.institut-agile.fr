@@ -58,8 +58,9 @@ require './lib/helpers'
   ## Login workflow
   get '/status' do
       cache_control :no_cache
-      profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
+      r = profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
       puts "Logged in :"+profile.first_name+" "+profile.last_name if profile
+      r
   end
 
   get '/login' do
