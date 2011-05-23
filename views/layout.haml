@@ -14,8 +14,9 @@
       #header-wrap
         #header
           %h1#logo
-            Institut
-            %span.green Agile
+            %a{:href=>"http://referentiel.institut-agile.fr/"}
+              Institut
+              %span.green Agile
           %h2#slogan
             Une informatique plus humaine et plus efficace...
           %ul
@@ -35,9 +36,20 @@
 
       #content
         .container_10.clearfix
-          .grid_8
+          .grid_7
             = yield
           .grid_2
+            #sidebar
+              Les pratiques
+              %ul.sidemenu
+                %li <a href="/index_alpha.html">de A a Z</a>
+                %li <a href="/index_type.html">par type</a>
+              Les extras
+              %ul.sidemenu
+                %li <a href="/ebook.html">Version eBook</a>
+                %li <a href="/outils.html">Outils</a>
+            <br/>
+            <br/>
             #status
               &nbsp;
 

@@ -51,6 +51,11 @@ require './lib/helpers'
     expires 500, :public, :must_revalidate
   end
 
+  before '/' do
+    request.path_info = '/index.html'
+  end
+
+  ## Login workflow
   get '/status' do
       cache_control :no_cache
       profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
@@ -73,10 +78,6 @@ require './lib/helpers'
     redirect to(where)
   end
 
-  get '/' do
-    haml :index
-  end
-
   get '/index_alpha.html' do
     before_render "views/index.tmpl" do |m|
       m[:parts] = r.all_by_alpha
@@ -91,10 +92,25 @@ require './lib/helpers'
     end
   end
 
+  get '/json.phtml?id=*&from=*&jsonp=*' do
+    one,ignore,two = params[:splat]
+    redirect "http//jsonpify.heroku.com/resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}"
+  end
+
   get '/*.html' do
     src = r.find_by_id(params[:splat].first)
     pass unless src
     before_render "views/practice.tmpl", src
+  end
+
+  ['index','outils','ebook','inconnu'].each do |static|
+    get "/#{static}.html" do
+      haml static.intern
+    end
+  end
+
+  before '/assets/AgileDeAaZ.pdf' do
+    redirect '/inconnu.html' if !@profile
   end
 
   get '/assets/*' do |file|

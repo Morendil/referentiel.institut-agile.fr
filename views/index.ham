@@ -11,30 +11,3 @@
   %ul
     %li
       %a(href="http://blog.institut-agile.fr/2010/10/canevas-de-description-dune-pratique.html") Canevas de description d'une pratique
-
-  %h2 Les pratiques:
-  %ul
-    %li
-      %a(href="index_alpha.html") par ordre alphabétique
-    %li
-      %a(href="index_type.html") par type
-  %h2 Les outils
-  %p
-    Le référentiel des pratiques a pour objectif de favoriser une meilleure compréhension de ce que recouvre le terme "agile", en donnant à ceux qui ne sont pas encore familier du jargon de cette communauté des définitions claires et concises.
-  %p
-    Dans cette optique, nous fournissons un ensemble d'outils pour vous aider à exploiter plus facilement le Référentiel:
-  %h3 Le Détrompeur
-  %p
-    Le Détrompeur est un outil destiné aux <b>lecteurs</b> de sites ou d'articles sur le Web consacré aux approches Agiles. Beaucoup d'articles de ce type utilisent des termes tels que "itération", "backlog" ou "TDD" sans se donner la peine de les définir ou de renvoyer à un glossaire. Cliquez ci-dessous pour voir le Détrompeur en action: il soulignera les termes en question dans ce paragraphe, et en plaçant votre curseur par-dessus vous verrez apparaître une définition. Vous pouvez cliquer le lien pour consulter la page complète concernant cette pratique.
-  %p{:style=>"text-align:center"}
-    <a href='javascript:(function(e,a,b,d,c){c=a.createElement("script");c.type="text/javascript";c.src="http://referentiel.institut-agile.fr/detrompeur.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){b=1;activate(c)}};a.documentElement.childNodes[0].appendChild(c);})(window,document)'><img src="assets/PlusButn.png"/></a>
-  %p
-    Le plus intéressant est que le Détrompeur est un "bookmarklet", autrement dit un "signet actif". Vous pouvez l'enregistrer par glisser-déposer dans la barre d'adresse de votre navigateur (comme l'illustre <a href="http://www.youtube.com/watch?v=QrwevUN0KdQ">cette vidéo</a>), il sera alors toujours disponible lorsque vous en aurez besoin, sans revenir ici!
-  %h3 Le Souligneur
-  %p
-    Le Souligneur est un outil destiné aux <b>auteurs</b> de sites, blogs ou articles. Il offre des fonctions similaires au Détrompeur: en incluant un bout de code JavaScript dans la structure de vos pages Web, les mots correspondant à des fiches du Référentiel seront automatiquement soulignés (de façon plus discrète que le Détrompeur) et transformés en liens vers le Référentiel, ce qui vous permet sans aucun effort de proposer un glossaire très complet à tous vos visiteurs. Il vous suffit pour cela d'inclure la balise suivante à la fin de votre page Web, à la fin de la balise "body":
-  %pre
-    &lt;script type="text/javascript" src="http://referentiel.institut-agile.fr/souligneur.js"&gt;&lt;/script&gt;
-  %h3 Outils à venir
-  %p
-  Nous travaillons actuellement à d'autres outils: le Rapporteur (qui vous permet de signaler un article, un blog ou une page particulièrement intéressante concernant une des pratiques du Référentiel et de nous la signaler), l'Agrégateur (qui lit pour vous les blogs francophones liés aux pratiques Agiles et vous permet de lire tous les articles ou seulement ceux qui concernent telles ou telles pratiques vous intéressant).
