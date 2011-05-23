@@ -2,7 +2,12 @@ GEM
   remote: http://rubygems.org/
   specs:
     haml (3.1.1)
+    linkedin (0.2.2)
+      nokogiri (~> 1.4.4)
+      oauth (~> 0.4.0)
     mustache (0.99.3)
+    nokogiri (1.4.4)
+    oauth (0.4.4)
     rack (1.2.2)
     sinatra (1.2.6)
       rack (~> 1.1)
@@ -14,5 +19,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  linkedin
   mustache
   sinatra
