@@ -59,7 +59,7 @@ require './lib/helpers'
   get '/status' do
       cache_control :no_cache
       r = profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
-      puts "Logged in :"+profile.first_name+" "+profile.last_name if profile
+      puts "Logged in :"+profile.first_name+" "+profile.last_name if @profile
       r
   end
 
