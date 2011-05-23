@@ -58,9 +58,7 @@ require './lib/helpers'
   ## Login workflow
   get '/status' do
       cache_control :no_cache
-      r = profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
-      puts "Logged in :"+profile.first_name+" "+profile.last_name if @profile
-      r
+      profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
   end
 
   get '/login' do
@@ -116,7 +114,6 @@ require './lib/helpers'
 
   before '/assets/AgileDeAaZ.pdf' do
     redirect '/inconnu.html' if !@profile
-    puts "PDF:"+profile.first_name+","+profile.last_name
   end
 
   get '/assets/*' do |file|
