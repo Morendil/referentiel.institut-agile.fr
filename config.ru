@@ -75,6 +75,7 @@ require './lib/helpers'
   get '/done' do
     retrieve_profile
     where = params[:backto] || "/";
+    puts "Logged in:" + @profile.first_name +" " +@profile.last_name if @profile
     redirect to(where)
   end
 
@@ -114,6 +115,7 @@ require './lib/helpers'
 
   before '/assets/AgileDeAaZ.pdf' do
     redirect '/inconnu.html' if !@profile
+    puts "PDF:" + @profile.first_name +" " +@profile.last_name 
   end
 
   get '/assets/*' do |file|
