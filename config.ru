@@ -92,9 +92,12 @@ require './lib/helpers'
     end
   end
 
-  get '/json.phtml?id=*&from=*&jsonp=*' do
-    one,ignore,two = params[:splat]
-    redirect "http//jsonpify.heroku.com/resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}"
+  get '/json.phtml' do
+    one = params[:id]
+    two = params[:jsonp]
+    three = params[:_]
+    redirect "http://jsonpify.heroku.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
+
   end
 
   get '/*.html' do
