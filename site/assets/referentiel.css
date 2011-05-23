@@ -10,15 +10,6 @@ body {
 	background-image: url(assets/page-base.png?1);
 	background: #A9BAC3 url(bg.gif) repeat-x;
 }
-/* Content */
-#content {
-	padding: 1em;
-	background-image: url(assets/border.png?1);
-	background-position: top left;
-	background-repeat: repeat-y;
-	background-color: white;
-	color: black;
-}
 
 #wrap {
 	background: #FFF;
@@ -29,11 +20,11 @@ body {
 
 /* header */
 #header {
-	position: relative;
 	height: 85px;	
 	background: #000 url(headerbg.gif) repeat-x 0% 100%;	
 }
 #header-wrap {
+	position: relative;
 }
 #header h1#logo {
 	position: absolute;
@@ -59,6 +50,67 @@ body {
 	margin: 10px 15px;
 	border: none;
 }
+
+/* menu tabs */
+#header ul {
+	z-index: 999999;
+	position: absolute;
+   margin:0; padding: 0;
+   list-style:none;
+	right: 0; 
+	bottom: 6px !important; bottom: 5px;
+	font: bold 13px  Arial, 'Trebuchet MS', Tahoma, verdana,  sans-serif;	
+}
+#header li {
+   display:inline;
+   margin:0; padding:0;
+}
+#header a {
+   float:left;
+   background: url(tableft.gif) no-repeat left top;
+   margin:0;
+   padding:0 0 0 4px;
+   text-decoration:none;
+}
+#header a span {
+   float:left;
+   display:block;
+   background: url(tabright.gif) no-repeat right top;
+   padding:6px 15px 3px 8px;
+   color: #FFF;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#header a span {float:none;}
+/* End IE5-Mac hack */
+#header a:hover span {
+	color:#FFF;
+}
+#header a:hover {
+   background-position:0% -42px;
+}
+#header a:hover span {
+   background-position:100% -42px;
+}
+#header #current a {
+   background-position:0% -42px;
+	color: #FFF;
+}
+#header #current a span {
+   background-position:100% -42px;
+	color: #FFF;
+}
+/* end menu tabs */
+
+/* Content */
+#content {
+	padding: 1em;
+	background-image: url(assets/border.png?1);
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-color: white;
+	color: black;
+}
+
 
 /* additional classes */
 .clear { clear: both; }
@@ -180,6 +232,7 @@ pre, code, tt {
 	 * too small otherwise, namely Firefox, Chrome and Safari
 	 */
 	font-family: monospace, "Courier New";
+        overflow: scroll;	
 }
 code {
 	background-color: #f9f9f9;
@@ -462,52 +515,3 @@ div.vectorTabs ul {
 	background-repeat:no-repeat;
 }
 
-/* menu tabs */
-#header ul {
-	z-index: 999999;
-	position: absolute;
-   margin:0; padding: 0;
-   list-style:none;
-	right: 0; 
-	bottom: 6px !important; bottom: 5px;
-	font: bold 13px  Arial, 'Trebuchet MS', Tahoma, verdana,  sans-serif;	
-}
-#header li {
-   display:inline;
-   margin:0; padding:0;
-}
-#header a {
-   float:left;
-   background: url(tableft.gif) no-repeat left top;
-   margin:0;
-   padding:0 0 0 4px;
-   text-decoration:none;
-}
-#header a span {
-   float:left;
-   display:block;
-   background: url(tabright.gif) no-repeat right top;
-   padding:6px 15px 3px 8px;
-   color: #FFF;
-}
-/* Commented Backslash Hack hides rule from IE5-Mac \*/
-#header a span {float:none;}
-/* End IE5-Mac hack */
-#header a:hover span {
-	color:#FFF;
-}
-#header a:hover {
-   background-position:0% -42px;
-}
-#header a:hover span {
-   background-position:100% -42px;
-}
-#header #current a {
-   background-position:0% -42px;
-	color: #FFF;
-}
-#header #current a span {
-   background-position:100% -42px;
-	color: #FFF;
-}
-/* end menu tabs */

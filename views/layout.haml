@@ -3,29 +3,30 @@
   %head
     %title Référentiel des pratiques Agiles
     %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/referentiel.css"}
+    %link{:rel=>"stylesheet", :type=>'text/css', :href=>"assets/grid.css"}
   %body
     #wrap
-      #header
-        %h1#logo
-          Institut
-          %span.green Agile
-        %h2#slogan
-          Une informatique plus humaine et plus efficace...
-        %ul
-          %li
-            %a{:href=>"http://institut-agile.fr/"}
-              %span
-                L'Institut
-          %li#current
-            %a{:href=>"http://referentiel.institut-agile.fr/"}
-              %span
-                Les pratiques agiles
-          %li
-            %a{:href=>"http://blog.institut-agile.fr/"}
-              %span
-                Le blog
       #header-wrap
-        %img.header-photo{:src=>"assets/headerphoto.jpg", :width=>"820", :height=>"120"}
+        #header
+          %h1#logo
+            Institut
+            %span.green Agile
+          %h2#slogan
+            Une informatique plus humaine et plus efficace...
+          %ul
+            %li
+              %a{:href=>"http://institut-agile.fr/"}
+                %span
+                  L'Institut
+            %li#current
+              %a{:href=>"http://referentiel.institut-agile.fr/"}
+                %span
+                  Les pratiques agiles
+            %li
+              %a{:href=>"http://blog.institut-agile.fr/"}
+                %span
+                  Le blog
+      %img.header-photo{:src=>"assets/headerphoto.jpg", :width=>"820", :height=>"120"}
       = yield
     <script type="text/javascript">
     (function() {
