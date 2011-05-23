@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'mustache'
 require 'linkedin'
-require 'CGI'
+require 'cgi'
 require './lib/roadmap'
 require './lib/helpers'
 
