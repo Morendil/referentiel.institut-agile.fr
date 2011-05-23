@@ -59,6 +59,7 @@ require './lib/helpers'
   get '/status' do
       cache_control :no_cache
       profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
+      puts "Logged in :"+profile.first_name+" "+profile.last_name if profile
   end
 
   get '/login' do
@@ -114,6 +115,7 @@ require './lib/helpers'
 
   before '/assets/AgileDeAaZ.pdf' do
     redirect '/inconnu.html' if !@profile
+    puts "PDF:"+profile.first_name+","+profile.last_name
   end
 
   get '/assets/*' do |file|
