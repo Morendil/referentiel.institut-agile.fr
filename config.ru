@@ -79,6 +79,7 @@ require './lib/helpers'
     redirect to(where)
   end
 
+  ## Dynamic content
   get '/index_alpha.html' do
     before_render "views/index.tmpl" do |m|
       m[:parts] = r.all_by_alpha
@@ -93,26 +94,28 @@ require './lib/helpers'
     end
   end
 
-  get '/json.phtml' do
-    one = params[:id]
-    two = params[:jsonp]
-    three = params[:_]
-    redirect "http://jsonpify.heroku.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
-
-  end
-
   get '/*.html' do
     src = r.find_by_id(params[:splat].first)
     pass unless src
     before_render "views/practice.tmpl", src
   end
 
+  ## Temporary redirect
+  get '/json.phtml' do
+    one = params[:id]
+    two = params[:jsonp]
+    three = params[:_]
+    redirect "http://jsonpify.heroku.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
+  end
+
+  ## Static content
   ['index','outils','ebook','inconnu'].each do |static|
     get "/#{static}.html" do
       haml static.intern
     end
   end
 
+  ## Static assets
   before '/assets/AgileDeAaZ.pdf' do
     puts "PDF: #{profile.first_name} #{profile.last_name}" 
     redirect '/inconnu.html' if !@profile
