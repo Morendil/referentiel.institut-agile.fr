@@ -64,9 +64,10 @@ require './lib/helpers'
   get '/login' do
     session.delete(:profile)
     response.delete_cookie("oauth")
-    client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
     from = CGI::escape(request.referrer)
     callback = "/done?backto=#{CGI::escape(request.referrer)}"
+    #
+    client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
     result = client.request_token :oauth_callback => to(callback)
     session[:oauth]=result
     redirect result.authorize_url
@@ -117,8 +118,8 @@ require './lib/helpers'
 
   ## Static assets
   before '/assets/AgileDeAaZ.pdf' do
-    puts "PDF: #{profile.first_name} #{profile.last_name}" 
     redirect '/inconnu.html' if !@profile
+    puts "PDF: #{@profile.first_name} #{@profile.last_name}" if @profile
   end
 
   get '/assets/*' do |file|
