@@ -1,11 +1,14 @@
 require 'sinatra'
+require 'tilt'
+require 'haml'
 require 'mustache'
+require 'sinatra/mustache'
 require 'linkedin'
 require 'cgi'
 require './lib/roadmap'
 require './lib/helpers'
 
-  Tilt.register Tilt[:haml], :ham
+  Tilt.register "ham", Tilt[:haml]
 
   r = Roadmap.new("src")
 
@@ -98,7 +101,9 @@ require './lib/helpers'
   get '/*.html' do
     src = r.find_by_id(params[:splat].first)
     pass unless src
-    before_render "views/practice.tmpl", src
+    @comments = mustache :disqus, :locals => src
+    @default_layout = nil
+    page = before_render "views/practice.tmpl", src
   end
 
   ## Temporary redirect
