@@ -84,6 +84,11 @@ require './lib/helpers'
   end
 
   ## Dynamic content
+
+  get '/index_json' do
+    r.all.to_json
+  end
+
   get '/index_alpha.html' do
     before_render "views/index.tmpl" do |m|
       m[:parts] = r.all_by_alpha
