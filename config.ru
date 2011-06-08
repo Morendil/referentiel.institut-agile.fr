@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'tilt'
+require 'json'
 require 'haml'
 require 'mustache'
 require 'sinatra/mustache'
