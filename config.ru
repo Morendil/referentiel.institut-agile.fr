@@ -87,6 +87,7 @@ require './lib/helpers'
   ## Dynamic content
 
   get '/index_json' do
+    content_type 'text/json', :charset => 'utf-8'
     r.all.to_json
   end
 
