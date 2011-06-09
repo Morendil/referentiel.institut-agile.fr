@@ -90,7 +90,7 @@ sections:
     type: pubs
     text: |
       Cette pratique considérée par des auteurs tels que Steve McConnell (Code Complete, 2nd Edition) comme l'une des contributions les plus importantes du mouvement Agile a fait l'objet de plusieurs études.
-      De même que pour le [binômage](binomage.html), les évaluations empiriques sont souvent sont menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice, ce qui limite la portée de leurs conclusions.
+      De même que pour le [binômage](binomage.html), les évaluations empiriques sont souvent menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice, ce qui limite la portée de leurs conclusions.
 
       * Empiriques
         * "[Test Driven Development: Empirical Body of Evidence](http://www.agile-itea.org/public/deliverables/ITEA-AGILE-D2.7_v1.0.pdf)" recense les principales études connues en 2006, portant majoritairement sur les effets constatés informellement de réduction des défauts (globalement favorable) et d'augmentation de l'effort (globalement neutre)
