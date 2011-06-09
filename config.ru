@@ -46,7 +46,11 @@ require './lib/helpers'
       response.delete_cookie("oauth")
       client.authorize_from_access(cookie.split("&")[0],cookie.split("&")[1]) if cookie
       cookie = client.authorize_from_request(result.token, result.secret,params[:oauth_verifier]) if result
-      response.set_cookie("oauth", cookie) if cookie
+      response.set_cookie(
+        "oauth",
+        {:domain=>"institut-agile.fr",
+         :path=>"/",
+         :value=>cookie}) if cookie
     end
 
   end
