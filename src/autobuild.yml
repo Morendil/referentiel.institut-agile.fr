@@ -21,7 +21,7 @@ sections:
     type: histo
     text: |
       * le principe d'automatiser une mécanique complexe d'assemblage de composants logiciels ne date pas d'hier: l'outil "make" remonte à... 1977
-      * bien que la pratique ne soit pas nouvelle, ni limitée aux approches Agiles, ce sont ces dernières qui relancent l'intérêt pour une automatisation complète; la vogue des environnements intégrés pendant les années 90 a putôt eu pour effet de marginaliser les outils du type "make", on assiste ensuite à un revirement dans les années 2000
+      * bien que la pratique ne soit pas nouvelle, ni limitée aux approches Agiles, ce sont ces dernières qui relancent l'intérêt pour une automatisation complète; la vogue des environnements intégrés pendant les années 90 a plutôt eu pour effet de marginaliser les outils du type "make", on assiste ensuite à un revirement dans les années 2000
   -
     type: signes
     text: |
