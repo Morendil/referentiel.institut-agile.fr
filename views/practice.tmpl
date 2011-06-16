@@ -9,4 +9,8 @@
       {{to_s}}
       {{/text}}
   {{/sections}}
-  = @comments
+  #comments
+  <script type="text/javascript">
+  $("#comments").load("/comments/{{id}}")
+  </script>
+

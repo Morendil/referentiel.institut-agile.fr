@@ -112,9 +112,14 @@ require './lib/helpers'
   get '/*.html' do
     src = r.find_by_id(params[:splat].first)
     pass unless src
-    @comments = mustache :disqus, :locals => src
     @default_layout = nil
     page = before_render "views/practice.tmpl", src
+  end
+
+  get '/comments/:id' do |id|
+    cache_control :no_cache
+    @id = id
+    mustache :disqus, :layout => false
   end
 
   ## Temporary redirect
