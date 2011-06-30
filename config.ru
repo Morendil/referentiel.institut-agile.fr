@@ -139,7 +139,7 @@ require './lib/helpers'
 
   ## Static assets
   before '/assets/AgileDeAaZ.pdf' do
-    redirect '/inconnu.html' if !@profile
+    redirect '/inconnu.html' if !profile
     puts "PDF: #{@profile.first_name} #{@profile.last_name}" if @profile
   end
 
