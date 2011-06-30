@@ -7,7 +7,7 @@ sections:
   -
     type: desc
     text: |
-      Une équipe établit généralement des conventions, tacites, orales ou implciites, précisant quel développeur peut intervenir sur quelle partie du code source dont l'équipe a la charge. Différents modes existent: ainsi un module ou un fichier peut être la responsabilité exclusive d'un développeur, un autre membre de l'équipe ne pouvant le modifier qu'avec sa permission.
+      Une équipe établit généralement des conventions, tacites, orales ou implicites, précisant quel développeur peut intervenir sur quelle partie du code source dont l'équipe a la charge. Différents modes existent: ainsi un module ou un fichier peut être la responsabilité exclusive d'un développeur, un autre membre de l'équipe ne pouvant le modifier qu'avec sa permission.
       Lorsque cette responsabilité est collective, *tous* les développeurs sont autorisés et encouragés à modifier *toute partie* du code lorsque c'est nécessaire, soit pour réaliser une tâche en cours, soit pour corriger un défaut ou améliorer la structure de l'ensemble.
   -
     type: syno
