@@ -1,8 +1,8 @@
 ---
 title: Build automatisé
 type: Pratique
-full: yes
 id: autobuild
+full: yes
 sections:
   -
     type: desc

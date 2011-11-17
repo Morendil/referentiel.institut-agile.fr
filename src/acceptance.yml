@@ -1,8 +1,8 @@
 ---
 title: Tests fonctionnels automatisés
 type: Pratique
-full: yes
 id: acceptance
+full: yes
 sections:
   -
     type: desc

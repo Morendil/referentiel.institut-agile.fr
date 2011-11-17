@@ -1,8 +1,8 @@
 ---
 title: BDD (Behaviour-Driven Development)
 type: Pratique
-full: yes
 id: bdd
+full: yes
 sections:
   -
     type: desc
