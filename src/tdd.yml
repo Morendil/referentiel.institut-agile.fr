@@ -42,7 +42,7 @@ sections:
   -
     type: histo
     text: |
-      L'idée d'une séquence chronologique dans laquelle l'élaboration de tests précède celle des programmes eux-mêmes n'est pas nouvelle; c'est en fait dans la mesure où cette tâche incombe **aux programmeurs eux-mêmes** qu'il existe une rupture. Depuis 1976 date la publication du livre de Glenford Myers *[Software Reliability](http://www.amazon.fr/dp/0471627658)*, et jusqu'à l'apparition d'Extreme Programming, il sera communément admis **"qu'un programmeur ne doit jamais tester son propre code"**.
+      L'idée d'une séquence chronologique dans laquelle l'élaboration de tests précède celle des programmes eux-mêmes n'est pas nouvelle; c'est en fait dans la mesure où cette tâche incombe **aux programmeurs eux-mêmes** qu'il existe une rupture. Depuis 1976, date de la publication du livre de Glenford Myers *[Software Reliability](http://www.amazon.fr/dp/0471627658)*, et jusqu'à l'apparition d'Extreme Programming, il sera communément admis **"qu'un programmeur ne doit jamais tester son propre code"**.
       Cette affirmation présentée comme un axiome fournit une justification à l'établissement du test comme une discipline séparée de la programmation, le "test indépendant". Jusqu'aux années 1990, la tendance se confirme avec la vogue de l'approche "black box testing" et la domination du marché par des outils qui enregistrent et rejouent des séquences de clics (ce qui suppose évidemment que le code soit déjà écrit!).
       On peut donc faire remonter l'historique de cette pratique aux premiers outils encourageant les programmeurs à tester leur propre code:
 
@@ -90,7 +90,7 @@ sections:
     type: pubs
     text: |
       Cette pratique considérée par des auteurs tels que Steve McConnell (Code Complete, 2nd Edition) comme l'une des contributions les plus importantes du mouvement Agile a fait l'objet de plusieurs études.
-      De même que pour le [binômage](binomage.html), les évaluations empiriques sont souvent menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice, ce qui limite la portée de leurs conclusions.
+      De même que pour le [binômage](pairing.html), les évaluations empiriques sont souvent menées sur des populations d'étudiants plutôt que sur des professionnels dans des conditions réelles d'exercice, ce qui limite la portée de leurs conclusions.
 
       * Empiriques
         * "[Test Driven Development: Empirical Body of Evidence](http://www.agile-itea.org/public/deliverables/ITEA-AGILE-D2.7_v1.0.pdf)" recense les principales études connues en 2006, portant majoritairement sur les effets constatés informellement de réduction des défauts (globalement favorable) et d'augmentation de l'effort (globalement neutre)

@@ -2,7 +2,7 @@
 title: Programmation en binômes
 type: Compétence
 full: yes
-id: binomage
+id: pairing
 sections:
   -
     type: desc
@@ -24,7 +24,7 @@ sections:
     type: histo
     text: |
       * longue tradition en milieux universitaires, militaires...
-      * suggérée par Larry Constantine (Constantine on Peopleware) sous le nom "Dynamic Duo" (1995)
+      * suggérée par Larry Constantine (Constantine on Peopleware) sous le nom "Dynamic Duo" (1992)
       * simultanément décrite dans les "Organizational Patterns" de Jim Coplien (1995)
       * pratique Extreme Programming dès ses débuts (1996)
       * la variante "ping pong" (cf. ci-dessous) est décrite en 2003
