@@ -36,7 +36,7 @@ var replacements = [
   ["personas",["persona(s?)"]],
   ["poker",["planning poker"]],
   ["nuts",["\\bnuts\\b","story points","points de story"]],
-  ["binomage",["pair programming","bin(.?)mage","en bin(.?)me(s?)"]],
+  ["pairing",["pair programming","bin(.?)mage","en bin(.?)me(s?)"]],
   ["radiator",["bvc","radiateur(s?) d'information","big visible chart"]],
   ["refactoring",["refactoring","remaniement"]],
   ["cco",["responsabilit(.?) collective","code ownership"]],
