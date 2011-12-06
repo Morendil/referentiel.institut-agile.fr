@@ -1,8 +1,8 @@
 ---
 title: Graphe burn-down
 type: Pratique
-full: yes
 id: burndown
+full: yes
 sections:
   -
     type: desc

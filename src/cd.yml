@@ -1,8 +1,8 @@
 ---
 title: Déploiement continu
 type: Pratique
-full: yes
 id: cd
+full: yes
 sections:
   -
     type: desc

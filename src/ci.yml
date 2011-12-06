@@ -1,8 +1,8 @@
 ---
 title: Intégration continue
 type: Pratique
-full: yes
 id: ci
+full: yes
 sections:
   -
     type: desc
