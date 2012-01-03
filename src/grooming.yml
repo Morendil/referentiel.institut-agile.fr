@@ -1,8 +1,8 @@
 ---
 title: Entretien du backlog
 type: Pratique
-full: yes
 id: grooming
+full: yes
 sections:
   -
     type: desc

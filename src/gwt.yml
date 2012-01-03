@@ -1,8 +1,8 @@
 ---
 title: Given - When - Then
 type: Concept
-full: yes
 id: gwt
+full: yes
 sections:
   -
     type: desc

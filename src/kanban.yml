@@ -1,8 +1,8 @@
 ---
 title: Tableau kanban
 type: Pratique
-full: yes
 id: kanban
+full: yes
 sections:
   -
     type: desc

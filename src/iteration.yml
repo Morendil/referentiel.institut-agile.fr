@@ -1,8 +1,8 @@
 ---
 title: Itération
 type: Concept
-full: yes
 id: iteration
+full: yes
 sections:
   -
     type: desc
@@ -13,7 +13,7 @@ sections:
       * est en principe fixe sur la durée du projet
 
       Dans la plupart des cas les itérations sont alignées avec les semaines civiles, débutant un lundi et se terminant un vendredi.
-      La durée fixe des itérations permet d'appliquer une simple formule de proportionnalité pour déduire, compte tenu de la [vélocité](velocite.html) observée et de [l'effort estimé](perimetre.html) restant à fournir, la durée prévisionnelle du projet. 
+      La durée fixe des itérations permet d'appliquer une simple formule de proportionnalité pour déduire, compte tenu de la [vélocité](velocity.html) observée et de l'effort estimé restant à fournir, la durée prévisionnelle du projet. 
   -
     type: syno
     text: |

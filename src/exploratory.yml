@@ -1,8 +1,8 @@
 ---
 title: Test exploratoire
 type: Pratique
-full: yes
 id: exploratory
+full: yes
 sections:
   -
     type: desc
