@@ -1,4 +1,6 @@
 require 'rake/clean'
+require './lib/roadmap'
+require 'mustache'
 
 ## Default target - targets are "site", "book"
 
@@ -43,10 +45,13 @@ end
 def mustache built, from, template, fix
 	file built => from do
           view = "views/#{template}.tmpl"
-          skip = uptodate?(built,from) && uptodate?(built, FileList[view])
-          sh "mustache #{from} #{view} > #{built}" unless skip
+          return if uptodate?(built,from) && uptodate?(built, FileList[view])
+          template = IO.read(view)
+          data = Roadmap.new("src").interpret(from)
+          expanded = Mustache.render template, data
+          File.open(built,"w") {|f| f.write(expanded)}
           # Ugly hack to fix internal links for the eBook version - improve this
-          sh "perl -i.old -pe 's/]\\((.*?).html\\)/](\#$1)/g' #{built}" unless skip || !fix
+          sh "perl -i.old -pe 's/]\\((.*?).html\\)/](\#$1)/g' #{built}" unless !fix
         end
 end
 
