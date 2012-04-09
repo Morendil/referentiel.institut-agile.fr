@@ -7,7 +7,7 @@ sections:
   -
     type: desc
     text: |
-      Pratique de conception issue du livre de David Evans ["Domain Driven Design"](http://www.amazon.fr/dp/0321125215) (2003), elle consiste notamment à s'attacher à utiliser le vocabulaire et les notions des clients et experts métiers, non seulement dans les discussions autour des exigences, mais également *dans le code source*.
+      Pratique de conception issue du livre de Eric Evans ["Domain Driven Design"](http://www.amazon.fr/dp/0321125215) (2003), elle consiste notamment à s'attacher à utiliser le vocabulaire et les notions des clients et experts métiers, non seulement dans les discussions autour des exigences, mais également *dans le code source*.
       (D'autres techniques complémentaires sont détaillées dans le livre d'Evans, mais le nom de "langage omniprésent" reflète l'intention principale.)
   -
     type: benefices
@@ -20,6 +20,6 @@ sections:
     type: histo
     text: |
       * dans les premières années, Kent Beck tente de populariser une pratique d'Extreme Programming appelée "Métaphore"; celle-ci est rarement utilisée car mal comprise (2000 environ)
-      * le terme "langage omniprésent" apparaît avec le livre de David Evans (2003)
+      * le terme "langage omniprésent" apparaît avec le livre de Eric Evans (2003)
       * un consensus s'établit ensuite pour ne plus parler de "Métaphore", et remplacer cette pratique par les recommandations, jugées plus précises, de David Evans concernant ce "langage omniprésent" (2004)
 ---
