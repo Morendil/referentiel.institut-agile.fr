@@ -21,5 +21,5 @@ sections:
     text: |
       * dans les premières années, Kent Beck tente de populariser une pratique d'Extreme Programming appelée "Métaphore"; celle-ci est rarement utilisée car mal comprise (2000 environ)
       * le terme "langage omniprésent" apparaît avec le livre de Eric Evans (2003)
-      * un consensus s'établit ensuite pour ne plus parler de "Métaphore", et remplacer cette pratique par les recommandations, jugées plus précises, de David Evans concernant ce "langage omniprésent" (2004)
+      * un consensus s'établit ensuite pour ne plus parler de "Métaphore", et remplacer cette pratique par les recommandations, jugées plus précises, de Eric Evans concernant ce "langage omniprésent" (2004)
 ---
