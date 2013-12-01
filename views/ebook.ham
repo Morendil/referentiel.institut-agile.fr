@@ -2,10 +2,6 @@
 #bodyContent
   %h2 La version eBook
   %p
-    Pour télécharger l'intégralité du contenu du Référentiel, afin de le consulter tranquillement sur une liseuse ou appareil mobile, cliquez sur le lien ci-dessous après vous être identifié.
-  %p
-    La version eBook fait partie des contenus "premium" réservés aux visiteurs identifés du site. Ce contenu est gratuit; l'enregistrement sur le site de l'Institut Agile se fait avec votre compte LinkedIn et n'exige aucune procédure d'inscription si vous êtes déjà titulaire d'un compte LinkedIn.
-  %p
-    Si vous ne disposez pas d'un compte LinkedIn, vous pouvez nous contacter par mail pour obtenir un exemplaire de la version eBook (à l'adresse "info (arobase) institut-agile.fr"), ou attendre une prochaine version du site qui permettra l'identification avec un compte Facebook ou Twitter.
+    Pour télécharger l'intégralité du contenu du Référentiel, afin de le consulter tranquillement sur une liseuse ou appareil mobile, cliquez sur le lien ci-dessous.
   %p
     <a href="/assets/AgileDeAaZ.pdf">Version PDF</a>
