@@ -3,6 +3,7 @@ GEM
   specs:
     haml (3.1.1)
     json (1.5.1)
+    kgio (2.9.2)
     linkedin (0.2.2)
       nokogiri (~> 1.4.4)
       oauth (~> 0.4.0)
@@ -10,14 +11,19 @@ GEM
     nokogiri (1.4.4)
     oauth (0.4.4)
     rack (1.3.0)
+    raindrops (0.13.0)
     sinatra (1.2.6)
       rack (~> 1.1)
-      tilt (< 2.0, >= 1.2.2)
+      tilt (>= 1.2.2, < 2.0)
     sinatra-mustache (0.0.3)
       mustache (~> 0.99.3)
       sinatra (~> 1.2.3)
       tilt (~> 1.2.2)
     tilt (1.2.2)
+    unicorn (4.8.3)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -29,3 +35,4 @@ DEPENDENCIES
   mustache
   sinatra
   sinatra-mustache (= 0.0.3)
+  unicorn
