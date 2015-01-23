@@ -7,6 +7,7 @@ GEM
     linkedin (0.2.2)
       nokogiri (~> 1.4.4)
       oauth (~> 0.4.0)
+    maruku (0.7.2)
     mustache (0.99.4)
     nokogiri (1.4.4)
     oauth (0.4.4)
@@ -32,6 +33,7 @@ DEPENDENCIES
   haml
   json
   linkedin
+  maruku
   mustache
   sinatra
   sinatra-mustache (= 0.0.3)
