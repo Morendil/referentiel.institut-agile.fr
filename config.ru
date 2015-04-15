@@ -26,12 +26,24 @@ require './lib/helpers'
     end
 
     def profile
-      return @profile = session[:profile] if session[:profile]
-      retrieve_profile
-    end
-
-    def retrieve_profile
-      false
+      return @profile if @profile
+      return false unless session[:code]
+      client = OpenIDConnect::Client.new(
+        identifier: ENV['FranceConnect_Key'],
+        secret: ENV['FranceConnect_Secret'],
+        redirect_uri: 'http://institut-agile.fr/oidc_callback',
+        host: 'fcp.integ01.dev-franceconnect.fr',
+        authorization_endpoint: '/api/v1/authorize',
+        token_endpoint: '/api/v1/token',
+        userinfo_endpoint: '/api/v1/userinfo'
+      )
+      client.authorization_code = session[:code]
+      token = client.access_token!
+      access_token = OpenIDConnect::AccessToken.new(
+        access_token: token,
+        client: client
+      )      
+      return @profile = access_token.userinfo!
     end
 
   end
@@ -67,7 +79,8 @@ require './lib/helpers'
   end
 
   get '/oidc_callback' do
-    retrieve_profile
+    session[:code] = params[:code]
+    client.access_token!
     where = params[:backto] || "/";
     puts "Logged in: #{profile.first_name} #{profile.last_name}" if @profile
     redirect to(where)
