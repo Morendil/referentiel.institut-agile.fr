@@ -28,22 +28,26 @@ require './lib/helpers'
     def profile
       return @profile if @profile
       return false unless session[:code]
-      client = OpenIDConnect::Client.new(
-        identifier: ENV['FranceConnect_Key'],
-        secret: ENV['FranceConnect_Secret'],
-        redirect_uri: 'http://institut-agile.fr/oidc_callback',
-        host: 'fcp.integ01.dev-franceconnect.fr',
-        authorization_endpoint: '/api/v1/authorize',
-        token_endpoint: '/api/v1/token',
-        userinfo_endpoint: '/api/v1/userinfo'
-      )
-      client.authorization_code = session[:code]
-      token = client.access_token!
-      access_token = OpenIDConnect::AccessToken.new(
-        access_token: token,
-        client: client
-      )      
-      return @profile = access_token.userinfo!
+      begin
+        client = OpenIDConnect::Client.new(
+          identifier: ENV['FranceConnect_Key'],
+          secret: ENV['FranceConnect_Secret'],
+          redirect_uri: 'http://institut-agile.fr/oidc_callback',
+          host: 'fcp.integ01.dev-franceconnect.fr',
+          authorization_endpoint: '/api/v1/authorize',
+          token_endpoint: '/api/v1/token',
+          userinfo_endpoint: '/api/v1/userinfo'
+        )
+        client.authorization_code = session[:code]
+        token = client.access_token!
+        access_token = OpenIDConnect::AccessToken.new(
+          access_token: token,
+          client: client
+        )
+        return @profile = access_token.userinfo!
+      rescue
+        return false
+      end
     end
 
   end
