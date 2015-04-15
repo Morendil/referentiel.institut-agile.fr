@@ -80,7 +80,6 @@ require './lib/helpers'
 
   get '/oidc_callback' do
     session[:code] = params[:code]
-    client.access_token!
     where = params[:backto] || "/";
     puts "Logged in: #{profile.first_name} #{profile.last_name}" if @profile
     redirect to(where)
