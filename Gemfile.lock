@@ -24,7 +24,6 @@ GEM
       multi_json (>= 1.3)
       securecompare
       url_safe_base64
-    kgio (2.9.2)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     maruku (0.7.2)
@@ -50,7 +49,6 @@ GEM
       httpclient (>= 2.4)
       multi_json (>= 1.3.6)
       rack (>= 1.1)
-    raindrops (0.13.0)
     securecompare (1.0.0)
     sinatra (1.2.6)
       rack (~> 1.1)
@@ -68,10 +66,6 @@ GEM
     thread_safe (0.3.5)
     tilt (1.2.2)
     tzinfo (0.3.43)
-    unicorn (4.8.3)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
     url_safe_base64 (0.2.2)
     validate_email (0.1.6)
       activemodel (>= 3.0)
@@ -95,4 +89,3 @@ DEPENDENCIES
   openid_connect
   sinatra
   sinatra-mustache (= 0.0.3)
-  unicorn
