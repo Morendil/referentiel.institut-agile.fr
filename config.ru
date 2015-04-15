@@ -4,7 +4,7 @@ require 'json'
 require 'haml'
 require 'mustache'
 require 'sinatra/mustache'
-require 'linkedin'
+require 'openid_connect'
 require 'cgi'
 require './lib/roadmap'
 require './lib/helpers'
@@ -31,26 +31,7 @@ require './lib/helpers'
     end
 
     def retrieve_profile
-      return false unless (cookie = request.cookies["oauth"]) || (result = session.delete(:oauth))
-      begin
-        client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
-        connect_client client, cookie, result
-        session[:profile] = @profile = (client.profile :public => true)
-      rescue
-      ensure
-        @profile
-      end
-    end
-
-    def connect_client client, cookie, result
-      response.delete_cookie("oauth")
-      client.authorize_from_access(cookie.split("&")[0],cookie.split("&")[1]) if cookie
-      cookie = client.authorize_from_request(result.token, result.secret,params[:oauth_verifier]) if result
-      response.set_cookie(
-        "oauth",
-        {:domain=>"institut-agile.fr",
-         :path=>"/",
-         :value=>cookie}) if cookie
+      false
     end
 
   end
@@ -70,18 +51,22 @@ require './lib/helpers'
   end
 
   get '/login' do
-    session.delete(:profile)
-    response.delete_cookie("oauth")
-    from = CGI::escape(request.referrer)
-    callback = "/done?backto=#{CGI::escape(request.referrer)}"
-    #
-    client=LinkedIn::Client.new(ENV['LinkedIn_Key'],ENV['LinkedIn_Secret'])
-    result = client.request_token :oauth_callback => to(callback)
-    session[:oauth]=result
-    redirect result.authorize_url
+    client = OpenIDConnect::Client.new(
+      identifier: ENV['FranceConnect_Key'],
+      secret: ENV['FranceConnect_Secret'],
+      redirect_uri: 'http://institut-agile.fr/oidc_callback',
+      host: 'fcp.integ01.dev-franceconnect.fr',
+      authorization_endpoint: '/api/v1/authorize',
+      token_endpoint: '/api/v1/token',
+      userinfo_endpoint: '/api/v1/userinfo'
+    )
+    authorization_uri = client.authorization_uri(
+      scope: [:profile, :email]
+    )
+    redirect client.authorization_uri
   end
 
-  get '/done' do
+  get '/oidc_callback' do
     retrieve_profile
     where = params[:backto] || "/";
     puts "Logged in: #{profile.first_name} #{profile.last_name}" if @profile
