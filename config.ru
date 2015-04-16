@@ -78,7 +78,7 @@ require './lib/helpers'
     rescue
     end
     where = params[:backto] || "/";
-    puts "Logged in: #{profile.given_name} #{profile.family_name}" if @profile
+    puts "Logged in: #{@profile.given_name} #{@profile.family_name}" if @profile
     redirect to(where)
   end
 
