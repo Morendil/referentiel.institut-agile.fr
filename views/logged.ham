@@ -1,3 +1,5 @@
 Bienvenue<br/> 
 = @profile.given_name
 = @profile.family_name
+<br/>
+<a href="/logout">Déconnexion</a>
