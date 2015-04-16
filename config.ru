@@ -38,7 +38,8 @@ require './lib/helpers'
   ## Login workflow
   get '/status' do
       cache_control :no_cache
-      session[:profile] ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
+      @profile = session[:profile]
+      @profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
   end
 
   get '/login' do
