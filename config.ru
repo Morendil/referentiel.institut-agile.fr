@@ -25,31 +25,6 @@ require './lib/helpers'
       haml m.render data
     end
 
-    def profile
-      return @profile if @profile
-      return false unless session[:code]
-      begin
-        client = OpenIDConnect::Client.new(
-          identifier: ENV['FranceConnect_Key'],
-          secret: ENV['FranceConnect_Secret'],
-          redirect_uri: 'http://institut-agile.fr/oidc_callback',
-          host: 'fcp.integ01.dev-franceconnect.fr',
-          authorization_endpoint: '/api/v1/authorize',
-          token_endpoint: '/api/v1/token',
-          userinfo_endpoint: '/api/v1/userinfo'
-        )
-        client.authorization_code = session[:code]
-        token = client.access_token!
-        access_token = OpenIDConnect::AccessToken.new(
-          access_token: token,
-          client: client
-        )
-        return @profile = access_token.userinfo!
-      rescue
-        return false
-      end
-    end
-
   end
 
   before do
@@ -63,7 +38,7 @@ require './lib/helpers'
   ## Login workflow
   get '/status' do
       cache_control :no_cache
-      profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
+      session[:profile] ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
   end
 
   get '/login' do
@@ -83,9 +58,27 @@ require './lib/helpers'
   end
 
   get '/oidc_callback' do
-    session[:code] = params[:code]
+    begin
+      client = OpenIDConnect::Client.new(
+        identifier: ENV['FranceConnect_Key'],
+        secret: ENV['FranceConnect_Secret'],
+        redirect_uri: 'http://institut-agile.fr/oidc_callback',
+        host: 'fcp.integ01.dev-franceconnect.fr',
+        authorization_endpoint: '/api/v1/authorize',
+        token_endpoint: '/api/v1/token',
+        userinfo_endpoint: '/api/v1/userinfo'
+      )
+      client.authorization_code = params[:code]
+      token = client.access_token!
+      access_token = OpenIDConnect::AccessToken.new(
+        access_token: token,
+        client: client
+      )
+      session[:profile] = @profile = access_token.userinfo!
+    rescue
+    end
     where = params[:backto] || "/";
-    puts "Logged in: #{profile.first_name} #{profile.last_name}" if @profile
+    puts "Logged in: #{profile.given_name} #{profile.family_name}" if @profile
     redirect to(where)
   end
 
