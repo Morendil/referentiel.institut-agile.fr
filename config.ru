@@ -42,6 +42,11 @@ require './lib/helpers'
       @profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
   end
 
+  get '/logout' do
+    session.delete :profile
+    redirect 'https://fcp.integ01.dev-franceconnect.fr/api/v1/logout'
+  end
+
   get '/login' do
     session[:state] = Random::DEFAULT.rand.to_s
     client = OpenIDConnect::Client.new(
@@ -73,13 +78,12 @@ require './lib/helpers'
         userinfo_endpoint: '/api/v1/userinfo'
       )
       client.authorization_code = params[:code]
-      token = client.access_token!
+      token = client.access_token! (:acid)
       access_token = OpenIDConnect::AccessToken.new(
         access_token: token,
         client: client
       )
       session[:profile] = @profile = access_token.userinfo!
-      puts "Profile: #{@profile}"
     rescue Exception => e
       puts e
     end
