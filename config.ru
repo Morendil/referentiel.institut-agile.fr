@@ -43,6 +43,7 @@ require './lib/helpers'
   end
 
   get '/login' do
+    session[:state] = Random::DEFAULT.rand.to_s
     client = OpenIDConnect::Client.new(
       identifier: ENV['FranceConnect_Key'],
       secret: ENV['FranceConnect_Secret'],
@@ -53,9 +54,11 @@ require './lib/helpers'
       userinfo_endpoint: '/api/v1/userinfo'
     )
     authorization_uri = client.authorization_uri(
+      state: session[:state],
       scope: [:profile, :email]
     )
-    redirect client.authorization_uri
+    puts authorization_uri
+    redirect authorization_uri
   end
 
   get '/oidc_callback' do
@@ -76,7 +79,9 @@ require './lib/helpers'
         client: client
       )
       session[:profile] = @profile = access_token.userinfo!
-    rescue
+      puts "Profile: #{@profile}"
+    rescue Exception => e
+      puts e
     end
     where = params[:backto] || "/";
     puts "Logged in: #{@profile.given_name} #{@profile.family_name}" if @profile
