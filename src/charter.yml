@@ -8,7 +8,7 @@ sections:
     type: desc
     text: |
       L'équipe résume, dans un document très court, idéalement susceptible d'être affiché aux murs de [l'espace de travail](teamroom.html) au format d'une feuille de "paperboard", les enjeux principaux du projet, son périmètre et les accords réciproques passés avec les commanditaires du projet.
-      La communauté Agile s'est appropriée divers techniques ou formalismes intéressants pour leur capacité à condenser ces informations: par exemple le ["dessin riche"](http://portablelearner.com/half-notes/rich-pictures/) issu de l'approche SSM, le ["diagramme de contexte"](http://yourdon.com/strucanalysis/wiki/index.php?title=Chapter_18#The_Context_Diagram) hérité de l'approche Yourdon pour l'analyse structurée, ou le [A3](http://www.crisp.se/lean/a3-template) du Lean (qui tire précisément son nom du format de papier).
+      La communauté Agile s'est appropriée divers techniques ou formalismes intéressants pour leur capacité à condenser ces informations: par exemple le ["dessin riche"](https://en.wikipedia.org/wiki/Rich_picture) issu de l'approche SSM, le ["diagramme de contexte"](http://yourdon.com/strucanalysis/wiki/index.php?title=Chapter_18#The_Context_Diagram) hérité de l'approche Yourdon pour l'analyse structurée, ou le [A3](http://www.crisp.se/lean/a3-template) du Lean (qui tire précisément son nom du format de papier).
   -
     type: abus
     text: |
