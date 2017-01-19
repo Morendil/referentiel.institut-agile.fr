@@ -125,7 +125,7 @@ function finish($) {
   $("head").append($("<link>").attr({rel: 'stylesheet',type: 'text/css',
      href: base+'souligneur.css'}));
   $.ajaxSetup({async: false});
-  $.getScript("http://github.com/cowboy/jquery-replacetext/raw/master/jquery.ba-replacetext.min.js",
+  $.getScript("https://cdn.rawgit.com/cowboy/jquery-replacetext/227662ec/jquery.ba-replacetext.min.js",
   function() {finish2($)});
 }
 
