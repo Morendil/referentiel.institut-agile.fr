@@ -131,7 +131,7 @@ require './lib/helpers'
     one = params[:id]
     two = params[:jsonp]
     three = params[:_]
-    redirect "http://jsonpify.heroku.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
+    redirect "http://ia-jsonpify.herokuapp.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
   end
 
   ## Static content
