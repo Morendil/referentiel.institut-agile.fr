@@ -121,7 +121,6 @@ function finish($) {
        href: base+'souligneur.css'}));
     $("head").append($("<link>").attr({rel: 'stylesheet',type: 'text/css',
        href: "http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css"}));
-    $.ajaxSetup({async: false});
     $.getScript("https://cdn.rawgit.com/cowboy/jquery-replacetext/227662ec/jquery.ba-replacetext.min.js",
     function() {finish2($)});
   });
@@ -131,20 +130,17 @@ function finish2($) {
   var dictionary = function(m,d){return dictionaryLink(m,d,base)};
   wrapAll($,$("body *").not("a"),replacements,dictionary);
 
-  // This is all untested for now...
-  all = $("a.highlighted");
-  all.each(function(){
-    rel = $(this).attr("rel");
-    where = $(this);
-    // instantiate separate scopes for "where"
-    (function(where,$) {
-    $.getJSON("http://referentiel.institut-agile.fr/json.phtml?id="+rel+"&from="+escape(document.location)+"&jsonp=?",
+  $("a.highlighted").each(function(){
+    var rel = $(this).attr("rel");
+    var where = $(this);
+    $.get("http://referentiel.institut-agile.fr/"+rel+".html",
       function(value) {
          var desc = $("div#desc",$(value));
          $("a",desc).removeAttr("href");
          where.qtip({content:desc,style: { name:'cream', tip:'topLeft', width: { max: 550 } },hide: { delay:500, when: 'mouseout', fixed: true }});
-       });})(where,$);
+       });
   });
 }
 
 loadJQuery("1.3.2",finish);
+
