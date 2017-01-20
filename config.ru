@@ -117,6 +117,7 @@ require './lib/helpers'
     src = r.find_by_id(params[:splat].first)
     pass unless src
     @default_layout = nil
+    headers["Access-Control-Allow-Origin"]="*"
     page = before_render "views/practice.tmpl", src
   end
 
@@ -124,14 +125,6 @@ require './lib/helpers'
     cache_control :no_cache
     @id = id
     mustache :disqus, :layout => false
-  end
-
-  ## Temporary redirect
-  get '/json.phtml' do
-    one = params[:id]
-    two = params[:jsonp]
-    three = params[:_]
-    redirect "http://ia-jsonpify.herokuapp.com/?resource=http://referentiel.institut-agile.fr/#{one}.html&callback=#{two}&_=#{three}"
   end
 
   ## Static content
