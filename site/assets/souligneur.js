@@ -42,7 +42,7 @@ var replacements = [
   ["cco",["responsabilit(.?) collective","code ownership"]],
   ["sustainable",["rythme soutenable","sustainable pace"]],
   ["retro",["r(.?)trospective de projet"]],
-  ["heartbeatretro",["r(.?)trospective"]],
+  ["heartbeatretro",["r(.?)trospective(s?)"]],
   ["daily",["r(.?)union(s?) quotidienne(s?)","daily scrum(s?)"]],
   ["teamroom",["team room","war room","salle d(.?)di(.?)e"]],
   ["scrumofscrums",["scrum de scrums"]],
