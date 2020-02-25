@@ -17,7 +17,7 @@ GEM
     haml (3.1.1)
     httpclient (2.6.0.1)
     i18n (0.7.0)
-    json (1.5.1)
+    json (1.5.5)
     json-jwt (0.8.1)
       activesupport
       bindata
