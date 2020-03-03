@@ -1,91 +1,96 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (4.0.13)
-      activesupport (= 4.0.13)
-      builder (~> 3.1.0)
-    activesupport (4.0.13)
-      i18n (~> 0.6, >= 0.6.9)
-      minitest (~> 4.2)
-      multi_json (~> 1.3)
-      thread_safe (~> 0.1)
-      tzinfo (~> 0.3.37)
-    addressable (2.3.8)
-    attr_required (1.0.0)
-    bindata (2.1.0)
-    builder (3.1.4)
-    haml (3.1.1)
-    httpclient (2.6.0.1)
-    i18n (0.7.0)
-    json (1.5.1)
-    json-jwt (0.8.1)
-      activesupport
+    activemodel (6.0.2.1)
+      activesupport (= 6.0.2.1)
+    activesupport (6.0.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
+    aes_key_wrap (1.0.1)
+    attr_required (1.0.1)
+    backports (3.16.1)
+    bindata (2.4.6)
+    concurrent-ruby (1.1.6)
+    haml (5.1.2)
+      temple (>= 0.8.0)
+      tilt
+    httpclient (2.8.3)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    json (2.3.0)
+    json-jwt (1.11.0)
+      activesupport (>= 4.2)
+      aes_key_wrap
       bindata
-      multi_json (>= 1.3)
-      securecompare
-      url_safe_base64
-    mail (2.6.3)
-      mime-types (>= 1.16, < 3)
-    maruku (0.7.2)
-    mime-types (2.4.3)
-    minitest (4.7.5)
-    multi_json (1.11.0)
-    mustache (0.99.4)
-    openid_connect (0.8.3)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    maruku (0.7.3)
+    mini_mime (1.0.2)
+    minitest (5.14.0)
+    mustache (0.99.8)
+    openid_connect (1.1.8)
       activemodel
-      attr_required (>= 0.0.5)
-      json (>= 1.4.3)
-      json-jwt (>= 0.5.5)
-      rack-oauth2 (>= 1.0.0)
-      swd (>= 0.1.2)
+      attr_required (>= 1.0.0)
+      json-jwt (>= 1.5.0)
+      rack-oauth2 (>= 1.6.1)
+      swd (>= 1.0.0)
       tzinfo
       validate_email
       validate_url
-      webfinger (>= 0.0.2)
-    rack (1.3.0)
-    rack-oauth2 (1.1.1)
-      activesupport (>= 2.3)
-      attr_required (>= 0.0.5)
-      httpclient (>= 2.4)
-      multi_json (>= 1.3.6)
-      rack (>= 1.1)
-    securecompare (1.0.0)
-    sinatra (1.2.6)
-      rack (~> 1.1)
+      webfinger (>= 1.0.1)
+    public_suffix (4.0.3)
+    rack (1.4.7)
+    rack-oauth2 (1.10.1)
+      activesupport
+      attr_required
+      httpclient
+      json-jwt (>= 1.11.0)
+      rack
+    sinatra (1.2.9)
+      backports
+      rack (~> 1.1, < 1.5)
       tilt (>= 1.2.2, < 2.0)
     sinatra-mustache (0.0.3)
       mustache (~> 0.99.3)
       sinatra (~> 1.2.3)
       tilt (~> 1.2.2)
-    swd (1.0.0)
+    swd (1.1.2)
       activesupport (>= 3)
       attr_required (>= 0.0.5)
       httpclient (>= 2.4)
-      i18n
-      json (>= 1.4.3)
-    thread_safe (0.3.5)
+    temple (0.8.2)
+    thread_safe (0.3.6)
     tilt (1.2.2)
-    tzinfo (0.3.43)
-    url_safe_base64 (0.2.2)
+    tzinfo (1.2.6)
+      thread_safe (~> 0.1)
     validate_email (0.1.6)
       activemodel (>= 3.0)
       mail (>= 2.2.5)
-    validate_url (1.0.0)
+    validate_url (1.0.8)
       activemodel (>= 3.0.0)
-      addressable
-    webfinger (1.0.1)
+      public_suffix
+    webfinger (1.1.0)
       activesupport
       httpclient (>= 2.4)
-      multi_json
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   haml
-  json
+  json (~> 2)
   maruku
   mustache
   openid_connect
   sinatra
   sinatra-mustache (= 0.0.3)
+
+RUBY VERSION
+   ruby 2.5.7p206
+
+BUNDLED WITH
+   1.17.3
