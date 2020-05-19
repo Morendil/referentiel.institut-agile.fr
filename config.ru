@@ -52,8 +52,6 @@ require './lib/helpers'
   get '/*.html' do
     src = r.find_by_id(params[:splat].first)
     pass unless src
-    @default_layout = nil
-    headers["Access-Control-Allow-Origin"]="*"
     page = before_render "views/practice.tmpl", src
   end
 
