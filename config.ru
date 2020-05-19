@@ -1,10 +1,8 @@
 require 'sinatra'
 require 'tilt'
-require 'json'
 require 'haml'
 require 'mustache'
 require 'sinatra/mustache'
-require 'openid_connect'
 require 'cgi'
 require './lib/roadmap'
 require './lib/helpers'
@@ -35,69 +33,7 @@ require './lib/helpers'
     request.path_info = '/index.html'
   end
 
-  ## Login workflow
-  get '/status' do
-      cache_control :no_cache
-      @profile = session[:profile]
-      @profile ? (haml :logged, :layout=>false) : (haml :notlogged, :layout=>false)
-  end
-
-  get '/logout' do
-    session.delete :profile
-    redirect 'https://fcp.integ01.dev-franceconnect.fr/api/v1/logout'
-  end
-
-  get '/login' do
-    session[:state] = Random::DEFAULT.rand.to_s
-    client = OpenIDConnect::Client.new(
-      identifier: ENV['FranceConnect_Key'],
-      secret: ENV['FranceConnect_Secret'],
-      redirect_uri: 'http://institut-agile.fr/oidc_callback',
-      host: 'fcp.integ01.dev-franceconnect.fr',
-      authorization_endpoint: '/api/v1/authorize',
-      token_endpoint: '/api/v1/token',
-      userinfo_endpoint: '/api/v1/userinfo'
-    )
-    authorization_uri = client.authorization_uri(
-      state: session[:state],
-      scope: [:profile, :email]
-    )
-    puts authorization_uri
-    redirect authorization_uri
-  end
-
-  get '/oidc_callback' do
-    begin
-      client = OpenIDConnect::Client.new(
-        identifier: ENV['FranceConnect_Key'],
-        secret: ENV['FranceConnect_Secret'],
-        redirect_uri: 'http://institut-agile.fr/oidc_callback',
-        host: 'fcp.integ01.dev-franceconnect.fr',
-        authorization_endpoint: '/api/v1/authorize',
-        token_endpoint: '/api/v1/token',
-        userinfo_endpoint: '/api/v1/userinfo'
-      )
-      client.authorization_code = params[:code]
-      token = client.access_token! (:acid)
-      access_token = OpenIDConnect::AccessToken.new(
-        access_token: token,
-        client: client
-      )
-      session[:profile] = @profile = access_token.userinfo!
-    rescue Exception => e
-      puts e
-    end
-    where = params[:backto] || "/";
-    puts "Logged in: #{@profile.given_name} #{@profile.family_name}" if @profile
-    redirect to(where)
-  end
-
   ## Dynamic content
-
-  get '/index_json' do
-    content_type 'text/json', :charset => 'utf-8'
-    r.all.to_json
-  end
 
   get '/index_alpha.html' do
     before_render "views/index.tmpl" do |m|
